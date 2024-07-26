@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rockers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    	<style>
+    		@media (max-width:600px) {
+				.card {
+					width: 95vw;
+					left: 2.5vw; 
+				}
+    		
+    		
+    		}
+    		@media (min-width:601px) {
+				.card {
+					width: 70vw;
+					left: 15vw; 
+				}
+    		
+    		
+    		}
+    		
+/* https://stackoverflow.com/questions/6534473/how-can-i-make-the-width-of-my-figcaption-match-the-width-of-the-img-inside */
+    		
+    		figure {
+    			display: table;
+    			padding: 0.3em;
+    			border: solid blue 1px;
+    			margin: 1em;
+    			max-width: 33%; 
+    		}
+
+    		figure:nth-of-type(odd) {
+    			float:right;
+    		}
+    		figure:nth-of-type(even) {
+    			float:left;
+    		}
+			figcaption {
+				display: table-caption; 
+				caption-side: bottom ;
+				font-size: 85%;
+				font-style: italic; 
+				text-align: center; 
+			}
+
+    		figure img {
+    			max-width: 50vw; 
+    		}
+    	</style>
+        <script>
+        
+		document.addEventListener("DOMContentLoaded", async function(event) {
+			console.log("Ready to start")
+			fetch('data/infoPhase2.json')
+			.then(response => response.json())
+			.then(data => {	
+				var startWith = data.meta.startWith
+				var person = data.people[startWith]
+				showInfo(person)
+			})
+		});
+		
+		function showInfo(person) {
+			var header = document.getElementById("header")
+			header.innerHTML = person.shortName
+			var header2 = document.getElementById("fullHeader")
+			header2.innerHTML = person.shortName
+			var img = document.getElementById("img")
+			img.src = person.image
+			img.alt = person.shortName
+			var infoTable = document.getElementById("infoTable")
+			for (i in person.info) {
+				if (person.info[i] !== null) {
+					infoTable.innerHTML += "<tr><th>"+i+"</th><td>"+person.info[i]+"</td></tr>"
+				}
+			}
+			var shortInfo = document.getElementById("shortInfo")
+			shortInfo.innerHTML = person.shortInfo + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a>'
+			var longerInfo = document.getElementById("longerInfo")
+			longerInfo.innerHTML = "<p>"+person.longerInfo.join("</p><p>")+ '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>'
+			var fullInfo = document.getElementById("fullInfo")
+			fullInfo.dataset['uri'] = person.fullInfo
+		}
+
+		function more() {
+			var shortInfo = document.getElementById("shortInfo")
+			var longerInfo = document.getElementById("longerInfo")
+			var fullInfo = document.getElementById("fullInfo")
+			shortInfo.classList.add('d-none')
+			longerInfo.classList.remove('d-none')
+			fullInfo.classList.add('d-none')
+		}
+		function less() {
+			var shortInfo = document.getElementById("shortInfo")
+			var longerInfo = document.getElementById("longerInfo")
+			var fullInfo = document.getElementById("fullInfo")
+			longerInfo.classList.add('d-none')
+			shortInfo.classList.remove('d-none')
+			fullInfo.classList.add('d-none')
+		}
+		function muchMore() {
+			var fullInfo = document.getElementById("fullInfo")
+			var fullInfoContent = document.getElementById("fullInfoContent")
+			var mainCard = document.getElementById("mainCard")
+			var uri = fullInfo.dataset['uri']
+			fetch(uri)
+			.then(response => response.text())
+			.then(data => {	
+				fullInfoContent.innerHTML = data
+				window.scrollTo(0,0)
+				mainCard.classList.add('d-none')
+				fullInfo.classList.remove('d-none')
+			})
+		}
+		function hideFullInfo() {
+			var shortInfo = document.getElementById("shortInfo")
+			var longerInfo = document.getElementById("longerInfo")
+			var mainCard = document.getElementById("mainCard")
+			var fullInfo = document.getElementById("fullInfo")
+			longerInfo.classList.add('d-none')
+			shortInfo.classList.remove('d-none')
+			fullInfo.classList.add('d-none')
+			mainCard.classList.remove('d-none')
+		}
+
+	</script>
+
+  </head>
+  <body>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="imgs/rock.svg" alt="Logo" width="60" height="24" class="d-inline-block align-text-top">
+      Rockers
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<main>
+
+		<div class="card" id="mainCard">
+			<div class="card-header">
+				<h2 class="text-center" id="header"></h2>
+			</div>
+		  <div class="card-body">
+		  <div class="row">
+				<div class="col-sm-12 col-md-6">
+					<img id ="img" src="" class="card-img-top" alt="">
+				</div>
+				<div class="col-sm-12 col-md-6">		
+					<h5 class="card-title text-center">
+						<a data-bs-toggle="collapse" href="#infoTable" role="button"
+							 aria-expanded="false" aria-controls="infoTable">
+						Data
+						</a>
+					</h5>
+					<table class="table table-striped border collapse" id="infoTable"></table>
+				</div>
+			</div>
+			<h5 class="card-title text-center">Info</h5>
+			<p class="card-text" id="shortInfo"</p>
+			<p class="card-text d-none" id="longerInfo"</p>
+		  </div>
+		  <div class="card-footer d-flex justify-content-between">
+			<a href="#"  type="button" class="btn btn-primary">Previous</a>
+			<a href="#"  type="button" class="btn btn-primary">Next</a>
+		  </div>
+		</div>
+		
+		
+		
+		
+		<div class="card d-none" id="fullInfo">
+			<div class="card-header">
+				<h2 class="text-center" id="fullHeader"></h2>
+			</div>
+		  <div class="card-body" id="fullInfoContent"></div>
+		  <div class="card-footer d-flex justify-content-between">
+			<a href="#"  type="button" class="btn btn-primary" onclick="hideFullInfo()">Back</a>
+		  </div>
+		</div>
+		
+	</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
