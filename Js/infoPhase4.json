@@ -1,0 +1,246 @@
+{
+    "meta": {
+        "startWith": 0,
+        "startNarrative": "Band",
+        "startValue": "King Crimson",
+        "narratives": [
+            "Birthplace",
+            "Instrument",
+            "Band"
+        ]
+    },
+    "people": [
+        {
+            "@sort": "levin",
+            "shortName": "Tony Levin",
+            "image": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Full Name": "Anthony Frederick Levin",
+                "Birthdate": "1946-06-06",
+                "Birthplace": "Boston, Massachussets, USA",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "bass, Chapman stick, upright bass",
+                "Band": "King Crimson, Peter Gabriel"
+            },
+            "shortInfo": "Levin is best known for his work with King Crimson until 2021 and Peter Gabriel since 1977. As a session musician, Levin has played on over 500 albums.",
+            "longerInfo": [
+                "Tony Levin is an American musician and composer specializing in electric bass guitars, Chapman Stick and upright bass. He also sings and plays synthesizer. Levin is best known for his work with King Crimson (1981–2021) and Peter Gabriel (since 1977). He is also a member of Liquid Tension Experiment (1997–1999, 2008–2009, 2020–present), Bruford Levin Upper Extremities (1998–2000) and HoBoLeMa (2008–2010). He has led his own band, Stick Men, since 2010.",
+                "A prolific session musician since the 1970s, Levin has played with John Lennon, Herbie Mann, Sarah McLachlan, Paula Cole, Stevie Nicks, Pink Floyd, Robbie Robertson, Paul Simon, Lou Reed, David Bowie, Joan Armatrading, Tom Waits, Buddy Rich, The Roches, Todd Rundgren, Seal, Warren Zevon, Bryan Ferry, Laurie Anderson, Kate & Anna McGarrigle, Gibonni, and Jean-Pierre Ferland. He has toured with artists including Paul Simon (with whom he appeared in the 1980 film One-Trick Pony), Gary Burton, James Taylor, Judy Collins, Carly Simon, Peter Frampton, Tim Finn, Richie Sambora, Ivano Fossati, Claudio Baglioni and Lawrence Gowan.",
+                "Levin helped to popularize the Chapman Stick and the NS upright bass. He also created \"funk fingers\", modified drumsticks that attach to the fingers of the player in order to strike the bass strings, adding a distinctive percussive \"slap\" sound used in funk bass playing. In 2011, Levin ranked #2 behind John Paul Jones of Led Zeppelin in the \"20 Most Underrated Bass Guitarists\" in Paste magazine. In July 2020, Levin was ranked #42 on the \"50 Greatest Bassists of All Time\" list by Rolling Stone magazine."
+            ],
+            "fullInfo": "docs/TonyLevin.html"
+        },
+        {
+            "@sort": "fripp",
+            "shortName": "Robert Fripp",
+            "image": "imgs/RobertFripp.jpeg",
+            "info": {
+                "Full Name": "Robert Fripp",
+                "Birthdate": "1946-05-16",
+                "Birthplace": "Wimborne Minster, Dorset, England, UK",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "guitar",
+                "Band": "King Crimson"
+            },
+            "shortInfo": "Robert Fripp is an English musician, songwriter, record producer, and author, best known as the guitarist, founder and longest-lasting member of the progressive rock band King Crimson.",
+            "longerInfo": [
+                "Robert Fripp is an English musician, songwriter, record producer, and author, best known as the guitarist, founder and longest-lasting member of the progressive rock band King Crimson.",
+                "He has worked extensively as a session musician and collaborator, notably with David Bowie, Blondie, Brian Eno, Peter Gabriel, Daryl Hall, The Roches, Talking Heads, and David Sylvian.",
+                "He also composed the startup sound of Windows Vista operating system, in collaboration with Tucker Martine and Steve Ball. His discography includes contributions to over 700 official releases."
+            ],
+            "fullInfo": "docs/RobertFripp.html"
+        },
+        {
+            "@sort": "bruford",
+            "shortName": "Bill Bruford",
+            "image": "imgs/BillBruford.jpeg",
+            "info": {
+                "Full Name": "William Scott Bruford",
+                "Birthdate": "1949-05-17",
+                "Birthplace": "Sevenoaks, Kent, England, UK",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "drums",
+                "Band": "Yes, King Crimson"
+            },
+            "shortInfo": "Bill Bruford is an English former drummer and percussionist who first gained prominence as a founding member of the progressive rock band Yes, member of King Crimson, Roy Harper, and U.K., as well as touring with Genesis.",
+            "longerInfo": [
+                "Bill Bruford is an English former drummer and percussionist who first gained prominence as a founding member of the progressive rock band Yes. After leaving Yes in 1972, Bruford spent the rest of the 1970s recording and touring with King Crimson (1972–1974), Roy Harper (1975), and U.K. (1978), as well as touring with Genesis (1976). In 1978, he formed his own group, Bruford, which was active until 1980.",
+                "During the 1980s, Bruford returned to King Crimson for three years (1981–1984), collaborated with several artists (including Patrick Moraz and David Torn), and formed his own electric jazz band Earthworks in 1986. He then played with his former Yes bandmates in Anderson Bruford Wakeman Howe, which eventually led to a very brief second stint in Yes. Bruford played in King Crimson for his third and final tenure from 1994 to 1997, then continued with a new acoustic configuration of Earthworks.",
+                "On 1 January 2009, Bruford retired from professional drumming, only briefly returning for a few private gigs. He has pursued other projects since then, including the operation of his two record labels, Summerfold and Winterfold, releasing an autobiography in 2009, and speaking and writing about music. In 2016, after four and a half years of study, Bruford received a PhD in Music from the University of Surrey. That year, Bruford ranked No. 16 on Rolling Stone's list of the \"100 Greatest Drummers of All Time\". In 2017, Bruford was inducted into the Rock and Roll Hall of Fame as a member of Yes."
+            ],
+            "fullInfo": "docs/BillBruford.html"
+        },
+        {
+            "@sort": "collins",
+            "shortName": "Phil Collins",
+            "image": "imgs/PhilCollins.jpeg",
+            "info": {
+                "Full Name": "Philip David Charles Collins",
+                "Birthdate": "1951-01-30",
+                "Birthplace": "Wandsworth, London, England, UK",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "drums, vocals",
+                "Band": "Genesis, Phil Collins"
+            },
+            "shortInfo": "Philip David Charles Collins LVO (born 30 January 1951) is an English singer, drummer, songwriter, record producer and actor. He was the drummer and later became the lead singer of the rock band Genesis and had a successful solo career, achieving three UK number one singles and seven US number one singles as a solo artist. In total, his work with Genesis, other artists, and solo resulted in more US top-40 singles than any other artist throughout the 1980s. His most successful singles from the period include \"In the Air Tonight\", \"Against All Odds (Take a Look at Me Now)\", \"One More Night\", \"Sussudio\", \"Another Day in Paradise\" and \"I Wish It Would Rain Down\"",
+            "longerInfo": [
+                "Born and raised in west London, Collins began playing drums at age five. During the same period he attended drama school which secured him various roles as a child actor. His first major role was the Artful Dodger in the West End production of the musical Oliver!. As an accomplished professional actor by his early teens, he pivoted to pursue a music career, becoming the drummer for Genesis in 1970, at age 19. He took over the role of lead singer in 1975 following the departure of Peter Gabriel. During the second half of the 1970s, in-between Genesis albums and tours, Collins was also the drummer of jazz rock band Brand X. Collins began a successful solo career in the 1980s, initially inspired by his marital breakdown and love of soul music, releasing the albums Face Value (1981), Hello, I Must Be Going (1982), No Jacket Required (1985) and ...But Seriously (1989). Collins became, in the words of AllMusic, \"one of the most successful pop and adult contemporary singers of the '80s and beyond\". He also became known for a distinctive gated reverb drum sound on many of his recordings. He played drums on the 1984 charity single \"Do They Know It's Christmas?\", and in July 1985, he was the only artist to perform at both Live Aid concerts. He also resumed his acting career, appearing in Miami Vice and subsequently starring in the film Buster (1988).",
+                "Collins left Genesis in 1996 to focus on solo work; this included writing songs for Disney's animated film Tarzan (1999). He wrote and performed the songs, \"Two Worlds\", \"Son of Man\", \"Strangers Like Me\" and \"You'll Be in My Heart\", the latter of which earned him the Academy Award for Best Original Song. He rejoined Genesis for their Turn It On Again Tour in 2007. Following a five-year retirement to focus on his family life, Collins released his memoir in 2016 and completed his Not Dead Yet Tour in 2019. He then rejoined Genesis in 2020 for a second reunion tour, ending in March 2022.",
+                "Collins's discography includes eight studio albums that have sold 33.5 million certified units in the US and an estimated 150 million records sold worldwide, making him one of the world's best-selling artists. He is one of only three recording artists, along with Paul McCartney and Michael Jackson, who have sold over 100 million records both as solo artists and separately as principal members of a band. He has won eight Grammy Awards, six Brit Awards (winning Best British Male Artist three times), two Golden Globe Awards, one Academy Award, and a Disney Legend Award. He was awarded six Ivor Novello Awards from the British Academy of Songwriters, Composers and Authors, including the International Achievement Award. He received a star on the Hollywood Walk of Fame in 1999, and was inducted into the Songwriters Hall of Fame in 2003 and the Rock and Roll Hall of Fame as a member of Genesis in 2010. He has also been recognised by music publications with induction into the Modern Drummer Hall of Fame in 2012, and the Classic Drummer Hall of Fame in 2013."
+            ],
+            "fullInfo": "docs/PhilCollins.html"
+        },
+        {
+            "@sort": "gabriel",
+            "shortName": "Peter Gabriel",
+            "image": "imgs/PeterGabriel.jpeg",
+            "info": {
+                "Full Name": "Peter Brian Gabriel",
+                "Birthdate": "1950-02-13",
+                "Birthplace": "Chobham, Surrey, England, UK",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "vocals, flute",
+                "Band": "Genesis, Peter Gabriel"
+            },
+            "shortInfo": "Peter Gabriel is an English singer, songwriter, and human rights activist. He rose to fame as the original lead singer of the progressive rock band Genesis. After leaving Genesis in 1975, he launched a successful solo career with \"Solsbury Hill\" as his first single. His fifth studio album, So (1986), is his best-selling release and is certified triple platinum in the UK and five times platinum in the US. The album's most successful single, \"Sledgehammer\", won a record nine MTV Awards at the 1987 MTV Video Music Awards and, according to a report in 2011, it was MTV's most played music video of all time.",
+            "longerInfo": [
+                "Gabriel has been a champion of world music for much of his career. He co-founded the WOMAD festival in 1982. He has continued to focus on producing and promoting world music through his Real World Records label. He has pioneered digital distribution methods for music, co-founding OD2, one of the first online music download services. Gabriel has also been involved in numerous humanitarian efforts. In 1980, he released the anti-apartheid single \"Biko\". He has participated in several human-rights benefit concerts, including Amnesty International's Human Rights Now! tour in 1988, and co-founded the Witness human rights organisation in 1992. Gabriel developed The Elders with Richard Branson, which was launched by Nelson Mandela in 2007.",
+                "Gabriel has won three Brit Awards – winning Best British Male in 1987, six Grammy Awards, thirteen MTV Video Music Awards, the first Pioneer Award at the BT Digital Music Awards, the Q magazine Lifetime Achievement, the Ivor Novello Award for Lifetime Achievement, and the Polar Music Prize. He was made a BMI Icon at the 57th annual BMI London Awards for his \"influence on generations of music makers\". In recognition of his many years of human rights activism, he received the Man of Peace award from the Nobel Peace Prize laureates in 2006, and Time magazine named him one of the 100 most influential people in the world in 2008. AllMusic described Gabriel as \"one of rock's most ambitious, innovative musicians, as well as one of its most political\". He was inducted into the Rock and Roll Hall of Fame as a member of Genesis in 2010, and as a solo artist in 2014. In March 2015, he was awarded an honorary doctorate from the University of South Australia in recognition of his achievements in music."
+            ],
+            "fullInfo": "docs/PeterGabriel.html"
+        },
+        {
+            "@sort": "Rutherford",
+            "shortName": "Mike Rutherford",
+            "image": "imgs/MikeRutherford.jpeg",
+            "info": {
+                "Full Name": "Michael John Cloete Crawford Rutherford",
+                "Birthdate": "1950-10-02",
+                "Birthplace": "Chertsey, Surrey, England, UK",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "bass, 12-string guitar",
+                "Band": "Genesis"
+            },
+            "shortInfo": "Mike Rutherford is an English guitarist, bassist, songwriter and singer, best known as co-founder of the rock band Genesis. Rutherford and keyboardist Tony Banks are the group's two continuous members.",
+            "longerInfo": [
+                ""
+            ],
+            "fullInfo": "docs/MikeRutherford.html"
+        },
+        {
+            "@sort": "Hackett",
+            "shortName": "Steve Hackett",
+            "image": "imgs/SteveHackett.jpeg",
+            "info": {
+                "Full Name": "Steve Hackett",
+                "Birthdate": "1950-02-12",
+                "Birthplace": "London, England, UK",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "guitar",
+                "Band": "Genesis"
+            },
+            "shortInfo": "Steve Hackett is an English guitarist, songwriter and producer who gained prominence as the lead guitarist of the progressive rock band Genesis from 1971 to 1977. Hackett contributed to six Genesis studio albums, three live albums, seven singles and one EP before he left to pursue a solo career. He was inducted into the Rock and Roll Hall of Fame as a member of Genesis in 2010.",
+            "longerInfo": [
+                ""
+            ],
+            "fullInfo": "docs/SteveHackett.html"
+        },
+        {
+            "@sort": "Belew",
+            "shortName": "Adrian Belew",
+            "image": "imgs/AdrianBelew.webp",
+            "info": {
+                "Full Name": "Robert Steven \"Adrian\" Belew",
+                "Birthdate": "1949-12-23",
+                "Birthplace": "Covington, Kentucky, USA",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "guitar, vocals",
+                "Band": "King Crimson, Frank Zappa, David Bowie, Talking Heads"
+            },
+            "shortInfo": "Adrian Belew is an American musician, singer, songwriter, and record producer. A multi-instrumentalist primarily known as a guitarist and singer, he is noted for his unusual and impressionistic approach to his guitar tones which, rather than relying on standard instrumental tones, often resemble sound effects or noises made by animals and machines.",
+            "longerInfo": [
+                ""
+            ],
+            "fullInfo": "docs/AdrianBelew.html"
+        },
+        {
+            "@sort": "@Burnett",
+            "shortName": "Stefan Burnett",
+            "image": "imgs/StefanBurnett.webp",
+            "info": {
+                "Full Name": "Stefan Burnett",
+                "aka": "MC Ride",
+                "Birthdate": "1978-05-10",
+                "Birthplace": "Sacramento, California, USA",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "vocals",
+                "Band": "Death Grips"
+            },
+            "shortInfo": "Stefan Burnett, better known by his stage name MC Ride or simply Ride, is an American poet, rapper, songwriter, and visual artist. He is the vocalist, but not the frontman of experimental hip hop group Death Grips. He began his career in the late 1990s, before forming Death Grips with drummer Zach Hill and keyboardist Andy Morin in 2010. While within the group, Ride has garnered attention for his aggressive rapping style and cryptic lyrics.",
+            "longerInfo": [
+                "Burnett began performing under the alias \"Mxlplx\", forming a hip hop group called Fyre with his brother (who uses the name Swank) and another Sacramento-based rapper called Young G. The project came to an end after his brother got married and was unable to continue with the group During this time, he worked at Paesano's Midtown as well as Pushkin's Bakery in Sacramento and pursued a career as a painter.",
+                "In 2010, Burnett took on the name \"Ride\" and formed Death Grips with his next door neighbor, Zach Hill, who was known for his drumming work with the band Hella and his session work. Hill soon brought friend and producer Andy Morin into the group, and they began working together. In March 2011, Death Grips released their self-titled debut EP. One month later, they released the mixtape Exmilitary, which received critical acclaim and attention from music publications. The group signed to Epic Records in 2012, and released their debut album, The Money Store, soon after."
+            ],
+            "fullInfo": "docs/StefanBurnett.html"
+        },
+        {
+            "@sort": "@Hill",
+            "shortName": "Zachary Hill",
+            "image": "imgs/ZacharyHill.jpeg",
+            "info": {
+                "Full Name": "Zachary Charles Hill",
+                "Birthdate": "1979-12-28",
+                "Birthplace": "Sacramento, California, USA",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "drums",
+                "Band": "Death Grips"
+            },
+            "shortInfo": "Zachary Hill is an American multi-instrumentalist and visual artist. He is best known as the drummer and co-producer of the groups Death Grips and the I.L.Y's, and as the drummer of math rock band Hella.",
+            "longerInfo": [
+                "Zach Hill was born in Sacramento, California. He spent most of his adolescence at his father and uncle's press printing shop, where he was first exposed to classic rock music.",
+                "Hill claims that he \"started hearing voices in his head telling him to play the drums\" when he was about 14 or 15 years old, and bought his first drumkit with money he raised with a friend from a garage sale. He dropped out of high school at age 15 and moved to Nevada City, California, where he started the band Legs on Earth with Julian Imsdahl and Spencer Seim. Hill later moved to San Francisco, California in 1999, where he played the drums in the band Crime in Choir before starting Hella in 2001."
+            ],
+            "fullInfo": "docs/ZacharyHill.html"
+        },
+        {
+            "@sort": "@Morin",
+            "shortName": "Andy Morin",
+            "image": "imgs/AndyMorin.jpeg",
+            "info": {
+                "Full Name": "Andy Morin",
+                "Birthdate": "1986-05-16",
+                "Birthplace": "Sacramento, California, USA",
+                "Deathdate": null,
+                "Deathplace": null,
+                "Death cause": null,
+                "Instrument": "keyboards",
+                "Band": "Death Grips"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        }
+    ]
+}
