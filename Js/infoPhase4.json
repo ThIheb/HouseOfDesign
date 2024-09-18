@@ -5,26 +5,27 @@
         "startValue": "1960",
         "narratives": [
             "History",
-            "Routines",
+            "Routine",
             "Spaces",
             "Designer"
         ]
     },
     "items": [
         {
-            "@sort": "levin",
-            "shortName": "Tony Levin",
+            "@sort": "algol11",
+            "shortName": "Algol 11",
             "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Name": "Anthony Frederick Levin",
-                "Type": "1946-06-06",
-                "Designer": "Boston, Massachussets, USA",
-                "History": null,
-                "Routine": null,
-                "Space": null,
-                "Manufacturer": "bass, Chapman stick, upright bass",
-                "Dimensions": "King Crimson, Peter Gabriel",
-                "Material": null
+                "Name": "Algol 11",
+                "Type": "Portable Television",
+                "Designer": "Marco Zanuso",
+                "History": "1964",
+                "Routine": "Day",
+                "Space": "Living Room",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "26 x 30 x 25h",
+                "Material": "Plastic Body, metal, glass"
             },
             "shortInfo": "Levin is best known for his work with King Crimson until 2021 and Peter Gabriel since 1977. As a session musician, Levin has played on over 500 albums.",
             "longerInfo": [
