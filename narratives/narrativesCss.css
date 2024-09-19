@@ -1,1 +1,217 @@
-body{background-color:red;}
+/*same as the homepage, do not copy*/
+
+/*basic styling*/
+*{font-family: "Poppins", sans-serif;
+	font-weight:300;
+	font-style: normal;}
+
+
+/*Header*/
+nav {
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    z-index: 100;
+
+}
+
+a{
+    text-decoration: none !important; 
+    color: #000 !important;
+}
+
+.logo {
+    font-size: 33px;
+    color: #ff1616 !important;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.youAreHere{font-weight:450;}
+
+/*Footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3{
+    font-size: 800;
+}
+
+footer .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links{
+    display: flex;
+    gap: 30px;
+
+}
+
+footer .right .links a{
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover{
+    color: #fff;
+
+}
+
+footer .right .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+footer .right .social i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+footer .right .social i:hover{
+    color:#ff1616 ;
+}
+
+footer .right p{
+    font-size: 13px;
+    color: #777;
+
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    nav{
+        padding: 0 40px;
+    }
+
+    footer{
+        padding: 100px 40px;
+    }
+
+    footer h3{
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    
+    footer .links a{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    nav a.logo{
+        font-size: 28px;
+    }
+
+    nav .links a{
+        font-size: 14px;
+    }
+
+
+    footer{
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    footer h3{
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+
+    footer .right{
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    nav{
+        padding: 0 20px;
+    }
+
+    nav a.logo{
+        display: none;
+    }
+
+    nav .links a{
+        font-size: 12px;
+    }
+
+    nav .login button{
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+
+    footer{
+        padding: 40px 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    
+
+}
+
+/*changes*/
+.container{margin-top:3%}
+.nav-link.active {
+    font-weight: 450;
+}
+
+
+.nav-link {
+    background-color: transparent !important; 
+    
+}
+
+.nav-link:hover {
+    color: red !important; 
+    background-color: transparent !important; 
+}
+
+
+.nav-link.active:hover {
+    color: red !important; 
+}
+
+
+.nav-link {
+    margin-left: -10px; 
+    
+}
+
+.tab-content {
+    
+    margin-bottom: 8%; 
+}
