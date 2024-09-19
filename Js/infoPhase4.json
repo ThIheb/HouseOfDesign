@@ -36,18 +36,20 @@
             "fullInfo": "docs/TonyLevin.html"
         },
         {
-            "@sort": "fripp",
-            "shortName": "Robert Fripp",
-            "image": "imgs/RobertFripp.jpeg",
+            "@sort": "anthropus",
+            "shortName": "Anthropus",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Robert Fripp",
-                "Birthdate": "1946-05-16",
-                "Birthplace": "Wimborne Minster, Dorset, England, UK",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "guitar",
-                "Band": "King Crimson"
+                "Name": "Anthropus",
+                "Type": "Armchair",
+                "Designer": "Marco Zanuso",
+                "History": "1978",
+                "Routine": "Day",
+                "Space": "Living Room",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "75 x 102 x 85h",
+                "Material": "Plastic"
             },
             "shortInfo": "Robert Fripp is an English musician, songwriter, record producer, and author, best known as the guitarist, founder and longest-lasting member of the progressive rock band King Crimson.",
             "longerInfo": [
@@ -58,18 +60,20 @@
             "fullInfo": "docs/RobertFripp.html"
         },
         {
-            "@sort": "bruford",
-            "shortName": "Bill Bruford",
-            "image": "imgs/BillBruford.jpeg",
+            "@sort": "626halogen",
+            "shortName": "626 Halogen",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "William Scott Bruford",
-                "Birthdate": "1949-05-17",
-                "Birthplace": "Sevenoaks, Kent, England, UK",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "drums",
-                "Band": "Yes, King Crimson"
+                "Name": "626 Halogen",
+                "Type": "Floor Lamp",
+                "Designer": "Joe Colombus",
+                "History": "1970",
+                "Routine": "Day",
+                "Space": "Living Room",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "24 x 24 x 203h",
+                "Material": "Plastic"
             },
             "shortInfo": "Bill Bruford is an English former drummer and percussionist who first gained prominence as a founding member of the progressive rock band Yes, member of King Crimson, Roy Harper, and U.K., as well as touring with Genesis.",
             "longerInfo": [
@@ -80,18 +84,20 @@
             "fullInfo": "docs/BillBruford.html"
         },
         {
-            "@sort": "collins",
-            "shortName": "Phil Collins",
-            "image": "imgs/PhilCollins.jpeg",
+            "@sort": "enorme",
+            "shortName": "Enorme",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Philip David Charles Collins",
-                "Birthdate": "1951-01-30",
-                "Birthplace": "Wandsworth, London, England, UK",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "drums, vocals",
-                "Band": "Genesis, Phil Collins"
+                "Name": "Enorme",
+                "Type": "Telephone",
+                "Designer": "Marco",
+                "History": "1990",
+                "Routine": "Day",
+                "Space": "Living Room",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "19.3 x 10.3 x 6h",
+                "Material": "Plastic"
             },
             "shortInfo": "Philip David Charles Collins LVO (born 30 January 1951) is an English singer, drummer, songwriter, record producer and actor. He was the drummer and later became the lead singer of the rock band Genesis and had a successful solo career, achieving three UK number one singles and seven US number one singles as a solo artist. In total, his work with Genesis, other artists, and solo resulted in more US top-40 singles than any other artist throughout the 1980s. His most successful singles from the period include \"In the Air Tonight\", \"Against All Odds (Take a Look at Me Now)\", \"One More Night\", \"Sussudio\", \"Another Day in Paradise\" and \"I Wish It Would Rain Down\"",
             "longerInfo": [
@@ -102,18 +108,20 @@
             "fullInfo": "docs/PhilCollins.html"
         },
         {
-            "@sort": "gabriel",
-            "shortName": "Peter Gabriel",
-            "image": "imgs/PeterGabriel.jpeg",
+            "@sort": "carmencita",
+            "shortName": "Carmencita",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Peter Brian Gabriel",
-                "Birthdate": "1950-02-13",
-                "Birthplace": "Chobham, Surrey, England, UK",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "vocals, flute",
-                "Band": "Genesis, Peter Gabriel"
+                "Name": "Carmencita",
+                "Type": "Coffee Maker",
+                "Designer": "Marco Zanuso",
+                "History": "1980",
+                "Routine": "Day",
+                "Space": "Kitchen",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "16 x 9 x 17h",
+                "Material": "Plastic"
             },
             "shortInfo": "Peter Gabriel is an English singer, songwriter, and human rights activist. He rose to fame as the original lead singer of the progressive rock band Genesis. After leaving Genesis in 1975, he launched a successful solo career with \"Solsbury Hill\" as his first single. His fifth studio album, So (1986), is his best-selling release and is certified triple platinum in the UK and five times platinum in the US. The album's most successful single, \"Sledgehammer\", won a record nine MTV Awards at the 1987 MTV Video Music Awards and, according to a report in 2011, it was MTV's most played music video of all time.",
             "longerInfo": [
@@ -123,18 +131,20 @@
             "fullInfo": "docs/PeterGabriel.html"
         },
         {
-            "@sort": "Rutherford",
-            "shortName": "Mike Rutherford",
-            "image": "imgs/MikeRutherford.jpeg",
+            "@sort": "marocca",
+            "shortName": "Marocca",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Michael John Cloete Crawford Rutherford",
-                "Birthdate": "1950-10-02",
-                "Birthplace": "Chertsey, Surrey, England, UK",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "bass, 12-string guitar",
-                "Band": "Genesis"
+                "Name": "Marocca",
+                "Type": "Chair",
+                "Designer": "Vico Magistretti",
+                "History": "1987",
+                "Routine": "Day",
+                "Space": "Kitchen",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "57 x 41 x 76h",
+                "Material": "Plastic"
             },
             "shortInfo": "Mike Rutherford is an English guitarist, bassist, songwriter and singer, best known as co-founder of the rock band Genesis. Rutherford and keyboardist Tony Banks are the group's two continuous members.",
             "longerInfo": [
@@ -143,18 +153,20 @@
             "fullInfo": "docs/MikeRutherford.html"
         },
         {
-            "@sort": "Hackett",
-            "shortName": "Steve Hackett",
-            "image": "imgs/SteveHackett.jpeg",
+            "@sort": "capitello",
+            "shortName": "Capitello",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Steve Hackett",
-                "Birthdate": "1950-02-12",
-                "Birthplace": "London, England, UK",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "guitar",
-                "Band": "Genesis"
+                "Name": "Capitello",
+                "Type": "Table",
+                "Designer": "Enzo Mary",
+                "History": "1977",
+                "Routine": "Day",
+                "Space": "Kitchen",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "180 x 120 x 72h",
+                "Material": "Plastic"
             },
             "shortInfo": "Steve Hackett is an English guitarist, songwriter and producer who gained prominence as the lead guitarist of the progressive rock band Genesis from 1971 to 1977. Hackett contributed to six Genesis studio albums, three live albums, seven singles and one EP before he left to pursue a solo career. He was inducted into the Rock and Roll Hall of Fame as a member of Genesis in 2010.",
             "longerInfo": [
@@ -163,18 +175,20 @@
             "fullInfo": "docs/SteveHackett.html"
         },
         {
-            "@sort": "Belew",
-            "shortName": "Adrian Belew",
-            "image": "imgs/AdrianBelew.webp",
+            "@sort": "breras",
+            "shortName": "Brera S",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Robert Steven \"Adrian\" Belew",
-                "Birthdate": "1949-12-23",
-                "Birthplace": "Covington, Kentucky, USA",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "guitar, vocals",
-                "Band": "King Crimson, Frank Zappa, David Bowie, Talking Heads"
+                "Name": "Brera S",
+                "Type": "Pendant Lamp",
+                "Designer": "Achille Castiglioni",
+                "History": "1992",
+                "Routine": "Day",
+                "Space": "Kitchen",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "15 x 15 x 28h",
+                "Material": "Plastic"
             },
             "shortInfo": "Adrian Belew is an American musician, singer, songwriter, and record producer. A multi-instrumentalist primarily known as a guitarist and singer, he is noted for his unusual and impressionistic approach to his guitar tones which, rather than relying on standard instrumental tones, often resemble sound effects or noises made by animals and machines.",
             "longerInfo": [
@@ -183,19 +197,20 @@
             "fullInfo": "docs/AdrianBelew.html"
         },
         {
-            "@sort": "@Burnett",
-            "shortName": "Stefan Burnett",
-            "image": "imgs/StefanBurnett.webp",
+            "@sort": "shiva",
+            "shortName": "Shiva",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Stefan Burnett",
-                "aka": "MC Ride",
-                "Birthdate": "1978-05-10",
-                "Birthplace": "Sacramento, California, USA",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "vocals",
-                "Band": "Death Grips"
+                "Name": "Shiva",
+                "Type": "Vase",
+                "Designer": "Ettore Jr. Sottsass",
+                "History": "1973",
+                "Routine": "Day",
+                "Space": "Bathroom",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "18 x 7 x 24.5h",
+                "Material": "Plastic"
             },
             "shortInfo": "Stefan Burnett, better known by his stage name MC Ride or simply Ride, is an American poet, rapper, songwriter, and visual artist. He is the vocalist, but not the frontman of experimental hip hop group Death Grips. He began his career in the late 1990s, before forming Death Grips with drummer Zach Hill and keyboardist Andy Morin in 2010. While within the group, Ride has garnered attention for his aggressive rapping style and cryptic lyrics.",
             "longerInfo": [
@@ -205,18 +220,20 @@
             "fullInfo": "docs/StefanBurnett.html"
         },
         {
-            "@sort": "@Hill",
-            "shortName": "Zachary Hill",
-            "image": "imgs/ZacharyHill.jpeg",
+            "@sort": "linda",
+            "shortName": "Linda",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Zachary Charles Hill",
-                "Birthdate": "1979-12-28",
-                "Birthplace": "Sacramento, California, USA",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "drums",
-                "Band": "Death Grips"
+                "Name": "Linda",
+                "Type": "Series of Sanitary Ware",
+                "Designer": "Achille Castiglioni",
+                "History": "1977",
+                "Routine": "Day",
+                "Space": "Bathroom",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "Various",
+                "Material": "Plastic"
             },
             "shortInfo": "Zachary Hill is an American multi-instrumentalist and visual artist. He is best known as the drummer and co-producer of the groups Death Grips and the I.L.Y's, and as the drummer of math rock band Hella.",
             "longerInfo": [
@@ -226,18 +243,174 @@
             "fullInfo": "docs/ZacharyHill.html"
         },
         {
-            "@sort": "@Morin",
-            "shortName": "Andy Morin",
-            "image": "imgs/AndyMorin.jpeg",
+            "@sort": "automaticc5",
+            "shortName": "Automatic C5",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
-                "Full Name": "Andy Morin",
-                "Birthdate": "1986-05-16",
-                "Birthplace": "Sacramento, California, USA",
-                "Deathdate": null,
-                "Deathplace": null,
-                "Death cause": null,
-                "Instrument": "keyboards",
-                "Band": "Death Grips"
+                "Name": "Automatic C5",
+                "Type": "Washing Machine",
+                "Designer": "Peter Geranzani",
+                "History": "1959",
+                "Routine": "Day",
+                "Space": "Bathroom",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "65 x 60 x 95h",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "m24",
+            "shortName": "M24",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "M24",
+                "Type": "Personal Computer",
+                "Designer": "Ettore Jr. Sottsass",
+                "History": "1984",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "Various",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "mod.281oacrilica",
+            "shortName": "mod. 281 o 'Acrilica'",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "mod. 281 o 'Acrilica'",
+                "Type": "Table Lamp",
+                "Designer": "Joe Colombus",
+                "History": "1962",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "24 x 25 x 23h",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "optic",
+            "shortName": "Optic",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "Optic",
+                "Type": "Table Clock",
+                "Designer": "Joe Colombus",
+                "History": "1970",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "10 x 8 x 10h",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "joy",
+            "shortName": "Joy",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "Joy",
+                "Type": "Rotating Shelf Cabinet",
+                "Designer": "Achille Castiglioni",
+                "History": "1990",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "96 x 30 x 190h",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "leonardo",
+            "shortName": "Leonardo",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "Leaonardo",
+                "Type": "Table",
+                "Designer": "Achille Castiglioni",
+                "History": "1950",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "200 x 100 x 65-91h",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "tonietta",
+            "shortName": "Tonietta",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "Tonietta",
+                "Type": "Chair",
+                "Designer": "Enzo Mary",
+                "History": "1950",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "39 x 47 x 83.5h",
+                "Material": "Plastic"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": "docs/AndyMorin.html"
+        },
+        {
+            "@sort": "16pesci",
+            "shortName": "16 Pesci",
+            "image": "imgs/TonyLevin.jpeg",
+            "secondImage": "imgs/TonyLevin.jpeg",
+            "info": {
+                "Name": "16 Pesci",
+                "Type": "Interlocking Game",
+                "Designer": "Enzo Mary",
+                "History": "1973",
+                "Routine": "Day",
+                "Space": "Study",
+                "Manufacturer": "Brionvega",
+                "Dimensions": "35 x 25 x 3h",
+                "Material": "Plastic"
             },
             "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
             "longerInfo": [
