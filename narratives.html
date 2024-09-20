@@ -24,7 +24,7 @@
         <div class="links">
             <a href="index.html">Home</a>
             <a href="#" class="youAreHere">Narratives</a>
-            <a href="#" >Objects</a>
+            <a href="objects.html" >Objects</a>
             <a href="#">Map</a>
             <a href="#">About us</a>
 
@@ -49,11 +49,40 @@
                 Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
                 
                 Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum.</div>
-              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 
-                Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
-                
-                Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum.</div>
+                <div class="carousel">
+                  <div class="designers">
+                      <div class="item">
+                          <div class="intro">
+                              <img class="carousel-image" src="base_images/Optic.png" alt="Optic">
+                              <div class="title">THE DESIGNER</div>
+                              <div class="topic">Enzo Mari</div>
+                              <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis massa nunc, vitae vulputate leo luctus eu. Integer venenatis ligula at dui lobortis tristique.</div>
+                              <div class="buttons">
+                                  <button data-target="detail2">Go to the object</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <div class="intro">
+                              <img class="carousel-image" src="base_images/carmencita.png" alt="Carmencita">
+                              <div class="title">THE DESIGNER</div>
+                              <div class="topic">Achille Castiglioni</div>
+                              <div class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis massa nunc, vitae vulputate leo luctus eu. Integer venenatis ligula at dui lobortis tristique.</div>
+                              <div class="buttons">
+                                  <button data-target="detail2">Go to the object</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="arrows">
+                      <button id="prev"></button>
+                      <button id="next"></button>
+                  </div>
+              </div>
+
+              </div>
               <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
 
                 Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
@@ -89,6 +118,7 @@
             <p>All copyright on the typographic and layout choices are 2024 © XY</p>
         </div>
     </footer>
+    <script src="narratives/narratives.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

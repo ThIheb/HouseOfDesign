@@ -216,3 +216,203 @@ footer .right p{
     
     margin-bottom: 8%; 
 }
+
+
+/*basic stuff*/
+.title {
+    font-size: small;
+    line-height: 2em;
+}
+
+.topic {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.des, .text {
+    margin-top: 1em;
+    line-height: 2em;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+img {position: absolute;
+    right: 15%;
+    top: 60%;
+    transform: translateY(-50%);
+    max-width: 100%;
+    scale:1.6;}
+
+/*navigation buttons*/
+.arrows {
+    
+    position: absolute;
+    bottom: 1%;
+    width: 1140px;
+    max-width: 8%;
+    left: 45%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+}
+
+.arrows button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: transparent;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0;
+    position: relative;
+}
+
+
+#prev::before,
+#next::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: solid #555;
+    border-width: 0 3px 3px 0;
+    padding: 2px;
+    transform: rotate(45deg);
+}
+
+#prev::before {
+    transform: rotate(135deg);
+}
+
+#next::before {
+    transform: rotate(-45deg);
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    padding-top: 10px;
+    cursor: pointer;
+
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button:hover {
+    color: #000;
+}
+
+
+/*gen text*/
+
+.section {
+    margin-top: 8%;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+}
+
+.section1, .section2 {
+    width: 85%;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 50%; 
+    margin-right: 30px; 
+}
+
+.intro-image {
+    max-width: 25%;
+    height: auto; 
+    right: 12%;
+    margin-top:2%;
+}
+
+#more1, #more2 {display: none;}
+
+.section2{margin-top: 5% }
+
+/*carousel*/
+.carousel {
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+/* Carousel container */
+.carousel .designers {
+    display: flex; /* Align items horizontally */
+    width: calc(100% * 2); /* Adjust based on the number of items, 2 in this case */
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+.carousel .designers .item {
+    flex: 0 0 100%; /* Each item takes 100% of the carousel width */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative; /* No absolute positioning */
+}
+
+
+.carousel .designers .item .intro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-image{right: 8%;}
+.carousel .designers .item:nth-child(2) .intro {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.carousel .designers .item .detail {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+}
+
+.carousel .designers .item  {
+    display: flex;
+}
+
+.carousel .designers .item:nth-child(n + 4) {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.carousel .designers .item:nth-child(2) {
+    z-index: 10;
+}
+
+.carousel .designers .item:nth-child(1),
+.carousel .designers .item:nth-child(3),
+.carousel .designers .item:nth-child(4) {
+    z-index: 5;
+}
+
