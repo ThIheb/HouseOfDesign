@@ -18,14 +18,14 @@ nav {
 
 }
 
-a{
+.container a, nav a{
     text-decoration: none !important; 
     color: #000 !important;
 }
 
 .logo {
     font-size: 33px;
-    color: #ff1616 !important;
+    color: #F50045 !important;
     font-weight: 600;
 }
 
@@ -88,7 +88,7 @@ footer .right .social i{
 }
 
 footer .right .social i:hover{
-    color:#ff1616 ;
+    color:#F50045 ;
 }
 
 footer .right p{
@@ -97,6 +97,7 @@ footer .right p{
 
 }
 
+.social a{color:#fff !important; }
 
 @media screen and (max-width: 1400px) {
     
@@ -196,13 +197,13 @@ footer .right p{
 }
 
 .nav-link:hover {
-    color: red !important; 
+    color: #F50045 !important; 
     background-color: transparent !important; 
 }
 
 
 .nav-link.active:hover {
-    color: red !important; 
+    color: #F50045 !important; 
 }
 
 
