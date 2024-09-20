@@ -218,36 +218,67 @@ footer .right p{
 }
 
 
-/*basic stuff*/
+/* Basic styles */
 .title {
     font-size: small;
     line-height: 2em;
 }
 
 .topic {
+    font-family: 'Glacial Indifference', sans-serif;
     font-size: 3em;
     font-weight: 500;
 }
 
-.des, .text {
+.des {
     margin-top: 1em;
     line-height: 2em;
     padding: 5px 0;
     text-align: justify;
 }
 
-img {position: absolute;
-    right: 15%;
-    top: 60%;
-    transform: translateY(-50%);
-    max-width: 100%;
-    scale:1.6;}
+/* Carousel */
+.carousel {
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+}
 
-/*navigation buttons*/
+.carousel .designers {
+    display: flex; /* Align items horizontally */
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+.carousel .designers .item {
+    flex: 0 0 100%; /* Each item takes 100% of the carousel width */
+    display: flex; /* Use flexbox for item layout */
+   
+}
+
+/* Intro section styles */
+.carousel .designers .item .intro {
+    display: flex; /* Align image and text in a row */
+    
+    width: 100%; /* Ensure full width */
+    flex-direction: row-reverse; /* Move image to the right */
+}
+
+.carousel-image {background-color: #F50045;
+    width: 35%; /* Set the image to take up 30% of the width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Space between image and text */
+    margin-bottom: 20px;
+}
+
+.carousel .designers .item .text {
+    flex: 1; /* Allow text to take the remaining space */
+}
+
+/* Navigation buttons */
 .arrows {
     position: absolute;
-    margin-top: 6%; /* Keep them at the bottom */
-    width: 100%; /* Set to 100% of the carousel width */
+    bottom: 3px; /* Position arrows at the bottom */
+    width: 85%; /* Set to 100% of the carousel width */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -261,20 +292,8 @@ img {position: absolute;
     border: transparent;
     background-color: transparent;
     color: #555;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
-    position: absolute; /* Keep absolute positioning */
     font-size: 0;
-}
-
-#prev {
-    left: 10px; /* Place the left arrow near the left edge */
-}
-
-#next {
-    right: 10px; /* Place the right arrow near the right edge */
 }
 
 #prev::before,
@@ -289,6 +308,14 @@ img {position: absolute;
     transform: rotate(45deg);
 }
 
+#prev {
+    left: 10px; /* Place the left arrow near the left edge */
+}
+
+#next {
+    right: 10px; /* Place the right arrow near the right edge */
+}
+
 #prev::before {
     transform: rotate(135deg); /* Adjust arrow direction */
 }
@@ -296,121 +323,18 @@ img {position: absolute;
 #next::before {
     transform: rotate(-45deg); /* Adjust arrow direction */
 }
-button{
+
+button {
     border: none;
     background-color: transparent;
     font-weight: bold;
     font-size: 14px;
     color: #555;
-    padding-top: 10px;
     cursor: pointer;
-
-    width: 50%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 button:hover {
     color: #000;
 }
 
-
-/*gen text*/
-
-.section {
-    margin-top: 8%;
-    height: 65vh;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center; 
-}
-
-.section1, .section2 {
-    width: 85%;
-    display: flex;
-    align-items: flex-start; 
-    justify-content: space-between;
-}
-
-.text {
-    max-width: 50%; 
-    margin-right: 30px; 
-}
-
-
-#more1, #more2 {display: none;}
-
-.section2{margin-top: 5% }
-
-//
-
-/*carousel*/
-.carousel {
-    height: 55vh;
-    overflow: hidden;
-    position: relative;
-    
-}
-
-/* Carousel container */
-.carousel .designers {
-    display: flex; /* Align items horizontally */
-    width: calc(100% * 2); /* Adjust based on the number of items, 2 in this case */
-    transition: transform 0.5s ease-in-out; /* Smooth transition */
-}
-
-.carousel .designers .item {
-    flex: 0 0 100%; /* Each item takes 100% of the carousel width */
-    height: 100%;
-    display: flex;
-    align-items: center;
-    position: relative; /* No absolute positioning */
-}
-
-
-.carousel .designers .item .intro {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.5s ease-in-out;
-}
-
-
-.carousel .designers .item:nth-child(2) .intro {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.carousel .designers .item .detail {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    width: 50%;
-}
-
-.carousel .designers .item  {
-    display: flex;
-}
-
-.carousel .designers .item:nth-child(n + 4) {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.carousel .designers .item:nth-child(2) {
-    z-index: 10;
-}
-
-.carousel .designers .item:nth-child(1),
-.carousel .designers .item:nth-child(3),
-.carousel .designers .item:nth-child(4) {
-    z-index: 5;
-}
 
