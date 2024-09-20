@@ -245,13 +245,9 @@ img {position: absolute;
 
 /*navigation buttons*/
 .arrows {
-    
     position: absolute;
-    bottom: 1%;
-    width: 1140px;
-    max-width: 8%;
-    left: 45%;
-    transform: translateX(-50%);
+    margin-top: 6%; /* Keep them at the bottom */
+    width: 100%; /* Set to 100% of the carousel width */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -269,10 +265,17 @@ img {position: absolute;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    position: absolute; /* Keep absolute positioning */
     font-size: 0;
-    position: relative;
 }
 
+#prev {
+    left: 10px; /* Place the left arrow near the left edge */
+}
+
+#next {
+    right: 10px; /* Place the right arrow near the right edge */
+}
 
 #prev::before,
 #next::before {
@@ -287,13 +290,12 @@ img {position: absolute;
 }
 
 #prev::before {
-    transform: rotate(135deg);
+    transform: rotate(135deg); /* Adjust arrow direction */
 }
 
 #next::before {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg); /* Adjust arrow direction */
 }
-
 button{
     border: none;
     background-color: transparent;
@@ -338,16 +340,12 @@ button:hover {
     margin-right: 30px; 
 }
 
-.intro-image {
-    max-width: 25%;
-    height: auto; 
-    right: 12%;
-    margin-top:2%;
-}
 
 #more1, #more2 {display: none;}
 
 .section2{margin-top: 5% }
+
+//
 
 /*carousel*/
 .carousel {
@@ -383,7 +381,7 @@ button:hover {
     transition: opacity 0.5s ease-in-out;
 }
 
-.carousel-image{right: 8%;}
+
 .carousel .designers .item:nth-child(2) .intro {
     opacity: 1;
     pointer-events: auto;
