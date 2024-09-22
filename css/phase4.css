@@ -271,3 +271,84 @@ footer .right p{
     
 
 }
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+#header>div {padding-top:1%;
+    padding-bottom: 5%;}
+#footer {background-color: black;}
+#footer>div {padding-top:5%;
+    padding-bottom: 5%;}   
+div#mainInfo * {padding-top: 2%;
+            }
+div#mainInfo {margin-bottom: 20%;}
+p#type {padding-left: 3%;}
+div#mainInfo h1,h3,div#briefDesc {padding-left: 3%;}
+
+div#otherMetadata * {padding-top: 1%;}
+
+div.tableContainer {text-align: center;}
+
+table.mainMD {border-collapse: collapse;
+            table-layout: fixed;
+            width: 100%;
+}
+
+nav#headerNav a:hover {color: #f50045 !important;}
+nav#inTheFooter a,div#social a {color: white !important;}
+nav#inTheFooter a:hover,div#social a:hover {color: #f50045 !important;}
+div#social i {height: 200%, !important; 
+    width: auto !important;}
+footer#footer div {padding:2%}
+
+table.mainMD tr {border: solid 1px black;
+            display:flex;
+            justify-content: space-between;
+            align-items: center !important;
+            margin-bottom: 10px;
+            padding:15px;}
+
+table.mainMD th {text-align: left;}
+
+
+table.mainMD tr:hover {background-color: #f50045;
+                    color:white;
+            border: solid 1px #f50045;}
+
+table#otherMD {max-width: 100%;}
+table#otherMD th,td {font-size: small !important;
+            padding:1% !important;
+            padding-top: 4% !important;
+            }
+
+div#descCarosel {margin-top: 10%;
+            border-top: solid 1px black;}
+
+div#description {padding: 5%;
+            padding-top: 10%;
+            border-right: solid 1px black;}
+#button {border-radius: 0%;}
+#button:hover {background-color: #f50045;
+    color:white;
+border: solid 1px #f50045;}

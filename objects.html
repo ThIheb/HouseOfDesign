@@ -60,40 +60,47 @@
                             </h5>
 
                             <!-- First info section -->
-                            <table class="table table-striped border collapse d-md-block" id="table">
-                                <tbody id="infoTable1"></tbody> <!-- First section for infoTable1 -->
-                            </table>
+                            <div class="tableContainer container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <table class="mainMD" id="table">
+                                            <tbody id="infoTable1"></tbody>
+                                            <!-- First section for infoTable1 -->
+                                        </table>
+                                    </div>
+                                </div>
 
-                            <!-- Second info section -->
-                            <h5 class="card-title text-center">Additional Info</h5>
-                            <table class="table table-striped border collapse d-md-block" id="table2">
-                                <tbody id="infoTable2"></tbody> <!-- Second section for infoTable2 -->
-                            </table>
 
+                                <!-- Second info section -->
+                                <h5 class="card-title text-center">Additional Info</h5>
+                                <table class="table table-striped border collapse d-md-block" id="table2">
+                                    <tbody id="infoTable2"></tbody> <!-- Second section for infoTable2 -->
+                                </table>
+
+                            </div>
                         </div>
+                        <h5 class="briefDesc">Info</h5>
+                        <p class="card-text" id="shortInfo"></p>
+                        </p>
+                        <p class="card-text d-none" id="longerInfo"></p>
                     </div>
-                    <h5 class="briefDesc">Info</h5>
-                    <p class="card-text" id="shortInfo"></p>
-                    </p>
-                    <p class="card-text d-none" id="longerInfo"></p>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button href="#" type="button" class="btn btn-outline-dark btn-sm"
+                            id="buttonPrevious">Previous</button>
+                        <h3 id="narrative"></h3>
+                        <button href="#" type="button" class="btn btn-outline-dark btn-sm" id="buttonNext">Next</button>
+                    </div>
                 </div>
-                <div class="card-footer d-flex justify-content-between">
-                    <button href="#" type="button" class="btn btn-outline-dark btn-sm"
-                        id="buttonPrevious">Previous</button>
-                    <h3 id="narrative"></h3>
-                    <button href="#" type="button" class="btn btn-outline-dark btn-sm" id="buttonNext">Next</button>
-                </div>
-            </div>
 
-            <div class="card d-none" id="fullInfo">
-                <div class="card-header">
-                    <h2 class="text-center" id="fullHeader"></h2>
+                <div class="card d-none" id="fullInfo">
+                    <div class="card-header">
+                        <h2 class="text-center" id="fullHeader"></h2>
+                    </div>
+                    <div class="card-body" id="fullInfoContent"></div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <a href="#" type="button" class="btn btn-primary m-auto" onclick="hideFullInfo()">Back</a>
+                    </div>
                 </div>
-                <div class="card-body" id="fullInfoContent"></div>
-                <div class="card-footer d-flex justify-content-between">
-                    <a href="#" type="button" class="btn btn-primary m-auto" onclick="hideFullInfo()">Back</a>
-                </div>
-            </div>
 
     </main>
     <footer>
