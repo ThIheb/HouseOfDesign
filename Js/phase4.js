@@ -41,6 +41,7 @@ function showInfo(index) {
 	var person = currentSelection[index]
 	currentSort = person['@sort']
 	inner("header", person.shortName);
+	inner("type-info", person.info.Type);
 	inner("fullHeader", person.shortName);
 	byId("img").src = person.image
 	byId("img").alt = person.shortName

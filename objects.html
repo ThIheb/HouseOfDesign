@@ -12,8 +12,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <link href="css/phase4.css" rel="stylesheet">
     <script src="Js/phase4.js"></script>
 </head>
@@ -33,60 +35,65 @@
     <main>
 
         <div class="card" id="mainCard">
-            <div class="card-header">
-                <h2 class="text-center" id="header"></h2>
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h2 class="m-0" id="header"></h2>
+                <span id="type-info" class="text-muted"></span>
             </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 d-flex">
-                        <img id="img" src="" class="card-img-top img-fluid limitHeight m-auto" alt="">
+            <div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 d-flex">
+                            <img id="img" src="" class="card-img-top img-fluid limitHeight m-auto" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+
+                            <h5 class="card-title text-center">
+                                <!-- https://stackoverflow.com/questions/52348303/collapse-bootstrap-card-on-sm-and-or-md-screens -->
+                                <!-- https://stackoverflow.com/questions/19024218/bootstrap-3-collapse-change-chevron-icon-on-click -->
+                                Data
+                                <button class="btn d-lg-none" type="button" id="dataExpanderIcon"
+                                    data-bs-toggle="collapse" data-bs-target="#table" aria-expanded="false"
+                                    aria-controls="table">
+                                    <span class="bi-chevron-bar-right"></span>
+                                    <span class="bi-chevron-bar-down"></span>
+                                </button>
+                            </h5>
+
+                            <!-- First info section -->
+                            <table class="table table-striped border collapse d-md-block" id="table">
+                                <tbody id="infoTable1"></tbody> <!-- First section for infoTable1 -->
+                            </table>
+
+                            <!-- Second info section -->
+                            <h5 class="card-title text-center">Additional Info</h5>
+                            <table class="table table-striped border collapse d-md-block" id="table2">
+                                <tbody id="infoTable2"></tbody> <!-- Second section for infoTable2 -->
+                            </table>
+
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
-
-                        <h5 class="card-title text-center">
-                            <!-- https://stackoverflow.com/questions/52348303/collapse-bootstrap-card-on-sm-and-or-md-screens -->
-                            <!-- https://stackoverflow.com/questions/19024218/bootstrap-3-collapse-change-chevron-icon-on-click -->
-                            Data
-                            <button class="btn d-lg-none" type="button" id="dataExpanderIcon" data-bs-toggle="collapse"
-                                data-bs-target="#table" aria-expanded="false" aria-controls="table">
-                                <span class="bi-chevron-bar-right"></span>
-                                <span class="bi-chevron-bar-down"></span>
-                            </button>
-                        </h5>
-
-                        <!-- First info section -->
-                        <table class="table table-striped border collapse d-md-block" id="table">
-                            <tbody id="infoTable1"></tbody> <!-- First section for infoTable1 -->
-                        </table>
-
-                        <!-- Second info section -->
-                        <h5 class="card-title text-center">Additional Info</h5>
-                        <table class="table table-striped border collapse d-md-block" id="table2">
-                            <tbody id="infoTable2"></tbody> <!-- Second section for infoTable2 -->
-                        </table>
-
-                    </div>
+                    <h5 class="briefDesc">Info</h5>
+                    <p class="card-text" id="shortInfo"></p>
+                    </p>
+                    <p class="card-text d-none" id="longerInfo"></p>
                 </div>
-                <h5 class="card-title text-center">Info</h5>
-                <p class="card-text" id="shortInfo"></p> </p>
-                <p class="card-text d-none" id="longerInfo"></p>
+                <div class="card-footer d-flex justify-content-between">
+                    <button href="#" type="button" class="btn btn-outline-dark btn-sm"
+                        id="buttonPrevious">Previous</button>
+                    <h3 id="narrative"></h3>
+                    <button href="#" type="button" class="btn btn-outline-dark btn-sm" id="buttonNext">Next</button>
+                </div>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-                <button href="#" type="button" class="btn btn-primary" id="buttonPrevious">Previous</button>
-                <h3 id="narrative"></h3>
-                <button href="#" type="button" class="btn btn-primary" id="buttonNext">Next</button>
-            </div>
-        </div>
 
-        <div class="card d-none" id="fullInfo">
-            <div class="card-header">
-                <h2 class="text-center" id="fullHeader"></h2>
+            <div class="card d-none" id="fullInfo">
+                <div class="card-header">
+                    <h2 class="text-center" id="fullHeader"></h2>
+                </div>
+                <div class="card-body" id="fullInfoContent"></div>
+                <div class="card-footer d-flex justify-content-between">
+                    <a href="#" type="button" class="btn btn-primary m-auto" onclick="hideFullInfo()">Back</a>
+                </div>
             </div>
-            <div class="card-body" id="fullInfoContent"></div>
-            <div class="card-footer d-flex justify-content-between">
-                <a href="#" type="button" class="btn btn-primary m-auto" onclick="hideFullInfo()">Back</a>
-            </div>
-        </div>
 
     </main>
     <footer>
