@@ -337,4 +337,19 @@ button:hover {
     color: #000;
 }
 
+/*map page*/
+.image-mapper-shape {
+    fill: rgba(0, 0, 0, 0);
+}
+g:hover .image-mapper-shape {
+    fill:  #F50045;
+    
+    opacity: 20%;
+}
 
+#svg_container{
+    width: 50%;
+    height:auto;
+    margin-left:7%;
+    margin-top:3%
+}
