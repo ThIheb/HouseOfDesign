@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async function (event) {
 		.then(data => {
 			items = data.items
 			var startWith = data.meta.startWith
-			var person = items[startWith]
+			var item = items[startWith]
 
 			narratives = data.meta.narratives
 			currentNarrative = data.meta.startNarrative
@@ -38,16 +38,17 @@ function prepareNarratives() {
 }
 
 function showInfo(index) {
-	var person = currentSelection[index]
-	currentSort = person['@sort']
-	inner("header", person.shortName);
-	inner("fullHeader", person.shortName);
-	byId("img").src = person.image
-	byId("img").alt = person.shortName
-	createInfoTable(person)
-	inner("shortInfo", person.shortInfo + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a>');
-	inner("longerInfo", "<p>" + person.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>');
-	byId("fullInfo").dataset['uri'] = person.fullInfo
+	var item = currentSelection[index]
+	currentSort = item['@sort']
+	inner("header", item.shortName);
+	inner("type-info", item.info.Type);
+	inner("fullHeader", item.shortName);
+	byId("img").src = item.image
+	byId("img").alt = item.shortName
+	createInfoTable(item)
+	inner("shortInfo", item.shortInfo + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a>');
+	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>');
+	byId("fullInfo").dataset['uri'] = item.fullInfo
 
 	prepareNavigationButtons(index)
 }
@@ -86,8 +87,8 @@ function createInfoTable(item) {
 	inner("infoTable2", "", true);
 
 	// Define the keys that should go into each section
-	const firstSectionKeys = ["Name", "key2", "key3"]; // Keys for the first section
-	const secondSectionKeys = ["Manufacturer", "key5", "key6"]; // Keys for the second section
+	const firstSectionKeys = ["Designer", "Usage", "Space", "History"]; // Keys for the first section
+	const secondSectionKeys = ["Date of Project", "Dimensions", "Company", "Material", "Type"]; // Keys for the second section
 
 	// Populate first section based on firstSectionKeys
 	for (var key of firstSectionKeys) {
