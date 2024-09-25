@@ -175,6 +175,8 @@ footer .right p{
     footer{
         padding: 40px 20px;
     }
+    
+    .carousel{flex-direction: column;}
 
 }
 
@@ -219,22 +221,24 @@ footer .right p{
 
 
 /* Basic styles */
-.title {
+.topic {font-family: "Assistant", sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: small;
     line-height: 2em;
 }
 
-.topic {
+.title {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 3em;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .des {
     margin-top: 1em;
     line-height: 2em;
-    padding: 5px 0;
-    text-align: justify;
+    
+    
 }
 
 /* Carousel */
@@ -252,22 +256,23 @@ footer .right p{
 .carousel .designers .item {
     flex: 0 0 100%; 
     display: flex; 
-   
+    flex-direction: row;
+    
 }
 
 /* Intro section styles */
 .carousel .designers .item .intro {
     display: flex; 
-    
     width: 100%; 
     flex-direction: row-reverse; /*  image on the right */
 }
 
-.carousel-image {background-color: #F50045;
-    width: 35%; 
+.carousel-image {
+    width: 33%; 
     height: auto; 
     margin-left: 20px; 
     margin-bottom: 20px;
+    
 }
 
 .carousel .designers .item .text {
@@ -278,20 +283,22 @@ footer .right p{
 .arrows {
     position: absolute;
     bottom: 2px; 
-    width: 85%; 
+    left:10px;
+    width: 80%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 20;
+    border: none;
 }
 
 .arrows button {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    border: transparent;
+    
+    border: none !important;
     background-color: transparent;
-    color: #555;
+   
     cursor: pointer;
     font-size: 0;
 }
@@ -326,30 +333,70 @@ footer .right p{
 
 button {
     border: none;
+    padding:0;
     background-color: transparent;
     font-weight: bold;
     font-size: 14px;
-    color: #555;
+    padding: 10px 0 0 0; 
     cursor: pointer;
+    text-align: left;
 }
 
 button:hover {
-    color: #000;
+    
+    border: none !important; 
+    background-color: transparent;
 }
 
 /*map page*/
+#intro{display: flex;
+    flex-direction: row;
+    gap:5%;
+    align-items: flex-end;
+}
 .image-mapper-shape {
     fill: rgba(0, 0, 0, 0);
 }
 g:hover .image-mapper-shape {
     fill:  #F50045;
-    
+    transition: fill 0.4s;
     opacity: 20%;
+    cursor: pointer;
 }
 
+
 #svg_container{
-    width: 50%;
     height:auto;
     margin-left:7%;
-    margin-top:3%
+    margin-top:3%;
+    flex: 50%;
+    
 }
+
+#first{flex:50%;
+
+margin-right:5%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(2){
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding-top: 20px;
+    text-align: left;
+}
+td:nth-child(even) {
+    text-align:right;
+}
+
+
+
+
+
