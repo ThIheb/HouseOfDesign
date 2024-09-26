@@ -1,22 +1,29 @@
-// Function to hide all room contents
-function hideAllRooms() {
-    const roomContents = document.querySelectorAll('.room-content');
-    roomContents.forEach(content => content.style.display = 'none');
-}
+document.addEventListener('DOMContentLoaded', function () {
+    const part1 = document.getElementById('bathroom'); // This could be 'map' or another part
+    const part2 = document.getElementById('study'); // SVG part 2
 
-// Function to show the content of the clicked room
-function showRoomContent(roomId) {
-    hideAllRooms(); // First hide all room content
-    const roomContent = document.getElementById(`${roomId}Content`);
-    if (roomContent) {
-        roomContent.style.display = 'block'; // Show the relevant room content
+    const text1 = document.getElementById('map'); // Text for part 1
+    const text2 = document.getElementById('study_text'); // Text for part 2
+
+    // Function to hide all text
+    function hideAllText() {
+        text1.classList.remove('visible');
+        text1.classList.add('hidden');
+        text2.classList.remove('visible');
+        text2.classList.add('hidden');
     }
-}
 
-// Add event listeners to each rect (rooms in the image map)
-document.querySelectorAll('.image-mapper-shape').forEach(rect => {
-    rect.addEventListener('click', function () {
-        const roomId = this.getAttribute('data-id'); // Get the data-id of the clicked room
-        showRoomContent(roomId); // Show the appropriate room content
+    // Click event for part 1
+    part1.addEventListener('click', function () {
+        hideAllText(); // Hide other texts
+        text1.classList.remove('hidden'); // Remove the hidden class from text1
+        text1.classList.add('visible'); // Show text1
+    });
+
+    // Click event for part 2
+    part2.addEventListener('click', function () {
+        hideAllText(); // Hide other texts
+        text2.classList.remove('hidden'); // Remove the hidden class from text2
+        text2.classList.add('visible'); // Show text2
     });
 });

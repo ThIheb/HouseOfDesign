@@ -177,6 +177,8 @@ footer .right p{
     }
     
     .carousel{flex-direction: column;}
+    .intro{display: flex;
+        flex-direction: row;}
 
 }
 
@@ -297,8 +299,6 @@ footer .right p{
     height: 40px;
     
     border: none !important;
-    background-color: transparent;
-   
     cursor: pointer;
     font-size: 0;
 }
@@ -340,15 +340,28 @@ button {
     padding: 10px 0 0 0; 
     cursor: pointer;
     text-align: left;
+    
 }
 
 button:hover {
     
     border: none !important; 
     background-color: transparent;
+    border-color: transparent !important;
 }
 
 /*map page*/
+.hidden {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Smooth transition when showing/hiding */
+    display:none;
+  }
+  
+.visible {
+    opacity: 1; /* Make the text visible */
+    display: block;
+  }
+
 #intro{display: flex;
     flex-direction: row;
     gap:5%;
@@ -373,7 +386,7 @@ g:hover .image-mapper-shape {
     
 }
 
-#first{flex:50%;
+.first{flex:50%;
 
 margin-right:5%;
 }
@@ -389,13 +402,25 @@ table tr:nth-child(2){
 }
 
 th, td {
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: left;
 }
 td:nth-child(even) {
     text-align:right;
+    color:#777;
 }
 
+td:nth-child(even):hover{
+    color:#000;
+}
+
+
+
+
+.text_apartment{margin-left:7%;
+    margin-top: 15%;
+    height: 70vh;
+}
 
 
 
