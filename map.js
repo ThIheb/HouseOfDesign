@@ -1,29 +1,21 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const part1 = document.getElementById('bathroom'); // This could be 'map' or another part
-    const part2 = document.getElementById('study'); // SVG part 2
+// Function to show the correct room and hide others
+function showOrHide(room) {
+    // Hide all content sections
+    document.querySelectorAll('.content').forEach((content) => {
+        content.classList.remove('visible');
+        content.classList.add('hidden');
+    });
 
-    const text1 = document.getElementById('map'); // Text for part 1
-    const text2 = document.getElementById('study_text'); // Text for part 2
-
-    // Function to hide all text
-    function hideAllText() {
-        text1.classList.remove('visible');
-        text1.classList.add('hidden');
-        text2.classList.remove('visible');
-        text2.classList.add('hidden');
+    // Show the selected room's section
+    const selectedRoom = document.getElementById(`${room}_text`);
+    if (selectedRoom) {
+        selectedRoom.classList.remove('hidden');
+        selectedRoom.classList.add('visible');
     }
+}
 
-    // Click event for part 1
-    part1.addEventListener('click', function () {
-        hideAllText(); // Hide other texts
-        text1.classList.remove('hidden'); // Remove the hidden class from text1
-        text1.classList.add('visible'); // Show text1
-    });
-
-    // Click event for part 2
-    part2.addEventListener('click', function () {
-        hideAllText(); // Hide other texts
-        text2.classList.remove('hidden'); // Remove the hidden class from text2
-        text2.classList.add('visible'); // Show text2
-    });
-});
+// Bind click events to the SVG rect elements
+document.getElementById('bathroom').addEventListener('click', () => showOrHide('bathroom'));
+document.getElementById('kitchen').addEventListener('click', () => showOrHide('kitchen'));
+document.getElementById('study').addEventListener('click', () => showOrHide('study'));
+document.getElementById('livingroom').addEventListener('click', () => showOrHide('livingroom'));

@@ -212,12 +212,11 @@ footer .right p{
 
 
 .nav-link {
-    margin-left: -10px; 
+    margin-left: -10%; 
     
 }
 
 .tab-content {
-    
     margin-bottom: 8%; 
 }
 
@@ -351,24 +350,37 @@ button:hover {
 }
 
 /*map page*/
+
 .hidden {
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.5s ease; /* Smooth transition when showing/hiding */
-    display:none;
-  }
-  
+    display: none;
+}
 .visible {
-    opacity: 1; /* Make the text visible */
     display: block;
-  }
+}
+
+.content{flex:50%; 
+}
+
+.image-mapper-shape {
+    fill: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+g:hover .image-mapper-shape {
+    fill: #F50045;
+    transition: fill 0.4s;
+    opacity: 20%;
+}
 
 #intro{display: flex;
     flex-direction: row;
     gap:5%;
     align-items: flex-end;
+    margin: 5% 7%;
 }
 .image-mapper-shape {
-    fill: rgba(0, 0, 0, 0);
+    fill: rgba(0, 0, 0, 0); 
+    pointer-events: all;     
+    cursor: pointer;
 }
 g:hover .image-mapper-shape {
     fill:  #F50045;
@@ -380,16 +392,11 @@ g:hover .image-mapper-shape {
 
 #svg_container{
     height:auto;
-    margin-left:7%;
-    margin-top:3%;
+    
     flex: 50%;
     
 }
 
-.first{flex:50%;
-
-margin-right:5%;
-}
 
 
 table {
@@ -415,8 +422,8 @@ td:nth-child(even):hover{
 }
 
 
-.text_apartment{margin-left:7%;
-    margin-top: 15%;
+.text_apartment{
+    margin: 15% 7% ;
     height: 70vh;
 }
 
