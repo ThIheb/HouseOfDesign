@@ -9,7 +9,7 @@ var currentSort = ""
 document.addEventListener("DOMContentLoaded", async function (event) {
 	console.log("Ready to start with phase 4")
 	console.log("Fetching JSON data");
-		fetch('infoPhase4.json')
+		fetch("Js/infoPhase4.json")
 		.then(response => response.json())
 
 		.then(data => {
