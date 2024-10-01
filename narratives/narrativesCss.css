@@ -3,7 +3,8 @@
 /*basic styling*/
 *{font-family: "Poppins", sans-serif;
 	font-weight:300;
-	font-style: normal;}
+	font-style: normal;
+}
 
 
 /*Header*/
@@ -176,10 +177,10 @@ footer .right p{
         padding: 40px 20px;
     }
     
-    .carousel{flex-direction: column;}
-    .intro{display: flex;
-        flex-direction: row;}
-
+    #intro{display: flex;
+        flex-direction: column;
+        
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -222,24 +223,27 @@ footer .right p{
 
 
 /* Basic styles */
-.topic {font-family: "Assistant", sans-serif;
+.topic {
+    font-family: "Assistant", sans-serif; 
     font-style: normal;
     font-weight: 400;
-    font-size: small;
-    line-height: 2em;
+    font-size: 0.9rem; 
+    line-height: 2em; 
+    
 }
 
 .title {
-    font-family: 'Glacial Indifference', sans-serif;
-    font-size: 3em;
+    font-family: 'Glacial Indifference', sans-serif; 
+    font-size: 2.5rem;
     font-weight: 400;
+    
 }
 
+
 .des {
-    margin-top: 1em;
-    line-height: 2em;
-    
-    
+    margin-top: 1.5em; 
+    line-height: 2em; 
+    font-size: 1rem; 
 }
 
 /* Carousel */
@@ -335,15 +339,18 @@ button {
     padding:0;
     background-color: transparent;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.9rem;
     padding: 10px 0 0 0; 
     cursor: pointer;
     text-align: left;
+    margin-top: 1%;
     
 }
 
 button:hover {
-    
+    outline: 0;
+    outline: none;
+    outline-style:none;
     border: none !important; 
     background-color: transparent;
     border-color: transparent !important;
