@@ -14,19 +14,20 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>Object</title>
+    <script src="objects.js"></script>
+    <title id="header">Object</title>
 </head>
 <body class="poppins-light">
-    <header id="header" class="py-3">
+    <header id="basicHeader" class="py-3">
         <div class="container">
           <div class="row">
-            <!-- Logo on the left -->
+            <!-- logo -->
             <div class="col-6">
               <a href="">
                 <img src="" alt="Logo" class="logo">
               </a>
             </div>
-            <!-- Links on the right -->
+            <!-- nav -->
             <div class="col-6">
               <nav id="headerNav" class="d-flex justify-content-end">
                 <a href="#" class="link-body-emphasis link-underline-opacity-0 px-3">Narratives</a>
@@ -40,29 +41,35 @@
       </header>
     <div id="main" class="container">
         <div class="row">
-            <div id="mainImg" class="col-7 align-items-center pr-5">
-                <img id="main" class="img-fluid" src="rendered images/mixedAlgol.jpg"/>
+            <div id="img" class="col-7 align-items-center pe-5">
+                <img id="main" class="img-fluid" src="rendered images/mixedAlgol.jpg" alt=""/>
             </div>
-            <div id="mainInfo" class="col-5 align-items-center">
-                <h1 id="title" class="poppins-regular">ALGOL 11</h1>
-                <p id="type">PORTABLE TV</p>
+            <div id="mainInfo" class="col-5 align-items-center ps-5 pt-5">
+                <h1 id="fullHeader" class="poppins-regular">ALGOL 11</h1>
+                <p id="type-info">PORTABLE TV</p>
                 <div id="briefDesc">
-                    <p>Algol* has always been there, with its bold way of presenting itself, totally turned towards us, 
-                        for a less rigid, portable to be like all the things you fall in love with, inseparable</p>
+                    <p>Algol 11 has always been there, with its bold way of presenting itself, totally turned towards us,
+                         portable to be like all the things you fall in love with, inseparable</p>
                 </div>
-                <div class="tableContainer container">
+                <div id="keyWords" class="poppins-semibold p-3">
+                    <p class="d-inline">Bold</p><i class="bi bi-dot"></i><p class="d-inline">Ergonomic</p>
+                    <i class="bi bi-dot"></i><p class="d-inline">Unique</p>
+                </div>
+                <div class="tableContainer container text-center">
                     <div class="row">
                         <div class="col-6">
                             <table class="mainMD">
-                                <tr><th class="poppins-regular">author</th><td id="author">Zanuso, Marco</td></tr>
-                                <tr><th class="poppins-regular">room</th><td id="room">Living room</td></tr>
+                                <tbody>
+                                    <tr id="DesignerRow"><th class="poppins-regular">author</th><td id="Designer" class="align-middle">Zanuso, Marco</td></tr>
+                                    <tr id="SpaceRow"><th class="poppins-regular">room</th><td id="Space">Living room</td></tr>
+                                </tbody>
                             </table>
                         </div>
                         <div class="col-6">
                             <table class="mainMD">
                                 <tbody>
-                                    <tr><th class="poppins-regular">usage</th><td id="usage">Object</td></tr>
-                                    <tr><th class="poppins-regular">date</th><td id="dateC">1964</td></tr>
+                                    <tr id="UsageRow"><th class="poppins-regular">usage</th><td id="Usage">Object</td></tr>
+                                    <tr id="HistoryRow"><th class="poppins-regular">date</th><td id="History">1964</td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -76,14 +83,16 @@
             <h2>Key Information</h2>
             <div class="d-flex">
                 <table id="otherMD" class="w-100">
-                    <tr><th>DATE PROJECT</th><th>DATE CREATION</th><th>DIMENSION</th><th>COMPANY</th>
-                        <th>MATERIAL</th><th>TYPE</th></tr>
-                    <tr><td id="dateP">1964</td>
-                        <td id="dateC">1965</td>
-                        <td id="dimension">26x30x35</td>
-                        <td id="company">Brionvega</td>
-                        <td id="material">Metal</td>
-                        <td id="type">Portable TV</td></tr>
+                    <tbody>
+                        <tr><th>DATE PROJECT</th><th>DATE CREATION</th><th>DIMENSION</th><th>COMPANY</th>
+                            <th>MATERIAL</th><th>TYPE</th></tr>
+                        <tr><td id="Date of Project">1964</td>
+                            <td id="Date of Creation">1965</td>
+                            <td id="Dimensions">26x30x35</td>
+                            <td id="Company">Brionvega</td>
+                            <td id="Material">Metal</td>
+                            <td id="Type">Portable TV</td></tr>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -91,21 +100,29 @@
     <div id="descCarosel" class="container-fluid">
         <div class="row">
             <div id="description" class="col-6">
-                <p>A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, 
+                <p id="shortInfo">A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, 
                     an Italian electronics company. Unique, futuristic design and practical functionality, symbol of 1960s 
                     innovation and style.</p>
-                    <button type="button" id="button" class="btn btn-outline-dark btn-sm">More</button>
+                    <!--<button type="button" id="button" class="btn btn-outline-dark btn-sm">More</button>-->
+                <p id="longerInfo"></p>
+                <p id="fullInfo"></p>
             </div>
-            <div class="col-6">
+            <div class="col-6 p-0">
                 <img id="otherImg" class="img-fluid w-100" src="https://www.designindex.it/foto/2/brionvega-algol-1964-grande.jpg"/>
             </div>
         </div>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+        <button href="#" type="button" class="btn btn-outline-dark btn-sm"
+            id="buttonPrevious">Previous</button>
+        <h3 id="narrative"></h3>
+        <button href="#" type="button" class="btn btn-outline-dark btn-sm" id="buttonNext">Next</button>
     </div>
     <footer id="footer" class="footer">
         <div id="footerLeft" class="container">
           <div class="row align-items-center">
             
-            <div class="col-md-6">
+            <div class="col-6">
               <a href="">
                 <img src="" alt="Logo" class="logo">
               </a>
