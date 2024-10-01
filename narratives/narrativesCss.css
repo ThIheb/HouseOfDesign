@@ -218,28 +218,6 @@ footer .right p{
 }
 
 /* History */
-
-/* Designers */
-/* Basic styles */
-.title {
-    font-size: small;
-    line-height: 2em;
-}
-
-.topic {
-    font-family: 'Glacial Indifference', sans-serif;
-    font-size: 3em;
-    font-weight: 500;
-}
-
-.des {
-    margin-top: 1em;
-    line-height: 2em;
-    padding: 5px 0;
-    text-align: justify;
-}
-
-/* history */
 h1{
     margin-bottom: 40px;
 }
@@ -249,7 +227,7 @@ section{
 }
 
 .timeline{   /*!testo molto più in basso rispetto al titolo*/
-    margin: 150px 0;
+    margin: 225px 0;
     padding: 15px;
 
     display: grid;
@@ -272,7 +250,7 @@ li{
 }
 
 li p{
-    transform: translateY(-10px); /*!non vedo i testi*/
+    
     opacity: 0;
     padding: 25px;
     transition: 1.5s;
@@ -369,8 +347,25 @@ li p{
         height: 4px;
     }
 }
+/* Designers */
+/* Basic styles */
+.title {
+    font-size: small;
+    line-height: 2em;
+}
 
+.topic {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+}
 
+.des {
+    margin-top: 1em;
+    line-height: 2em;
+    padding: 5px 0;
+    text-align: justify;
+}
 
 
 /* Carousel */
