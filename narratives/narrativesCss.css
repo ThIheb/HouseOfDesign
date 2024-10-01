@@ -427,6 +427,46 @@ td:nth-child(even):hover{
     height: 70vh;
 }
 
+.col-sm-4{
+    border: black 1px;
+}
+.image-carousel{
+    border: black 1px solid;
+}
 
+.furniture{
+    background-image: url("/TTTTTT/images/1.png");
+    height: 320px;
+    border-left-style:solid;
+    border-left-width:0px;
+    padding-left:70px;
+    text-align: left
+}
+.title-card-f{
+    margin-top: 100px;
+    font-size: 3em;
+    font-weight: 400;
+    color:#fff
+    
+}
+.title-card-h{
+    margin-top: 100px;
+    font-size: 3em;
+    font-weight: 400;
+    color:black
+    
+}
+.f-desc{
+    color:#fff;
+    font-size: 1    em;
+    font-weight: 400;
+    padding-right:inherit;
+}
 
-
+.household{
+    background-image: url("/TTTTTT/images/3.png");
+    border:#000 1px solid
+}
+.household-c{
+    margin-top: 0%;
+}
