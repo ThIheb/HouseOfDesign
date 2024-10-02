@@ -347,7 +347,7 @@ button {
     
 }
 
-button:hover {
+button:onmouseover{
     outline: 0;
     outline: none;
     outline-style:none;
@@ -409,10 +409,39 @@ g:hover .image-mapper-shape {
 table {
     width: 100%;
     border-collapse: collapse;
+    overflow-x:auto;
 }
 
-table tr:nth-child(2){
-    border-top: 1px solid rgb(0, 0, 0);
+
+
+table.scrolldown tbody,
+table.scrolldown thead {
+    display: block;
+}
+
+
+table.scrolldown {
+    width: 100%;
+}
+
+
+table.scrolldown tbody {
+
+    height: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+tbody td,
+thead th {
+    width: 250px;
+    
+}
+
+thead{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width:95%;
 }
 
 th, td {
@@ -435,5 +464,19 @@ td:nth-child(even):hover{
 }
 
 
+::-webkit-scrollbar {
+    width: 2px;
+    
+  }
+  
 
-
+  ::-webkit-scrollbar-track {
+  background: #c7c6c6;
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background: black ;
+    height: 2px; 
+    
+  }
