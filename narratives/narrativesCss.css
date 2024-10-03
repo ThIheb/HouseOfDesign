@@ -1,13 +1,11 @@
-/*same as the homepage, do not copy*/
-
-/*basic styling*/
-*{font-family: "Poppins", sans-serif;
-	font-weight:300;
-	font-style: normal;
+/* Basic styling */
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-
-/*Header*/
+/* Header */
 nav {
     padding: 0 80px;
     display: flex;
@@ -16,11 +14,10 @@ nav {
     height: 80px;
     position: relative;
     z-index: 100;
-
 }
 
-.container a, nav a{
-    text-decoration: none !important; 
+.container a, nav a {
+    text-decoration: none !important;
     color: #000 !important;
 }
 
@@ -34,10 +31,12 @@ nav .links a:not(:last-child) {
     margin-right: 20px;
 }
 
-.youAreHere{font-weight:450;}
+.youAreHere {
+    font-weight: 450;
+}
 
-/*Footer*/
-footer{
+/* Footer */
+footer {
     background-color: #000;
     color: #fff;
     padding: 100px 80px;
@@ -46,11 +45,11 @@ footer{
     justify-content: space-between;
 }
 
-footer h3{
+footer h3 {
     font-size: 800;
 }
 
-footer .right{
+footer .right {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -58,192 +57,172 @@ footer .right{
     gap: 26px;
 }
 
-footer .right .links{
+footer .right .links {
     display: flex;
     gap: 30px;
-
 }
 
-footer .right .links a{
+footer .right .links a {
     color: #989898;
     transition: color 0.3s ease;
 }
 
-footer .right .links a:hover{
+footer .right .links a:hover {
     color: #fff;
-
 }
 
-footer .right .social{
+footer .right .social {
     display: flex;
     align-items: center;
     gap: 10px;
-
 }
 
-footer .right .social i{
+footer .right .social i {
     font-size: 30px;
     cursor: pointer;
     transition: color 0.3s ease;
-
 }
 
-footer .right .social i:hover{
-    color:#F50045 ;
+footer .right .social i:hover {
+    color: #F50045;
 }
 
-footer .right p{
+footer .right p {
     font-size: 13px;
     color: #777;
-
 }
 
-.social a{color:#fff !important; }
+.social a {
+    color: #fff !important;
+}
 
+/* Responsive Media Queries */
 @media screen and (max-width: 1400px) {
-    
-    nav{
+    nav {
         padding: 0 40px;
     }
 
-    footer{
+    footer {
         padding: 100px 40px;
     }
 
-    footer h3{
+    footer h3 {
         font-size: 38px;
     }
-
 }
 
 @media screen and (max-width: 1200px) {
-    
-    
-    footer .links a{
+    footer .links a {
         font-size: 15px;
     }
-
 }
 
 @media screen and (max-width: 992px) {
-    
-    nav a.logo{
+    nav a.logo {
         font-size: 28px;
     }
 
-    nav .links a{
+    nav .links a {
         font-size: 14px;
     }
 
-
-    footer{
+    footer {
         flex-direction: column;
         padding: 60px 40px;
     }
 
-    footer h3{
+    footer h3 {
         margin-bottom: 40px;
         font-size: 32px;
     }
 
-    footer .right{
+    footer .right {
         width: 100%;
         align-items: center;
     }
-
 }
 
 @media screen and (max-width: 768px) {
-    
-    nav{
+    nav {
         padding: 0 20px;
     }
 
-    nav a.logo{
+    nav a.logo {
         display: none;
     }
 
-    nav .links a{
+    nav .links a {
         font-size: 12px;
     }
 
-    nav .login button{
+    nav .login button {
         font-size: 12px;
         padding: 6px 10px;
     }
 
-
-    footer{
+    footer {
         padding: 40px 20px;
     }
-    
-    #intro{display: flex;
+
+    #intro {
+        display: flex;
         flex-direction: column;
-        
     }
 }
 
 @media screen and (max-width: 576px) {
-    
-    
-
+    /* Add specific rules for smaller devices here */
 }
 
-/*changes*/
-.container{margin-top:3%}
+/* Additional Styles */
+.container {
+    margin-top: 3%;
+}
+
 .nav-link.active {
     font-weight: 450;
 }
 
-
 .nav-link {
-    background-color: transparent !important; 
-    
+    background-color: transparent !important;
 }
 
 .nav-link:hover {
-    color: #F50045 !important; 
-    background-color: transparent !important; 
+    color: #F50045 !important;
+    background-color: transparent !important;
 }
-
 
 .nav-link.active:hover {
-    color: #F50045 !important; 
+    color: #F50045 !important;
 }
 
-
 .nav-link {
-    margin-left: -10%; 
-    
+    margin-left: -10%;
 }
 
 .tab-content {
-    margin-bottom: 8%; 
+    margin-bottom: 8%;
 }
 
-
-/* Basic styles */
+/* Topic and Title Styles */
 .topic {
-    font-family: "Assistant", sans-serif; 
+    font-family: "Assistant", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 0.9rem; 
-    line-height: 2em; 
-    
+    font-size: 0.9rem;
+    line-height: 2em;
 }
 
 .title {
-    font-family: 'Glacial Indifference', sans-serif; 
+    font-family: 'Glacial Indifference', sans-serif;
     font-size: 2.5rem;
     font-weight: 400;
-    
 }
 
-
 .des {
-    margin-top: 1.5em; 
-    line-height: 2em; 
-    font-size: 1rem; 
+    margin-top: 1.5em;
+    line-height: 2em;
+    font-size: 1rem;
 }
 
 /* Carousel */
@@ -254,42 +233,39 @@ footer .right p{
 }
 
 .carousel .designers {
-    display: flex; 
-    transition: transform 0.5s ease-in-out; 
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carousel .designers .item {
-    flex: 0 0 100%; 
-    display: flex; 
+    flex: 0 0 100%;
+    display: flex;
     flex-direction: row;
-    
 }
 
-/* Intro section styles */
 .carousel .designers .item .intro {
-    display: flex; 
-    width: 100%; 
-    flex-direction: row-reverse; /*  image on the right */
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
 }
 
 .carousel-image {
-    width: 33%; 
-    height: auto; 
-    margin-left: 20px; 
+    width: 33%;
+    height: auto;
+    margin-left: 20px;
     margin-bottom: 20px;
-    
 }
 
 .carousel .designers .item .text {
-    flex: 1; 
+    flex: 1;
 }
 
-/* Navigation buttons */
+/* Arrows */
 .arrows {
     position: absolute;
-    bottom: 2px; 
-    left:10px;
-    width: 80%; 
+    bottom: 2px;
+    left: 10px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -300,7 +276,6 @@ footer .right p{
 .arrows button {
     width: 40px;
     height: 40px;
-    
     border: none !important;
     cursor: pointer;
     font-size: 0;
@@ -319,164 +294,224 @@ footer .right p{
 }
 
 #prev {
-    left: 10px; 
+    left: 10px;
 }
 
 #next {
-    right: 10px; 
+    right: 10px;
 }
 
 #prev::before {
-    transform: rotate(135deg); 
+    transform: rotate(135deg);
 }
 
 #next::before {
-    transform: rotate(-45deg); 
+    transform: rotate(-45deg);
 }
 
 button {
     border: none;
-    padding:0;
+    padding: 0;
     background-color: transparent;
     font-weight: bold;
     font-size: 0.9rem;
-    padding: 10px 0 0 0; 
+    padding: 10px 0 0 0;
     cursor: pointer;
     text-align: left;
     margin-top: 1%;
-    
 }
 
-button:onmouseover{
-    outline: 0;
+button:onmouseover {
     outline: none;
-    outline-style:none;
-    border: none !important; 
+    border: none !important;
     background-color: transparent;
-    border-color: transparent !important;
 }
 
-/*map page*/
-
+/* Map Page */
 .hidden {
     display: none;
 }
+
 .visible {
     display: block;
 }
 
-.content{flex:50%; 
+.content {
+    flex: 50%;
 }
 
 .image-mapper-shape {
     fill: rgba(0, 0, 0, 0);
     cursor: pointer;
 }
+
 g:hover .image-mapper-shape {
     fill: #F50045;
     transition: fill 0.4s;
     opacity: 20%;
 }
 
-#intro{display: flex;
+/* Intro Section */
+#intro {
+    display: flex;
     flex-direction: row;
-    gap:5%;
+    gap: 5%;
     align-items: flex-end;
     margin: 5% 7%;
 }
-.image-mapper-shape {
-    fill: rgba(0, 0, 0, 0); 
-    pointer-events: all;     
-    cursor: pointer;
-}
-g:hover .image-mapper-shape {
-    fill:  #F50045;
-    transition: fill 0.4s;
-    opacity: 20%;
-    cursor: pointer;
-}
 
-
-#svg_container{
-    height:auto;
-    
+#svg_container {
+    height: auto;
     flex: 50%;
-    
 }
-
-
 
 table {
     width: 100%;
     border-collapse: collapse;
-    overflow-x:auto;
+    overflow-x: auto;
 }
-
-
 
 table.scrolldown tbody,
 table.scrolldown thead {
     display: block;
 }
 
-
 table.scrolldown {
     width: 100%;
 }
 
-
 table.scrolldown tbody {
-
     height: 80px;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-
 tbody td,
 thead th {
     width: 250px;
-    
 }
 
-thead{
+thead {
     border-bottom: 1px solid rgb(0, 0, 0);
-    width:95%;
+    width: 95%;
 }
 
 th, td {
     padding-top: 15px;
     text-align: left;
 }
+
 td:nth-child(even) {
-    text-align:right;
-    color:#777;
+    text-align: right;
+    color: #777;
 }
 
-td:nth-child(even):hover{
-    color:#000;
+td:nth-child(even):hover {
+    color: #000;
 }
 
-
-.text_apartment{
-    margin: 15% 7% ;
+.text_apartment {
+    margin: 15% 7%;
     height: 70vh;
 }
 
-
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 2px;
-    
-  }
-  
+}
 
-  ::-webkit-scrollbar-track {
-  background: #c7c6c6;
-  }
-   
- 
-  ::-webkit-scrollbar-thumb {
-    background: black ;
-    height: 2px; 
+::-webkit-scrollbar-track {
+    background: #c7c6c6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    height: 2px;
+}
+
+/* Spaces Section */
+body {
+    overflow: hidden;
+}
+
+main {
+    padding-bottom: 50px; /* Space for the footer */
+}
+
+
+
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    width: max-content;
+    padding: 0 150px;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.slide {
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marker-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.marker {
+    position: relative;
+    width: 2px;
+    height: 85%;
+    background: black;
+}
+
+
+/*usage narrative*/
+.box1{display: flex;
+    height: 300px;
+    width: 100%;
+    gap: 2%;
+}
+
+.text-intro{
+    flex: 95%; 
+    background-image: url("/images/Interior/1.png");
+    background-size: cover; 
+    background-position: center; 
     
-  }
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+    color: white; 
+    
+    padding: 50px; 
+}
+
+.text-intro h1 {font-family: 'Glacial Indifference', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;}
+
+#goToObject {color: white;
+    padding-top: 0; 
+}
+
+.carousel-inner{flex: 5%;
+height: 300px; 
+background-size:cover;
+border: 1px solid black; }
