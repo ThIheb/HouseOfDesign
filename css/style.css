@@ -122,7 +122,8 @@ h2.separator{
 .information .item{
     padding: 20px;
     background: #fff;
-    border: black 1px solid; 
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
@@ -389,4 +390,62 @@ footer .right p{
         width: 47%;
     }
 
+}
+.routine-buttons{
+    display:none;
+    margin-top: 15px;
+}
+
+.routine-btn{
+    background-color: #000;
+    
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+}
+h1{
+    text-align: righ;
+}
+table{
+    width: 100%;
+    border-collapse: collapse
+}
+td,th {
+    border:1px solid black;
+    padding:10px
+}
+td.date{
+    width: 10%;
+    vertical-align:top;
+    text-align: center;
+    font-weight: bold;
+}
+td.details{
+    width:75%;
+    vertical-align: top;
+    align-items: left;
+    flex-direction: row;
+    display:flex
+}
+.btn{
+    margin-top: 10px;
+    padding:5px 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 0px;
+    display:flex
+}
+.details-inner{
+    padding-left: 50px;
+}
+.right .social i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.right .social i:hover{
+    color: #F50045;
 }
