@@ -1,50 +1,24 @@
-let target = 0;
-let current = 0;
-let ease = 0.075;
+const scrollee = document.querySelector(".scrollee");
 
-const slider = document.querySelector(".slider");
-const sliderWrapper = document.querySelector(".slider-wrapper");
-const markerWrapper = document.querySelector(".marker-wrapper");
-const activeSlide = document.querySelector(".active-slide");
-
-let maxScroll = sliderWrapper.offsetWidth - window.innerWidth;
-
-function lerp(start, end, factor) {
-    return start + (end - start) * factor;
+function getScrollAmount() {
+    // Calculate the width of the `.races` element and subtract the window width
+    let scrolleeWidth = scrollee.scrollWidth;
+    return -(scrolleeWidth - window.innerWidth);
 }
 
-function updateActiveSliderNumber(markerMove, markerMaxMove) {
-    const partWidth = markerMaxMove / 10;
-    let currentPart = Math.round((markerMove - 70) / partWidth) + 1;
-    currentPart = Math.min(10, currentPart);
-    activeSlide.textContent = `${currentPart}/10`;
-}
-
-function update() {
-    current = lerp(current, target, ease);
-    
-    // Apply the transforms
-    sliderWrapper.style.transform = `translateX(${-current}px)`;
-    
-    let moveRatio = current / maxScroll;
-    let markerMaxMove = window.innerWidth - markerWrapper.offsetWidth - 170;
-    let markerMove = 70 + moveRatio * markerMaxMove;
-    
-    markerWrapper.style.transform = `translateX(${markerMove}px)`;
-
-    updateActiveSliderNumber(markerMove, markerMaxMove);
-
-    requestAnimationFrame(update);
-}
-
-window.addEventListener("resize", () => {
-    maxScroll = sliderWrapper.offsetWidth - window.innerWidth;
+const tween = gsap.to(scrollee, {
+    x: getScrollAmount, // Move horizontally by the calculated amount
+    duration: 3, // This will not affect the actual scroll speed with scrub set to true
+    ease: "none", // No easing for a smooth scroll effect
 });
 
-window.addEventListener("wheel", (e) => {
-    target += e.deltaY * 0.5; // Adjust scroll sensitivity
-    target = Math.max(0, target);
-    target = Math.min(maxScroll, target);
+ScrollTrigger.create({
+    trigger: ".scroller", // The element that triggers the scroll animation
+    start: "top top", // Start the scroll animation when the top of `.racesWrapper` hits the top of the viewport
+    end: () => `+=${scrollee.scrollWidth - window.innerWidth}`, // The scroll distance is the difference in widths
+    pin: true, // Pin the `.racesWrapper` while the animation is active
+    animation: tween, // Link the animation
+    scrub: 1, // Scrub allows syncing the animation with the scrollbar position
+    invalidateOnRefresh: true, // Recalculate on browser resize
+    markers: true // For debugging (you can remove this later)
 });
-
-update();

@@ -39,69 +39,33 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-/*spaces*/
-let target = 0;  // Target scroll position
-let current = 0;  // Current scroll position
-let ease = 0.1;  // Easing factor (adjust to control smoothness)
-const scrollSensitivity = 2;  // Sensitivity for the scroll behavior
+/*documentation*/
+const scrollee = document.querySelector(".scrollee");
 
-// DOM elements for slider and marker
-const sliderWrapper = document.querySelector(".slider-wrapper");
-const markerWrapper = document.querySelector(".marker-wrapper");
-const activeSlide = document.querySelector(".active-slide");
-
-let maxScroll = sliderWrapper.scrollWidth - window.innerWidth;  // Max scrollable distance
-
-// Linear interpolation function for smooth transitions
-function lerp(start, end, factor) {
-    return start + (end - start) * factor;
+function getScrollAmount() {
+    // Calculate the width of the `.races` element and subtract the window width
+    let scrolleeWidth = scrollee.scrollWidth;
+    return -(scrolleeWidth - window.innerWidth);
 }
 
-// Update active slider number based on scroll position
-function updateActiveSliderNumber(markerMove, markerMaxMove) {
-    const partWidth = markerMaxMove / 10;  // Assuming 10 parts/slides
-    let currentPart = Math.round((markerMove - 70) / partWidth) + 1;
-    currentPart = Math.min(10, Math.max(currentPart, 1));  // Clamp between 1 and 10
-    activeSlide.textContent = `${currentPart}/10`;
-}
-
-// Main update loop for smooth animations
-function update() {
-    current = lerp(current, target, ease);  // Smoothly transition to the target scroll position
-
-    // Apply the translation to the slider
-    sliderWrapper.style.transform = `translateX(${-current}px)`;
-
-    // Marker position logic (scroll indicator)
-    let moveRatio = current / maxScroll;
-    let markerMaxMove = window.innerWidth - markerWrapper.offsetWidth - 170;
-    let markerMove = 70 + moveRatio * markerMaxMove;
-
-    // Move the marker smoothly
-    markerWrapper.style.transform = `translateX(${markerMove}px)`;
-
-    // Update the active slider number display
-    updateActiveSliderNumber(markerMove, markerMaxMove);
-
-    // Continuously call update for smooth animation
-    requestAnimationFrame(update);
-}
-
-// Recalculate maxScroll on window resize to adapt to changes
-window.addEventListener("resize", () => {
-    maxScroll = sliderWrapper.scrollWidth - window.innerWidth;
+const tween = gsap.to(scrollee, {
+    x: getScrollAmount, // Move horizontally by the calculated amount
+    duration: 3, // This will not affect the actual scroll speed with scrub set to true
+    ease: "none", // No easing for a smooth scroll effect
 });
 
-// Handle mouse wheel events for scrolling
-window.addEventListener("wheel", (e) => {
-    target += e.deltaY * scrollSensitivity;  // Scroll increment
-
-    // Clamp the target to avoid scrolling out of bounds
-    target = Math.max(0, Math.min(maxScroll, target));
+ScrollTrigger.create({
+    trigger: ".scroller", // The element that triggers the scroll animation
+    start: "top top", // Start the scroll animation when the top of `.racesWrapper` hits the top of the viewport
+    end: () => `+=${scrollee.scrollWidth - window.innerWidth}`, // The scroll distance is the difference in widths
+    pin: true, // Pin the `.racesWrapper` while the animation is active
+    animation: tween, // Link the animation
+    scrub: 1, // Scrub allows syncing the animation with the scrollbar position
+    invalidateOnRefresh: true, // Recalculate on browser resize
+    markers: true // For debugging (you can remove this later)
 });
 
-// Initialize the animation loop
-update();
+
 
 
 /*usage narrative*/
