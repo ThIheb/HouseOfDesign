@@ -21,7 +21,11 @@
         font-weight: 900;
         font-style: normal;
       }
-      
+
+body{
+        cursor: url("images/shivaCursor.png"), auto;
+}
+
 #header>div {padding-top:1%;
         padding-bottom: 5%;}
 #footer {background-color: black;}
