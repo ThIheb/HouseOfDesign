@@ -26,26 +26,11 @@ body {
     background: #e1e1ff;
 }
 
-.lightBG {height:30vh;
+.lightBG {
  
     color: black;
     margin: 5%;
-    width: 100vw;
 
 }
 
-.space-20vh {
-    height: 20vh;
-}
 
-.space-30vh {
-    height: 30vh;
-}
-
-.space-50vh {
-    height: 50vh;
-}
-
-.space-100vh {
-    height: 100vh;
-}

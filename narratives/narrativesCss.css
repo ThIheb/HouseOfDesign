@@ -429,16 +429,21 @@ td:nth-child(even):hover {
     height: 2px;
 }
 
-/* documentation */
+/*spaces */
 
+
+
+/* documentation */
 body {
     margin: 0;
     overflow-x: hidden;
 }
 
 .scroller {
-    width: 100vw; /* Ensure the wrapper takes the full viewport width */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Ensure it takes up full viewport height */
     overflow: hidden; /* Hide any overflow content */
+    position: relative; /* Set relative positioning for pinning */
 }
 
 .scrollee {
@@ -447,39 +452,22 @@ body {
     flex-wrap: nowrap; /* Disable wrapping */
 }
 
-.scrollee_item {background-color: beige;
+.scrollee_item {
+    background-color: beige;
     margin: 5%;
-    width: 100vw;
-    height: 50vh;
-    
-}
-
-.scrollee h2:last-of-type {
-    background: #e1e1ff;
+    width: 100vw; /* Keep it full width */
+    height: 50vh; /* Adjust the height if necessary */
 }
 
 .lightBG {
-    background:white;
+    color: black;
+    margin: 5%;
 }
 
-.space-20vh {
-    height: 20vh;
+/* Add some padding to the tab content to avoid cutting off */
+.tab-content {
+    padding: 20px;
 }
-
-.space-30vh {
-    height: 30vh;
-}
-
-.space-50vh {
-    height: 50vh;
-}
-
-.space-100vh {
-    height: 100vh;
-}
-
-
-
 
 
 /*usage narrative*/
