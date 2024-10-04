@@ -435,39 +435,33 @@ td:nth-child(even):hover {
 
 /* documentation */
 body {
-    margin: 0;
     overflow-x: hidden;
 }
 
 .scroller {
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Ensure it takes up full viewport height */
-    overflow: hidden; /* Hide any overflow content */
-    position: relative; /* Set relative positioning for pinning */
+    width: 100vw; /* DO NOT CHANGE */
+    height: 70vh; 
+    overflow: hidden; 
+    position: relative; 
 }
 
 .scrollee {
-    width: fit-content; /* Allow the element to grow with the content */
+    width: fit-content; 
     display: flex;
-    flex-wrap: nowrap; /* Disable wrapping */
+    flex-wrap: nowrap; 
 }
 
 .scrollee_item {
-    background-color: beige;
-    margin: 5%;
-    width: 100vw; /* Keep it full width */
-    height: 50vh; /* Adjust the height if necessary */
+    margin: 3% 10% 2% 0;
+    width: 100vw; /* Keep it 100 nothing works otherwise */
+    height: 20vh; 
 }
 
 .lightBG {
     color: black;
-    margin: 5%;
 }
 
-/* Add some padding to the tab content to avoid cutting off */
-.tab-content {
-    padding: 20px;
-}
+
 
 
 /*usage narrative*/
