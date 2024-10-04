@@ -40,15 +40,17 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function slowLoop() {
-      setTimeout(function () {
-          showTime(timeline_events[i]);
-          timelineProgress(i + 1);
-          i++;
-          if (i < timeline_events.length) {
-              slowLoop();
-          }
-      }, 800);
-  }
+    setTimeout(function () {
+        if (timeline_events[i]) {  // Controllo che esiste un elemento
+            showTime(timeline_events[i]);
+            timelineProgress(i + 1);
+            i++;
+            if (i < timeline_events.length) {
+                slowLoop();
+            }
+        }
+    }, 800);
+}
 
   function timelineProgress(value) {
       let progress = `${(value / timeline_events.length) * 100}%`;
@@ -121,6 +123,23 @@ document.addEventListener('DOMContentLoaded', function () {
       i = 0;
       slowLoop();
   }
+
+  // Funzione per mostrare/nascondere i dettagli
+    // Funzionalità di "Tell me more"
+    document.querySelectorAll('.tell-more').forEach(button => {
+        button.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevenire il comportamento predefinito del link
+            const targetId = this.getAttribute('data-target'); // Identifica il contenuto corrispondente
+            
+            // Nascondi tutti i contenuti e rimuovi la classe "active"
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Mostra il contenuto corrispondente al bottone cliccato
+            document.getElementById(targetId).classList.add('active');
+        });
+    });
 
 
 
