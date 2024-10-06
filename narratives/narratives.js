@@ -39,7 +39,23 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-/*documentation*/
+/*spaces narrative*/
+const hiddenElements = document.querySelectorAll(".narrative_spaces");
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+  
+  hiddenElements.forEach((el) => observer.observe(el));
+  
+
+
+/*documentation
 
 window.onload = function() {
     const scrollee = document.querySelector(".scrollee");
@@ -72,16 +88,10 @@ const resizeObserver = new ResizeObserver(() => {
 });
 
 resizeObserver.observe(document.body);
-
-
-
-
-
-
-
+*/
 
 
 /*usage narrative*/
 $('.carousel').carousel({
-    interval: 2000
-  })
+    interval: 2000}
+);
