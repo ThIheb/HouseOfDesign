@@ -101,11 +101,11 @@ function createInfoTable(item) {
 				var value = item.info[key];
 				var id = key+"Row"
 				inner(key, item.info[key], true);
-				var row = document.getElementById(id).innerHTML;
-				console.log(key, id, row)
-				button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative(\'' + key + '\',\'' + value + '\')">' + row + '</a>';
+				var variable = document.getElementById(key).innerHTML;
+				console.log(key, id, variable);
+				button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
 				console.log(button)
-				inner(id, button, true);
+				inner(key, button, true);
 		}
 	}
 	
@@ -148,7 +148,7 @@ function prepareNavigationButtons(index) {
 	inner('narrative', currentNarrative + ": " + currentValue)
 }
 
-function changeNarrative(narrative, value) {
+function changeNarrative1(narrative, value) {
 	currentNarrative = narrative
 	currentValue = value
 	//$("#"+narrative+"Button").addClass("active")
