@@ -1,4 +1,4 @@
-var items = []
+/*var items = []
 var narratives = []
 var currentSelection = []
 var currentNarrative = ""
@@ -166,6 +166,23 @@ function hide(id) {
 function inner(id, content, emptyFirst = true) {
 	if (emptyFirst) document.getElementById(id).innerHTML = "";
 	document.getElementById(id).innerHTML += content;
-}
+}*/
+
+
+/*logo animation*/
+ScrollTrigger.create({
+    animation: gsap.to(".logo", {
+        top: "50px", 
+        scale: 0.3, 
+        ease: "power1.out", 
+    }),
+    scrub: true, 
+    trigger: ".content",
+    start: "top bottom", 
+    end: "top center", 
+	pin: true,
+});
+
+
 
 

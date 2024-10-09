@@ -67,7 +67,7 @@ window.onload = function() {
 
     const tween = gsap.to(scrollee, {
         x: getScrollAmount,
-        duration: 2,
+        duration: 3,
         ease: "none",
     });
 
@@ -79,7 +79,7 @@ window.onload = function() {
         animation: tween,
         scrub: 1,
         invalidateOnRefresh: true,
-        markers: false,
+        markers: true,
     });
 };
 
@@ -89,6 +89,7 @@ const resizeObserver = new ResizeObserver(() => {
 
 resizeObserver.observe(document.body);
 
+console.log(document.querySelector(".scrollee")); // Check if this is null or an element
 
 
 /*usage narrative*/
