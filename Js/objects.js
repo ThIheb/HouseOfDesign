@@ -97,28 +97,30 @@ function createInfoTable(item) {
 	// Populate first section based on firstSectionKeys
 	for (var key of firstSectionKeys) {
 		if (item.info[key] !== null && item.info[key] !== undefined) {
-			if (narratives.includes(key)) {
+			
 				var value = item.info[key];
 				var id = key+"Row"
 				inner(key, item.info[key], true);
-				var row = document.getElementById(id).innerHTML;
-				console.log(key, id, row)
-				inner(id, '<a role="button" href="#" onclick="changeNarrative(\'' + key + '\',\'' + value + '\')">' + row + '</a>', true);
-				 
-			} else {
-				inner(id, "<p> error </p>", true);
-			}
+				var variable = document.getElementById(key).innerHTML;
+				console.log(key, id, variable);
+				button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
+				console.log(button)
+				inner(key, button, true);
 		}
 	}
+	
+	
 	// Populate second section based on secondSectionKeys
-	for (var key of secondSectionKeys) {
-		if (item.info[key] !== null && item.info[key] !== undefined) {
-			if (narratives.includes(key)) {
+	for (var Secondkey of secondSectionKeys) {
+		if (item.info[Secondkey] !== null && item.info[key] !== undefined) {
+			if (narratives.includes(Secondkey)) {
 				var value = item.info[key];
-				inner(key, value, true)
+				inner(Secondkey, value, true)
+				Secondid = Secondkey+"Row"
 				 
 			} else {
-				inner(id, "<p> error </p>", true);
+				Secondid = Secondkey
+				inner(Secondid, "<p> error? </p>", true);
 			}
 		}
 	}
@@ -132,7 +134,7 @@ function prepareNavigationButtons(index) {
 	} else {
 		byId("buttonPrevious").disabled = true
 		byId("buttonPrevious").onclick = null
-		byId("buttonPrevious").innerHTML = "--"
+		byId("buttonPrevious").innerHTML = "None"
 	}
 	if (index < currentSelection.length - 1) {
 		byId("buttonNext").disabled = false
@@ -141,14 +143,15 @@ function prepareNavigationButtons(index) {
 	} else {
 		byId("buttonNext").disabled = true
 		byId("buttonNext").onclick = null
-		byId("buttonNext").innerHTML = "--"
+		byId("buttonNext").innerHTML = "None"
 	}
 	inner('narrative', currentNarrative + ": " + currentValue)
 }
 
-function changeNarrative(narrative, value) {
+function changeNarrative1(narrative, value) {
 	currentNarrative = narrative
 	currentValue = value
+	//$("#"+narrative+"Button").addClass("active")
 	prepareNarratives()
 }
 

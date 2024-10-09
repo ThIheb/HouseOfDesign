@@ -44,6 +44,7 @@ div.tableContainer {text-align: center;}
 table.mainMD {border-collapse: collapse;
                 table-layout: fixed;
                 width: 100%;
+                vertical-align: middle !important;
 }
 
 nav#headerNav a:hover {color: #f50045 !important;}
@@ -54,23 +55,35 @@ div#social i {height: 200%, !important;
 footer#footer div {padding:2%}
 
 table.mainMD tr {border: solid 1px black;
-                display:flex;
+                display: flex;
                 justify-content: space-between;
-                align-items: center !important;
+                vertical-align: middle; 
+                align-items: center;               
                 margin-bottom: 10px;
-                padding:15px;}
+                padding:15px;
+                font-size: small !important;}
 
 table.mainMD th {text-align: left;}
 
 
-table.mainMD tr:hover {background-color: #f50045;
+
+table.mainMD tr:hover{background-color: #f50045;
                         color:white;
                 border: solid 1px #f50045;}
+.active {
+        background-color: aqua;
+        color:blueviolet
+} 
+button.prevNxt:hover {  
+        background-color: #f50045;
+        color:white;
+        border: solid 1px #f50045;
+}
 
 table#otherMD {max-width: 100%;}
 table#otherMD th,td {font-size: small !important;
-                padding:1% !important;
-                padding-top: 4% !important;
+                
+                flex-grow: 0.5;
                 }
 
 div#descCarosel {margin-top: 10%;

@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="Js/objects.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title id="header">Object</title>
 </head>
 <body class="poppins-light">
@@ -55,12 +56,12 @@
                     <p class="d-inline">Bold</p><i class="bi bi-dot"></i><p class="d-inline">Ergonomic</p>
                     <i class="bi bi-dot"></i><p class="d-inline">Unique</p>
                 </div>
-                <div class="tableContainer container text-center">
+                <div class="tableContainer container">
                     <div class="row">
                         <div class="col-6">
                             <table class="mainMD">
                                 <tbody>
-                                    <tr id="DesignerRow"><th class="poppins-regular">author</th><td id="Designer" class="align-middle">Zanuso, Marco</td></tr>
+                                    <tr id="DesignerRow"><th class="poppins-regular">author</th><td id="Designer">Zanuso, Marco</td></tr>
                                     <tr id="SpaceRow"><th class="poppins-regular">room</th><td id="Space">Living room</td></tr>
                                 </tbody>
                             </table>
@@ -75,6 +76,12 @@
                         </div>
                     </div>
                 </div>
+                <div class="container text-center">
+                    <div class="row px-3">
+                    <button href="#" type="button" class=" col-4 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonPrevious">Previous</button>
+                    <h6 id="narrative" class="col-4 px-3"></h6>
+                    <button href="#" type="button" class="col-4 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonNext">Next</button>
+                    </div>
             </div>
         </div>
     </div>
@@ -112,11 +119,10 @@
             </div>
         </div>
     </div>
-    <div class="card-footer d-flex justify-content-between">
-        <button href="#" type="button" class="btn btn-outline-dark btn-sm"
-            id="buttonPrevious">Previous</button>
+    <div class="card-footer d-flex justify-content-between py-3">
+        <button href="#" type="button" class="btn btn-outline-dark btn-sm rounded-0 px-3 prevNxt" id="buttonPrevious">Previous</button>
         <h3 id="narrative"></h3>
-        <button href="#" type="button" class="btn btn-outline-dark btn-sm" id="buttonNext">Next</button>
+        <button href="#" type="button" class="btn btn-outline-dark btn-sm rounded-0 px-3 prevNxt" id="buttonNext">Next</button>
     </div>
     <footer id="footer" class="footer">
         <div id="footerLeft" class="container">
