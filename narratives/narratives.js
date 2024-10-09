@@ -1,3 +1,4 @@
+/*carouser designer narrative*/
 document.addEventListener('DOMContentLoaded', function () {
   let currentItem = 0; 
   const items = document.querySelectorAll('.carousel .designers .item');
@@ -39,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-/*spaces narrative*/
-const hiddenElements = document.querySelectorAll(".narrative_spaces");
+/*to make the content appear in a cool way*/
+const hiddenElements = document.querySelectorAll(".content_that_appears");
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -55,8 +56,7 @@ const observer = new IntersectionObserver((entries) => {
   
 
 
-/*documentation
-
+/*horizontal scrolling*/
 window.onload = function() {
     const scrollee = document.querySelector(".scrollee");
 
@@ -67,7 +67,7 @@ window.onload = function() {
 
     const tween = gsap.to(scrollee, {
         x: getScrollAmount,
-        duration: 3,
+        duration: 2,
         ease: "none",
     });
 
@@ -88,7 +88,7 @@ const resizeObserver = new ResizeObserver(() => {
 });
 
 resizeObserver.observe(document.body);
-*/
+
 
 
 /*usage narrative*/

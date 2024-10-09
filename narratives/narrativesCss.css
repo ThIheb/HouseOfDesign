@@ -321,11 +321,7 @@ button {
     margin-top: 1%;
 }
 
-button:onmouseover {
-    outline: none;
-    border: none !important;
-    background-color: transparent;
-}
+
 
 /* Map Page */
 .hidden {
@@ -365,49 +361,46 @@ g:hover .image-mapper-shape {
     flex: 50%;
 }
 
-table {
+
+.scrolldown {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
     width: 100%;
-    border-collapse: collapse;
-    overflow-x: auto;
-}
-
-table.scrolldown tbody,
-table.scrolldown thead {
-    display: block;
-}
-
-table.scrolldown {
-    width: 100%;
-}
-
-table.scrolldown tbody {
-    height: 80px;
+    
+    padding-right: 7%;
     overflow-y: auto;
-    overflow-x: hidden;
 }
 
-tbody td,
-thead th {
-    width: 250px;
+
+.scrolldown_heading {
+    grid-column: span 2;
+
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
-thead {
-    border-bottom: 1px solid rgb(0, 0, 0);
-    width: 95%;
-}
 
-th, td {
-    padding-top: 15px;
+.data.first {   
     text-align: left;
 }
 
-td:nth-child(even) {
+.data.second{
     text-align: right;
     color: #777;
+    cursor: pointer;
 }
 
-td:nth-child(even):hover {
+
+.data.second:hover {
     color: #000;
+}
+
+
+.scrolldown {
+    max-height: 120px; /* Adjust as needed */
+    overflow-y: auto;
+    
 }
 
 .text_apartment {
@@ -418,42 +411,44 @@ td:nth-child(even):hover {
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 2px;
+   
 }
 
 ::-webkit-scrollbar-track {
-    background: #c7c6c6;
+    background:#777;
+    margin-top: 55px; 
+    margin-bottom: 25px; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: black;
-    height: 2px;
+    background: rgb(0, 0, 0);
+    min-height: 20px;
 }
 
 /*spaces */
 
-.narrative_spaces{min-height: 80vh; 
+.content_that_appears{min-height: 85vh; 
 opacity:0;
 filter: blur(5px);
 transition: all 1s;}
 
-.narrative_spaces:nth-child(2){transition-delay:200ms ;}
-.narrative_spaces:nth-child(3){transition-delay:400ms ;}
-.narrative_spaces:nth-child(4){transition-delay:600ms ;}
 
 .show{opacity: 1;
     filter: blur(0);
+    transition: opacity 1s ease-in-out, filter 1s ease-in-out;
    }
 
-.thespace{display:flex;
+.thecontent{display:flex;
     flex-direction: row;
     gap: 7%;
 }
+.content_that_appears.topic{transition-delay: 800ms;}
 
-.thespace img{flex: 20%;
+.thecontent img{flex: 20%;
 border:1px solid black;
 object-fit: cover;
-width:50%;
-height:auto;
+width:350px;
+height: auto;
 }
 
 
@@ -498,7 +493,7 @@ body {
 
 .text-intro{
     flex: 95%; 
-    background-image: url("/images/Interior/1.png");
+    background-image: url("images/Interior/1.png");
     background-size: cover; 
     background-position: center; 
     

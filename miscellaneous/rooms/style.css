@@ -15,16 +15,16 @@ body {
     flex-wrap: nowrap; /* Disable wrapping */
 }
 
-.scrollee_item {background-color: beige;
+.scrollee_item {
     margin: 5%;
     width: 100vw;
     height: 50vh;
     
 }
 
-.scrollee h2:last-of-type {
-    background: #e1e1ff;
-}
+img{height: 100%;
+width: 100%;}
+
 
 .lightBG {
  
