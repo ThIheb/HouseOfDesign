@@ -101,14 +101,21 @@ function createInfoTable(item) {
 				var value = item.info[key];
 				var id = key+"Row"
 				inner(key, item.info[key], true);
-				var variable = document.getElementById(key).innerHTML;
-				console.log(key, id, variable);
-				button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
-				console.log(button)
-				inner(key, button, true);
+				//var row = document.getElementById(key).innerHTML;
+				//console.log(key, id, variable);
+				//button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
+
+				//console.log(button)
+				//inner(key, button, true);
 		}
 	}
-	
+	$(document).ready(function() {$(".narrativeButton").on('click', function() {
+        var narrative = $(this).find("td").attr("id");
+        var value = $(this).find("td").text();
+        changeNarrative1(narrative, value);
+		console.log(narrative, value)
+    });
+});
 	
 	// Populate second section based on secondSectionKeys
 	for (var Secondkey of secondSectionKeys) {
@@ -151,7 +158,6 @@ function prepareNavigationButtons(index) {
 function changeNarrative1(narrative, value) {
 	currentNarrative = narrative
 	currentValue = value
-	//$("#"+narrative+"Button").addClass("active")
 	prepareNarratives()
 }
 
