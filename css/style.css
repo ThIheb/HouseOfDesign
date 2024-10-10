@@ -29,10 +29,11 @@ font-family: 'Poppins', sans-serif;
 nav a {padding: 0 1em;}
 
 .graphiclogo {
-    display: none; 
-    width: 50%;
-    height: auto;
+    height: 20%;
+    width: auto;
 }
+
+.showsmall{display: none; }
 
 .nav-logo {
     width: 100px; 
@@ -83,7 +84,7 @@ nav a {padding: 0 1em;}
 
     
 
-    .graphiclogo {
+    .showsmall {
         display: block; 
     }
 
@@ -113,7 +114,6 @@ nav a {padding: 0 1em;}
     width: 100%;
     position: relative;
 }
-
 
 
 header{
