@@ -67,20 +67,18 @@ table.mainMD th {text-align: left;}
 
 
 
-table.mainMD tr:hover{background-color: #f50045;
-                        color:white;
-                border: solid 1px #f50045;}
-.active {
-        background-color: aqua;
-        color:blueviolet
-} 
+table.mainMD tr:hover, .ourButtons:hover {background-color: #f50045 !important;
+                        color:white !important;
+                border: solid 1px #f50045 !important;
+                }
+
 button.prevNxt:hover {  
         background-color: #f50045;
         color:white;
         border: solid 1px #f50045;
 }
 
-table#otherMD {max-width: 100%;}
+table#otherMD {table-layout: fixed;}
 table#otherMD th,td {font-size: small !important;
                 
                 flex-grow: 0.5;

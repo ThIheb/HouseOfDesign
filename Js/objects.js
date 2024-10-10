@@ -53,8 +53,10 @@ function showInfo(index) {
 	byId("img").src = item.image
 	byId("img").alt = item.shortName
 	createInfoTable(item)
-	inner("shortInfo", item.shortInfo + '<a type="button" class="btn btn-outline-dark btn-sm" onclick="more()">More</a>');
-	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm" onclick="less()">Less</a> or <a type="button" class="btn btn-outline-dark btn-sm" onclick="muchMore()">More</a></p>');
+	inner("shortInfo", item.shortInfo + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a>');
+	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a> or <a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p>');
+	hide("longerInfo")
+	hide("fullInfo")
 	byId("fullInfo").dataset['uri'] = item.fullInfo
 
 	prepareNavigationButtons(index)
@@ -92,7 +94,7 @@ function createInfoTable(item) {
 
 	// Define the keys that should go into each section
 	const firstSectionKeys = ["Designer", "Usage", "Space", "History"]; // Keys for the first section
-	const secondSectionKeys = ["Date of Project", "Dimensions", "Company", "Material", "Type"]; // Keys for the second section
+	const secondSectionKeys = ["Date of Project", "History", "Dimensions", "Company", "Material", "Type"]; // Keys for the second section
 
 	// Populate first section based on firstSectionKeys
 	for (var key of firstSectionKeys) {
@@ -114,24 +116,21 @@ function createInfoTable(item) {
         var value = $(this).find("td").text();
         changeNarrative1(narrative, value);
 		console.log(narrative, value)
-    });
-});
+		});
+	});
 	
 	// Populate second section based on secondSectionKeys
 	for (var Secondkey of secondSectionKeys) {
 		if (item.info[Secondkey] !== null && item.info[key] !== undefined) {
-			if (narratives.includes(Secondkey)) {
-				var value = item.info[key];
+				var value = item.info[Secondkey];
 				inner(Secondkey, value, true)
-				Secondid = Secondkey+"Row"
 				 
-			} else {
-				Secondid = Secondkey
-				inner(Secondid, "<p> error? </p>", true);
-			}
+		} else {
+			Secondid = Secondkey
+			inner(Secondid, "<p> error? </p>", true);
+		}
 		}
 	}
-}
 
 function prepareNavigationButtons(index) {
 	if (index > 0) {
