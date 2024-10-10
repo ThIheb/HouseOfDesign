@@ -10,6 +10,25 @@
 body{  overflow: hidden;
 }
 
+.topic {text-transform: uppercase;
+    font-family: "Assistant", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 2em;
+}
+
+.title {font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.des {
+    margin-top: 1.5em;
+    line-height: 2em;
+    font-size: 1rem;
+}
+
 /* Header */
 nav {
     padding: 0 80px;
@@ -21,12 +40,13 @@ nav {
     z-index: 100;
 }
 
+
 .container a, nav a {
     text-decoration: none !important;
     color: #000 !important;
 }
 
-.logo {
+.logo {font-family: "Glacial Indifference" sans-serif;
     font-size: 33px;
     color: #F50045 !important;
     font-weight: 600;
@@ -209,26 +229,7 @@ footer .right p {
     margin-bottom: 8%;
 }
 
-/* Topic and Title Styles */
-.topic {text-transform: uppercase;
-    font-family: "Assistant", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 2em;
-}
 
-.title {
-    font-family: 'Glacial Indifference', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-}
-
-.des {
-    margin-top: 1.5em;
-    line-height: 2em;
-    font-size: 1rem;
-}
 
 /* Carousel */
 .carousel {

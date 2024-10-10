@@ -28,6 +28,16 @@ font-family: 'Poppins', sans-serif;
 
 nav a {padding: 0 1em;}
 
+.graphiclogo {
+    display: none; 
+    width: 50%;
+    height: auto;
+}
+
+.nav-logo {
+    width: 100px; 
+    height: auto; 
+}
 
 .logo_container {text-transform: uppercase;
     display: flex;
@@ -37,9 +47,9 @@ nav a {padding: 0 1em;}
     position: relative; 
 }
 
-.logo {font-family: 'Glacial Indifference', sans-serif;
+.textlogo {font-family: 'Glacial Indifference', sans-serif;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color:#000;
     position: fixed; 
     top: 60%; 
@@ -47,6 +57,57 @@ nav a {padding: 0 1em;}
     transform: translate(-50%, -50%); 
     z-index: 2;
     opacity: 1;
+}
+
+@media (max-width: 992px) {
+    nav {
+        height: 80px; 
+        padding: 0 2em; 
+    }
+
+    .textlogo {
+        font-size: 3.5rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        height: 70px; 
+        padding: 0 1.5em; 
+        font-size: 0.9rem; 
+    }
+
+    nav a {
+        padding: 0 0.8em; 
+    }
+
+    
+
+    .graphiclogo {
+        display: block; 
+    }
+
+    .items_left{
+        display: none; 
+    }
+
+    .textlogo{animation-duration: 0;}
+}
+
+@media (max-width: 576px) {
+    nav {
+        height: 60px; 
+        padding: 0 1em; 
+    }
+
+    nav a {
+        padding: 0 0.5em; 
+    }
+
+    .logo {
+        font-size: 2.5rem; 
+        top: 50%; 
+    }
 }
 
 .content {
