@@ -92,7 +92,7 @@ resizeObserver.observe(document.body);
 console.log(document.querySelector(".scrollee")); // Check if this is null or an element
 
 
-/*usage narrative*/
+/*bootstrap carousel*/
 $('.carousel').carousel({
     interval: 2000}
 );

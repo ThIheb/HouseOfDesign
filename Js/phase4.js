@@ -175,6 +175,7 @@ ScrollTrigger.create({
         top: "50px", 
         scale: 0.3, 
         ease: "power1.out", 
+		color: "#F50045",
     }),
     scrub: true, 
     trigger: ".content",
