@@ -232,7 +232,7 @@ section{
     top: -80px; /* Sposta la didascalia sopra la data */
     width: 150px;
     background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    color: black;
     border-radius: 8px;
     text-align: center;
     padding: 10px;
