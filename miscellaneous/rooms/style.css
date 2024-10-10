@@ -4,6 +4,8 @@ body {
     overflow-x: hidden;
 }
 
+
+
 .scroller {
     width: 100vw; /* Ensure the wrapper takes the full viewport width */
     overflow: hidden; /* Hide any overflow content */
