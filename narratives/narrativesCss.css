@@ -7,8 +7,7 @@
     font-style: normal;
 }
 
-body{  overflow: hidden;
-}
+
 
 .topic {text-transform: uppercase;
     font-family: "Assistant", sans-serif;
@@ -30,15 +29,21 @@ body{  overflow: hidden;
 }
 
 /* Header */
-nav {
-    padding: 0 80px;
+
+nav{position: fixed;
+    width: 100%;
+    height: 6.25rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
-    position: relative;
-    z-index: 100;
-}
+    top:0;
+    background-color: #ffffff;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+main{margin-top:6.25rem ; }  
+ nav a {padding: 0 1em;}
 
 
 .container a, nav a {
@@ -46,14 +51,26 @@ nav {
     color: #000 !important;
 }
 
-.logo {font-family: "Glacial Indifference" sans-serif;
-    font-size: 33px;
-    color: #F50045 !important;
-    font-weight: 600;
-}
-
 nav .links a:not(:last-child) {
     margin-right: 20px;
+}
+
+
+.showsmall{display: none; }
+
+.nav-logo {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.textlogo {top: "50px";
+    scale: 21px;
+    color: #F50045 !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 2;
+    opacity: 1;
 }
 
 .youAreHere {
@@ -233,7 +250,7 @@ footer .right p {
 
 /* Carousel */
 .carousel {
-    height: 55vh;
+    height: 60vh;
     overflow: hidden;
     position: relative;
 }
@@ -354,12 +371,12 @@ g:hover .image-mapper-shape {
 }
 
 /* Intro Section */
-#intro {
+#intro {height: 70vh;
     display: flex;
     flex-direction: row;
     gap: 5%;
     align-items: flex-end;
-    margin: 5% 7%;
+    margin: 7%;
 }
 
 #svg_container {
@@ -372,15 +389,13 @@ g:hover .image-mapper-shape {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     width: 100%;
-    
+    gap: 2px;
     padding-right: 7%;
     overflow-y: auto;
 }
 
 
 .scrolldown_heading {
-    grid-column: span 2;
-
     font-weight: bold;
     padding-bottom: 5px;
     border-bottom: 1px solid black;

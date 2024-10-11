@@ -173,7 +173,7 @@ function inner(id, content, emptyFirst = true) {
 ScrollTrigger.create({
     animation: gsap.to(".textlogo", {
         top: "50px", 
-        scale: 0.3, 
+        scale: 0.25, 
         ease: "power1.out", 
 		color: "#F50045",
     }),
