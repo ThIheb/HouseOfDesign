@@ -7,8 +7,6 @@
     font-style: normal;
 }
 
-
-
 .topic {text-transform: uppercase;
     font-family: "Assistant", sans-serif;
     font-style: normal;
@@ -29,10 +27,9 @@
 }
 
 /* Header */
-
 nav{position: fixed;
     width: 100%;
-    height: 6.25rem;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,6 +148,7 @@ footer .right p {
     footer h3 {
         font-size: 38px;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -182,6 +180,8 @@ footer .right p {
         width: 100%;
         align-items: center;
     }
+
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -206,17 +206,17 @@ footer .right p {
         padding: 40px 20px;
     }
 
-    #intro {
+
+    .carousel .designers .item {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
     }
 }
 
 @media screen and (max-width: 576px) {
-    /* Add specific rules for smaller devices here */
 }
 
-/* Additional Styles */
+/* Additional nav */
 .container {
     margin-top: 3%;
 }
@@ -245,7 +245,6 @@ footer .right p {
 .tab-content {
     margin-bottom: 8%;
 }
-
 
 
 /* Carousel */
@@ -371,20 +370,74 @@ g:hover .image-mapper-shape {
 }
 
 /* Intro Section */
-#intro {height: 70vh;
+.map_and_spaces {height: 60vh;
     display: flex;
     flex-direction: row;
     gap: 5%;
     align-items: flex-end;
-    margin: 7%;
+    margin: 15% 7% 0 7%;
+   
 }
 
-#svg_container {
-    height: auto;
+#svg_container { 
+    width: 50%;
+    height:auto;
     flex: 50%;
 }
 
+#rooms_texts{flex: 50%; 
+   }
 
+   @media screen and (max-width: 1024px) {
+    .map_and_spaces {
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 10% 5%;
+    }
+
+    #svg_container {
+        width: 100%;
+        flex: none;
+    }
+
+    #rooms_texts {
+        width: 100%;
+        flex: none;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map_and_spaces {
+        margin: 5% 3%;
+        gap: 3%;
+    }
+
+    #svg_container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #rooms_texts {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .map_and_spaces {
+        margin: 5% 2%;
+    }
+
+    #svg_container {
+        width: 100%;
+    }
+
+    #rooms_texts {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
 .scrolldown {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -395,9 +448,8 @@ g:hover .image-mapper-shape {
 }
 
 
-.scrolldown_heading {
+.heading_scrolldown {
     font-weight: bold;
-    padding-bottom: 5px;
     border-bottom: 1px solid black;
 }
 
@@ -408,7 +460,7 @@ g:hover .image-mapper-shape {
 
 .data.second{
     text-align: right;
-    color: #777;
+    color: #a4a4a4;
     cursor: pointer;
 }
 
@@ -418,15 +470,15 @@ g:hover .image-mapper-shape {
 }
 
 
-.scrolldown {
-    max-height: 120px; /* Adjust as needed */
+.scrolldown {margin-top:2%;
+    max-height: 90px; 
     overflow-y: auto;
     
 }
 
 .text_apartment {
     margin: 15% 7%;
-    height: 70vh;
+    height: 60vh;
 }
 
 /* Custom Scrollbar */
@@ -437,7 +489,7 @@ g:hover .image-mapper-shape {
 
 ::-webkit-scrollbar-track {
     background:#777;
-    margin-top: 55px; 
+    margin-top: 8px; 
     margin-bottom: 25px; 
 }
 
@@ -449,8 +501,8 @@ g:hover .image-mapper-shape {
 /*spaces */
 
 .content_that_appears{height: 90vh; 
-    overflow: hidden;
-    width: 100%;
+overflow: hidden;
+width: 100%;
 opacity:0;
 filter: blur(5px);
 }
@@ -485,7 +537,6 @@ section {
     padding: 0;
     margin: 0;
 }
-
     
     
 .container_spaces_narrative {
@@ -495,7 +546,6 @@ section {
         max-height: 100vh;
     }
     
-
 
 
 /* documentation */
