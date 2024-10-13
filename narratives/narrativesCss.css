@@ -253,12 +253,12 @@ li{
 
 li p{
     position: absolute;
-    top: -270px; /* Sposta la didascalia sopra la data */
+    top: -265px; /* Sposta la didascalia sopra la data */
     width: 150px; /* la larghezza del riquadro */
     background-color: #f0ead7;
     color: black;
     border-radius: 8px;
-    text-align: match-parent;
+    text-align: left;
     padding: 10px;
     font-size: 12px;
     transform: translateY(-10px); /*!PER NON FARE VEDERE TUTTI I TESTI ALL'INIZIO!!*/
@@ -268,19 +268,21 @@ li p{
 }
 /* Stile per il bottone */
 a.tell-more {
-    position: absolute;
-    top: -110px;
-    width: 100px; /* la larghezza del riquadro */
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 8px;
-    text-align: center;
-    padding: 10px;
-    font-size: 12px;
-    color: #007bff;
-    text-decoration: underline;
+    padding: 5px 10px;
+    background-color: #f0ead7; /* Colore di sfondo simile ai bottoni di Bootstrap */
+    text-decoration: none; /* Rimuove la sottolineatura del link */
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease; 
+    font-size: 12,5px;
     cursor: pointer;
     display: block;
     margin-top: 5px;
+}
+
+.tell-more:hover {
+    background-color: #e6dcbd; /* Colore più scuro quando il link viene "hoverato" */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effetto di illuminazione con ombra */
+    font-weight: bold;
 }
 
 .date{
@@ -289,7 +291,7 @@ a.tell-more {
     font-size: 12px;
 
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: -68px;
     font-size: 16px;
 }
