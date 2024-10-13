@@ -217,6 +217,8 @@ footer .right p{
     margin-bottom: 8%; 
 }
 
+
+
 /* History */
 h1{
     margin-bottom: 40px;
@@ -226,51 +228,18 @@ section{
     margin: 20px 0;
 }
 
-/* Posizionamento della didascalia sopra la data */
-.tooltip {
-    position: absolute;
-    top: -80px; /* Sposta la didascalia sopra la data */
-    width: 150px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: black;
-    border-radius: 8px;
-    text-align: center;
-    padding: 10px;
-    font-size: 12px;
-}
-
-/* Stile per il bottone */
-a.tell-more {
-    color: #007bff;
-    text-decoration: underline;
-    cursor: pointer;
-    display: block;
-    margin-top: 5px;
-}
-
-/* Nascondi i contenuti extra inizialmente */
-.content-section {
-    display: none;
-    margin-top: 20px;
-}
-
-.content-section.active {
-    display: block; /* Mostra il contenuto extra quando si clicca */
-}
-
-
 .timeline{   /*!testo molto più in basso rispetto al titolo*/
-    margin: 225px 0;
-    padding: 15px;
+    margin: 250px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
+    padding: 10px;
 
     display: grid;
     grid-template-columns: 40% auto;
     justify-content: center;
 }
 
-ul{ /*!testi disposti orizzontalmente*/
-    margin-top: 30px; /*!pallini sulla linea*/
-    display: flex;  /*!testi orizzontalmente*/
+ul{
+    margin-top: 30px; /*!più alto/basso il numero più i pallini vanno giù/su */
+    display: flex;  /*!testi disposti orizzontalmente*/
     flex-direction:column;
     justify-content: center; /*!makes the timeline resposnive*/
     align-items: center;
@@ -279,30 +248,50 @@ ul{ /*!testi disposti orizzontalmente*/
 }
 
 li{
-    position: relative;
+    position: relative; /* così i testi sono uno accanto all'altro, se absolute uno sopra l'altro */
 }
 
 li p{
-    
+    position: absolute;
+    top: -270px; /* Sposta la didascalia sopra la data */
+    width: 150px; /* la larghezza del riquadro */
+    background-color: #f0ead7;
+    color: black;
+    border-radius: 8px;
+    text-align: match-parent;
+    padding: 10px;
+    font-size: 12px;
+    transform: translateY(-10px); /*!PER NON FARE VEDERE TUTTI I TESTI ALL'INIZIO!!*/
     opacity: 0;
-    transform: translateY(-10px);
     padding: 25px;
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: 1.5s;
 }
-
-li[done="true"] p {
-    opacity: 1;
-    transform: translateY(0);
+/* Stile per il bottone */
+a.tell-more {
+    position: absolute;
+    top: -110px;
+    width: 100px; /* la larghezza del riquadro */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
 }
 
 .date{
     opacity: 0;
     transition: 1.5s;
-    font-size: 16px;
+    font-size: 12px;
 
     position: absolute;
     top: 30px;
     left: -68px;
+    font-size: 16px;
 }
 
 .timeline-point { /*!puntini messi sopra i testi*/
@@ -310,9 +299,9 @@ li[done="true"] p {
     position: absolute;
 
     border-radius: 50%;
-    background: rgb(228,228,228);
-    width: 8px;
-    height: 8px;
+    background: #dfe0e5;
+    width: 10px;
+    height: 10px;
 
     top: 30px;  
     left: -6px;
@@ -320,7 +309,7 @@ li[done="true"] p {
 }
 
 .timeline-line{  /*!la riga timeline*/
-    background: rgb(228,228,228);
+    background: #cfcfd9;
     width: 4px;
     border-radius: 12px;
     position: relative;
@@ -329,7 +318,7 @@ li[done="true"] p {
 
 .timeline-innerline{  /*!la riga timeline*/
     position: absolute;
-    background: blue;
+    background: #f50045;
     height: 0%;
     width: 4px;
 
@@ -385,6 +374,7 @@ li[done="true"] p {
         height: 4px;
     }
 }
+
 
 
 /* Designers */
