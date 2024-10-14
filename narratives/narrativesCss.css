@@ -39,7 +39,8 @@ nav{position: fixed;
     font-family: 'Poppins', sans-serif;
     }
     
-main{margin-top:6.25rem ; }  
+main{margin:6.25rem  0 0 0; 
+width: 100%;}  
  nav a {padding: 0 1em;}
 
 
@@ -206,20 +207,22 @@ footer .right p {
         padding: 40px 20px;
     }
 
-
-    .carousel .designers .item {
-        display: flex;
-        flex-direction: column !important;
-    }
 }
 
 @media screen and (max-width: 576px) {
 }
 
 /* Additional nav */
-.container {
+.container {overflow-x: hidden; 
     margin-top: 3%;
 }
+
+.col-md-10 {
+    padding: 0 !important; 
+    margin: 0 !important; 
+} 
+
+.col-md-2{left: 0; }
 
 .nav-link.active {
     font-weight: 450;
@@ -247,47 +250,82 @@ footer .right p {
 }
 
 
+/*Narrative: Designers*/
 /* Carousel */
 .carousel {
-    height: 60vh;
-    overflow: hidden;
+    height: auto; 
     position: relative;
+    overflow: hidden; 
+    padding-right: 7%;
 }
 
 .carousel .designers {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    flex-wrap: nowrap;
 }
 
 .carousel .designers .item {
     flex: 0 0 100%;
-    display: flex;
-    flex-direction: row;
+    display: flex; 
+    justify-content: center;
 }
 
 .carousel .designers .item .intro {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
+    height: auto; 
+    padding: 0 0 7% 0;
+    
 }
 
 .carousel-image {
     width: 33%;
     height: auto;
+    object-fit: contain; 
     margin-left: 20px;
     margin-bottom: 20px;
+    max-width: 100%; 
 }
 
-.carousel .designers .item .text {
-    flex: 1;
+@media screen and (max-width: 1024px) {
+
+    .carousel .designers .item .intro {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .text {
+        width: 100%;
+        flex: none;
+    }
+
+    .carousel-image {
+        width: 60%;
+        height: auto;
+        margin-left: 0;
+        flex: none;
+        object-fit: contain; 
+    }
+
+    
 }
+
+@media screen and (max-width: 768px) {
+    .carousel-image {
+        width: 60%;
+    }
+}
+
 
 /* Arrows */
 .arrows {
     position: absolute;
     bottom: 2px;
     left: 10px;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -343,6 +381,88 @@ button {
     margin-top: 1%;
 }
 
+/*Narrative: spaces */
+
+.content_that_appears{height: 90vh; 
+    overflow: hidden;
+    width: 100%;
+    opacity:0;
+    filter: blur(5px);
+    padding-right: 7%;
+    }
+    
+    
+.show{opacity: 1;
+        filter: blur(0);
+        transition: opacity 1s ease-in-out, filter 1s ease-in-out;
+       }
+    
+.thecontent{display:flex;
+    flex-direction: row;
+    gap: 7%;
+    max-height: 100%;
+        
+ }
+
+ .content_that_appears h1{transition-delay: 2s;
+ }
+    
+.thecontent img{flex: 20%;
+    object-fit: contain;
+    width:50%;
+    height:auto;
+
+    
+    }
+    
+section {
+        scroll-snap-align: start;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        width:100%;
+    }
+        
+        
+.container_spaces_narrative {
+            scroll-snap-type: y mandatory;
+            overflow-y: auto; 
+            height: 100vh; 
+            max-height: 100vh;
+            width: 100%;
+
+        }
+
+
+        
+
+
+@media screen and (max-width: 1024px) {
+
+    .thecontent{display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        width: 100%;
+        height: 100%;
+
+     }
+           
+    .thecontent img{flex: none;
+        object-fit: contain;
+        width:60%;
+        height:auto;
+        
+        }
+    
+    
+            
+            
+     }
+        
+@media screen and (max-width: 768px) {
+            
+        }
 
 
 /* Map Page */
@@ -393,12 +513,13 @@ g:hover .image-mapper-shape {
         height: auto;
         flex-direction: column-reverse;
         align-items: center;
-        margin: 10% 5%;
+        margin: 10% 7%;
     }
 
     #svg_container {
-        width: 100%;
+        width: 75%;
         flex: none;
+        margin-top: 20px;
     }
 
     #rooms_texts {
@@ -410,14 +531,10 @@ g:hover .image-mapper-shape {
 
 @media screen and (max-width: 768px) {
     .map_and_spaces {
-        margin: 5% 3%;
+        margin: 5% 7%;
         gap: 3%;
     }
 
-    #svg_container {
-        width: 100%;
-        margin-bottom: 20px;
-    }
 
     #rooms_texts {
         width: 100%;
@@ -426,12 +543,10 @@ g:hover .image-mapper-shape {
 
 @media screen and (max-width: 576px) {
     .map_and_spaces {
-        margin: 5% 2%;
+        margin: 5% 7%;
     }
 
-    #svg_container {
-        width: 100%;
-    }
+   
 
     #rooms_texts {
         width: 100%;
@@ -497,55 +612,6 @@ g:hover .image-mapper-shape {
     background: rgb(0, 0, 0);
     min-height: 20px;
 }
-
-/*spaces */
-
-.content_that_appears{height: 90vh; 
-overflow: hidden;
-width: 100%;
-opacity:0;
-filter: blur(5px);
-}
-
-
-.show{opacity: 1;
-    filter: blur(0);
-    transition: opacity 1s ease-in-out, filter 1s ease-in-out;
-   }
-
-.thecontent{display:flex;
-    flex-direction: row;
-    gap: 7%;
-    max-height: 100%;
-    
-}
-.content_that_appears h1{transition-delay: 2s;
-}
-
-.thecontent img{flex: 20%;
-object-fit: contain;
-width:50%;
-height:auto
-
-}
-
-section {
-    height: 90vh; 
-    scroll-snap-align: start;
-    overflow: hidden;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-    
-    
-.container_spaces_narrative {
-        scroll-snap-type: y mandatory;
-        overflow-y: auto; 
-        height: 100vh; 
-        max-height: 100vh;
-    }
-    
 
 
 /* documentation */
