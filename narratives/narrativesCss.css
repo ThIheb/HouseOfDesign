@@ -64,7 +64,7 @@ nav .links a:not(:last-child) {
 
 .textlogo {top: "50px";
     scale: 21px;
-    color: #F50045 !important;
+    color:#d6054e !important;
     font-weight: 700;
     text-transform: uppercase;
     z-index: 2;
@@ -124,7 +124,7 @@ footer .right .social i {
 }
 
 footer .right .social i:hover {
-    color: #F50045;
+    color:#d6054e;
 }
 
 footer .right p {
@@ -233,12 +233,12 @@ footer .right p {
 }
 
 .nav-link:hover {
-    color: #F50045 !important;
+    color: #d6054e !important;
     background-color: transparent !important;
 }
 
 .nav-link.active:hover {
-    color: #F50045 !important;
+    color: #d6054e !important;
 }
 
 .nav-link {
@@ -485,7 +485,7 @@ section {
 }
 
 g:hover .image-mapper-shape {
-    fill: #F50045;
+    fill: #d6054e;
     transition: fill 0.4s;
     opacity: 20%;
 }
@@ -496,7 +496,7 @@ g:hover .image-mapper-shape {
     flex-direction: row;
     gap: 5%;
     align-items: flex-end;
-    margin: 15% 7% 0 7%;
+    margin: 15% 7% 7% 7%;
    
 }
 
@@ -592,10 +592,6 @@ g:hover .image-mapper-shape {
     
 }
 
-.text_apartment {
-    margin: 15% 7%;
-    height: 60vh;
-}
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
