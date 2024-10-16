@@ -175,7 +175,7 @@ h2.separator{
     padding: 0 80px;
     margin: 50px 0 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 30px;
 }
 
@@ -183,7 +183,7 @@ h2.separator{
 .information .item{
     padding: 20px;
     background: #fff;
-    border-radius: 18px;
+    border-radius: 0px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
@@ -517,7 +517,6 @@ td.details{
     align-items: center;
     padding: 20px;
     background-color: white;
-    border: 1px solid #ddd;
     width: 90vw;
     justify-content: space-between;
     margin: 5rem;
@@ -633,4 +632,11 @@ width: 100%;}
     align-items: center;
     margin-left:3rem;
     color:white
+}
+.top_box{
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 }
