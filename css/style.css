@@ -83,7 +83,6 @@ nav a {padding: 0 1em;}
     }
 
     
-
     .showsmall {
         display: block; 
     }
@@ -584,32 +583,20 @@ td.details{
 }
 
 .scrollee_item {
-    margin: 5%;
+
     width: 100vw;
-    height: 50vh;
-    
+    height: 80vh; 
+    display:flex;
+    flex-direction: row;
 }
 
 img{height: 100%;
 width: 100%;}
 
 
-.lightBG {
- 
-    color: black;
-    margin: 5%;
-
-}
-.scrolle_box{
-    display:flex;
-    flex-direction: row;
-    max-height: 100%;
-    height: 100%;
-}
-
-.title_scrolle{
+.title_scrolle{height: 100%;
     flex:50%;
-    color: red;
+    background-color: red;
 }
 .scrollee_box img{
     
