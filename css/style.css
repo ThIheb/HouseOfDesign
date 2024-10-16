@@ -510,3 +510,90 @@ td.details{
 .right .social i:hover{
     color: #F50045;
 }
+.container-objects{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 90vw;
+    justify-content: space-between;
+}
+.left-container{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maintitle{
+    font-size: 22rem;
+    color: red;
+    margin: 0;
+    font-weight: normal;
+    position: relative;
+    font-family: 'Glacial Indifference', sans-serif;
+    letter-spacing: -0.2em;
+    background-color: white;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+
+.small-nav{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}    
+.small-info{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.small-info div{
+    font-size: 30px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+}
+.subtitle{
+    font-size: 3em;
+    margin: 5px 0;
+}
+.line{
+    position:absolute;
+    top:35%;
+    width:100%;
+    height:3px;
+    background-color: #000;
+    z-index:1;
+}
+.scroller {
+    width: 100vw; /* Ensure the wrapper takes the full viewport width */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.scrollee {
+    width: fit-content; /* Allow the element to grow with the content */
+    display: flex;
+    flex-wrap: nowrap; /* Disable wrapping */
+}
+
+.scrollee_item {
+    margin: 5%;
+    width: 100vw;
+    height: 50vh;
+    
+}
+
+img{height: 100%;
+width: 100%;}
+
+
+.lightBG {
+ 
+    color: black;
+    margin: 5%;
+
+}
