@@ -609,20 +609,28 @@ width: 100%;}
 
 
 .title_scrolle{height: 100%;
-    flex:50%;
-    background-color: red;
-    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    align-content: center;
+    display:flex;
+    
+    
 }
 .scrollee_box img{
     
     flex:50%
 }
 .title{
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins' sans-serif ;
     align-items: center;
+    margin-top: 8rem;
+    margin-left: 3rem;
+    color:white
 }
 .des{
-    text-align: center;
+    text-align: left;
     align-items: center;
+    margin-left:3rem;
+    color:white
 }
