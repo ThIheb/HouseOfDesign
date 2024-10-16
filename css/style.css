@@ -520,48 +520,62 @@ td.details{
     border: 1px solid #ddd;
     width: 90vw;
     justify-content: space-between;
+    margin: 5rem;
 }
 .left-container{
     position: relative;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
 }
 .maintitle{
-    font-size: 22rem;
-    color: red;
-    margin: 0;
-    font-weight: normal;
-    position: relative;
-    font-family: 'Glacial Indifference', sans-serif;
-    letter-spacing: -0.2em;
-    background-color: white;
-    padding: 0 20px;
-    position: relative;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
 }
-
+.maintitle-1{
+    font-size: 20rem;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: red;
+    letter-spacing: -0.2em;
+    align-items: flex-start;
+}
 
 
 .small-nav{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
+    align-items: center;
+    
 }    
 .small-info{
     display:flex;
     justify-content: space-around;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    flex-direction: row;
+    
+    align-items: center;
+    gap:10rem
 }
-.small-info div{
-    font-size: 30px;
-    font-weight: bold;
+.box{
+    font-size: 2rem;
+
+}
+.description-1{
+    margin-top: 50px;
     display:flex;
-    justify-content: center;
+    margin-left: 80px;
+    flex-wrap: wrap;
+
 }
 .subtitle{
-    font-size: 3em;
-    margin: 5px 0;
+    font-size: 50px;
+    margin-top: -100px;
+    margin-left: 50px;
+    
 }
 .line{
     position:absolute;
@@ -583,7 +597,7 @@ td.details{
 }
 
 .scrollee_item {
-
+    
     width: 100vw;
     height: 80vh; 
     display:flex;
@@ -595,10 +609,28 @@ width: 100%;}
 
 
 .title_scrolle{height: 100%;
-    flex:50%;
-    background-color: red;
+    flex-direction: column;
+    background-color: black;
+    align-content: center;
+    display:flex;
+    
+    
 }
 .scrollee_box img{
     
     flex:50%
+}
+.title{
+    text-align: left;
+    font-family: 'Poppins' sans-serif ;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 3rem;
+    color:white
+}
+.des{
+    text-align: left;
+    align-items: center;
+    margin-left:3rem;
+    color:white
 }
