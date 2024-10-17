@@ -15,109 +15,113 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
-    <link href="narratives/narrativesCss.css" rel="stylesheet">
+    <link href="documentation.css" rel="stylesheet">
     
 </head>
 
 <body>
-    <nav>
-        <a href="index.html" class="logo">TTTTTT</a>
-        <div class="links">
-            <a href="index.html">Home</a>
-            <a href="narratives.html" >Narratives</a>
-            <a href="objects.html" >Objects</a>
-            <a href="map.html">Map</a>
-            <a href="aboutus.html">About us</a>
+  <nav>
+    <a href="#" class="graphiclogo showsmall"><img src="images/shivaCursor.png" alt="Logo" class="nav-logo"></a>
+    <div class="items_left">
+        <a href="aboutus.html">About us</a>
+        <a href="documentation.html">Documentation</a>
+    </div>
+    <a href="index.html" class="textlogo">House of design</a>
 
-        </div>
-    </nav>
+    <div class="items_right">
+        <a href="narratives.html">Narratives</a>
+        <a href="objs.html">Objects</a>
+        <a href="map.html">Map</a>
+    </div>
+  </nav>
 
-    
       
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Analysis</a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Target Users</a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Benchmarking</a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Design</a>
-            </div>
-          </div>
-          
-          <div class="col-md-10">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <h1>Documentation</h1>
-                <h4>Project Goals</h4>
-                <p>Main objective: create an engaging and informative website that highlights the artistic value of interior design objects, recontextualizes these objects in a concrete setting, and demonstrates their practical uses outside of a museum context, showcasing interior design as a significant form of art.</p>
-
-                <h5>Highlight the artistic value of the objects</h5>
-                <p>Emphasise the aesthetic significance of interior design objects and showcase the craftsmanship, creativity, and historical importance of various design styles and pieces</p>
-                <p>To be achieved using high-quality images and accurate 3d models, descriptions, and commentary that focus on the artistry of interior design.</p>
-
-                <h5>Recontextualize the objects</h5>
-                <p>Create virtual environments and interactive 3D models that allow users to visualise the objects and how they’re  integrated into interiors</p>
-
-                <h5>Showcase interior design as art</h5>
-                <p>Advocate for interior design as a legitimate and impactful form of art.
-                    Foster an appreciation for the artistic and intellectual contributions of interior designers and their work.
-                    </p>
-                
-                <h5>Our Vision</h5>
-                <p>To inspire and educate our audience about the rich history and artistic significance of interior design, while demonstrating its practical applications and ongoing relevance. Through this project, we aim to elevate the perception of interior design, celebrating it as a dynamic and influential form of art that enriches our lives and environments.
-                </p>
-
+      <section id="introduction" class="container">
+        <h1>Welcome to House of Design</h1>
+        <p>Explore the world of interior design, its artistic value, and the role it plays in shaping environments.</p>
+        <div class="button-group">
+          <button id="show-analysis" class="btn btn-primary">View Analysis</button>
+          <button id="show-target-users" class="btn btn-primary">View Target Users</button>
+          <button id="show-benchmarking" class="btn btn-primary">View Benchmarking</button>
+          <button id="show-design" class="btn btn-primary">View Design</button>
+        </div>
+      </section>
+    
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link" id="analysis-tab" href="#" data-room="analysis">Analysis</a>
+                <a class="nav-link" id="target-users-tab" href="#" data-room="target-users">Target Users</a>
+                <a class="nav-link" id="benchmarking-tab" href="#" data-room="benchmarking">Benchmarking</a>
+                <a class="nav-link" id="design-tab" href="#" data-room="design">Design</a>
               </div>
-              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
+            </div>
+    
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="content" id="analysis_text">
+                  <h1>Documentation</h1>
+                  <h4>Project Goals</h4>
+                  <p>Main objective: create an engaging and informative website that highlights the artistic value of interior design objects, recontextualizes these objects in a concrete setting, and demonstrates their practical uses outside of a museum context, showcasing interior design as a significant form of art.</p>
 
-                Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
-                
-                Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum.</div>
-              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
+                  <h5>Highlight the artistic value of the objects</h5>
+                  <p>Emphasise the aesthetic significance of interior design objects and showcase the craftsmanship, creativity, and historical importance of various design styles and pieces</p>
+                  <p>To be achieved using high-quality images and accurate 3d models, descriptions, and commentary that focus on the artistry of interior design.</p>
 
-                Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
-                
-                Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum.</div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <div class="space-50vh lightBG">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
-      
-                      Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
-                      
-                      Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum</div>
-      
-                <div class="scroller">
-                    <div class="scrollee">
-                        <div class="scrollee_item">
-                        <h1>Poppins</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <div class="scrollee_item">
+                  <h5>Recontextualize the objects</h5>
+                  <p>Create virtual environments and interactive 3D models that allow users to visualise the objects and how they’re  integrated into interiors</p>
+
+                  <h5>Showcase interior design as art</h5>
+                  <p>Advocate for interior design as a legitimate and impactful form of art.
+                      Foster an appreciation for the artistic and intellectual contributions of interior designers and their work.
+                      </p>
+                  
+                  <h5>Our Vision</h5>
+                  <p>To inspire and educate our audience about the rich history and artistic significance of interior design, while demonstrating its practical applications and ongoing relevance. Through this project, we aim to elevate the perception of interior design, celebrating it as a dynamic and influential form of art that enriches our lives and environments.
+                  </p>
+                </div>
+                <div class="content" id="target-users_text">Target Users Content</div>
+                <div class="content" id="benchmarking_text">Benchmarking Content</div>
+                  <div class="content" id="design_text">
+                    <div class="space-50vh lightBG">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
+          
+                          Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
+                          
+                          Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum</div>
+          
+                    <div class="scroller">
+                        <div class="scrollee">
+                            <div class="scrollee_item">
                             <h1>Poppins</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <div class="scrollee_item">
-                            <h1>Poppins</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="scrollee_item">
+                                <h1>Poppins</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="scrollee_item">
+                                <h1>Poppins</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-      
-                <div class="space-100vh lightBG">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
-        
-                        Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
-                        
-                        Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum
-                </div>
-        
+          
+                    <div class="space-100vh lightBG">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet.
+            
+                            Pellentesque varius viverra porttitor. In tempor quam lectus, et faucibus odio elementum at. Vivamus non mi efficitur, pulvinar mauris a, interdum nunc. Sed maximus lorem eu elit viverra pretium. Sed euismod vestibulum nibh vel convallis. In tempus mollis viverra. Pellentesque eleifend, velit a sagittis pharetra, neque elit consectetur lacus, vel pellentesque justo justo at diam. Nulla iaculis, arcu et euismod consectetur, nulla mi varius elit, vel auctor elit lorem non turpis.
+                            
+                            Pellentesque mattis ante nec tellus pulvinar, a malesuada augue ullamcorper. Sed fermentum elit vel commodo mollis. Quisque quam tortor, ultrices vitae libero ac, iaculis accumsan diam. Phasellus tincidunt magna ante, ut accumsan ipsum laoreet a. Nulla maximus in risus ac auctor. Etiam cursus porta lacus, at tempus velit. Nulla non nulla arcu. Phasellus et metus felis. Curabitur ac felis rhoncus, mollis nibh eu, vehicula lacus. Fusce orci turpis, hendrerit nec ante in, mattis venenatis ligula. Sed quis congue dolor. Sed tincidunt nulla id nunc interdum, vitae posuere nibh dictum
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </main>
     <footer>
         <h3>TTTTTT</h3>

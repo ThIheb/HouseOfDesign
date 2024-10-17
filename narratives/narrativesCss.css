@@ -614,24 +614,6 @@ g:hover .image-mapper-shape {
 /* documentation */
 
 
-.scroller {
-    width: 100vw; /* DO NOT CHANGE */
-    height: 70vh; 
-    overflow: hidden; 
-    position: relative; 
-}
-
-.scrollee {
-    width: fit-content; 
-    display: flex;
-    flex-wrap: nowrap; 
-}
-
-.scrollee_item {
-    margin: 3% 10% 2% 0;
-    width: 100vw; /* Keep it 100 nothing works otherwise */
-    height: 20vh; 
-}
 
 
 

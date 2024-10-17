@@ -19,3 +19,4 @@ document.getElementById('bathroom').addEventListener('click', () => showOrHide('
 document.getElementById('kitchen').addEventListener('click', () => showOrHide('kitchen'));
 document.getElementById('study').addEventListener('click', () => showOrHide('study'));
 document.getElementById('livingroom').addEventListener('click', () => showOrHide('livingroom'));
+

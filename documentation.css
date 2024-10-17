@@ -1,0 +1,289 @@
+/* Basic styling */
+* {padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.topic {text-transform: uppercase;
+    font-family: "Assistant", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 2em;
+}
+
+.title {font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.des {
+    margin-top: 1.5em;
+    line-height: 2em;
+    font-size: 1rem;
+}
+
+/* Header */
+nav{position: fixed;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0;
+    background-color: #ffffff;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+main{margin:6.25rem  0 0 0; 
+width: 100%;}  
+ nav a {padding: 0 1em;}
+
+
+.container a, nav a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+.showsmall{display: none; }
+
+.nav-logo {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.textlogo {top: "50px";
+    scale: 21px;
+    color:#d6054e !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 2;
+    opacity: 1;
+}
+
+.youAreHere {
+    font-weight: 450;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 800;
+}
+
+footer .right {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links {
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .links a {
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover {
+    color: #fff;
+}
+
+footer .right .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .social i {
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover {
+    color:#d6054e;
+}
+
+footer .right p {
+    font-size: 13px;
+    color: #777;
+}
+
+.social a {
+    color: #fff !important;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1400px) {
+    nav {
+        padding: 0 40px;
+    }
+
+    footer {
+        padding: 100px 40px;
+    }
+
+    footer h3 {
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    footer .links a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav a.logo {
+        font-size: 28px;
+    }
+
+    nav .links a {
+        font-size: 14px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    footer h3 {
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+
+    footer .right {
+        width: 100%;
+        align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    nav a.logo {
+        display: none;
+    }
+
+    nav .links a {
+        font-size: 12px;
+    }
+
+    nav .login button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* Additional nav */
+.container {overflow-x: hidden; 
+    margin-top: 3%;
+}
+
+.col-md-10 {
+    padding: 0 !important; 
+    margin: 0 !important; 
+} 
+
+.col-md-2{left: 0; }
+
+.nav-link.active {
+    font-weight: 450;
+}
+
+.nav-link {
+    background-color: transparent !important;
+}
+
+.nav-link:hover {
+    color: #d6054e !important;
+    background-color: transparent !important;
+}
+
+.nav-link.active:hover {
+    color: #d6054e !important;
+}
+
+.nav-link {
+    margin-left: -10%;
+}
+
+.tab-content {
+    margin-bottom: 8%;
+}
+
+
+
+/*actual content*/
+.scroller {
+    width: 100vw; /* DO NOT CHANGE */
+    height: 70vh; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.scrollee {
+    width: fit-content; 
+    display: flex;
+    flex-wrap: nowrap; 
+}
+
+.scrollee_item {
+    margin: 3% 10% 2% 0;
+    width: 100vw; /* Keep it 100 nothing works otherwise */
+    height: 20vh; 
+}
+
+
+.content {
+    display: none;
+}
+
+.visible {
+    display: block !important;  
+}
+
+.hidden {
+    display: none !important; 
+}
+
+.nav-pills {
+    display: none;
+}
