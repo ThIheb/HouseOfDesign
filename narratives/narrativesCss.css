@@ -261,9 +261,14 @@ li p{
     padding: 10px;
     font-size: 12px;
     transform: translateY(-10px); /*!PER NON FARE VEDERE TUTTI I TESTI ALL'INIZIO!!*/
-    opacity: 0;
+
     padding: 25px;
     transition: 1.5s;
+}
+
+li.active p {
+    opacity: 1;
+    transform: translateY(0);
 }
 /* Stile per il bottone */
 a.tell-more {
@@ -284,7 +289,6 @@ a.tell-more {
 }
 
 .date{
-    opacity: 0;
     transition: 1.5s;
     font-size: 12px;
 
@@ -321,13 +325,42 @@ a.tell-more {
     background: #f50045;
     height: 0%;
     width: 4px;
-
     top: 0%;
     left: 0%;
-
     transition: 1s linear;
     border-radius: 999px;
 }
+
+.add-information{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -200px; /* Sposta la didascalia sopra la data */
+}
+
+.info-section{
+    width: 70%;
+    margin: auto;
+    background-color: #f0ead7;
+    padding: 30px;
+    justify-content: center;
+    display: none; /* Nasconde tutte le sezioni all'inizio */;
+
+}
+
+h3{
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.info-section p{
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 13;
+}
+
 
 @media screen and (min-width:728px) {
     .timeline{

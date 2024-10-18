@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
               // Nascondi tutti gli eventi della timeline dopo quello cliccato
               timeline_events.forEach((ev, idx) => {
-                  if (idx >= index) {
+                  if (idx >= index +1 ) {
                       hideTime(ev);
                   }
               });
@@ -124,22 +124,36 @@ document.addEventListener('DOMContentLoaded', function () {
       slowLoop();
   }
 
-  // Funzione per mostrare/nascondere i dettagli
+
     // Funzionalità di "Tell me more"
     document.querySelectorAll('.tell-more').forEach(button => {
         button.addEventListener('click', function (e) {
             e.preventDefault(); // Prevenire il comportamento predefinito del link
+            
             const targetId = this.getAttribute('data-target'); // Identifica il contenuto corrispondente
             
-            // Nascondi tutti i contenuti e rimuovi la classe "active"
-            document.querySelectorAll('.content-section').forEach(section => {
-                section.classList.remove('active');
+            // Nascondi solo le sezioni info-section, senza nascondere i paragrafi sopra la linea del tempo
+            document.querySelectorAll('.info-section').forEach(section => {
+                section.style.display = 'none'; // Nasconde tutte le sezioni info-section
             });
+
+            // Mostra la sezione corrispondente (es. info-1950, info-1960, etc.)
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                targetSection.style.display = 'block'; // Mostra solo la sezione corrispondente
+            }
+
+            // Scorri la pagina verso la sezione aggiuntiva per migliorare l'esperienza utente
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+
             
-            // Mostra il contenuto corrispondente al bottone cliccato
-            document.getElementById(targetId).classList.add('active');
         });
     });
+
+
+
+
+
 
 
 
