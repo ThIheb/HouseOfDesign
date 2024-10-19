@@ -21,7 +21,7 @@
 }
 
 .des {
-    margin-top: 1.5em;
+    
     line-height: 2em;
     font-size: 1rem;
 }
@@ -287,3 +287,30 @@ footer .right p {
 .nav-pills {
     display: none;
 }
+
+
+#intro_to_intro{height: 60vh;
+margin:20% 10% 0 10%;
+text-align: center;
+
+}
+
+.chapter{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin:0 8% 5% 8%;
+padding:2%;
+}
+
+.chapter:hover{border: 1px solid black }
+
+.chapter h2{flex:20%;
+
+}
+.chapter div{flex:80%;
+}
+
+.chapter button{background-color: white;
+border: black;
+font-weight: bold;
+padding: 2px;}
