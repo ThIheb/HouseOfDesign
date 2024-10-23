@@ -177,6 +177,8 @@ h2.separator{
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    margin-bottom: 30px;
+    position:relative
 }
 
 
@@ -187,6 +189,11 @@ h2.separator{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     flex:1
+}
+.map_text{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
 }
 
 .information .item:hover{
@@ -525,15 +532,22 @@ td.details{
 }
 .lower_nav{
     height:90vh;
+    width:100vw;
+    
 }
 .map_low{
     display:flex;
     flex-direction: row;
-    flex:1
+    flex:1;
+    gap:20px;
 }
-.map_low{
-    position:relative;
-    padding-top:15%;
+.map iframe{
+    width: auto;
+    height:auto;
+    position:absolute;
+
+
+
 }
 .left-container{
     position: relative;

@@ -15,7 +15,8 @@
             "@sort": "algol11",
             "shortName": "Algol 11",
             "image": "images/algol11.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "https://www.designindex.it/foto/2/brionvega-algol-1964-grande.jpg",
+            "keywords":"Get, fucked, idiot",
             "info": {
                 "Name": "Algol 11",
                 "Type": "Portable Television",
@@ -28,6 +29,7 @@
                 "Material": "Plastic Body, metal, glass",
                 "Date of Project": "1964",
                 "Company": "Company_name"
+
             },
             "shortInfo": "A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, symbol of 1960s innovation and style.",
             "longerInfo": [
