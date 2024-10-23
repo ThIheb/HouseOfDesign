@@ -190,7 +190,7 @@ ScrollTrigger.create({
 	animation: tween, // Link the animation
 	scrub: 1, // Scrub allows syncing the animation with the scrollbar position
 	invalidateOnRefresh: true, // Recalculate on browser resize
-	markers: true // For debugging (you can remove this later)
+	markers: false // For debugging (you can remove this later)
 });
 
 
