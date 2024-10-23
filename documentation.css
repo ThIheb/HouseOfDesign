@@ -333,3 +333,10 @@ padding: 5px;}
 .chapter button:hover{color:#d6054e;
     }
     
+
+#disclamer{
+    padding: 10%;
+    background-color: #000;
+    color:white;
+    border-bottom: 1px solid white;
+  }
