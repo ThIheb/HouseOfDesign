@@ -78,8 +78,9 @@ button.prevNxt:hover {
         border: solid 1px #f50045;
 }
 
-table#otherMD {table-layout: fixed;}
-table#otherMD th,td {font-size: small !important;
+table#otherMD1, table#otherMD2 {table-layout: fixed;
+        }
+table#otherMD1 th,table#otherMD1 td, table#otherMD2 th, table#otherMD2 td {font-size: small !important;
                 
                 flex-grow: 0.5;
                 }

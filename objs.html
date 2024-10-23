@@ -24,17 +24,17 @@
           <div class="row">
             <!-- logo -->
             <div class="col-6">
-              <a href="">
+              <a href="index.html">
                 <img src="" alt="Logo" class="logo">
               </a>
             </div>
             <!-- nav -->
             <div class="col-6">
               <nav id="headerNav" class="d-flex justify-content-end">
-                <a href="#" class="link-body-emphasis link-underline-opacity-0 px-3">Narratives</a>
-                <a href="#" class="link-body-emphasis link-underline-opacity-0 px-3">Objects</a>
-                <a href="#" class="link-body-emphasis link-underline-opacity-0 px-3">Map</a>
-                <a href="#" class="link-body-emphasis link-underline-opacity-0 px-3">About us</a>
+                <a href="narratives.html" class="link-body-emphasis link-underline-opacity-0 px-3">Narratives</a>
+                <a href="objs.html" class="link-body-emphasis link-underline-opacity-0 px-3">Objects</a>
+                <a href="map.html" class="link-body-emphasis link-underline-opacity-0 px-3">Map</a>
+                <a href="aboutus.html" class="link-body-emphasis link-underline-opacity-0 px-3">About us</a>
               </nav>
             </div>
           </div>
@@ -42,10 +42,10 @@
       </header>
     <div id="main" class="container">
         <div class="row">
-            <div id="Img" class="col-7 align-items-center pe-5">
+            <div id="Img" class="col-xl-7 align-items-center pe-5 col-lg-12">
                 <img id="wireframeImg" class="img-fluid" src="rendered images/mixedAlgol.jpg" alt=""/>
             </div>
-            <div id="mainInfo" class="col-5 align-items-center ps-5 pt-5">
+            <div id="mainInfo" class="col-xl-5 align-items-center ps-5 pt-5 col-lg-12">
                 <h1 id="fullHeader" class="poppins-regular ps-3">ALGOL 11</h1>
                 <p id="type-info" class="ps-3">PORTABLE TV</p>
                 <div id="briefDesc" class="ps-3">
@@ -87,36 +87,47 @@
             </div>
         </div>
         <div class="container text-center ms-4 me-5 pb-5">
-            <div class="row mx-5 pb-5">
-            <button href="#" type="button" class=" col-3 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonPrevious">Previous</button>
-            <h7 id="narrative" class="col-6 px-3"></h7>
+            <div class="row mx-5 mx-md-1 pb-5">
+            <button href="#" type="button" class="col-3 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonPrevious">Previous</button>
+            <h7 id="narrative" class="col-6 lg-px-3"></h7>
             <button href="#" type="button" class="col-3 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonNext">Next</button>
             </div>
         </div>
     </div>
     
-    <div id="otherMetadata" class="container container-fluid py-5">
+    <div id="otherMetadata" class="container py-5">
         <div class="py-5">
             <h2>Key Information</h2>
-            <div class="">
-                <table id="otherMD" class="w-100 table table-borderless">
-                    <tbody>
-                        <tr><th>DATE PROJECT</th><th>DATE CREATION</th><th>DIMENSION</th><th>COMPANY</th>
-                            <th>MATERIAL</th><th>TYPE</th></tr>
-                        <tr><td id="Date of Project">1964</td>
-                            <td id="Date of Creation">1965</td>
-                            <td id="Dimensions">26x30x35</td>
-                            <td id="Company">Brionvega</td>
-                            <td id="Material">Metal</td>
-                            <td id="Type">Portable TV</td></tr>
-                    </tbody>
-                </table>
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <table id="otherMD1" class="table table-borderless px-0">
+                        <tbody>
+                            <tr><th>DATE PROJECT</th><th>DATE CREATION</th><th>DIMENSION</th></tr>
+                            <tr><td id="Date of Project">1964</td>
+                                <td id="Date of Creation">1965</td>
+                                <td id="Dimensions">26x30x35</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <table id="otherMD2" class="table table-borderless px-0">
+                        <tbody>
+                            <tr><th>COMPANY</th>
+                                <th>MATERIAL</th><th>TYPE</th></tr>
+                            <tr>
+                                <td id="Company">Brionvega</td>
+                                <td id="Material">Metal</td>
+                                <td id="Type">Portable TV</td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
-    <div id="descCarosel" class="container-fluid">
+    <div id="descCarosel" class="container">
         <div class="row">
-            <div id="description" class="col-6">
+            <div id="description" class="col-xl-6 col-md-12">
                 <p id="shortInfo">A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, 
                     an Italian electronics company. Unique, futuristic design and practical functionality, symbol of 1960s 
                     innovation and style.</p>
@@ -124,7 +135,7 @@
                 <p id="longerInfo"></p>
                 <p id="fullInfo"></p>
             </div>
-            <div class="col-6 p-0">
+            <div class="col-xl-6 col-md-12 p-0">
                 <img id="bottomImg" class="img-fluid w-100" src=""/>
             </div>
         </div>
