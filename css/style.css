@@ -260,7 +260,7 @@ footer .right .links a:hover{
 footer .right .social{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
 }
 
@@ -632,8 +632,7 @@ td.details{
     flex-direction: row;
 }
 
-img{height: 100%;
-width: 100%;}
+
 
 
 .title_scrolle{height: 100%;
