@@ -222,7 +222,8 @@ footer .right p {
     margin: 0 !important; 
 } 
 
-.col-md-2{left: 0; }
+.col-md-2{left: 0; 
+ margin: 0 !important; }
 
 .nav-link.active {
     font-weight: 450;
@@ -491,7 +492,7 @@ g:hover .image-mapper-shape {
 }
 
 /* Intro Section */
-.map_and_spaces {height: 60vh;
+.map_and_spaces {
     display: flex;
     flex-direction: row;
     gap: 5%;
