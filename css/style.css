@@ -173,11 +173,11 @@ h2.separator{
 
 .information{
     padding: 0 80px;
-    margin: 50px 0 80px;
+    margin: 0 0 0 80px;
     display: flex;
     justify-content: space-around;
     gap: 30px;
-    margin-bottom: 30px;
+    
     position:relative
 }
 
@@ -525,16 +525,16 @@ td.details{
     align-items: center;
     padding: 20px;
     background-color: white;
-    width: 90vw;
+  
     justify-content: space-between;
     margin: 5rem;
-    height:90vh;
+
 }
 .lower_nav{
     height:90vh;
-    width:100vw;
-    
+    margin-bottom: 20%;
 }
+
 .map_low{
     display:flex;
     flex-direction: row;
@@ -583,7 +583,6 @@ td.details{
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    
     align-items: center;
     gap:10rem
 }
