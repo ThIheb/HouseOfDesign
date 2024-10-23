@@ -50,16 +50,19 @@ function showInfo(index) {
 	inner("header", item.shortName);
 	inner("type-info", item.info.Type);
 	inner("fullHeader", item.shortName);
-	byId("img").src = item.image
-	byId("img").alt = item.shortName
+	byId("wireframeImg").src = item.image
+	byId("wireframeImg").alt = item.shortName
+	byId("bottomImg").src = item.secondImage
+	byId("bottomImg").alt = item.shortName
 	createInfoTable(item)
 	inner("shortInfo", item.shortInfo + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a>');
 	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a> or <a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p>');
 	hide("longerInfo")
 	hide("fullInfo")
-	byId("fullInfo").dataset['uri'] = item.fullInfo
+	inner("fullInfo", "<p>" + item.fullInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="hideFullInfo()">Less</a>')
 
 	prepareNavigationButtons(index)
+	prepareKeyWords(item)
 }
 
 function more() {
@@ -73,21 +76,14 @@ function less() {
 	hide("fullInfo");
 }
 function muchMore() {
-	var uri = byId("fullInfo").dataset['uri']
-	fetch(uri)
-		.then(response => response.text())
-		.then(data => {
-			inner("fullInfoContent", data);
-			hide("mainCard");
-			show("fullInfo");
-			window.scrollTo(0, 0)
-		})
+	hide("longerInfo");
+	hide("shortInfo");
+	show("fullInfo")
 }
 function hideFullInfo() {
 	hide("longerInfo");
 	show("shortInfo");
 	hide("fullInfo");
-	show("mainCard");
 }
 
 function createInfoTable(item) {
@@ -152,6 +148,13 @@ function prepareNavigationButtons(index) {
 		byId("buttonNext").innerHTML = "None"
 	}
 	inner('narrative', currentNarrative + ": " + currentValue)
+}
+
+function prepareKeyWords(item) {
+	var keywords = item.keywords.split(",")
+	console.log(keywords)
+	var kwDiv = '<p class="d-inline">'+keywords[0]+'</p><i class="bi bi-dot"></i><p class="d-inline">'+keywords[1]+'</p><i class="bi bi-dot"></i><p class="d-inline">'+keywords[2]+'</p>'
+	inner("keyWords", kwDiv, true)
 }
 
 function changeNarrative1(narrative, value) {
