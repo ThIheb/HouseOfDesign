@@ -288,11 +288,25 @@ footer .right p {
     display: none;
 }
 
+#introduction{
+    background-color: #000;
+color: white;
+}
 
 #intro_to_intro{height: 60vh;
-margin:20% 10% 0 10%;
+padding:15% 10% 30% 10%;
+
 text-align: center;
 
+}
+
+#introduction a{text-decoration: none;
+color: white;
+font-weight: bold;}
+
+#introduction a:hover{text-decoration: none;
+    color: #d6054e;
+    font-weight: bold;
 }
 
 .chapter{display: flex;
@@ -302,7 +316,7 @@ margin:0 8% 5% 8%;
 padding:2%;
 }
 
-.chapter:hover{border: 1px solid black }
+.chapter:hover{border: 1px solid white}
 
 .chapter h2{flex:20%;
 
@@ -310,7 +324,19 @@ padding:2%;
 .chapter div{flex:80%;
 }
 
-.chapter button{background-color: white;
-border: black;
+.chapter button{background-color: transparent;
+border: white;
+color:white;
 font-weight: bold;
-padding: 2px;}
+padding: 5px;}
+
+.chapter button:hover{color:#d6054e;
+    }
+    
+
+#disclamer{
+    padding: 10%;
+    background-color: #000;
+    color:white;
+    border-bottom: 1px solid white;
+  }
