@@ -229,11 +229,11 @@ section{
 }
 
 .timeline{   /*!testo molto più in basso rispetto al titolo*/
-    margin: 250px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
+    margin: 100px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
     padding: 10px;
 
     display: grid;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 80% auto; /*!percentuale più spostata a destra o a sinistra*/
     justify-content: center;
 }
 
@@ -249,21 +249,26 @@ ul{
 
 li{
     position: relative; /* così i testi sono uno accanto all'altro, se absolute uno sopra l'altro */
+    padding: 165px;
+    
 }
 
 li p{
     position: absolute;
-    top: -265px; /* Sposta la didascalia sopra la data */
     width: 150px; /* la larghezza del riquadro */
+    top: 10px;
+    right: 70px;
+    left: 100px;
+    
     background-color: #f0ead7;
     color: black;
     text-align: left;
-    padding: 10px;
+
     font-size: 12px;
     transform: translateY(-10px); /*!PER NON FARE VEDERE TUTTI I TESTI ALL'INIZIO!!*/
-
-    padding: 25px;
+    padding: 10px;
     transition: 1.5s;
+
 }
 
 li.active p {
@@ -289,11 +294,12 @@ a.tell-more {
 }
 
 .date{
+    position: absolute;
     transition: 1.5s;
-    font-size: 12px;
+    font-size: 15px;
 
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: -68px;
     font-size: 16px;
 }
@@ -335,7 +341,7 @@ a.tell-more {
     position: relative;
     display: flex;
     flex-direction: column;
-    top: -200px; /* Sposta la didascalia sopra la data */
+    top: -20px; /* Sposta la didascalia sopra la data */
 }
 
 .info-section{
@@ -365,6 +371,7 @@ h3{
 @media screen and (min-width:728px) {
     .timeline{
         display: block;
+        margin: 250px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
     }
 
     ul{ 
@@ -376,11 +383,17 @@ h3{
     }
     
     li p{
+        position: absolute;
+        top: -265px; /* Sposta la didascalia sopra la data */
+        right: 3px;
+        left: 3px;
+
         transform: translateY(-10px); /*!non vedo i testi*/
         opacity: 0;
-        padding: 0 20px;
+        padding:  10px;
         transition: 1.5s;
     }
+
 
     .date{
         position: absolute;
@@ -405,6 +418,36 @@ h3{
     .timeline-innerline{  /*!la riga timeline*/
         width: 0%;
         height: 4px;
+    }
+
+    .add-information{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: -230px; /* Sposta la didascalia sopra la data */
+    }
+    
+    .info-section{
+        width: 70%;
+        margin: auto;
+        background-color: #f0ead7;
+        padding: 30px;
+        justify-content: center;
+        display: none; /* Nasconde tutte le sezioni all'inizio */;
+    
+    }
+    
+    h3{
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+    .info-section p{
+        padding: 30px 40px;
+        text-align: center;
+        font-size: 13;
     }
 }
 
