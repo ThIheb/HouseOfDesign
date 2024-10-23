@@ -251,6 +251,238 @@ footer .right p {
 }
 
 
+/* History */
+h1{
+    margin-bottom: 40px;
+}
+
+section{
+    margin: 20px 0;
+}
+
+.timeline{   /*!testo molto più in basso rispetto al titolo*/
+    margin: 100px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 80% auto; /*!percentuale più spostata a destra o a sinistra*/
+    justify-content: center;
+}
+
+ul{
+    margin-top: 30px; /*!più alto/basso il numero più i pallini vanno giù/su */
+    display: flex;  /*!testi disposti orizzontalmente*/
+    flex-direction:column;
+    justify-content: center; /*!makes the timeline resposnive*/
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    position: relative; /* così i testi sono uno accanto all'altro, se absolute uno sopra l'altro */
+    padding: 165px;
+    
+}
+
+li p{
+    position: absolute;
+    width: 150px; /* la larghezza del riquadro */
+    top: 10px;
+    right: 70px;
+    left: 100px;
+    
+    background-color: #f0ead7;
+    color: black;
+    text-align: left;
+
+    font-size: 12px;
+    transform: translateY(-10px); /*!PER NON FARE VEDERE TUTTI I TESTI ALL'INIZIO!!*/
+    padding: 10px;
+    transition: 1.5s;
+
+}
+
+li.active p {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Stile per il bottone */
+a.tell-more {
+    padding: 5px 10px;
+    background-color: #f0ead7; /* Colore di sfondo simile ai bottoni di Bootstrap */
+    text-decoration: none; /* Rimuove la sottolineatura del link */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease; 
+    font-size: 12,5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+}
+
+.tell-more:hover {
+    background-color: #e6dcbd; /* Colore più scuro quando il link viene "hoverato" */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effetto di illuminazione con ombra */
+    font-weight: bold;
+}
+
+.date{
+    position: absolute;
+    transition: 1.5s;
+    font-size: 15px;
+
+    position: absolute;
+    top: 30px;
+    left: -68px;
+    font-size: 16px;
+}
+
+.timeline-point { /*!puntini messi sopra i testi*/
+    border: none;
+    position: absolute;
+
+    border-radius: 50%;
+    background: #dfe0e5;
+    width: 10px;
+    height: 10px;
+
+    top: 30px;  
+    left: -6px;
+    transition: 1.5s ease;
+}
+
+.timeline-line{  /*!la riga timeline*/
+    background: #cfcfd9;
+    width: 4px;
+    border-radius: 12px;
+    position: relative;
+    justify-self: end;
+}
+
+.timeline-innerline{  /*!la riga timeline*/
+    position: absolute;
+    background: #f50045;
+    height: 0%;
+    width: 4px;
+    top: 0%;
+    left: 0%;
+    transition: 1s linear;
+    border-radius: 999px;
+}
+
+.add-information{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -20px; /* Sposta la didascalia sopra la data */
+}
+
+.info-section{
+    width: 70%;
+    margin: auto;
+    background-color: #f0ead7;
+    padding: 30px;
+    justify-content: center;
+    display: none; /* Nasconde tutte le sezioni all'inizio */;
+
+}
+
+h3{
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.info-section p{
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 13;
+}
+
+
+@media screen and (min-width:728px) {
+    .timeline{
+        display: block;
+        margin: 250px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
+    }
+
+    ul{ 
+        flex-direction: row;
+    }
+    li{
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    li p{
+        position: absolute;
+        top: -265px; /* Sposta la didascalia sopra la data */
+        right: 3px;
+        left: 3px;
+
+        transform: translateY(-10px); /*!non vedo i testi*/
+        opacity: 0;
+        padding:  10px;
+        transition: 1.5s;
+    }
+
+
+    .date{
+        position: absolute;
+        top: -60px;
+        left:38%;
+    }
+    
+    .timeline-point { /*!puntini messi sopra i testi*/
+        width: 15px;
+        height: 15px;
+    
+        top: -40px;  
+        left: 40%;
+    }
+    
+    .timeline-line{  /*!la riga timeline*/
+        width: 100%;
+        height: 4px;
+ 
+    }
+    
+    .timeline-innerline{  /*!la riga timeline*/
+        width: 0%;
+        height: 4px;
+    }
+
+    .add-information{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: -230px; /* Sposta la didascalia sopra la data */
+    }
+    
+    .info-section{
+        width: 70%;
+        margin: auto;
+        background-color: #f0ead7;
+        padding: 30px;
+        justify-content: center;
+        display: none; /* Nasconde tutte le sezioni all'inizio */;
+    
+    }
+    
+    h3{
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+    .info-section p{
+        padding: 30px 40px;
+        text-align: center;
+        font-size: 13;
+    }
+}
+
 
 /*Narrative: Designers*/
 /* Carousel */
