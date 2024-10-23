@@ -521,6 +521,19 @@ td.details{
     width: 90vw;
     justify-content: space-between;
     margin: 5rem;
+    height:90vh;
+}
+.lower_nav{
+    height:90vh;
+}
+.map_low{
+    display:flex;
+    flex-direction: row;
+    flex:1
+}
+.map_low{
+    position:relative;
+    padding-top:15%;
 }
 .left-container{
     position: relative;
