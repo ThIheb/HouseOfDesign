@@ -100,7 +100,7 @@
             "info": {
                 "Name": "Enorme",
                 "Type": "Telephone",
-                "Designer": "Ettore Sottsass jr",
+                "Designer": "Ettore Jr. Sottsass",
                 "History": "1990",
                 "Usage": "Object",
                 "Space": "Living Room",
@@ -160,7 +160,7 @@
             },
             "shortInfo": "Mike Rutherford is an English guitarist, bassist, songwriter and singer, best known as co-founder of the rock band Genesis. Rutherford and keyboardist Tony Banks are the group's two continuous members.",
             "longerInfo": [
-                ""
+                "",""
             ],
             "fullInfo": ["",""]
         },
@@ -448,7 +448,7 @@
             "@sort": "16pesci",
             "shortName": "16 Pesci",
             "image": "images/firstImages/first16.png",
-            "secondImage": "images/objects/16pesci.png",
+            "secondImage": "images/objects/16pesci.jpg",
             "keywords":"Playful, sturdy, clever",
             "intro":"A simple but clever toy, 16 pesci educates as it entertains, encouraging learning through play.",
             "info": {
