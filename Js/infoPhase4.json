@@ -14,7 +14,7 @@
         {
             "@sort": "algol11",
             "shortName": "Algol 11",
-            "image": "images/algol11.png",
+            "image": "images/firstImages/firstalgol11.png",
             "secondImage": "https://www.designindex.it/foto/2/brionvega-algol-1964-grande.jpg",
             "keywords":"Get, fucked, idiot",
             "info": {
@@ -42,7 +42,7 @@
         {
             "@sort": "anthropus",
             "shortName": "Anthropus",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstantropus.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Anthropus",
@@ -66,7 +66,7 @@
         {
             "@sort": "626halogen",
             "shortName": "626 Halogen",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstalogena.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "626 Halogen",
@@ -90,7 +90,7 @@
         {
             "@sort": "enorme",
             "shortName": "Enorme Telephone",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstenorme.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Enorme",
@@ -114,7 +114,7 @@
         {
             "@sort": "carmencita",
             "shortName": "Carmencita",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstcarmencita.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Carmencita",
@@ -138,7 +138,7 @@
         {
             "@sort": "marocca",
             "shortName": "Marocca",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstmarocca.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Marocca",
@@ -160,7 +160,7 @@
         {
             "@sort": "capitello",
             "shortName": "Capitello",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstcapitello.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Capitello",
@@ -182,7 +182,7 @@
         {
             "@sort": "breras",
             "shortName": "Brera S",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstbrera.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Brera S",
@@ -204,7 +204,7 @@
         {
             "@sort": "shiva",
             "shortName": "Shiva",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstshiva.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Shiva",
@@ -227,7 +227,7 @@
         {
             "@sort": "linda",
             "shortName": "Linda",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstlinda.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Linda",
@@ -272,7 +272,7 @@
         {
             "@sort": "m24",
             "shortName": "M24",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstPC.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "M24",
@@ -294,7 +294,7 @@
         {
             "@sort": "mod.281oacrilica",
             "shortName": "mod. 281 o 'Acrilica'",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstolu.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "mod. 281 o 'Acrilica'",
@@ -316,7 +316,7 @@
         {
             "@sort": "optic",
             "shortName": "Optic",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstoptic.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Optic",
@@ -340,7 +340,7 @@
         {
             "@sort": "joy",
             "shortName": "Joy",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstlibrary.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Joy",
@@ -362,7 +362,7 @@
         {
             "@sort": "leonardo",
             "shortName": "Leonardo",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firstleonardo.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Leaonardo",
@@ -384,7 +384,7 @@
         {
             "@sort": "tonietta",
             "shortName": "Tonietta",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/firsttonietta.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "Tonietta",
@@ -406,7 +406,7 @@
         {
             "@sort": "16pesci",
             "shortName": "16 Pesci",
-            "image": "imgs/TonyLevin.jpeg",
+            "image": "images/firstImages/first16.png",
             "secondImage": "imgs/TonyLevin.jpeg",
             "info": {
                 "Name": "16 Pesci",
