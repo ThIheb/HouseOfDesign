@@ -100,7 +100,7 @@
             "info": {
                 "Name": "Enorme",
                 "Type": "Telephone",
-                "Designer": "Ettore Sottsass jr",
+                "Designer": "Ettore Jr. Sottsass",
                 "History": "1990",
                 "Usage": "Object",
                 "Space": "Living Room",
@@ -120,7 +120,7 @@
             "image": "images/firstImages/firstcarmencita.png",
             "secondImage": "images/objects/14.png",
             "keywords":"Unmistakable, reliable, vivacious",
-            "intro":"A timeless icon, coveted by coffee lovers: to use and flaunt, Carmencita is the perfect synthesis ofaesthetics and functionality",
+            "intro":"A timeless icon, coveted by coffee lovers: to use and flaunt, Carmencita is the perfect synthesis of aesthetics and functionality",
             "info": {
                 "Name": "Carmencita",
                 "Type": "Coffee Maker",
@@ -160,7 +160,7 @@
             },
             "shortInfo": "Mike Rutherford is an English guitarist, bassist, songwriter and singer, best known as co-founder of the rock band Genesis. Rutherford and keyboardist Tony Banks are the group's two continuous members.",
             "longerInfo": [
-                ""
+                "",""
             ],
             "fullInfo": ["",""]
         },
@@ -448,7 +448,7 @@
             "@sort": "16pesci",
             "shortName": "16 Pesci",
             "image": "images/firstImages/first16.png",
-            "secondImage": "images/objects/16pesci.png",
+            "secondImage": "images/objects/16pesci.jpg",
             "keywords":"Playful, sturdy, clever",
             "intro":"A simple but clever toy, 16 pesci educates as it entertains, encouraging learning through play.",
             "info": {
