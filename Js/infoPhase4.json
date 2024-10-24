@@ -15,8 +15,9 @@
             "@sort": "algol11",
             "shortName": "Algol 11",
             "image": "images/firstImages/firstalgol11.png",
-            "secondImage": "https://www.designindex.it/foto/2/brionvega-algol-1964-grande.jpg",
+            "secondImage": "images/objects/18.png",
             "keywords":"Get, fucked, idiot",
+            "intro":"Algol 11 has always been there, with its bold way of presenting itself, totally turned towards us, portable to be like all the things you fall in love with, inseparable",
             "info": {
                 "Name": "Algol 11",
                 "Type": "Portable Television",
@@ -43,7 +44,9 @@
             "@sort": "anthropus",
             "shortName": "Anthropus",
             "image": "images/firstImages/firstantropus.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/16.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "Anthropus",
                 "Type": "Armchair",
@@ -61,13 +64,15 @@
                 "He has worked extensively as a session musician and collaborator, notably with David Bowie, Blondie, Brian Eno, Peter Gabriel, Daryl Hall, The Roches, Talking Heads, and David Sylvian.",
                 "He also composed the startup sound of Windows Vista operating system, in collaboration with Tucker Martine and Steve Ball. His discography includes contributions to over 700 official releases."
             ],
-            "fullInfo": "docs/RobertFripp.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "626halogen",
             "shortName": "626 Halogen",
             "image": "images/firstImages/firstalogena.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/alogena.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "626 Halogen",
                 "Type": "Floor Lamp",
@@ -79,19 +84,19 @@
                 "Dimensions": "24 x 24 x 203h",
                 "Material": "Metal/Aluminium"
             },
-            "shortInfo": "Bill Bruford is an English former drummer and percussionist who first gained prominence as a founding member of the progressive rock band Yes, member of King Crimson, Roy Harper, and U.K., as well as touring with Genesis.",
-            "longerInfo": [
-                "Bill Bruford is an English former drummer and percussionist who first gained prominence as a founding member of the progressive rock band Yes. After leaving Yes in 1972, Bruford spent the rest of the 1970s recording and touring with King Crimson (1972–1974), Roy Harper (1975), and U.K. (1978), as well as touring with Genesis (1976). In 1978, he formed his own group, Bruford, which was active until 1980.",
-                "During the 1980s, Bruford returned to King Crimson for three years (1981–1984), collaborated with several artists (including Patrick Moraz and David Torn), and formed his own electric jazz band Earthworks in 1986. He then played with his former Yes bandmates in Anderson Bruford Wakeman Howe, which eventually led to a very brief second stint in Yes. Bruford played in King Crimson for his third and final tenure from 1994 to 1997, then continued with a new acoustic configuration of Earthworks.",
-                "On 1 January 2009, Bruford retired from professional drumming, only briefly returning for a few private gigs. He has pursued other projects since then, including the operation of his two record labels, Summerfold and Winterfold, releasing an autobiography in 2009, and speaking and writing about music. In 2016, after four and a half years of study, Bruford received a PhD in Music from the University of Surrey. That year, Bruford ranked No. 16 on Rolling Stone's list of the \"100 Greatest Drummers of All Time\". In 2017, Bruford was inducted into the Rock and Roll Hall of Fame as a member of Yes."
+            "shortInfo": "A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance",
+            "longerInfo": ["A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance","Designed with both form and function in mind, 626 Alogena with its slim profile and metallic finish embodies a modern design approach. The simple geometric shape of the lamp allows it to be suitable for offices and living spaces. "
             ],
-            "fullInfo": "docs/BillBruford.html"
-        },
+            "fullInfo": ["A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance","Designed with both form and function in mind, 626 Alogena with its slim profile and metallic finish embodies a modern design approach. The simple geometric shape of the lamp allows it to be suitable for offices and living spaces. ",
+            "The adjustable light head provides directional control, adding to the versatility for reading, working or highlighting specific spaces in a room. The minimalist design blends in with contemporary settings without overshadowing elements around it. Using a Halogen bulb, a bright crisp white light enhances visibility and creates a focused environment."
+    ]},
         {
             "@sort": "enorme",
             "shortName": "Enorme Telephone",
             "image": "images/firstImages/firstenorme.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/enorme.png",
+            "keywords":"Joyful, lovable, playful",
+            "intro":"Enorme was designed by Sottsass with the spirit of discovering the joyful possibilities of ordinary objects. With its lovable silhouette and playful colours, it’s more of a plaything than a telephone.",
             "info": {
                 "Name": "Enorme",
                 "Type": "Telephone",
@@ -103,19 +108,19 @@
                 "Dimensions": "19.3 x 10.3 x 6h",
                 "Material": "ABS polymer casing"
             },
-            "shortInfo": "Philip David Charles Collins LVO (born 30 January 1951) is an English singer, drummer, songwriter, record producer and actor. He was the drummer and later became the lead singer of the rock band Genesis and had a successful solo career, achieving three UK number one singles and seven US number one singles as a solo artist. In total, his work with Genesis, other artists, and solo resulted in more US top-40 singles than any other artist throughout the 1980s. His most successful singles from the period include \"In the Air Tonight\", \"Against All Odds (Take a Look at Me Now)\", \"One More Night\", \"Sussudio\", \"Another Day in Paradise\" and \"I Wish It Would Rain Down\"",
-            "longerInfo": [
-                "Born and raised in west London, Collins began playing drums at age five. During the same period he attended drama school which secured him various roles as a child actor. His first major role was the Artful Dodger in the West End production of the musical Oliver!. As an accomplished professional actor by his early teens, he pivoted to pursue a music career, becoming the drummer for Genesis in 1970, at age 19. He took over the role of lead singer in 1975 following the departure of Peter Gabriel. During the second half of the 1970s, in-between Genesis albums and tours, Collins was also the drummer of jazz rock band Brand X. Collins began a successful solo career in the 1980s, initially inspired by his marital breakdown and love of soul music, releasing the albums Face Value (1981), Hello, I Must Be Going (1982), No Jacket Required (1985) and ...But Seriously (1989). Collins became, in the words of AllMusic, \"one of the most successful pop and adult contemporary singers of the '80s and beyond\". He also became known for a distinctive gated reverb drum sound on many of his recordings. He played drums on the 1984 charity single \"Do They Know It's Christmas?\", and in July 1985, he was the only artist to perform at both Live Aid concerts. He also resumed his acting career, appearing in Miami Vice and subsequently starring in the film Buster (1988).",
-                "Collins left Genesis in 1996 to focus on solo work; this included writing songs for Disney's animated film Tarzan (1999). He wrote and performed the songs, \"Two Worlds\", \"Son of Man\", \"Strangers Like Me\" and \"You'll Be in My Heart\", the latter of which earned him the Academy Award for Best Original Song. He rejoined Genesis for their Turn It On Again Tour in 2007. Following a five-year retirement to focus on his family life, Collins released his memoir in 2016 and completed his Not Dead Yet Tour in 2019. He then rejoined Genesis in 2020 for a second reunion tour, ending in March 2022.",
-                "Collins's discography includes eight studio albums that have sold 33.5 million certified units in the US and an estimated 150 million records sold worldwide, making him one of the world's best-selling artists. He is one of only three recording artists, along with Paul McCartney and Michael Jackson, who have sold over 100 million records both as solo artists and separately as principal members of a band. He has won eight Grammy Awards, six Brit Awards (winning Best British Male Artist three times), two Golden Globe Awards, one Academy Award, and a Disney Legend Award. He was awarded six Ivor Novello Awards from the British Academy of Songwriters, Composers and Authors, including the International Achievement Award. He received a star on the Hollywood Walk of Fame in 1999, and was inducted into the Songwriters Hall of Fame in 2003 and the Rock and Roll Hall of Fame as a member of Genesis in 2010. He has also been recognised by music publications with induction into the Modern Drummer Hall of Fame in 2012, and the Classic Drummer Hall of Fame in 2013."
-            ],
-            "fullInfo": "docs/PhilCollins.html"
+            "shortInfo": "The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design." ,
+            "longerInfo": ["The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.","Sottsass and Kelley alongside Jean Pigozzi formed the Enorme Corporation in order to produce the telephone. As a play on the name of the telephone, Sottsass drew a sumo wrestler to use as a corporate logo (against the designer Shiro Kuramata’s advice that the wrestler in this context exploited a Japanese stereotype)"
+        ],
+            "fullInfo": ["The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.","Sottsass and Kelley alongside Jean Pigozzi formed the Enorme Corporation in order to produce the telephone. As a play on the name of the telephone, Sottsass drew a sumo wrestler to use as a corporate logo (against the designer Shiro Kuramata’s advice that the wrestler in this context exploited a Japanese stereotype)",
+        "Like the Valentine typewriter, the Enorme added an element of joy to what was considered a purely utilitarian object. Its ties with the Memphis Group’s stylistic features can be seen from the bold, almost cartoonish shapes and colours. The phone’s oversized, sculptural form defies traditional design expectations, favouring artistic expression over functional minimalism. It blends industrial design with postmodern art, emphasising individuality and a break from modernist rigidity. The use of plastic materials and bold patterns also reflects Memphis's embrace of pop culture and kitsch, making everyday objects into art pieces. This design exemplifies the Memphis Group’s philosophy of combining form and function with whimsy, elevating the telephone into an iconic symbol of postmodern design"]
         },
         {
             "@sort": "carmencita",
             "shortName": "Carmencita",
             "image": "images/firstImages/firstcarmencita.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/14.png",
+            "keywords":"Unmistakable, reliable, vivacious",
+            "intro":"A timeless icon, coveted by coffee lovers: to use and flaunt, Carmencita is the perfect synthesis ofaesthetics and functionality",
             "info": {
                 "Name": "Carmencita",
                 "Type": "Coffee Maker",
@@ -139,7 +144,9 @@
             "@sort": "marocca",
             "shortName": "Marocca",
             "image": "images/firstImages/firstmarocca.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/morocca.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "Marocca",
                 "Type": "Chair",
@@ -155,13 +162,15 @@
             "longerInfo": [
                 ""
             ],
-            "fullInfo": "docs/MikeRutherford.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "capitello",
             "shortName": "Capitello",
             "image": "images/firstImages/firstcapitello.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/15.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "Capitello",
                 "Type": "Table",
@@ -177,13 +186,15 @@
             "longerInfo": [
                 ""
             ],
-            "fullInfo": "docs/SteveHackett.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "breras",
             "shortName": "Brera S",
             "image": "images/firstImages/firstbrera.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/lamp.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "Brera S",
                 "Type": "Pendant Lamp",
@@ -199,13 +210,15 @@
             "longerInfo": [
                 ""
             ],
-            "fullInfo": "docs/AdrianBelew.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "shiva",
             "shortName": "Shiva",
             "image": "images/firstImages/firstshiva.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/shiva.png",
+            "keywords":"Strong, eccentric, charismatic",
+            "intro":"Shiva stands out from many of the ornaments you might find in your typical household, let’s be honest. So much so, that you may find yourself gazing at its sapiently crafted shapes more frequently than you could imagine.",
             "info": {
                 "Name": "Shiva",
                 "Type": "Vase",
@@ -217,18 +230,21 @@
                 "Dimensions": "18 x 7 x 24.5h",
                 "Material": "Pink glazed ceramic"
             },
-            "shortInfo": "Stefan Burnett, better known by his stage name MC Ride or simply Ride, is an American poet, rapper, songwriter, and visual artist. He is the vocalist, but not the frontman of experimental hip hop group Death Grips. He began his career in the late 1990s, before forming Death Grips with drummer Zach Hill and keyboardist Andy Morin in 2010. While within the group, Ride has garnered attention for his aggressive rapping style and cryptic lyrics.",
+            "shortInfo": "The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
             "longerInfo": [
-                "Burnett began performing under the alias \"Mxlplx\", forming a hip hop group called Fyre with his brother (who uses the name Swank) and another Sacramento-based rapper called Young G. The project came to an end after his brother got married and was unable to continue with the group During this time, he worked at Paesano's Midtown as well as Pushkin's Bakery in Sacramento and pursued a career as a painter.",
-                "In 2010, Burnett took on the name \"Ride\" and formed Death Grips with his next door neighbor, Zach Hill, who was known for his drumming work with the band Hella and his session work. Hill soon brought friend and producer Andy Morin into the group, and they began working together. In March 2011, Death Grips released their self-titled debut EP. One month later, they released the mixtape Exmilitary, which received critical acclaim and attention from music publications. The group signed to Epic Records in 2012, and released their debut album, The Money Store, soon after."
-            ],
-            "fullInfo": "docs/StefanBurnett.html"
+                "The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",               
+            "Designed during a love trip to Barcelona in 1971, Shiva embodies in its design the essence and vision of this bold period in design history. The result is an object that brilliantly challenges conventions, in a modern interpretation of the linga, symbol of the Indian deity, which the designer was struck by during one of his trips to India."],
+            "fullInfo": ["The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",               
+            "Designed during a love trip to Barcelona in 1971, Shiva embodies in its design the essence and vision of this bold period in design history. The result is an object that brilliantly challenges conventions, in a modern interpretation of the linga, symbol of the Indian deity, which the designer was struck by during one of his trips to India.",
+        "This piece displays Sottsass's penchant for adopting, but at the same time subverting, traditional forms. The hot pink colour, while seemingly inconsistent with the sombre nature of a religious object, reflects Sottsass's fascination with the bright colours that pervade both the clothing and the architecture of India, which he incorporated into his architectural projects as well. After completing the Shiva vase, Sottsass wrote, “I continue to produce small, small, small architectures, such as this ceramic piece, for example, a little like monuments, a little like tombs, a little like the abandoned temples of the gods, a little like the ruins of the ancient and unknown civilization in which something — they say — was known; it is said that they understood the axes, the curves, the intersections, perhaps even the causation of the courses of the cosmic bodies, along which each day slide the private vertices of the atoms that make up our fragile flesh and blood.”"]
         },
         {
             "@sort": "linda",
             "shortName": "Linda",
             "image": "images/firstImages/firstlinda.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/linda.png",
+            "keywords":"Subtle, dreamy, clear",
+            "intro":"The Linda series is a statement of subtle design. Its stunning simplicity evokes the craftiness of a sculptor’s hand, while the dreamy white ceramic makes us think of a clear purity that is, after all, the reason for its name.",
             "info": {
                 "Name": "Linda",
                 "Type": "Series of Sanitary Ware",
@@ -240,18 +256,23 @@
                 "Dimensions": "Various",
                 "Material": "Ceramic"
             },
-            "shortInfo": "Zachary Hill is an American multi-instrumentalist and visual artist. He is best known as the drummer and co-producer of the groups Death Grips and the I.L.Y's, and as the drummer of math rock band Hella.",
+            "shortInfo": "In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
             "longerInfo": [
-                "Zach Hill was born in Sacramento, California. He spent most of his adolescence at his father and uncle's press printing shop, where he was first exposed to classic rock music.",
-                "Hill claims that he \"started hearing voices in his head telling him to play the drums\" when he was about 14 or 15 years old, and bought his first drumkit with money he raised with a friend from a garage sale. He dropped out of high school at age 15 and moved to Nevada City, California, where he started the band Legs on Earth with Julian Imsdahl and Spencer Seim. Hill later moved to San Francisco, California in 1999, where he played the drums in the band Crime in Choir before starting Hella in 2001."
+"In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
+"These were the words used for its presentation: “Hello everyone! I'm Linda, in miniature! Here as a representative of Linda sanitary appliances! And our name says it all about our perfection! Without embarrassment and without shame! Linda I am and Linda we are, and we would like to stay Clean” - in italian, Lindi - ”. Well, just because I’m a sanitary I don't have to be a toilet, sorry!”"
             ],
-            "fullInfo": "docs/ZacharyHill.html"
+            "fullInfo": [
+                "In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
+                "These were the words used for its presentation: “Hello everyone! I'm Linda, in miniature! Here as a representative of Linda sanitary appliances! And our name says it all about our perfection! Without embarrassment and without shame! Linda I am and Linda we are, and we would like to stay Clean” - in italian, Lindi - ”. Well, just because I’m a sanitary I don't have to be a toilet, sorry!”",
+                "This composition was designed for equipped and prefabricated walls, because it had to meet cost-effectiveness requirements. This same cost-effectiveness, however, was one of the reasons for the criticism aimed at the piece. In detail, the washbasin, which is wider than it is deep, was designed to adapt to small environments, while in the toilet the drain outlet is higher than the floor level, to allow for prefabricated connections. The importance of this series writes Castiglioni 'lies in the long group planning, therefore with a result that can be defined as collective creativity'. Utility, beauty and comfort were selected for the 1979 Compasso D'Oro Award."            ]
         },
         {
             "@sort": "automaticc5",
             "shortName": "Automatic C5",
             "image": "imgs/TonyLevin.jpeg",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/17.png",
+            "keywords":"Sincere, pragmatic, reliable",
+            "intro":"The Automatic C5 is proof that design isn’t just about making an object as eccentric as possible to make it interesting. It’s sincere, with no frills, and will always be here for you. Like an old friend you love and trust.",
             "info": {
                 "Name": "Automatic C5",
                 "Type": "Washing Machine",
@@ -263,17 +284,22 @@
                 "Dimensions": "65 x 60 x 95h",
                 "Material": "Plastic, stainless steel"
             },
-            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "shortInfo": "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality",
             "longerInfo": [
-                "Nothing to show"
-            ],
-            "fullInfo": "docs/AndyMorin.html"
+                "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality",
+                "The piece transformed home life: It simplified washing, offering preset programs that catered to different fabric types. Its compact design embodied the postwar focus on efficiency and modernization, marking a significant step toward the smart appliances of today."],
+            "fullInfo": [
+                "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality",
+                "The piece transformed home life: It simplified washing, offering preset programs that catered to different fabric types. Its compact design embodied the postwar focus on efficiency and modernization, marking a significant step toward the smart appliances of today.",
+            "C5 not only simplified household chores but also symbolised post war technological optimism. Its groundbreaking fully automatic features allowed users to simply load, set, and forget, a revolutionary concept at the time. The design reflected the modernist drive toward efficiency and comfort in domestic life, with its clean lines and compact form fitting seamlessly into smaller homes. Beyond its functionality, the C5 represented the democratisation of technology, bringing innovative appliances to the average household, and setting a standard for future developments in home automation."]
         },
         {
             "@sort": "m24",
             "shortName": "M24",
             "image": "images/firstImages/firstPC.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/m24.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "M24",
                 "Type": "Personal Computer",
@@ -289,13 +315,15 @@
             "longerInfo": [
                 "Nothing to show"
             ],
-            "fullInfo": "docs/AndyMorin.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "mod.281oacrilica",
             "shortName": "mod. 281 o 'Acrilica'",
             "image": "images/firstImages/firstolu.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/19.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "mod. 281 o 'Acrilica'",
                 "Type": "Table Lamp",
@@ -311,13 +339,15 @@
             "longerInfo": [
                 "Nothing to show"
             ],
-            "fullInfo": "docs/AndyMorin.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "optic",
             "shortName": "Optic",
             "image": "images/firstImages/firstoptic.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/optic.png",
+            "keywords":"Robust, versatile, timeless",
+            "intro":"From every side and under any lighting, this small but robust device won't let you down — Optic is always ready.",
             "info": {
                 "Name": "Optic",
                 "Type": "Table Clock",
@@ -341,7 +371,9 @@
             "@sort": "joy",
             "shortName": "Joy",
             "image": "images/firstImages/firstlibrary.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/joy.png",
+            "keywords":"Versatile, elegant, playful",
+            "intro":"the name fits like a glove. If you think the world revolves around you, it may surprise you to find out that it actually orbits on the same metal pole around which Joy’s beautifully geometric shelves turn.",
             "info": {
                 "Name": "Joy",
                 "Type": "Rotating Shelf Cabinet",
@@ -353,17 +385,24 @@
                 "Dimensions": "96 x 30 x 190h",
                 "Material": "Density fiberboard, scratch-resistant embossed paint, steel joint"
             },
-            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "shortInfo": "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
             "longerInfo": [
-                "Nothing to show"
+                "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
+                "Simplicity doesn’t necessarily translate into a simple object: the movement of the shelves, which allows for an adaptable and polymorphic piece, is achieved with a clever solution: several horizontal shelves are free to rotate around vertical pins made of steel tubes. Joy is an 'inventive object' born from the thoughts of one of the most authoritative masters of Italian design."
             ],
-            "fullInfo": "docs/AndyMorin.html"
+            "fullInfo": [
+                "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
+                "Simplicity doesn’t necessarily translate into a simple object: the movement of the shelves, which allows for an adaptable and polymorphic piece, is achieved with a clever solution: several horizontal shelves are free to rotate around vertical pins made of steel tubes. Joy is an 'inventive object' born from the thoughts of one of the most authoritative masters of Italian design.",
+            "It is a 'mobile with rotating shelves' that is difficult to classify and which once again sets a typological record. Joy embodies Castiglioni's design philosophy of 'less is more', offering maximum functionality with minimal structure. Its minimalist aesthetic is offset by its playful, sculptural form, which transforms an ordinary tray into a visually engaging object. It epitomises Castiglioni's mastery of combining elegance with user-centred innovation. The sculptural quality of the piece transforms it from a mere functional object into a centrepiece. Castiglioni’s clever use of materials and his minimalist approach result in a flexible, user-driven design, reflecting his deep understanding of ergonomics and interaction."
+            ]
         },
         {
             "@sort": "leonardo",
             "shortName": "Leonardo",
             "image": "images/firstImages/firstleonardo.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/leonardo.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "Leaonardo",
                 "Type": "Table",
@@ -379,13 +418,15 @@
             "longerInfo": [
                 "Nothing to show"
             ],
-            "fullInfo": "docs/AndyMorin.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "tonietta",
             "shortName": "Tonietta",
             "image": "images/firstImages/firsttonietta.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/tonietta.png",
+            "keywords":"Get, fucked, idiot",
+            "intro":"",
             "info": {
                 "Name": "Tonietta",
                 "Type": "Chair",
@@ -401,13 +442,15 @@
             "longerInfo": [
                 "Nothing to show"
             ],
-            "fullInfo": "docs/AndyMorin.html"
+            "fullInfo": ["",""]
         },
         {
             "@sort": "16pesci",
             "shortName": "16 Pesci",
             "image": "images/firstImages/first16.png",
-            "secondImage": "imgs/TonyLevin.jpeg",
+            "secondImage": "images/objects/16pesci.png",
+            "keywords":"Playful, sturdy, clever",
+            "intro":"A simple but clever toy, 16 pesci educates as it entertains, encouraging learning through play.",
             "info": {
                 "Name": "16 Pesci",
                 "Type": "Interlocking Game",
@@ -426,6 +469,28 @@
             "fullInfo": [
                 "16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.", "While fun to play with, the 16 Pesci puzzle is also a work of art when assembled, making it a unique blend of functionality and aesthetics. The interlocking pieces form a cohesive design, exemplifying Mari’s philosophy of creating objects that transcend typical toy boundaries. His commitment to natural materials and simplicity is evident in the use of high-quality wood and elegant, minimalistic forms.", "Designed to encourage creativity and critical thinking, 16 Pesci reflects Mari’s vision of inspiring children to explore and discover. It’s celebrated as a landmark in mid-20th-century Italian design and continues to influence contemporary designers, illustrating the lasting impact of Mari's innovative approach to combining playfulness with artistic appeal."
             ]
+        },
+        {
+            "@sort": "daynight",
+            "shortName": "Day-Night",
+            "image": "images/firstImages/firstdaynight.png",
+            "secondImage": "images/objects/13.png",
+            "info": {
+                "Name": "Day-Night",
+                "Type": "Sofa-bed",
+                "Designer": "Enzo Mari",
+                "History": "1972",
+                "Usage": "Furniture",
+                "Space": "Living Room",
+                "Manufacturer": "Driade",
+                "Dimensions": "213 x 85 x 80h",
+                "Material": "Expanded polyurethane, steel, cloth"
+            },
+            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "longerInfo": [
+                "Nothing to show"
+            ],
+            "fullInfo": ["",""]
         }
     ]
 }
