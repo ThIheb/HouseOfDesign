@@ -288,7 +288,8 @@ footer .right p {
     display: none;
 }
 
-#introduction{
+#introduction{padding-bottom: 5%;
+    margin-bottom:0;
     background-color: #000;
 color: white;
 }
