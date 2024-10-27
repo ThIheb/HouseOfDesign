@@ -145,7 +145,8 @@ document.addEventListener('DOMContentLoaded', function () {
              }
  
              // Scorri la pagina verso la sezione aggiuntiva per migliorare l'esperienza utente
-             targetSection.scrollIntoView({ behavior: 'smooth' });
+             targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
  
              
          });
