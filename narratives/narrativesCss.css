@@ -225,6 +225,8 @@ footer .right p {
 .col-md-2{left: 0; 
  margin: 0 !important; }
 
+ #v-pills-home, #v-pills-profile,#v-pills-messages{padding-right: 7%;}
+ 
 .nav-link.active {
     font-weight: 450;
 }
@@ -483,7 +485,7 @@ h3{
     height: auto; 
     position: relative;
     overflow: hidden; 
-    padding-right: 7%;
+
 }
 
 .carousel .designers {
