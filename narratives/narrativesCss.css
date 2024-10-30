@@ -212,7 +212,7 @@ footer .right p {
 @media screen and (max-width: 576px) {
 }
 
-/* Additional nav */
+/* Narratives */
 .container {overflow-x: hidden; 
     margin-top: 3%;
 }
@@ -251,6 +251,9 @@ footer .right p {
 .tab-content {
     margin-bottom: 8%;
 }
+
+.goToObj{outline: none !important;}
+.goToObj:hover{color:#d6054e; }
 
 
 /* History */
