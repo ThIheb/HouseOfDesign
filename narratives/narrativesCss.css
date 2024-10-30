@@ -332,7 +332,7 @@ a.tell-more {
     border: none;
     position: absolute;
 
-    background: #dfe0e5;
+    background: #D9D9D9;
     width: 20px;
     height: 13px;
 
@@ -569,7 +569,7 @@ h3{
     display: block;
     width: 10px;
     height: 10px;
-    border: solid #555;
+    border: solid black;
     border-width: 0 3px 3px 0;
     padding: 2px;
     transform: rotate(45deg);
@@ -787,7 +787,7 @@ g:hover .image-mapper-shape {
 
 .heading_scrolldown {
     font-weight: bold;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
 }
 
 
@@ -797,7 +797,7 @@ g:hover .image-mapper-shape {
 
 .data.second{
     text-align: right;
-    color: #a4a4a4;
+    color: #989898;
     cursor: pointer;
 }
 
@@ -821,7 +821,7 @@ g:hover .image-mapper-shape {
 }
 
 ::-webkit-scrollbar-track {
-    background:#777;
+    background:#D9D9D9;
     margin-top: 8px; 
     margin-bottom: 25px; 
 }
