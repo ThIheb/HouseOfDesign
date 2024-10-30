@@ -843,26 +843,24 @@ g:hover .image-mapper-shape {
 
 /*usage narrative*/
 .text-overlay{
-    margin-top: 8px;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: normal;
-    max-width: 80%;
-    top: 80%;
-    left:80%;
-    transform: translate(-350%, -200%);
-    text-align: left;
-    
+    position: absolute;
+    bottom: 60%;
+    left: 10%;
+    color: WHITE;
+    padding: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 .text-overlay-title{
-    margin-top: 15px;
-    color: black;
-    font-size: 1.8rem;
+    font-size: 1.2em;
     font-weight: bold;
-    text-align: center;
-    transform: translate(-300%, -200%);
-
-    
+    margin-bottom: 5px;  
+}
+.text-overlay-description{
+    font-size: 0.9rem;
+    overflow-wrap: normal;
 }
 .usage{display: flex;
     flex-direction: column;
@@ -879,11 +877,16 @@ g:hover .image-mapper-shape {
     display:flex;
     justify-content: center;
     align-items: center;
+    position:relative;
+    width: 300px;
+    height:300px;
+    
 }
 .image-box img{
     width:100%;
-    height:300px;
+    height:auto;
     object-fit: cover;
+    display:block;
 }
 
 .carousel-usage{
