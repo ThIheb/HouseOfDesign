@@ -248,22 +248,41 @@ $('.carousel').carousel({
 }
 );
 
-let currentSlide = 0;
-const slideInterval = 3000; // Time in milliseconds between slides (3 seconds)
+function initializeCarousel(carouselId) {
+    const carousel = document.getElementById(carouselId);
+    const images = carousel.getElementsByTagName("img");
+    const totalImages = images.length;
+    let index = 0;
 
-function showSlide(index) {
-    const slides = document.getElementById('carouselImages');
-    const totalSlides = slides.children.length;
-    currentSlide = (index + totalSlides) % totalSlides;
-    slides.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+    // Set initial styles for images
+    for (let i = 0; i < totalImages; i++) {
+        images[i].style.position = "absolute"; // Stack images on top of each other
+        images[i].style.transition = "transform 0.5s ease"; // Transition effect
+        if (i !== index) {
+            images[i].style.transform = "translateX(100%)"; // Position off-screen to the right
+        }
+    }
+
+    setInterval(() => {
+        images[index].style.transform = "translateX(-100%)"; // Slide current image out to the left
+        index = (index + 1) % totalImages; // Move to the next image
+        images[index].style.transform = "translateX(0)"; // Slide next image into view
+
+        // Set the next image to slide out after a delay
+        setTimeout(() => {
+            for (let i = 0; i < totalImages; i++) {
+                if (i !== index) {
+                    images[i].style.transform = "translateX(100%)"; // Reset off-screen
+                }
+            }
+        }, 500); // Match this timeout with the CSS transition duration
+    }, 3000); // Change every 3 seconds
 }
 
-function autoSlide() {
-    showSlide(currentSlide + 1);
-}
-
-// Set up the interval for automatic sliding
-setInterval(autoSlide, slideInterval);
+// Initialize each carousel with its unique ID
+initializeCarousel("carouselImages1");
+initializeCarousel("carouselImages2");
+initializeCarousel("carouselImages3");
 
 
 
