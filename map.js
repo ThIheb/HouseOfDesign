@@ -1,4 +1,3 @@
-
 function showOrHide(room) {
     
     document.querySelectorAll('.content').forEach((content) => {
