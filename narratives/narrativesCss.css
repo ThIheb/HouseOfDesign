@@ -391,6 +391,11 @@ h3{
     font-size: 13;
 }
 
+.citation{
+    font-size: 9px !important; 
+    color: #777 !important;
+}
+
 
 @media screen and (min-width:728px) {
     .timeline{
@@ -426,8 +431,8 @@ h3{
     }
     
     .timeline-point { /*!puntini messi sopra i testi*/
-        width: 13px;
-        height: 17px;
+        width: 5px;
+        height: 15px;
     
         top: -40px;  
         left: 40%;
@@ -447,32 +452,32 @@ h3{
     .add-information{
         position: relative;
         display: flex;
-        flex-direction: column;
+
         top: -200px; /* Sposta la didascalia sopra la data */
+
     }
     
     .info-section{
-        width: 70%;
+        width: 100%;
         margin: auto;
-        padding: 30px;
-        justify-content: center;
+        justify-content: left;
         display: none; /* Nasconde tutte le sezioni all'inizio */;
     
     }
     
-    h3{
-        font-weight: 600;
-        margin-top: 10px;
-        text-align: center;
-        letter-spacing: 3px;
-    }
     
     .info-section p{
-        padding: 30px 40px;
-        text-align: center;
-        font-size: 13;
+        padding: 0;
+        margin: 0;
+    }
+
+    .theInfo{
+        display: flex;
+        text-align: lefts;
     }
 }
+
+
 
 
 /*Narrative: Designers*/
