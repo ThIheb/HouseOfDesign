@@ -11,7 +11,7 @@
     font-family: "Assistant", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 2em;
 }
 
@@ -212,7 +212,7 @@ footer .right p {
 @media screen and (max-width: 576px) {
 }
 
-/* Additional nav */
+/* Narratives */
 .container {overflow-x: hidden; 
     margin-top: 3%;
 }
@@ -251,6 +251,9 @@ footer .right p {
 .tab-content {
     margin-bottom: 8%;
 }
+
+.goToObj{outline: none !important;}
+.goToObj:hover{color:#d6054e; }
 
 
 /* History */
@@ -332,7 +335,7 @@ a.tell-more {
     border: none;
     position: absolute;
 
-    background: #dfe0e5;
+    background: #D9D9D9;
     width: 20px;
     height: 13px;
 
@@ -574,7 +577,7 @@ h3{
     display: block;
     width: 10px;
     height: 10px;
-    border: solid #555;
+    border: solid black;
     border-width: 0 3px 3px 0;
     padding: 2px;
     transform: rotate(45deg);
@@ -792,7 +795,7 @@ g:hover .image-mapper-shape {
 
 .heading_scrolldown {
     font-weight: bold;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
 }
 
 
@@ -802,7 +805,7 @@ g:hover .image-mapper-shape {
 
 .data.second{
     text-align: right;
-    color: #a4a4a4;
+    color: #989898;
     cursor: pointer;
 }
 
@@ -826,7 +829,7 @@ g:hover .image-mapper-shape {
 }
 
 ::-webkit-scrollbar-track {
-    background:#777;
+    background:#D9D9D9;
     margin-top: 8px; 
     margin-bottom: 25px; 
 }
@@ -844,12 +847,69 @@ g:hover .image-mapper-shape {
 
 
 /*usage narrative*/
-.box1{display: flex;
-    height: 300px;
-    width: 100%;
-    gap: 2%;
+.text-overlay{
+    position: absolute;
+    bottom: 60%;
+    left: 10%;
+    color: WHITE;
+    padding: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.text-overlay-title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;  
+}
+.text-overlay-description{
+    font-size: 0.9rem;
+    overflow-wrap: normal;
+}
+.usage{display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container1 {
+    display: flex;
+    width:80%;
+    max-width: 1200px;
+    gap:20px;
+}
+.image-box{
+    flex:3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width: 300px;
+    height:300px;
+    
+}
+.image-box img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    display:block;
 }
 
+.carousel-usage{
+    flex:1;
+    position:relative;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-images-usage{
+    display:flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-usage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .text-intro{
     flex: 95%; 
     background-image: url("images/Interior/1.png");
