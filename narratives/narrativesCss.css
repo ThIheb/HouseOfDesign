@@ -34,14 +34,15 @@ nav{position: fixed;
     align-items: center;
     justify-content: space-between;
     top:0;
+    padding:0 2.5em;
     background-color: #ffffff;
     z-index: 1;
     font-family: 'Poppins', sans-serif;
     }
     
-main{margin:6.25rem  0 0 0; 
+main{margin-top:6.25rem ; 
 width: 100%;}  
- nav a {padding: 0 1em;}
+nav a {padding: 0 1.5em;}
 
 
 .container a, nav a {
@@ -214,18 +215,14 @@ footer .right p {
 
 /* Narratives */
 .container {overflow-x: hidden; 
-    margin-top: 3%;
+    margin: 7% 0 0 0;
+    width:100vw;
+  
 }
 
-.col-md-10 {
-    padding: 0 !important; 
-    margin: 0 !important; 
-} 
+.col-md-2{padding-left:5.3%}
+.col-md-10{padding-left:4.3%}
 
-.col-md-2{left: 0; 
- margin: 0 !important; }
-
- #v-pills-home, #v-pills-profile,#v-pills-messages{padding-right: 7%;}
  
 .nav-link.active {
     font-weight: 450;
@@ -716,7 +713,7 @@ section {
 g:hover .image-mapper-shape {
     fill: #d6054e;
     transition: fill 0.4s;
-    opacity: 20%;
+    opacity: 10%;
 }
 
 /* Intro Section */
@@ -724,7 +721,7 @@ g:hover .image-mapper-shape {
     display: flex;
     flex-direction: row;
     gap: 5%;
-    align-items: flex-end;
+    align-items: flex-start;
     margin: 12% 7% 7% 7%;
    
 }
@@ -736,6 +733,7 @@ g:hover .image-mapper-shape {
 }
 
 #rooms_texts{flex: 50%; 
+    padding-top:3%
    }
 
    @media screen and (max-width: 1024px) {
@@ -795,6 +793,7 @@ g:hover .image-mapper-shape {
 
 .heading_scrolldown {
     font-weight: bold;
+    margin-top:7%;
     border-bottom: 1px solid #000;
 }
 
@@ -823,7 +822,7 @@ g:hover .image-mapper-shape {
 
 
 .scrolldown {margin-top:2%;
-    max-height: 90px; 
+    max-height: 150px; 
     overflow-y: auto;
     
 }

@@ -33,14 +33,17 @@ nav{position: fixed;
     align-items: center;
     justify-content: space-between;
     top:0;
+    padding:0 2.5em;
     background-color: #ffffff;
     z-index: 1;
     font-family: 'Poppins', sans-serif;
     }
     
+
 main{margin:6.25rem  0 0 0; 
 width: 100%;}  
- nav a {padding: 0 1em;}
+
+nav a {padding: 0 1em;}
 
 
 .container a, nav a {
