@@ -45,7 +45,7 @@ width: 100%;}
 nav a {padding: 0 1.5em;}
 
 
-.container a, nav a {
+.container-fluid a, nav a {
     text-decoration: none !important;
     color: #000 !important;
 }
@@ -214,14 +214,19 @@ footer .right p {
 }
 
 /* Narratives */
-.container {overflow-x: hidden; 
-    margin: 7% 0 0 0;
+.container-fluid {overflow-x: hidden; 
+    margin-top: 7% !important;
+    padding:0!important;
     width:100vw;
   
 }
 
-.col-md-2{padding-left:5.3%}
-.col-md-10{padding-left:4.3%}
+.col-md-2{padding: 0  0 0 5%}
+.col-md-10{margin:0 !important;
+padding:0 !important}
+
+
+#v-pills-home-tab, #v-pills-profile-tab, #v-pills-messages-tab{margin-right:7%}
 
  
 .nav-link.active {

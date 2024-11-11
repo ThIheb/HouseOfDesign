@@ -46,7 +46,7 @@ width: 100%;}
 nav a {padding: 0 1em;}
 
 
-.container a, nav a {
+.container-fluid a, nav a {
     text-decoration: none !important;
     color: #000 !important;
 }
@@ -215,16 +215,16 @@ footer .right p {
 }
 
 /* Additional nav */
-.container {overflow-x: hidden; 
-    margin-top: 3%;
+.container-fluid {overflow-x: hidden; 
+    margin: 7% 0 0 0;
 }
 
 .col-md-10 {
-    padding: 0 !important; 
+    padding:0 7% 0 2%!important; 
     margin: 0 !important; 
 } 
 
-.col-md-2{left: 0; }
+.col-md-2{left: 3%; }
 
 .nav-link.active {
     font-weight: 450;

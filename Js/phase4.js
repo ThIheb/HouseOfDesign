@@ -210,6 +210,44 @@ ScrollTrigger.create({
 	pin: true,
 });
 
+
+//counter animation
+const config = {
+	amount: 19,
+	increment: 1,
+	counterSpeed: 50
+};
+
+let counter = document.querySelector(".maintitle-1");
+let i = 0;
+let interval;
+
+const startCounter = () => {
+	interval = setInterval(() => {
+		if (i < config.amount) {
+			i += config.increment;
+			counter.innerText = i;
+		} else {
+			counter.innerText = config.amount;
+			clearInterval(interval); 
+		}
+	}, config.counterSpeed);
+};
+
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach(entry => {
+		if (entry.isIntersecting) {
+			startCounter();
+			observer.unobserve(entry.target); 
+		}
+	});
+}, { threshold: 1 }); 
+
+observer.observe(counter);
+
+
+
 /*bootstrap carousel*/
 $('.carousel').carousel({
 	interval: 5

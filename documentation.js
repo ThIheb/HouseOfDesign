@@ -61,13 +61,20 @@ document.addEventListener('DOMContentLoaded', function () {
         showOrHide(room);
     }
 
-    document.getElementById('show-analysis').addEventListener('click', () => hideIntroductionAndShowContent('analysis'));
-    document.getElementById('show-target-users').addEventListener('click', () => hideIntroductionAndShowContent('target-users'));
-    document.getElementById('show-benchmarking').addEventListener('click', () => hideIntroductionAndShowContent('benchmarking'));
+    document.getElementById('show-overview').addEventListener('click', () => hideIntroductionAndShowContent('overview'));
+    document.getElementById('show-structure').addEventListener('click', () => hideIntroductionAndShowContent('structure'));
+    document.getElementById('show-functionality').addEventListener('click', () => hideIntroductionAndShowContent('functionality'));
     document.getElementById('show-design').addEventListener('click', () => hideIntroductionAndShowContent('design'));
+    document.getElementById('show-workflow').addEventListener('click', () => hideIntroductionAndShowContent('workflow'));
+    document.getElementById('show-credits').addEventListener('click', () => hideIntroductionAndShowContent('credits'));
 
-    document.getElementById('analysis-tab').addEventListener('click', () => showOrHide('analysis'));
-    document.getElementById('target-users-tab').addEventListener('click', () => showOrHide('target-users'));
-    document.getElementById('benchmarking-tab').addEventListener('click', () => showOrHide('benchmarking'));
+
+
+    document.getElementById('overview-tab').addEventListener('click', () => showOrHide('overview'));
+    document.getElementById('structure-tab').addEventListener('click', () => showOrHide('structure'));
+    document.getElementById('functionality-tab').addEventListener('click', () => showOrHide('functionality'));
     document.getElementById('design-tab').addEventListener('click', () => showOrHide('design'));
+    document.getElementById('workflow-tab').addEventListener('click', () => showOrHide('workflow'));
+    document.getElementById('credits-tab').addEventListener('click', () => showOrHide('credits'));
+
 });
