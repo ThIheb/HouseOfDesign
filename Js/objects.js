@@ -8,29 +8,22 @@ var currentSort = ""
 
 document.addEventListener("DOMContentLoaded", async function (event) {
 	console.log("Ready to start with phase 4");
+
+	// Fetch data and initialize items and narratives
 	fetch("Js/infoPhase4.json")
 		.then(response => response.json())
 		.then(data => {
 			items = data.items;
 			narratives = data.meta.narratives;
 
+			// Check for narrative and item parameters in URL and display accordingly
+			displayNarrativeFromURL();
+
+			// Fallback setup if no URL parameters are present
 			const params = new URLSearchParams(window.location.search);
-			currentNarrative = params.get("narrative") || data.meta.startNarrative;
-			const shortNameParam = params.get("item");  // Get `shortName` from URL
-
-			if (shortNameParam) {
-				// Decode the `shortName` and find the matching item
-				const decodedShortName = decodeURIComponent(shortNameParam);
-				const startItem = items.find(i => i.shortName === decodedShortName);
-
-				if (startItem) {
-					currentValue = data.meta.startValue;
-					currentSort = startItem['@sort'];
-					prepareNarratives();
-					const index = currentSelection.findIndex(i => i.shortName === decodedShortName);
-					if (index !== -1) showInfo(index);
-				}
-			} else {
+			if (!params.has("narrative") && !params.has("item")) {
+				// Default setup if no narrative or item in URL
+				currentNarrative = data.meta.startNarrative;
 				currentValue = data.meta.startValue;
 				currentSort = "";
 				prepareNarratives();
@@ -38,6 +31,7 @@ document.addEventListener("DOMContentLoaded", async function (event) {
 		})
 		.catch(error => console.error("Error fetching JSON:", error));
 });
+
 
 
 
@@ -68,7 +62,7 @@ function showInfo(index) {
 	byId("bottomImg").src = item.secondImage;
 	byId("bottomImg").alt = item.shortName;
 	createInfoTable(item);
-	inner("briefDesc", "<p>"+item.intro+"</p>", true);
+	inner("briefDesc", "<p>" + item.intro + "</p>", true);
 	inner("shortInfo", item.shortInfo + '</div><div class="row justify-content-end mt-2"><div class="col-2"><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a></div>');
 	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '</div><div class="row justify-content-end mt-2"><div class="col-4"><a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p></div>');
 	hide("longerInfo");
@@ -81,6 +75,48 @@ function showInfo(index) {
 	// Call `updateURL` with the item object to set the URL parameters
 	updateURL(item);
 }
+function displayNarrativeFromURL() {
+	// Parse the current URL for narrative and item parameters
+	const params = new URLSearchParams(window.location.search);
+	const narrativeParam = params.get("narrative");
+	const itemParam = params.get("item");
+
+	if (narrativeParam && itemParam) {
+		// Set the current narrative and value to the URL parameters
+		currentNarrative = decodeURIComponent(narrativeParam);
+		const decodedItemName = decodeURIComponent(itemParam);
+
+		// Find the matching item based on the `shortName` from the URL
+		const startItem = items.find(i => i.shortName === decodedItemName);
+
+		if (startItem) {
+			// Set the current value and sort order
+			currentValue = startItem.info[currentNarrative];
+			currentSort = startItem['@sort'];
+
+			// Prepare the narratives based on the selected values
+			prepareNarratives();
+
+			// Display the item information
+			const index = currentSelection.findIndex(i => i.shortName === decodedItemName);
+			if (index !== -1) {
+				showInfo(index);
+			} else {
+				console.error("Item not found in the current selection.");
+			}
+		} else {
+			console.error("Item specified in the URL not found in the items list.");
+		}
+	} else {
+		console.warn("URL does not contain narrative or item parameters.");
+	}
+}
+
+// Call this function during the DOMContentLoaded event or after data is loaded
+document.addEventListener("DOMContentLoaded", async function () {
+	await loadData();  // Assume `loadData` is a function that loads items and narratives data
+	displayNarrativeFromURL();  // Display based on URL after data is loaded
+});
 
 
 function more() {
@@ -213,4 +249,8 @@ function inner(id, content, emptyFirst = true) {
 	document.getElementById(id).innerHTML += content;
 }
 
+function createNarrativeLink(narrative, item) {
+	const baseUrl = window.location.origin + window.location.pathname;
+	return `${baseUrl}?narrative=${encodeURIComponent(narrative)}&item=${encodeURIComponent(item.shortName)}`;
+}
 
