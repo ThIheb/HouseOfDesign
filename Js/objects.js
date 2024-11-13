@@ -56,7 +56,7 @@ function showInfo(index) {
 	byId("bottomImg").alt = item.shortName
 	createInfoTable(item)
 	inner("briefDesc", "<p>"+item.intro+"</p>", true)
-	inner("shortInfo", item.shortInfo + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a>');
+	inner("shortInfo", item.shortInfo + '<div class="mt-2"><a type="button" class="col align-self-end btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a></div>');
 	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a> or <a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p>');
 	hide("longerInfo")
 	hide("fullInfo")
