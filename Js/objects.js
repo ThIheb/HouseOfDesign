@@ -7,24 +7,23 @@ var currentSort = ""
 
 
 document.addEventListener("DOMContentLoaded", async function (event) {
-	console.log("Ready to start with phase 4")
+	console.log("Ready to start with phase 4");
 	console.log("Fetching JSON data");
-		fetch("Js/infoPhase4.json")
+	fetch("Js/infoPhase4.json")
 		.then(response => response.json())
-
 		.then(data => {
 			console.log("Fetched data:", data);
-	//fetch('infoPhase4.json')
-	//	.then(response => response.json())
-		//.then(data => {
-			items = data.items
-			var startWith = data.meta.startWith
-			var item = items[startWith]
 
-			narratives = data.meta.narratives
-			currentNarrative = data.meta.startNarrative
-			currentValue = data.meta.startValue
-			prepareNarratives()
+			items = data.items;
+			narratives = data.meta.narratives;
+
+			// Check URL for `narrative` and `sort` parameters
+			const params = new URLSearchParams(window.location.search);
+			currentNarrative = params.get("narrative") || data.meta.startNarrative;
+			currentValue = data.meta.startValue;
+			currentSort = params.get("sort") || "";
+
+			prepareNarratives();
 		})
 		.catch(error => console.error("Error fetching JSON:", error));
 });
@@ -45,25 +44,29 @@ function prepareNarratives() {
 }
 
 function showInfo(index) {
-	var item = currentSelection[index]
-	currentSort = item['@sort']
+	var item = currentSelection[index];
+	currentSort = item['@sort'];
+
 	inner("header", item.shortName);
 	inner("type-info", item.info.Type);
 	inner("fullHeader", item.shortName);
-	byId("wireframeImg").src = item.image
-	byId("wireframeImg").alt = item.shortName
-	byId("bottomImg").src = item.secondImage
-	byId("bottomImg").alt = item.shortName
-	createInfoTable(item)
-	inner("briefDesc", "<p>"+item.intro+"</p>", true)
+	byId("wireframeImg").src = item.image;
+	byId("wireframeImg").alt = item.shortName;
+	byId("bottomImg").src = item.secondImage;
+	byId("bottomImg").alt = item.shortName;
+	createInfoTable(item);
+	inner("briefDesc", "<p>" + item.intro + "</p>", true);
 	inner("shortInfo", item.shortInfo + '<div class="mt-2"><a type="button" class="col align-self-end btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a></div>');
-	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a> or <a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p>');
-	hide("longerInfo")
-	hide("fullInfo")
-	inner("fullInfo", "<p>" + item.fullInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="hideFullInfo()">Less</a>')
+	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="less()">Less</a> or <a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p>');
+	hide("longerInfo");
+	hide("fullInfo");
+	inner("fullInfo", "<p>" + item.fullInfo.join("</p><p>") + '<a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="hideFullInfo()">Less</a>');
 
-	prepareNavigationButtons(index)
-	prepareKeyWords(item)
+	prepareNavigationButtons(index);
+	prepareKeyWords(item);
+
+	// Call `updateURL` to reflect the current state in the URL
+	updateURL();
 }
 
 function more() {
@@ -96,38 +99,39 @@ function createInfoTable(item) {
 	// Populate first section based on firstSectionKeys
 	for (var key of firstSectionKeys) {
 		if (item.info[key] !== null && item.info[key] !== undefined) {
-			
-				var value = item.info[key];
-				var id = key+"Row"
-				inner(key, item.info[key], true);
-				//var row = document.getElementById(key).innerHTML;
-				//console.log(key, id, variable);
-				//button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
 
-				//console.log(button)
-				//inner(key, button, true);
+			var value = item.info[key];
+			var id = key + "Row"
+			inner(key, item.info[key], true);
+			//var row = document.getElementById(key).innerHTML;
+			//console.log(key, id, variable);
+			//button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
+
+			//console.log(button)
+			//inner(key, button, true);
 		}
 	}
-	$(document).ready(function() {$(".narrativeButton").on('click', function() {
-        var narrative = $(this).find("td").attr("id");
-        var value = $(this).find("td").text();
-        changeNarrative1(narrative, value);
-		console.log(narrative, value)
+	$(document).ready(function () {
+		$(".narrativeButton").on('click', function () {
+			var narrative = $(this).find("td").attr("id");
+			var value = $(this).find("td").text();
+			changeNarrative1(narrative, value);
+			console.log(narrative, value)
 		});
 	});
-	
+
 	// Populate second section based on secondSectionKeys
 	for (var Secondkey of secondSectionKeys) {
 		if (item.info[Secondkey] !== null && item.info[key] !== undefined) {
-				var value = item.info[Secondkey];
-				inner(Secondkey, value, true)
-				 
+			var value = item.info[Secondkey];
+			inner(Secondkey, value, true)
+
 		} else {
 			Secondid = Secondkey
 			inner(Secondid, "<p> error? </p>", true);
 		}
-		}
 	}
+}
 
 function prepareNavigationButtons(index) {
 	if (index > 0) {
@@ -154,8 +158,18 @@ function prepareNavigationButtons(index) {
 function prepareKeyWords(item) {
 	var keywords = item.keywords.split(",")
 	console.log(keywords)
-	var kwDiv = '<p class="d-inline">'+keywords[0]+'</p><i class="bi bi-dot"></i><p class="d-inline">'+keywords[1]+'</p><i class="bi bi-dot"></i><p class="d-inline">'+keywords[2]+'</p>'
+	var kwDiv = '<p class="d-inline">' + keywords[0] + '</p><i class="bi bi-dot"></i><p class="d-inline">' + keywords[1] + '</p><i class="bi bi-dot"></i><p class="d-inline">' + keywords[2] + '</p>'
 	inner("keyWords", kwDiv, true)
+}
+
+function updateURL() {
+	// Set parameters in the URL to reflect the current narrative and sort value
+	const params = new URLSearchParams();
+	params.set("narrative", currentNarrative);
+	params.set("sort", currentSort);
+
+	// Update the browser's address bar without reloading the page
+	history.replaceState(null, "", "?" + params.toString());
 }
 
 function changeNarrative1(narrative, value) {
