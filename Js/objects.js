@@ -8,25 +8,38 @@ var currentSort = ""
 
 document.addEventListener("DOMContentLoaded", async function (event) {
 	console.log("Ready to start with phase 4");
-	console.log("Fetching JSON data");
 	fetch("Js/infoPhase4.json")
 		.then(response => response.json())
 		.then(data => {
-			console.log("Fetched data:", data);
-
 			items = data.items;
 			narratives = data.meta.narratives;
 
-			// Check URL for `narrative` and `sort` parameters
 			const params = new URLSearchParams(window.location.search);
 			currentNarrative = params.get("narrative") || data.meta.startNarrative;
-			currentValue = data.meta.startValue;
-			currentSort = params.get("sort") || "";
+			const shortNameParam = params.get("item");  // Get `shortName` from URL
 
-			prepareNarratives();
+			if (shortNameParam) {
+				// Decode the `shortName` and find the matching item
+				const decodedShortName = decodeURIComponent(shortNameParam);
+				const startItem = items.find(i => i.shortName === decodedShortName);
+
+				if (startItem) {
+					currentValue = data.meta.startValue;
+					currentSort = startItem['@sort'];
+					prepareNarratives();
+					const index = currentSelection.findIndex(i => i.shortName === decodedShortName);
+					if (index !== -1) showInfo(index);
+				}
+			} else {
+				currentValue = data.meta.startValue;
+				currentSort = "";
+				prepareNarratives();
+			}
 		})
 		.catch(error => console.error("Error fetching JSON:", error));
 });
+
+
 
 function prepareNarratives() {
 	currentSelection = items.filter(i =>
@@ -65,9 +78,10 @@ function showInfo(index) {
 	prepareNavigationButtons(index);
 	prepareKeyWords(item);
 
-	// Call `updateURL` to reflect the current state in the URL
-	updateURL();
+	// Call `updateURL` with the item object to set the URL parameters
+	updateURL(item);
 }
+
 
 function more() {
 	hide("shortInfo");
@@ -162,15 +176,19 @@ function prepareKeyWords(item) {
 	inner("keyWords", kwDiv, true)
 }
 
-function updateURL() {
-	const baseUrl = window.location.origin + window.location.pathname; // Ensures the base path is included
+function updateURL(item) {
+	const baseUrl = window.location.origin + window.location.pathname;
 	const params = new URLSearchParams();
 	params.set("narrative", currentNarrative);
-	params.set("sort", currentSort);
 
-	// Include the base URL to ensure compatibility with GitHub Pages
-	history.replaceState(null, "", `${baseUrl}?${params.toString()}`);
+	// Encode the `shortName` to make it URL-safe
+	const encodedShortName = encodeURIComponent(item.shortName);
+
+	// Append the `shortName` to the URL as a slug or query parameter
+	history.replaceState(null, "", `${baseUrl}?${params.toString()}&item=${encodedShortName}`);
 }
+
+
 
 function changeNarrative1(narrative, value) {
 	currentNarrative = narrative
