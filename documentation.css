@@ -65,6 +65,7 @@ nav .links a:not(:last-child) {
 
 
 .textlogo {top: "50px";
+    font-family: 'Glacial Indifference', sans-serif;
     scale: 21px;
     color:#d6054e !important;
     font-weight: 700;
@@ -337,12 +338,13 @@ padding: 5px;}
     }
     
 
+.accordion{border-radius: 0 !important;}
+
 #disclamer{
     padding: 10%;
     background-color: #000;
     color:white;
     border-bottom: 1px solid white;
   }
-
 
 

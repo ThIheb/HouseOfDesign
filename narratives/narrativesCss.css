@@ -70,6 +70,7 @@ nav .links a:not(:last-child) {
     text-transform: uppercase;
     z-index: 2;
     opacity: 1;
+    font-family: 'Glacial Indifference', sans-serif;
 }
 
 .youAreHere {
@@ -513,11 +514,11 @@ h3{
 }
 
 .carousel-image {
-    width: 33%;
+    width: 30%;
     height: auto;
     object-fit: contain; 
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 0 6% 2% 0;
+    margin-bottom: 5px;
     max-width: 100%; 
 }
 
@@ -566,8 +567,8 @@ h3{
 }
 
 .arrows button {outline:none;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: none !important;
     cursor: pointer;
     font-size: 0;
