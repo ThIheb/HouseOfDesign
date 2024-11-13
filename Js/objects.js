@@ -7,27 +7,39 @@ var currentSort = ""
 
 
 document.addEventListener("DOMContentLoaded", async function (event) {
-	console.log("Ready to start with phase 4")
-	console.log("Fetching JSON data");
-		fetch("Js/infoPhase4.json")
+	console.log("Ready to start with phase 4");
+	fetch("Js/infoPhase4.json")
 		.then(response => response.json())
-
 		.then(data => {
-			console.log("Fetched data:", data);
-	//fetch('infoPhase4.json')
-	//	.then(response => response.json())
-		//.then(data => {
-			items = data.items
-			var startWith = data.meta.startWith
-			var item = items[startWith]
+			items = data.items;
+			narratives = data.meta.narratives;
 
-			narratives = data.meta.narratives
-			currentNarrative = data.meta.startNarrative
-			currentValue = data.meta.startValue
-			prepareNarratives()
+			const params = new URLSearchParams(window.location.search);
+			currentNarrative = params.get("narrative") || data.meta.startNarrative;
+			const shortNameParam = params.get("item");  // Get `shortName` from URL
+
+			if (shortNameParam) {
+				// Decode the `shortName` and find the matching item
+				const decodedShortName = decodeURIComponent(shortNameParam);
+				const startItem = items.find(i => i.shortName === decodedShortName);
+
+				if (startItem) {
+					currentValue = data.meta.startValue;
+					currentSort = startItem['@sort'];
+					prepareNarratives();
+					const index = currentSelection.findIndex(i => i.shortName === decodedShortName);
+					if (index !== -1) showInfo(index);
+				}
+			} else {
+				currentValue = data.meta.startValue;
+				currentSort = "";
+				prepareNarratives();
+			}
 		})
 		.catch(error => console.error("Error fetching JSON:", error));
 });
+
+
 
 function prepareNarratives() {
 	currentSelection = items.filter(i =>
@@ -45,26 +57,31 @@ function prepareNarratives() {
 }
 
 function showInfo(index) {
-	var item = currentSelection[index]
-	currentSort = item['@sort']
+	var item = currentSelection[index];
+	currentSort = item['@sort'];
+
 	inner("header", item.shortName);
 	inner("type-info", item.info.Type);
 	inner("fullHeader", item.shortName);
-	byId("wireframeImg").src = item.image
-	byId("wireframeImg").alt = item.shortName
-	byId("bottomImg").src = item.secondImage
-	byId("bottomImg").alt = item.shortName
-	createInfoTable(item)
+	byId("wireframeImg").src = item.image;
+	byId("wireframeImg").alt = item.shortName;
+	byId("bottomImg").src = item.secondImage;
+	byId("bottomImg").alt = item.shortName;
+	createInfoTable(item);
 	inner("briefDesc", "<p>"+item.intro+"</p>", true)
 	inner("shortInfo", item.shortInfo + '</div><div class="row justify-content-end mt-2"><div class="col-2"><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a></div>');
 	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '</div><div class="row justify-content-end mt-2"><div class="col-4"><a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p></div>');
-	hide("longerInfo")
-	hide("fullInfo")
+	hide("longerInfo");
+	hide("fullInfo");
 	inner("fullInfo", "<p>" + item.fullInfo.join("</p><p>") + '</div><div class="row justify-content-end mt-2"><div class="col-2"><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="hideFullInfo()">Less</a></div>')
 
-	prepareNavigationButtons(index)
-	prepareKeyWords(item)
+	prepareNavigationButtons(index);
+	prepareKeyWords(item);
+
+	// Call `updateURL` with the item object to set the URL parameters
+	updateURL(item);
 }
+
 
 function more() {
 	hide("shortInfo");
@@ -96,38 +113,39 @@ function createInfoTable(item) {
 	// Populate first section based on firstSectionKeys
 	for (var key of firstSectionKeys) {
 		if (item.info[key] !== null && item.info[key] !== undefined) {
-			
-				var value = item.info[key];
-				var id = key+"Row"
-				inner(key, item.info[key], true);
-				//var row = document.getElementById(key).innerHTML;
-				//console.log(key, id, variable);
-				//button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
 
-				//console.log(button)
-				//inner(key, button, true);
+			var value = item.info[key];
+			var id = key + "Row"
+			inner(key, item.info[key], true);
+			//var row = document.getElementById(key).innerHTML;
+			//console.log(key, id, variable);
+			//button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
+
+			//console.log(button)
+			//inner(key, button, true);
 		}
 	}
-	$(document).ready(function() {$(".narrativeButton").on('click', function() {
-        var narrative = $(this).find("td").attr("id");
-        var value = $(this).find("td").text();
-        changeNarrative1(narrative, value);
-		console.log(narrative, value)
+	$(document).ready(function () {
+		$(".narrativeButton").on('click', function () {
+			var narrative = $(this).find("td").attr("id");
+			var value = $(this).find("td").text();
+			changeNarrative1(narrative, value);
+			console.log(narrative, value)
 		});
 	});
-	
+
 	// Populate second section based on secondSectionKeys
 	for (var Secondkey of secondSectionKeys) {
 		if (item.info[Secondkey] !== null && item.info[key] !== undefined) {
-				var value = item.info[Secondkey];
-				inner(Secondkey, value, true)
-				 
+			var value = item.info[Secondkey];
+			inner(Secondkey, value, true)
+
 		} else {
 			Secondid = Secondkey
 			inner(Secondid, "<p> error? </p>", true);
 		}
-		}
 	}
+}
 
 function prepareNavigationButtons(index) {
 	if (index > 0) {
@@ -154,9 +172,23 @@ function prepareNavigationButtons(index) {
 function prepareKeyWords(item) {
 	var keywords = item.keywords.split(",")
 	console.log(keywords)
-	var kwDiv = '<p class="d-inline">'+keywords[0]+'</p><i class="bi bi-dot"></i><p class="d-inline">'+keywords[1]+'</p><i class="bi bi-dot"></i><p class="d-inline">'+keywords[2]+'</p>'
+	var kwDiv = '<p class="d-inline">' + keywords[0] + '</p><i class="bi bi-dot"></i><p class="d-inline">' + keywords[1] + '</p><i class="bi bi-dot"></i><p class="d-inline">' + keywords[2] + '</p>'
 	inner("keyWords", kwDiv, true)
 }
+
+function updateURL(item) {
+	const baseUrl = window.location.origin + window.location.pathname;
+	const params = new URLSearchParams();
+	params.set("narrative", currentNarrative);
+
+	// Encode the `shortName` to make it URL-safe
+	const encodedShortName = encodeURIComponent(item.shortName);
+
+	// Append the `shortName` to the URL as a slug or query parameter
+	history.replaceState(null, "", `${baseUrl}?${params.toString()}&item=${encodedShortName}`);
+}
+
+
 
 function changeNarrative1(narrative, value) {
 	currentNarrative = narrative
