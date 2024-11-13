@@ -215,7 +215,7 @@ ScrollTrigger.create({
 const config = {
 	amount: 19,
 	increment: 1,
-	counterSpeed: 50
+	counterSpeed: 60
 };
 
 let counter = document.querySelector(".maintitle-1");
