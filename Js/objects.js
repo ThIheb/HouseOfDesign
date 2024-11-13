@@ -68,12 +68,12 @@ function showInfo(index) {
 	byId("bottomImg").src = item.secondImage;
 	byId("bottomImg").alt = item.shortName;
 	createInfoTable(item);
-	inner("briefDesc", "<p>"+item.intro+"</p>", true)
+	inner("briefDesc", "<p>"+item.intro+"</p>", true);
 	inner("shortInfo", item.shortInfo + '</div><div class="row justify-content-end mt-2"><div class="col-2"><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="more()">More</a></div>');
 	inner("longerInfo", "<p>" + item.longerInfo.join("</p><p>") + '</div><div class="row justify-content-end mt-2"><div class="col-4"><a type="button" class="btn btn-outline-dark btn-sm rounded-0  mx-2 ourButtons" onclick="less()">Less</a><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="muchMore()">More</a></p></div>');
 	hide("longerInfo");
 	hide("fullInfo");
-	inner("fullInfo", "<p>" + item.fullInfo.join("</p><p>") + '</div><div class="row justify-content-end mt-2"><div class="col-2"><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="hideFullInfo()">Less</a></div>')
+	inner("fullInfo", "<p>" + item.fullInfo.join("</p><p>") + '</div><div class="row justify-content-end mt-2"><div class="col-2"><a type="button" class="btn btn-outline-dark btn-sm rounded-0 mx-2 ourButtons" onclick="hideFullInfo()">Less</a></div>');
 
 	prepareNavigationButtons(index);
 	prepareKeyWords(item);
