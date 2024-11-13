@@ -163,13 +163,13 @@ function prepareKeyWords(item) {
 }
 
 function updateURL() {
-	// Set parameters in the URL to reflect the current narrative and sort value
+	const baseUrl = window.location.origin + window.location.pathname; // Ensures the base path is included
 	const params = new URLSearchParams();
 	params.set("narrative", currentNarrative);
 	params.set("sort", currentSort);
 
-	// Update the browser's address bar without reloading the page
-	history.replaceState(null, "", "?" + params.toString());
+	// Include the base URL to ensure compatibility with GitHub Pages
+	history.replaceState(null, "", `${baseUrl}?${params.toString()}`);
 }
 
 function changeNarrative1(narrative, value) {
