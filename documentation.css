@@ -235,7 +235,7 @@ footer .right p {
     background-color: transparent !important;
 }
 
-.nav-link:hover {
+.nav-link:hover, .accordion a:hover {
     color: #d6054e !important;
     background-color: transparent !important;
 }
@@ -336,9 +336,31 @@ padding: 5px;}
 
 .chapter button:hover{font-weight: 800;
     }
-    
 
-.accordion{border-radius: 0 !important;}
+.accordion{font-family: "Poppins", sans-serif;
+    line-height: 2em;
+    font-size: 1rem;}
+
+.accordion-item:first-of-type .accordion-button {
+        border-radius: 0;
+       
+    }
+.accordion-button:not(.collapsed), .accordion-button:focus  {
+        color: #d6054e !important;
+        background-color: transparent ;
+       
+    }
+.accordion-button:focus {
+        z-index: 3;
+        border-color: #d6054e;
+        outline: 0;
+        box-shadow: none;
+    }
+.accordion-button:not(.collapsed)::after {
+    background-image: url(); 
+    
+        transform: rotate(-180deg);
+    }
 
 #disclamer{
     padding: 10%;
