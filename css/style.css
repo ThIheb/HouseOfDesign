@@ -802,3 +802,8 @@ td.details{
     line-height: 2em;
     font-size: 1rem;
 }
+
+/* ABOUT US PAGE */
+#titleAU {
+    margin-top: 20%;
+}
