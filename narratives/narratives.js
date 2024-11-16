@@ -150,6 +150,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         });
+
+        // Funzionalità di "Tell me less"
+        document.querySelectorAll('.tell-less').forEach(button => {
+        button.addEventListener('click', function (e) {
+        e.preventDefault(); // Prevenire il comportamento predefinito del link
+
+        const targetId = this.getAttribute('data-target'); // Identifica il contenuto corrispondente
+
+        // Nascondi la sezione info-section corrispondente
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+            targetSection.style.display = 'none'; // Nasconde solo la sezione corrispondente
+        }
+
+        // Scorri la pagina indietro alla timeline
+        const timeline = document.querySelector('.timeline');
+        if (timeline) {
+            timeline.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    });
+});
     });
 
 
