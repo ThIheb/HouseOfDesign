@@ -63,7 +63,15 @@ table.mainMD tr {border: solid 1px black;
 
 table.mainMD th {text-align: left;}
 
-
+/*ABOUT US*/
+.normalButtons:hover {color:#f50045 !important}
+.coolWords {font-size: 880%;
+        margin: 0%;
+        height: 13.4%;
+        align-content:start;}
+.imgAU {
+        width: 15% !important;
+}
 
 table.mainMD tr:hover, .ourButtons:hover {background-color: #f50045 !important;
                         color:white !important;
