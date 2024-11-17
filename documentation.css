@@ -337,6 +337,42 @@ padding: 5px;}
 .chapter button:hover{font-weight: 800;
     }
 
+.subContent{margin-top:5%}
+
+#architectureImg{height: auto;
+width:80%;
+padding:5% 2% 0 7%}
+
+.colourPalette{display:flex;
+
+}
+.colourPaletteText{flex:20%;
+    border:1px solid black;
+    padding:7% 5% 
+
+}
+.colourPaletteImg{flex:60%;
+    border:1px solid black;
+    padding:3%  
+
+}
+
+#colourTitle{font-family: "Glacial Indifference", sans-serif;
+    font-size: 32px;
+}
+
+.colourPaletteText div {
+padding-top:10%}
+
+.colourPaletteText div h3{font-size: 1rem;}
+
+#prova{width:100%}
+
+
+.colourPaletteImg img{width:100%;
+height:100% }
+
+
 .accordion{font-family: "Poppins", sans-serif;
     line-height: 2em;
     font-size: 1rem;}

@@ -64,7 +64,6 @@ nav .links a:not(:last-child) {
 
 
 .textlogo {top: "50px";
-    scale: 21px;
     color:#d6054e !important;
     font-weight: 700;
     text-transform: uppercase;
@@ -256,7 +255,7 @@ padding:0 !important}
 }
 
 .goToObj{outline: none !important;}
-.goToObj:hover{color:#d6054e; }
+.goToObj:hover{color:#d6054e !important;}
 
 
 /* History */
@@ -282,6 +281,7 @@ ul{
 li{
     position: relative; /* così i testi sono uno accanto all'altro, se absolute uno sopra l'altro */
     padding: 165px;   
+    scroll-margin-top: 100px; /* Offset superiore anche per le sezioni della timeline */
 }
 
 li p{
@@ -305,8 +305,9 @@ li.active p {
     transform: translateY(0);
 }
 /* Stile per il bottone */
-a.tell-more {
-    padding: 5px 10px;
+a.tell-more, a.tell-less {
+    padding: 5px 10px !important;
+    width: 120px;
     background-color: #ffffff; /* Colore di sfondo simile ai bottoni di Bootstrap */
     text-decoration: none; /* Rimuove la sottolineatura del link */
     transition: background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
@@ -317,7 +318,7 @@ a.tell-more {
     color: #d6054e !important; /* Colore del testo predefinito */
 }
 
-.tell-more:hover {
+.tell-more:hover, .tell-less:hover {
     background-color: #d6054e; /* Colore più scuro quando il link viene "hoverato" */
     color: #ffffff !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effetto di illuminazione con ombra */
@@ -353,6 +354,7 @@ a.tell-more {
     border-radius: 12px;
     position: relative;
     justify-self: end;
+    scroll-margin-top: 100px; /* Offset superiore anche per le sezioni della timeline */
 }
 
 .timeline-innerline{  /*!la riga timeline*/
@@ -379,6 +381,7 @@ a.tell-more {
     padding: 30px;
     justify-content: center;
     display: none; /* Nasconde tutte le sezioni all'inizio */;
+    scroll-margin-top: 100px; /* Offset*/
 }
 
 h3{
@@ -395,7 +398,7 @@ h3{
 }
 
 .citation{
-    font-size: 9px !important; 
+    font-size: 12px !important; 
     color: #777 !important;
 }
 
