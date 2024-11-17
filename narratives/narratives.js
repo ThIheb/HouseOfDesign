@@ -151,28 +151,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
         });
 
-        // Funzionalità di "Tell me less"
-        document.querySelectorAll('.tell-less').forEach(button => {
-        button.addEventListener('click', function (e) {
+// Funzionalità di "Tell me less"
+document.querySelectorAll('.tell-less').forEach(button => {
+    button.addEventListener('click', function (e) {
         e.preventDefault(); // Prevenire il comportamento predefinito del link
 
-        const targetId = this.getAttribute('data-target'); // Identifica il contenuto corrispondente
+        const targetId = this.getAttribute('data-target'); // Ottieni il valore di "data-target" (es. "info-1950")
 
-        // Nascondi la sezione info-section corrispondente
+        // Nascondi la sezione "info-section" corrispondente
         const targetSection = document.getElementById(targetId);
         if (targetSection) {
-            targetSection.style.display = 'none'; // Nasconde solo la sezione corrispondente
+            targetSection.style.display = 'none'; // Nasconde la sezione aggiuntiva
         }
 
-        // Scorri la pagina indietro alla timeline
-        const timeline = document.querySelector('.timeline');
-        if (timeline) {
-            timeline.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Torna alla sezione "content-section" associata (es. "content-1950")
+        const contentSectionId = targetId.replace('info', 'content'); // Converte "info-1950" in "content-1950"
+        const contentSection = document.getElementById(contentSectionId);
+        if (contentSection) {
+            contentSection.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Scorri verso la sezione della timeline
         }
     });
 });
-    });
-
+    })
 
 
     // Set initial item visibility

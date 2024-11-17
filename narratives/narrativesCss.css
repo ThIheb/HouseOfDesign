@@ -281,7 +281,6 @@ ul{
 li{
     position: relative; /* così i testi sono uno accanto all'altro, se absolute uno sopra l'altro */
     padding: 165px;   
-    scroll-margin-top: 100px; /* Offset superiore anche per le sezioni della timeline */
 }
 
 li p{
@@ -299,6 +298,7 @@ li p{
     padding: 15px;
     transition: 1.5s;
 }
+
 
 li.active p {
     opacity: 1;
@@ -354,7 +354,6 @@ a.tell-more, a.tell-less {
     border-radius: 12px;
     position: relative;
     justify-self: end;
-    scroll-margin-top: 100px; /* Offset superiore anche per le sezioni della timeline */
 }
 
 .timeline-innerline{  /*!la riga timeline*/
@@ -381,15 +380,8 @@ a.tell-more, a.tell-less {
     padding: 30px;
     justify-content: center;
     display: none; /* Nasconde tutte le sezioni all'inizio */;
-    scroll-margin-top: 100px; /* Offset*/
 }
 
-h3{
-    font-weight: 600;
-    margin-top: 10px;
-    text-align: center;
-    letter-spacing: 3px;
-}
 
 .info-section p{
     padding: 30px 40px;
@@ -430,6 +422,7 @@ h3{
         transition: 1.5s;
     }
 
+
     .date{
         position: absolute;
         top: -65px;
@@ -469,6 +462,7 @@ h3{
         justify-content: center;
         text-align: left;
         display: none; /* Nasconde tutte le sezioni all'inizio */;
+        scroll-margin-top: 100px; /* Offset*/
     }
     
     
