@@ -389,6 +389,13 @@ a.tell-more, a.tell-less {
     font-size: 13;
 }
 
+.theInfo img {
+    width: 50%; /* Imposta la larghezza dell'immagine */
+    max-width: 300px; /* Limita la larghezza massima dell'immagine */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    object-fit: contain; /* Garantisce che l'immagine sia interamente visibile */
+}
+
 .citation{
     font-size: 12px !important; 
     color: #777 !important;
