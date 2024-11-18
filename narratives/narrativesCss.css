@@ -11,12 +11,12 @@
     font-family: "Assistant", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size:  0.9rem;
     line-height: 2em;
 }
 
 .title {font-family: "Poppins", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -221,9 +221,9 @@ footer .right p {
   
 }
 
-.col-md-2{padding: 0  0 0 5%}
+.col-md-2{padding: 0 5.5%}
 .col-md-10{margin:0 !important;
-padding:0 !important}
+padding-left: 3%}
 
 
 #v-pills-home, #v-pills-profile, #v-pills-messages{margin-right:7%}
@@ -829,7 +829,7 @@ g:hover .image-mapper-shape {
 
 
 .scrolldown {margin-top:2%;
-    max-height: 150px; 
+    max-height: 100px; 
     overflow-y: auto;
     
 }
