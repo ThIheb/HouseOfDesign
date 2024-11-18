@@ -380,8 +380,8 @@ a.tell-more, a.tell-less {
     padding: 30px;
     justify-content: center;
     display: none; /* Nasconde tutte le sezioni all'inizio */;
+    scroll-margin-top: 1500px; /* Offset per "Tell me less" */
 }
-
 
 .info-section p{
     padding: 30px 40px;
@@ -422,6 +422,10 @@ a.tell-more, a.tell-less {
         transition: 1.5s;
     }
 
+    .content-section {
+        scroll-margin-top: 900px; /* Offset per "Tell me less" */
+        position: relative;
+    }
 
     .date{
         position: absolute;
@@ -462,9 +466,9 @@ a.tell-more, a.tell-less {
         justify-content: center;
         text-align: left;
         display: none; /* Nasconde tutte le sezioni all'inizio */;
-        scroll-margin-top: 100px; /* Offset*/
+        scroll-margin-top: 100px; /* Offset per "Tell me less" */
     }
-    
+
     
     .info-section p{
         padding: 0;
