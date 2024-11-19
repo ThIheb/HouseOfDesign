@@ -22,7 +22,7 @@
                 "Name": "Algol 11",
                 "Type": "Portable Television",
                 "Designer": "Marco Zanuso",
-                "History": "1964",
+                "History": "1960s",
                 "Usage": "Appliances",
                 "Space": "Living Room",
                 "Manufacturer": "Brionvega",
@@ -32,10 +32,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, a symbol of 1960s innovation and style.",
-            "longerInfo": ["A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, a symbol of 1960s innovation and style.",
+            "longerInfo": [
+                "A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, a symbol of 1960s innovation and style.",
                 "Designed to be compact and portable, it features an 11-inch screen encased in a moulded ABS plastic body, available in various vibrant colours. It is characterised by a slightly tilted screen and short broad feet, which give it the appearance of a small, friendly robot or a dog looking up at its owner, as Zanuso himself described​."
             ],
-            "fullInfo": ["A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, a symbol of 1960s innovation and style.",
+            "fullInfo": [
+                "A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, a symbol of 1960s innovation and style.",
                 "Designed to be compact and portable, it features an 11-inch screen encased in a moulded ABS plastic body, available in various vibrant colours. It is characterised by a slightly tilted screen and short broad feet, which give it the appearance of a small, friendly robot or a dog looking up at its owner, as Zanuso himself described​.",
                 "This groundbreaking television utilised transistors and miniaturised circuitry, allowing for a compact form. It featured both VHF and UHF antennas for enhanced signal reception and included a collapsible handle for portability. The internal layout was meticulously designed for easy repairs, merging functionality with sleek aesthetics. This iconic TV not only reflects the technological and cultural shifts of the era but is also celebrated for its unique design, influencing the television industry."
             ]
@@ -51,7 +53,7 @@
                 "Name": "Anthropus",
                 "Type": "Armchair",
                 "Designer": "Marco Zanuso",
-                "History": "1978",
+                "History": "1970s",
                 "Usage": "Furniture",
                 "Space": "Living Room",
                 "Manufacturer": "Cassina",
@@ -60,15 +62,12 @@
                 "Date of Project": "1964",
                 "Company": "Company_name"
             },
-            "shortInfo": "Robert Fripp is an English musician, songwriter, record producer, and author, best known as the guitarist, founder and longest-lasting member of the progressive rock band King Crimson.",
+            "shortInfo": "The Antropus Chair was designed by Marco Zanuso in 1948 for the play The Skin of Our Teeth (La Famiglia Antropus) by Thornton Wilder, staged at Milan’s Piccolo Teatro. The chair’s name reflects its theatrical origins and Zanuso’s innovative approach to seating design. With wide, deep dimensions and elegantly sinuous lines, the Antropus Chair offers comfort and visual sophistication, redefining furniture design as a harmonious assembly of individual components rather than a rigid, upholstered form.",
             "longerInfo": [
-                "Robert Fripp is an English musician, songwriter, record producer, and author, best known as the guitarist, founder and longest-lasting member of the progressive rock band King Crimson.",
-                "He has worked extensively as a session musician and collaborator, notably with David Bowie, Blondie, Brian Eno, Peter Gabriel, Daryl Hall, The Roches, Talking Heads, and David Sylvian.",
-                "He also composed the startup sound of Windows Vista operating system, in collaboration with Tucker Martine and Steve Ball. His discography includes contributions to over 700 official releases."
+                "Industrial Innovation and Material Use: In collaboration with Arflex, Zanuso introduced the Antropus Chair as a prototype in 1948 and later put it into production in 1978. It was one of the first chairs to be entirely upholstered in polyurethane foam, a revolutionary material at the time. This innovation not only enhanced comfort and ergonomics but also streamlined the industrial production process, making the chair a milestone in modern furniture design."
             ],
             "fullInfo": [
-                "",
-                ""
+                "The Antropus Chair was designed by Marco Zanuso in 1948 for the play The Skin of Our Teeth (La Famiglia Antropus) by Thornton Wilder, staged at Milan’s Piccolo Teatro. The chair’s name reflects its theatrical origins and Zanuso’s innovative approach to seating design. With wide, deep dimensions and elegantly sinuous lines, the Antropus Chair offers comfort and visual sophistication, redefining furniture design as a harmonious assembly of individual components rather than a rigid, upholstered form. Industrial Innovation and Material Use: In collaboration with Arflex, Zanuso introduced the Antropus Chair as a prototype in 1948 and later put it into production in 1978. It was one of the first chairs to be entirely upholstered in polyurethane foam, a revolutionary material at the time. This innovation not only enhanced comfort and ergonomics but also streamlined the industrial production process, making the chair a milestone in modern furniture design. Legacy and Impact: The Antropus Chair embodies Zanuso’s vision of combining functionality with aesthetic appeal. Its blend of elegance, comfort, and cutting-edge materials has made it an enduring icon of Italian design. By integrating industrial techniques with artistic expression, the chair remains a testament to mid-20th-century creativity, influencing furniture design for generations to come."
             ]
         },
         {
@@ -82,7 +81,7 @@
                 "Name": "626 Halogen",
                 "Type": "Floor Lamp",
                 "Designer": "Joe Colombo",
-                "History": "1970",
+                "History": "1970s",
                 "Usage": "Lights",
                 "Space": "Living Room",
                 "Manufacturer": "Oluce",
@@ -92,10 +91,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance.",
-            "longerInfo": ["A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance.",
+            "longerInfo": [
+                "A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance.",
                 "Designed with both form and function in mind, 626 Alogena with its slim profile and metallic finish embodies a modern design approach. The simple geometric shape of the lamp allows it to be suitable for offices and living spaces."
             ],
-            "fullInfo": ["A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance.",
+            "fullInfo": [
+                "A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance.",
                 "Designed with both form and function in mind, 626 Alogena with its slim profile and metallic finish embodies a modern design approach. The simple geometric shape of the lamp allows it to be suitable for offices and living spaces.",
                 "The adjustable light head provides directional control, adding to the versatility for reading, working or highlighting specific spaces in a room. The minimalist design blends in with contemporary settings without overshadowing elements around it. Using a Halogen bulb, a bright crisp white light enhances visibility and creates a focused environment."
             ]
@@ -111,7 +112,7 @@
                 "Name": "Enorme",
                 "Type": "Telephone",
                 "Designer": "Ettore Jr. Sottsass",
-                "History": "1990",
+                "History": "1990s",
                 "Usage": "Appliances",
                 "Space": "Living Room",
                 "Manufacturer": "Enorme",
@@ -121,10 +122,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.",
-            "longerInfo": ["The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.",
+            "longerInfo": [
+                "The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.",
                 "Sottsass and Kelley alongside Jean Pigozzi formed the Enorme Corporation in order to produce the telephone. As a play on the name of the telephone, Sottsass drew a sumo wrestler to use as a corporate logo (against the designer Shiro Kuramata’s advice that the wrestler in this context exploited a Japanese stereotype)."
             ],
-            "fullInfo": ["The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.",
+            "fullInfo": [
+                "The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.",
                 "Sottsass and Kelley alongside Jean Pigozzi formed the Enorme Corporation in order to produce the telephone. As a play on the name of the telephone, Sottsass drew a sumo wrestler to use as a corporate logo (against the designer Shiro Kuramata’s advice that the wrestler in this context exploited a Japanese stereotype).",
                 "Like the Valentine typewriter, the Enorme added an element of joy to what was considered a purely utilitarian object. Its ties with the Memphis Group’s stylistic features can be seen from the bold, almost cartoonish shapes and colours. The phone’s oversized, sculptural form defies traditional design expectations, favouring artistic expression over functional minimalism. It blends industrial design with postmodern art, emphasising individuality and a break from modernist rigidity. The use of plastic materials and bold patterns also reflects Memphis's embrace of pop culture and kitsch, making everyday objects into art pieces. This design exemplifies the Memphis Group’s philosophy of combining form and function with whimsy, elevating the telephone into an iconic symbol of postmodern design."
             ]
@@ -140,7 +143,7 @@
                 "Name": "Carmencita",
                 "Type": "Coffee Maker",
                 "Designer": "Marco Zanuso",
-                "History": "1980",
+                "History": "1980s",
                 "Usage": "Appliances",
                 "Space": "Kitchen",
                 "Manufacturer": "Lavazza",
@@ -150,10 +153,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "An iconic moka designed by Italian architect Marco Zanuso in 1979. Created in collaboration with Lavazza, this coffee maker is celebrated for its timeless design and functionality, reflecting the essence of Italian coffee culture.",
-            "longerInfo": ["An iconic moka designed by Italian architect Marco Zanuso in 1979. Created in collaboration with Lavazza, this coffee maker is celebrated for its timeless design and functionality, reflecting the essence of Italian coffee culture.",
+            "longerInfo": [
+                "An iconic moka designed by Italian architect Marco Zanuso in 1979. Created in collaboration with Lavazza, this coffee maker is celebrated for its timeless design and functionality, reflecting the essence of Italian coffee culture.",
                 "Inspired by the popular 1960s Italian advertising TV program Carosello, it is characterised by a distinctive conical shape, made from satin-finish aluminium: It also features a 90° handle for an easier grip than the classic moka. "
             ],
-            "fullInfo": ["An iconic moka designed by Italian architect Marco Zanuso in 1979. Created in collaboration with Lavazza, this coffee maker is celebrated for its timeless design and functionality, reflecting the essence of Italian coffee culture.",
+            "fullInfo": [
+                "An iconic moka designed by Italian architect Marco Zanuso in 1979. Created in collaboration with Lavazza, this coffee maker is celebrated for its timeless design and functionality, reflecting the essence of Italian coffee culture.",
                 "Inspired by the popular 1960s Italian advertising TV program Carosello, it is characterised by a distinctive conical shape, made from satin-finish aluminium: It also features a 90° handle for an easier grip than the classic moka. ",
                 "The design of the Carmencita coffee pot is not only practical but also an artistic statement. Its sleek, modern lines and minimalist approach make it a desirable piece for both coffee enthusiasts and design aficionados. The pot's elegant form and functional design make it a classic piece of mid-20th-century Italian design. It stands as a testament to Zanuso's innovative approach to product design. He emphasises the importance of integrating everyday objects with high-quality materials and thoughtful design to enhance daily rituals. This coffee pot continues to be a symbol of Italian design excellence and a beloved item in both homes and professional settings."
             ]
@@ -169,7 +174,7 @@
                 "Name": "Marocca",
                 "Type": "Chair",
                 "Designer": "Vico Magistretti",
-                "History": "1987",
+                "History": "1980s",
                 "Usage": "Furniture",
                 "Space": "Kitchen",
                 "Manufacturer": "De Padova",
@@ -179,10 +184,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
-            "longerInfo": ["The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
+            "longerInfo": [
+                "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
                 "Designed in 1987 by Vico Magistretti, Morocca’s backrest has two horizontal slats that curve slightly inward, which give an open airy look without discarding support. We see more curvature with the armrests which curve to the front. A slight flare of the legs make for more stability and a graceful stance to the chair."
             ],
-            "fullInfo": ["The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
+            "fullInfo": [
+                "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
                 "Designed in 1987 by Vico Magistretti, Morocca’s backrest has two horizontal slats that curve slightly inward, which give an open airy look without discarding support. We see more curvature with the armrests which curve to the front. A slight flare of the legs make for more stability and a graceful stance to the chair.",
                 "Additionally, through the use of horizontal stretchers connecting the legs, the designer was able to add more durability without taking away from the simplicity of the chair. Being a harmonious blend of form and function, a true embodiment of traditional design ethos that maintains a balance of comfort, aesthetic and practicality. This is reflected in the conversations between Vico Magistretti and Cesare Cassina, where designer and manufacturer were in close contact and attempted to relate the two processes of fabricating a timeless piece of furniture and designing it."
             ]
@@ -198,7 +205,7 @@
                 "Name": "Capitello",
                 "Type": "Table",
                 "Designer": "Enzo Mari",
-                "History": "1977",
+                "History": "1970s",
                 "Usage": "Furniture",
                 "Space": "Kitchen",
                 "Manufacturer": "Driade",
@@ -208,10 +215,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "The Capitello table is a minimalist design unique for its simple, oval shape and slender wooden legs. The table top is made of a light-coloured laminate which contrasts in material with the solid wooden legs. An expression of lightness and elegance.",
-            "longerInfo": ["The Capitello table is a minimalist design unique for its simple, oval shape and slender wooden legs. The table top is made of a light-coloured laminate which contrasts in material with the solid wooden legs. An expression of lightness and elegance.",
+            "longerInfo": [
+                "The Capitello table is a minimalist design unique for its simple, oval shape and slender wooden legs. The table top is made of a light-coloured laminate which contrasts in material with the solid wooden legs. An expression of lightness and elegance.",
                 "A table top that measures 110 cm in length and 70 cm in width, which provides plenty of space for dining or working. With a height of 73 cm, the legs are arranged in a unique way. With two being placed close together at the end of the oval, this creates a visual rhythm that echoes the shape of the oval table top. Towards the bottom of the legs we can also find a slight taper which emphasises further the slender profile."
             ],
-            "fullInfo": ["The Capitello table is a minimalist design unique for its simple, oval shape and slender wooden legs. The table top is made of a light-coloured laminate which contrasts in material with the solid wooden legs. An expression of lightness and elegance.",
+            "fullInfo": [
+                "The Capitello table is a minimalist design unique for its simple, oval shape and slender wooden legs. The table top is made of a light-coloured laminate which contrasts in material with the solid wooden legs. An expression of lightness and elegance.",
                 "A table top that measures 110 cm in length and 70 cm in width, which provides plenty of space for dining or working. With a height of 73 cm, the legs are arranged in a unique way. With two being placed close together at the end of the oval, this creates a visual rhythm that echoes the shape of the oval table top. Towards the bottom of the legs we can also find a slight taper which emphasises further the slender profile.",
                 " Designed by Enzo Mari in 1977 as part of his ‘Autoprogettazione’ series, it had the goal to empower individuals to design and create their own furniture. The simple construction and clean lines reflect Mari’s belief in functional design and maintains affordability. The Capitello remains a piece of elegance and practicality."
             ]
@@ -227,7 +236,7 @@
                 "Name": "Brera S",
                 "Type": "Pendant Lamp",
                 "Designer": "Achille Castiglioni",
-                "History": "1992",
+                "History": "1990s",
                 "Usage": "Lights",
                 "Space": "Kitchen",
                 "Manufacturer": "Flos",
@@ -236,13 +245,12 @@
                 "Date of Project": "1964",
                 "Company": "Company_name"
             },
-            "shortInfo": "Adrian Belew is an American musician, singer, songwriter, and record producer. A multi-instrumentalist primarily known as a guitarist and singer, he is noted for his unusual and impressionistic approach to his guitar tones which, rather than relying on standard instrumental tones, often resemble sound effects or noises made by animals and machines.",
+            "shortInfo": "Renaissance Inspiration in Modern Design: The Brera Lamp, designed by Achille Castiglioni for Flos in 1992, exemplifies a fusion of modern design and Renaissance symbolism. Inspired by Piero della Francesca’s Brera Altarpiece, the lamp mirrors the ostrich egg depicted in the painting—a symbol of rebirth and resurrection. Its name pays homage to the Brera Art Gallery in Milan, where the painting is displayed.",
             "longerInfo": [
-                ""
+                "Versatility and Innovation: Originally conceived as a ceiling light, the Brera Lamp evolved into a versatile design suitable for various contexts. The centerpiece is its blown glass diffuser, split into two sections: an upper part for heat dissipation and a base with a helix structure. The lamp’s steel cable suspension and adaptable design allow it to function as a table lamp, ceiling light, wall fixture, or floor lamp, with heights ranging from 134 cm to 197 cm."
             ],
             "fullInfo": [
-                "",
-                ""
+                "Renaissance Inspiration in Modern Design: The Brera Lamp, designed by Achille Castiglioni for Flos in 1992, exemplifies a fusion of modern design and Renaissance symbolism. Inspired by Piero della Francesca’s Brera Altarpiece, the lamp mirrors the ostrich egg depicted in the painting—a symbol of rebirth and resurrection. Its name pays homage to the Brera Art Gallery in Milan, where the painting is displayed. Versatility and Innovation: Originally conceived as a ceiling light, the Brera Lamp evolved into a versatile design suitable for various contexts. The centerpiece is its blown glass diffuser, split into two sections: an upper part for heat dissipation and a base with a helix structure. The lamp’s steel cable suspension and adaptable design allow it to function as a table lamp, ceiling light, wall fixture, or floor lamp, with heights ranging from 134 cm to 197 cm. Timeless Aesthetic and Functionality: The lamp’s elegant form combines artistry and practicality. Its refractor enables the use of high-wattage incandescent bulbs while maintaining efficient ventilation. The design’s symbolic connection to the Brera Altarpiece adds a layer of cultural depth, making it a standout piece in mid-20th-century Italian design. Though no longer in production, the Brera Lamp remains a testament to Castiglioni’s ability to marry historical inspiration with modern innovation."
             ]
         },
         {
@@ -256,7 +264,7 @@
                 "Name": "Shiva",
                 "Type": "Vase",
                 "Designer": "Ettore Jr. Sottsass",
-                "History": "1973",
+                "History": "1970s",
                 "Usage": "Decoration",
                 "Space": "Bathroom",
                 "Manufacturer": "Barcelona Design",
@@ -266,10 +274,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
-            "longerInfo": ["The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
+            "longerInfo": [
+                "The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
                 "Designed during a love trip to Barcelona in 1971, Shiva embodies in its design the essence and vision of this bold period in design history. The result is an object that brilliantly challenges conventions, in a modern interpretation of the linga, symbol of the Indian deity, which the designer was struck by during one of his trips to India."
             ],
-            "fullInfo": ["The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
+            "fullInfo": [
+                "The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
                 "Designed during a love trip to Barcelona in 1971, Shiva embodies in its design the essence and vision of this bold period in design history. The result is an object that brilliantly challenges conventions, in a modern interpretation of the linga, symbol of the Indian deity, which the designer was struck by during one of his trips to India.",
                 "This piece displays Sottsass's penchant for adopting, but at the same time subverting, traditional forms. The hot pink colour, while seemingly inconsistent with the sombre nature of a religious object, reflects Sottsass's fascination with the bright colours that pervade both the clothing and the architecture of India, which he incorporated into his architectural projects as well. After completing the Shiva vase, Sottsass wrote, “I continue to produce small, small, small architectures, such as this ceramic piece, for example, a little like monuments, a little like tombs, a little like the abandoned temples of the gods, a little like the ruins of the ancient and unknown civilization in which something — they say — was known; it is said that they understood the axes, the curves, the intersections, perhaps even the causation of the courses of the cosmic bodies, along which each day slide the private vertices of the atoms that make up our fragile flesh and blood.”"
             ]
@@ -285,7 +295,7 @@
                 "Name": "Linda",
                 "Type": "Series of Sanitary Ware",
                 "Designer": "Achille Castiglioni",
-                "History": "1977",
+                "History": "1970s",
                 "Usage": "Appliances",
                 "Space": "Bathroom",
                 "Manufacturer": "Ideal Standard",
@@ -295,10 +305,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
-            "longerInfo": ["In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
+            "longerInfo": [
+                "In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
                 "These were the words used for its presentation: “Hello everyone! I'm Linda, in miniature! Here as a representative of Linda sanitary appliances! And our name says it all about our perfection! Without embarrassment and without shame! Linda I am and Linda we are, and we would like to stay Clean” - in italian, Lindi - ”. Well, just because I’m a sanitary I don't have to be a toilet, sorry!”"
             ],
-            "fullInfo": ["In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
+            "fullInfo": [
+                "In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
                 "These were the words used for its presentation: “Hello everyone! I'm Linda, in miniature! Here as a representative of Linda sanitary appliances! And our name says it all about our perfection! Without embarrassment and without shame! Linda I am and Linda we are, and we would like to stay Clean” - in italian, Lindi - ”. Well, just because I’m a sanitary I don't have to be a toilet, sorry!”",
                 "This composition was designed for equipped and prefabricated walls, because it had to meet cost-effectiveness requirements. This same cost-effectiveness, however, was one of the reasons for the criticism aimed at the piece. In detail, the washbasin, which is wider than it is deep, was designed to adapt to small environments, while in the toilet the drain outlet is higher than the floor level, to allow for prefabricated connections. The importance of this series writes Castiglioni..lies in the long group planning, therefore with a result that can be defined as collective creativity' Utility, beauty and comfort were selected for the 1979 Compasso D'Oro Award."
             ]
@@ -314,7 +326,7 @@
                 "Name": "Automatic C5",
                 "Type": "Washing Machine",
                 "Designer": "Peter Geranzani",
-                "History": "1959",
+                "History": "1950s",
                 "Usage": "Appliances",
                 "Space": "Bathroom",
                 "Manufacturer": "Candy",
@@ -324,10 +336,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality.",
-            "longerInfo": ["The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality.",
+            "longerInfo": [
+                "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality.",
                 "The piece transformed home life: It simplified washing, offering preset programs that catered to different fabric types. Its compact design embodied the postwar focus on efficiency and modernization, marking a significant step toward the smart appliances of today."
             ],
-            "fullInfo": ["The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality.",
+            "fullInfo": [
+                "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality.",
                 "The piece transformed home life: It simplified washing, offering preset programs that catered to different fabric types. Its compact design embodied the postwar focus on efficiency and modernization, marking a significant step toward the smart appliances of today.",
                 "C5 not only simplified household chores but also symbolised post war technological optimism. Its groundbreaking fully automatic features allowed users to simply load, set, and forget, a revolutionary concept at the time. The design reflected the modernist drive toward efficiency and comfort in domestic life, with its clean lines and compact form fitting seamlessly into smaller homes. Beyond its functionality, the C5 represented the democratisation of technology, bringing innovative appliances to the average household, and setting a standard for future developments in home automation."
             ]
@@ -343,7 +357,7 @@
                 "Name": "M24",
                 "Type": "Personal Computer",
                 "Designer": "Ettore Jr. Sottsass",
-                "History": "1984",
+                "History": "1980s",
                 "Usage": "Appliances",
                 "Space": "Study",
                 "Manufacturer": "Olivetti",
@@ -372,7 +386,7 @@
                 "Name": "mod. 281 o 'Acrilica'",
                 "Type": "Table Lamp",
                 "Designer": "Joe Colombo",
-                "History": "1962",
+                "History": "1960s",
                 "Usage": "Lights",
                 "Space": "Study",
                 "Manufacturer": "Oluce",
@@ -382,10 +396,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "With a sleek, free flowing form crafted primarily from clear acrylic, the MOD.281 “Acrilica” lamp stands out for its sculptural and contemporary aesthetic. Combining simplicity and elegance, this lamp can add sophistication to any modern interior.",
-            "longerInfo": ["With a sleek, free flowing form crafted primarily from clear acrylic, the MOD.281 “Acrilica” lamp stands out for its sculptural and contemporary aesthetic. Combining simplicity and elegance, this lamp can add sophistication to any modern interior.",
+            "longerInfo": [
+                "With a sleek, free flowing form crafted primarily from clear acrylic, the MOD.281 “Acrilica” lamp stands out for its sculptural and contemporary aesthetic. Combining simplicity and elegance, this lamp can add sophistication to any modern interior.",
                 "Perhaps the most unique shape of the lamp is defined by the single piece of transparent acrylic that curves in a graceful arc, which creates a soft ambient glow that highlights the lamp’s curvature. The design captures the experimental approach to using materials and utilises transparency to disperse light."
             ],
-            "fullInfo": ["With a sleek, free flowing form crafted primarily from clear acrylic, the MOD.281 “Acrilica” lamp stands out for its sculptural and contemporary aesthetic. Combining simplicity and elegance, this lamp can add sophistication to any modern interior.",
+            "fullInfo": [
+                "With a sleek, free flowing form crafted primarily from clear acrylic, the MOD.281 “Acrilica” lamp stands out for its sculptural and contemporary aesthetic. Combining simplicity and elegance, this lamp can add sophistication to any modern interior.",
                 "Perhaps the most unique shape of the lamp is defined by the single piece of transparent acrylic that curves in a graceful arc, which creates a soft ambient glow that highlights the lamp’s curvature. The design captures the experimental approach to using materials and utilises transparency to disperse light.",
                 "On its base, a black rectangular fixture anchors the structure of the lamp and houses essential electrical components. The base contrasts the translucent arc, emphasising the seamless flow of the acrylic above it. Overall, the MOD.281 “Acrilica” surpasses the rudimentary functionality of an object and declares a statement of Colombo’s innovative design, where artistry and utility are present. The minimalism combined with the interplay of light and transparency, makes this lamp a standout piece in modern lighting solutions."
             ]
@@ -401,7 +417,7 @@
                 "Name": "Optic",
                 "Type": "Table Clock",
                 "Designer": "Joe Colombo",
-                "History": "1970",
+                "History": "1970s",
                 "Usage": "Appliances",
                 "Space": "Study",
                 "Manufacturer": "Italora",
@@ -411,10 +427,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "The Optic alarm clock, designed by Joe Colombo for Italora in the 1960s, is a perfect blend of form and function. Its sleek, minimalistic design makes it easy to use and recognize at a glance. The hour hand, thicker and with a small hole at its end, frames the current hour, while the slimmer minute hand allows for quick reading.",
-            "longerInfo": ["The Optic alarm clock, designed by Joe Colombo for Italora in the 1960s, is a perfect blend of form and function. Its sleek, minimalistic design makes it easy to use and recognize at a glance. The hour hand, thicker and with a small hole at its end, frames the current hour, while the slimmer minute hand allows for quick reading.",
+            "longerInfo": [
+                "The Optic alarm clock, designed by Joe Colombo for Italora in the 1960s, is a perfect blend of form and function. Its sleek, minimalistic design makes it easy to use and recognize at a glance. The hour hand, thicker and with a small hole at its end, frames the current hour, while the slimmer minute hand allows for quick reading.",
                 "Crafted from ABS plastic with a glass cover, the Optic is more than just a clock; it’s a statement piece of timeless design. Its clever structure extends outward to minimise reflections, and the conical lens magnifies the dial for enhanced visibility. Versatile in use, it can sit flat, tilt slightly on its back, or be hung on the wall, thanks to a special hole in the back."
             ],
-            "fullInfo": ["The Optic alarm clock, designed by Joe Colombo for Italora in the 1960s, is a perfect blend of form and function. Its sleek, minimalistic design makes it easy to use and recognize at a glance. The hour hand, thicker and with a small hole at its end, frames the current hour, while the slimmer minute hand allows for quick reading.",
+            "fullInfo": [
+                "The Optic alarm clock, designed by Joe Colombo for Italora in the 1960s, is a perfect blend of form and function. Its sleek, minimalistic design makes it easy to use and recognize at a glance. The hour hand, thicker and with a small hole at its end, frames the current hour, while the slimmer minute hand allows for quick reading.",
                 "Crafted from ABS plastic with a glass cover, the Optic is more than just a clock; it’s a statement piece of timeless design. Its clever structure extends outward to minimise reflections, and the conical lens magnifies the dial for enhanced visibility. Versatile in use, it can sit flat, tilt slightly on its back, or be hung on the wall, thanks to a special hole in the back.",
                 "Initially produced by Italora, the Optic was later taken over by Alessi in the 1980s, further cementing its status as a classic in modern design. The Optic alarm clock remains a celebrated example of mid-century design, showcasing Colombo’s innovative approach to everyday objects."
             ]
@@ -430,7 +448,7 @@
                 "Name": "Joy",
                 "Type": "Rotating Shelf Cabinet",
                 "Designer": "Achille Castiglioni",
-                "History": "1990",
+                "History": "1990s",
                 "Usage": "Furniture",
                 "Space": "Study",
                 "Manufacturer": "Zanotta",
@@ -440,10 +458,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
-            "longerInfo": ["In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
+            "longerInfo": [
+                "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
                 "Simplicity doesn’t necessarily translate into a simple object: the movement of the shelves, which allows for an adaptable and polymorphic piece, is achieved with a clever solution: several horizontal shelves are free to rotate around vertical pins made of steel tubes. Joy is an 'inventive object' born from the thoughts of one of the most authoritative masters of Italian design."
             ],
-            "fullInfo": ["In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
+            "fullInfo": [
+                "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
                 "Simplicity doesn’t necessarily translate into a simple object: the movement of the shelves, which allows for an adaptable and polymorphic piece, is achieved with a clever solution: several horizontal shelves are free to rotate around vertical pins made of steel tubes. Joy is an 'inventive object' born from the thoughts of one of the most authoritative masters of Italian design.",
                 "It is a 'mobile with rotating shelves' that is difficult to classify and which once again sets a typological record. Joy embodies Castiglioni's design philosophy of 'less is more,' offering maximum functionality with minimal structure. Its minimalist aesthetic is offset by its playful, sculptural form, which transforms an ordinary tray into a visually engaging object. It epitomises Castiglioni's mastery of combining elegance with user-centred innovation. The sculptural quality of the piece transforms it from a mere functional object into a centrepiece. Castiglioni’s clever use of materials and his minimalist approach result in a flexible, user-driven design, reflecting his deep understanding of ergonomics and interaction."
             ]
@@ -459,7 +479,7 @@
                 "Name": "Leaonardo",
                 "Type": "Table",
                 "Designer": "Achille Castiglioni",
-                "History": "1950",
+                "History": "1950s",
                 "Usage": "Furniture",
                 "Space": "Study",
                 "Manufacturer": "Zanotta",
@@ -488,7 +508,7 @@
                 "Name": "Tonietta",
                 "Type": "Chair",
                 "Designer": "Enzo Mari",
-                "History": "1950",
+                "History": "1950s",
                 "Usage": "Furniture",
                 "Space": "Study",
                 "Manufacturer": "Zanotta",
@@ -517,7 +537,7 @@
                 "Name": "16 Pesci",
                 "Type": "Interlocking Game",
                 "Designer": "Enzo Mari",
-                "History": "1973",
+                "History": "1970s",
                 "Usage": "Decoration",
                 "Space": "Study",
                 "Manufacturer": "Danese Milano",
@@ -527,10 +547,12 @@
                 "Company": "Company_name"
             },
             "shortInfo": "16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.",
-            "longerInfo": ["16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.",
+            "longerInfo": [
+                "16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.",
                 "While fun to play with, the 16 Pesci puzzle is also a work of art when assembled, making it a unique blend of functionality and aesthetics. The interlocking pieces form a cohesive design, exemplifying Mari’s philosophy of creating objects that transcend typical toy boundaries. His commitment to natural materials and simplicity is evident in the use of high-quality wood and elegant, minimalistic forms."
             ],
-            "fullInfo": ["16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.",
+            "fullInfo": [
+                "16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.",
                 "While fun to play with, the 16 Pesci puzzle is also a work of art when assembled, making it a unique blend of functionality and aesthetics. The interlocking pieces form a cohesive design, exemplifying Mari’s philosophy of creating objects that transcend typical toy boundaries. His commitment to natural materials and simplicity is evident in the use of high-quality wood and elegant, minimalistic forms.",
                 "Designed to encourage creativity and critical thinking, 16 Pesci reflects Mari’s vision of inspiring children to explore and discover. It’s celebrated as a landmark in mid-20th-century Italian design and continues to influence contemporary designers, illustrating the lasting impact of Mari's innovative approach to combining playfulness with artistic appeal."
             ]
@@ -544,7 +566,7 @@
                 "Name": "Day-Night",
                 "Type": "Sofa-bed",
                 "Designer": "Enzo Mari",
-                "History": "1972",
+                "History": "1970s",
                 "Usage": "Furniture",
                 "Space": "Living Room",
                 "Manufacturer": "Driade",
