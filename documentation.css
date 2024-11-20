@@ -160,6 +160,12 @@ footer .right p {
     footer .links a {
         font-size: 15px;
     }
+
+    nav {
+        height: 80px; 
+        padding: 0 2em; 
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -191,20 +197,21 @@ footer .right p {
 
 @media screen and (max-width: 768px) {
     nav {
-        padding: 0 20px;
+        height: 70px; 
+        padding: 0 1.5em; 
+        font-size: 0.9rem; 
     }
 
-    nav a.logo {
-        display: none;
+    nav a {
+        padding: 0 0.8em; 
     }
 
-    nav .links a {
-        font-size: 12px;
+    .showsmall {
+        display: block; 
     }
 
-    nav .login button {
-        font-size: 12px;
-        padding: 6px 10px;
+    .textlogo, .items_left{
+        display: none; 
     }
 
     footer {
@@ -213,7 +220,17 @@ footer .right p {
 
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
+    nav {
+        height: 60px; 
+        padding: 0 1em; 
+    }
+
+    nav a {
+        padding: 0 0.5em; 
+    }
+
+
 }
 
 /* Additional nav */
