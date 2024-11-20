@@ -397,6 +397,11 @@ a.tell-more, a.tell-less {
     height: auto; /* Mantiene le proporzioni dell'immagine */
     object-fit: contain; /* Garantisce che l'immagine sia interamente visibile */
 }
+.theInfo .goToObj{
+    outline: none !important;
+    border: none !important;
+    background-color: transparent;
+}
 
 .citation{
     font-size: 12px !important; 
@@ -883,13 +888,30 @@ g:hover .image-mapper-shape {
     
 }
 .text-overlay-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;  
 }
 .text-overlay-description{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     overflow-wrap: normal;
+}
+.text-overlay .goToObj{
+    background-color: transparent !important;
+    outline: none;
+    border:none;
+}
+.container1 #first_section{
+    color: white; 
+}
+.container1 #third_section{
+    color: white !important;
+}
+.container1 #first_section:hover{
+    color: black !important;
+}
+.container1 #third_section:hover{
+    color: red !important;
 }
 .usage{display: flex;
     flex-direction: column;
