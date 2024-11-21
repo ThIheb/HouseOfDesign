@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /* Basic styling */
 * {padding: 0; 
     margin: 0; 
@@ -399,17 +401,29 @@ a.tell-more, a.tell-less {
     scroll-margin-top: 1500px; /* Offset per "Tell me less" */
 }
 
-.info-section p{
-    padding: 30px 40px;
-    text-align: left;
-    font-size: 13;
+.image-container {
+    float: right; /* Posiziona il contenitore (immagine + didascalia) a destra */
+    margin: 0 0 10px 10px; /* Spazio intorno al contenitore */
+    width: 50%; /* Larghezza del contenitore */
+    max-width: 300px; /* Limita la larghezza massima */
+    text-align: center; /* Centra il testo della didascalia sotto l'immagine */
 }
 
-.theInfo img {
-    width: 50%; /* Imposta la larghezza dell'immagine */
-    max-width: 300px; /* Limita la larghezza massima dell'immagine */
-    height: auto; /* Mantiene le proporzioni dell'immagine */
-    object-fit: contain; /* Garantisce che l'immagine sia interamente visibile */
+.image-container img {
+    width: 100%; /* L'immagine si adatta alla larghezza del contenitore */
+    height: auto; /* Mantiene le proporzioni */
+}
+
+.image-container figcaption {
+    font-size: 14px; /* Dimensione del testo della didascalia */
+    color: #555; /* Colore del testo della didascalia */
+    margin-top: 5px; /* Spazio sopra la didascalia */
+}
+
+.theInfo .goToObj{
+    outline: none !important;
+    border: none !important;
+    background-color: transparent;
 }
 
 .citation{
@@ -496,11 +510,6 @@ a.tell-more, a.tell-less {
     .info-section p{
         padding: 0;
         margin: 0;
-    }
-
-    .theInfo{
-        display: flex;
-        text-align: lefts;
     }
 }
 
@@ -897,13 +906,30 @@ g:hover .image-mapper-shape {
     
 }
 .text-overlay-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;  
 }
 .text-overlay-description{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     overflow-wrap: normal;
+}
+.text-overlay .goToObj{
+    background-color: transparent !important;
+    outline: none;
+    border:none;
+}
+.container1 #first_section{
+    color: white; 
+}
+.container1 #third_section{
+    color: white !important;
+}
+.container1 #first_section:hover{
+    color: black !important;
+}
+.container1 #third_section:hover{
+    color: red !important;
 }
 .usage{display: flex;
     flex-direction: column;
@@ -977,3 +1003,63 @@ g:hover .image-mapper-shape {
 height: 300px; 
 background-size:cover;
 border: 1px solid black; }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 800;
+}
+
+footer .right {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links {
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .links a {
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover {
+    color: #fff;
+}
+
+footer .right .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .social i {
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover {
+    color:#d6054e;
+}
+
+footer .right p {
+    font-size: 13px;
+    color: #777;
+}
+
+.social a {
+    color: #fff !important;
+}
