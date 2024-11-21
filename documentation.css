@@ -239,8 +239,9 @@ footer .right p {
 }
 
 .col-md-10 {
-    padding-left:0.5% !important; 
+    padding:0 5% 0 0.5% !important; 
     margin: 0 !important; 
+    text-align: justify;
 } 
 
 .col-md-2{padding-left:4.3%; }
@@ -361,30 +362,15 @@ padding: 5px;}
 width:80%;
 padding:5% 2% 0 7%}
 
-.colourPalette{display:flex;
-    margin-top:3%;
+.colourPalette img{width:100%;
+height:auto;
+padding-top:3%}
 
-}
-.colourPaletteText{flex:40%;
-    border:1px solid black;
-    padding:7% 5% ;
-    
+.colourPaletteText{padding-top:3%;
+display:flex;
+flex-direction: row;}
 
-}
-.colourPaletteImg{flex:60%;
-    border:1px solid black;
-    padding:3%  
-}
-
-.colourPaletteImg img{width:100%;
-    height:auto }
-
-#colourTitle{font-family: "Glacial Indifference", sans-serif;
-    font-size: 32px;
-}
-
-.colourPaletteText div {
-padding-top:10%}
+.colourText{flex:35%;}
 
 main h3{font-size: 1em;
 padding-top:2%;}
