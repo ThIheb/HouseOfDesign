@@ -45,7 +45,8 @@ nav{position: fixed;
 main{margin-top:6.25rem ; 
 width: 100%;}  
 nav a {padding: 0 1.5em;}
-
+.items_left a:nth-child(2){padding-left:2.5em;
+}
 
 .container-fluid a, nav a {
     text-decoration: none !important;
