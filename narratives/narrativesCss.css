@@ -144,7 +144,10 @@ footer .right p {
     nav {
         padding: 0 40px;
     }
-
+    .col-md-10{padding-left: 1em!important ;
+        
+    }
+    
     footer {
         padding: 100px 40px;
     }
@@ -161,6 +164,11 @@ footer .right p {
         padding: 0 2em; 
     }
 
+    .col-md-10{padding-left: 3.5em!important ;
+    }
+    .col-md-2{padding-left: 4.2em!important ;
+    }
+
     footer .links a {
         font-size: 15px;
     }
@@ -174,6 +182,10 @@ footer .right p {
     nav .links a {
         font-size: 14px;
     }
+
+    .col-md-10{padding-left: 5em!important ;
+       }
+    .col-md-2{padding-left: 4.2em!important ;}
 
    
     footer {
@@ -213,6 +225,13 @@ footer .right p {
         display: none; 
     }
 
+    
+    .col-md-2{display:flex !important;
+    flex-direction: row;
+    padding-bottom:3%
+}
+    
+    
     footer {
         padding: 40px 20px;
     }
@@ -238,9 +257,11 @@ footer .right p {
   
 }
 
-.col-md-2{padding: 0 5.5%}
+.col-md-2{padding: 0 0 0 5em;
+ }
 .col-md-10{margin:0 !important;
-padding-left: 3%}
+padding-left: 0;
+}
 
 
 #v-pills-home, #v-pills-profile, #v-pills-messages{margin-right:7%}
@@ -263,13 +284,11 @@ padding-left: 3%}
     color: #d6054e !important;
 }
 
-.nav-link {
+.nav-link {padding-right: 0;
     margin-left: -10%;
 }
 
-.tab-content {
-    margin-bottom: 8%;
-}
+
 
 
 a  .goToObj{outline: none !important;}
@@ -760,7 +779,7 @@ g:hover .image-mapper-shape {
     display: flex;
     flex-direction: row;
     gap: 5%;
-    align-items: flex-start;
+    align-items: flex-end;
     margin: 12% 7% 7% 7%;
    
 }
