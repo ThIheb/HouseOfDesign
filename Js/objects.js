@@ -144,7 +144,7 @@ function createInfoTable(item) {
 
 	// Define the keys that should go into each section
 	const firstSectionKeys = ["Designer", "Usage", "Space", "History"]; // Keys for the first section
-	const secondSectionKeys = ["Date of Project", "History", "Dimensions", "Company", "Material", "Type"]; // Keys for the second section
+	const secondSectionKeys = ["Date of Project","Date of Production", "History", "Dimensions", "Company", "Material", "Type"]; // Keys for the second section
 
 	// Populate first section based on firstSectionKeys
 	for (var key of firstSectionKeys) {
