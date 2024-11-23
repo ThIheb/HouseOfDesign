@@ -145,9 +145,8 @@ footer .right p {
     nav {
         padding: 0 40px;
     }
-    .col-md-10{padding-left: 1em!important ;
-        
-    }
+
+  
     
     footer {
         padding: 100px 40px;
@@ -165,7 +164,8 @@ footer .right p {
         padding: 0 2em; 
     }
 
-    .col-md-10{padding-left: 3.5em!important ;
+    .col-md-10{padding-left: 4.7em!important ;
+       
     }
     .col-md-2{padding-left: 4.2em!important ;
     }
@@ -184,7 +184,8 @@ footer .right p {
         font-size: 14px;
     }
 
-    .col-md-10{padding-left: 5em!important ;
+    .col-md-10{padding-left: 7em!important ;
+       
        }
     .col-md-2{padding-left: 4.2em!important ;}
 
@@ -229,7 +230,7 @@ footer .right p {
     
     .col-md-2{display:flex !important;
     flex-direction: row;
-    padding-bottom:3%
+    padding-bottom:7%
 }
     
     
