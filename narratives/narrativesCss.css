@@ -45,7 +45,8 @@ nav{position: fixed;
 main{margin-top:6.25rem ; 
 width: 100%;}  
 nav a {padding: 0 1.5em;}
-
+.items_left a:nth-child(2){padding-left:3.5em;
+}
 
 .container-fluid a, nav a {
     text-decoration: none !important;
@@ -145,6 +146,8 @@ footer .right p {
         padding: 0 40px;
     }
 
+  
+    
     footer {
         padding: 100px 40px;
     }
@@ -156,6 +159,17 @@ footer .right p {
 }
 
 @media screen and (max-width: 1200px) {
+    nav {
+        height: 80px; 
+        padding: 0 2em; 
+    }
+
+    .col-md-10{padding-left: 4.7em!important ;
+       
+    }
+    .col-md-2{padding-left: 4.2em!important ;
+    }
+
     footer .links a {
         font-size: 15px;
     }
@@ -170,6 +184,12 @@ footer .right p {
         font-size: 14px;
     }
 
+    .col-md-10{padding-left: 7em!important ;
+       
+       }
+    .col-md-2{padding-left: 4.2em!important ;}
+
+   
     footer {
         flex-direction: column;
         padding: 60px 40px;
@@ -190,22 +210,30 @@ footer .right p {
 
 @media screen and (max-width: 768px) {
     nav {
-        padding: 0 20px;
+        height: 70px; 
+        padding: 0 1.5em; 
+        font-size: 0.9rem; 
     }
 
-    nav a.logo {
-        display: none;
+    nav a {
+        padding: 0 0.8em; 
     }
 
-    nav .links a {
-        font-size: 12px;
+    .showsmall {
+        display: block; 
     }
 
-    nav .login button {
-        font-size: 12px;
-        padding: 6px 10px;
+    .textlogo, .items_left{
+        display: none; 
     }
 
+    
+    .col-md-2{display:flex !important;
+    flex-direction: row;
+    padding-bottom:7%
+}
+    
+    
     footer {
         padding: 40px 20px;
     }
@@ -213,19 +241,32 @@ footer .right p {
 }
 
 @media screen and (max-width: 576px) {
+    nav {
+        height: 60px; 
+        padding: 0 1em; 
+    }
+
+    nav a {
+        padding: 0 0.5em; 
+    }
 }
 
 /* Narratives */
 .container-fluid {overflow-x: hidden; 
     margin-top: 7% !important;
-    padding:0!important;
+    padding:0 0 5% 0!important;
     width:100vw;
+    
   
 }
 
-.col-md-2{padding: 0 5.5%}
+.col-md-2{padding: 0 0 0 5.3em;
+    
+ }
 .col-md-10{margin:0 !important;
-padding-left: 3%}
+padding-left: 0;
+
+}
 
 
 #v-pills-home, #v-pills-profile, #v-pills-messages{margin-right:7%}
@@ -235,7 +276,8 @@ padding-left: 3%}
     font-weight: 450;
 }
 
-.nav-link {
+.nav-link {padding-right: 0;
+    margin-left: -10%;
     background-color: transparent !important;
 }
 
@@ -248,16 +290,12 @@ padding-left: 3%}
     color: #d6054e !important;
 }
 
-.nav-link {
-    margin-left: -10%;
-}
 
-.tab-content {
-    margin-bottom: 8%;
-}
 
-.goToObj{outline: none !important;}
-.goToObj:hover{color:#d6054e !important;}
+
+
+a  .goToObj{outline: none !important;}
+a button .goToObj:hover{color:#d6054e !important;}
 
 
 /* History */
@@ -385,18 +423,25 @@ a.tell-more, a.tell-less {
     scroll-margin-top: 1500px; /* Offset per "Tell me less" */
 }
 
-.info-section p{
-    padding: 30px 40px;
-    text-align: left;
-    font-size: 13;
+.image-container {
+    float: right; /* Posiziona il contenitore (immagine + didascalia) a destra */
+    margin: 0 0 10px 10px; /* Spazio intorno al contenitore */
+    width: 50%; /* Larghezza del contenitore */
+    max-width: 300px; /* Limita la larghezza massima */
+    text-align: center; /* Centra il testo della didascalia sotto l'immagine */
 }
 
-.theInfo img {
-    width: 50%; /* Imposta la larghezza dell'immagine */
-    max-width: 300px; /* Limita la larghezza massima dell'immagine */
-    height: auto; /* Mantiene le proporzioni dell'immagine */
-    object-fit: contain; /* Garantisce che l'immagine sia interamente visibile */
+.image-container img {
+    width: 100%; /* L'immagine si adatta alla larghezza del contenitore */
+    height: auto; /* Mantiene le proporzioni */
 }
+
+.image-container figcaption {
+    font-size: 14px; /* Dimensione del testo della didascalia */
+    color: #555; /* Colore del testo della didascalia */
+    margin-top: 5px; /* Spazio sopra la didascalia */
+}
+
 .theInfo .goToObj{
     outline: none !important;
     border: none !important;
@@ -487,11 +532,6 @@ a.tell-more, a.tell-less {
     .info-section p{
         padding: 0;
         margin: 0;
-    }
-
-    .theInfo{
-        display: flex;
-        text-align: lefts;
     }
 }
 
@@ -742,7 +782,7 @@ g:hover .image-mapper-shape {
     display: flex;
     flex-direction: row;
     gap: 5%;
-    align-items: flex-start;
+    align-items: flex-end;
     margin: 12% 7% 7% 7%;
    
 }
