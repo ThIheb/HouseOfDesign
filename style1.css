@@ -92,7 +92,8 @@ table#otherMD1 th,table#otherMD1 td, table#otherMD2 th, table#otherMD2 td {font-
                 }
 
 div#descCarosel {margin-top: 10%;
-                border-top: solid 1px black;}
+                border-top: solid 1px black;
+                padding-bottom: 0% !important;       }
 
 div#description {height: 416px;
                 padding: 5%;
