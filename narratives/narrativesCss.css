@@ -45,7 +45,7 @@ nav{position: fixed;
 main{margin-top:6.25rem ; 
 width: 100%;}  
 nav a {padding: 0 1.5em;}
-.items_left a:nth-child(2){padding-left:2.5em;
+.items_left a:nth-child(2){padding-left:3em;
 }
 
 .container-fluid a, nav a {
@@ -259,7 +259,7 @@ footer .right p {
   
 }
 
-.col-md-2{padding: 0 0 0 5.1em;
+.col-md-2{padding: 0 0 0 5.3em;
     
  }
 .col-md-10{margin:0 !important;
