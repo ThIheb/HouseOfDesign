@@ -416,16 +416,16 @@ a.tell-more, a.tell-less {
 .info-section{
     width: 70%;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
     justify-content: center;
     display: none; /* Nasconde tutte le sezioni all'inizio */;
-    scroll-margin-top: 1500px; /* Offset per "Tell me less" */
+    scroll-margin-top: 1000px; /* Offset per "Tell me less" */
 }
 
 .image-container {
     float: right; /* Posiziona il contenitore (immagine + didascalia) a destra */
     margin: 0 0 10px 10px; /* Spazio intorno al contenitore */
-    width: 50%; /* Larghezza del contenitore */
+    width: 60%; /* Larghezza del contenitore */
     max-width: 300px; /* Limita la larghezza massima */
     text-align: center; /* Centra il testo della didascalia sotto l'immagine */
 }
@@ -524,7 +524,7 @@ a.tell-more, a.tell-less {
         justify-content: center;
         text-align: left;
         display: none; /* Nasconde tutte le sezioni all'inizio */;
-        scroll-margin-top: 100px; /* Offset per "Tell me less" */
+        scroll-margin-top: 170px; /* Offset per "Tell me less" */
     }
 
     
