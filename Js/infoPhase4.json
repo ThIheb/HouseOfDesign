@@ -2,7 +2,7 @@
     "meta": {
         "startWith": 0,
         "startNarrative": "History",
-        "startValue": "1964",
+        "startValue": "1960s",
         "narratives": [
             "History",
             "Usage",
@@ -16,7 +16,7 @@
             "shortName": "Algol 11",
             "image": "images/firstImages/firstalgol11.png",
             "secondImage": "images/objects/18.png",
-            "keywords": "Get, fucked, idiot",
+            "keywords": "Bold, Unforgettable, Unique",
             "intro": "Algol 11 has always been there, with its bold way of presenting itself, totally turned towards us, portable to be like all the things you fall in love with, inseparable",
             "info": {
                 "Name": "Algol 11",
@@ -29,7 +29,8 @@
                 "Dimensions": "26 x 30 x 25h",
                 "Material": "Plastic Body, metal, glass",
                 "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Production":"1964",
+                "Company": "Brionvega"
             },
             "shortInfo": "A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, an Italian electronics company. Unique, futuristic design and practical functionality, a symbol of 1960s innovation and style.",
             "longerInfo": [
@@ -59,8 +60,9 @@
                 "Manufacturer": "Cassina",
                 "Dimensions": "75 x 102 x 85h",
                 "Material": "Polyurethane foam, fabric, steel frame",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1949",
+                "Date of Production":"1978",
+                "Company": "Cassina"
             },
             "shortInfo": "The Antropus Chair was designed by Marco Zanuso in 1948 for the play The Skin of Our Teeth (La Famiglia Antropus) by Thornton Wilder, staged at Milan’s Piccolo Teatro. The chair’s name reflects its theatrical origins and Zanuso’s innovative approach to seating design. With wide, deep dimensions and elegantly sinuous lines, the Antropus Chair offers comfort and visual sophistication, redefining furniture design as a harmonious assembly of individual components rather than a rigid, upholstered form.",
             "longerInfo": [
@@ -75,7 +77,7 @@
             "shortName": "626 Halogen",
             "image": "images/firstImages/firstalogena.png",
             "secondImage": "images/objects/alogena.png",
-            "keywords": "Sleek, adjustable, minimalist",
+            "keywords": "Sleek, Adjustable, Minimalist",
             "intro": "",
             "info": {
                 "Name": "626 Halogen",
@@ -87,8 +89,9 @@
                 "Manufacturer": "Oluce",
                 "Dimensions": "24 x 24 x 203h",
                 "Material": "Metal/Aluminium",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1970",
+                "Date of Production":"1970",
+                "Company": "OLuce"
             },
             "shortInfo": "A sleek minimalist floor lamp created by Joe Colombo. Featuring a thin vertical metal rod that supports a light fixture. The lamp stands on a small circular base supporting a clean aesthetic and maintaining balance.",
             "longerInfo": [
@@ -106,7 +109,7 @@
             "shortName": "Enorme Telephone",
             "image": "images/firstImages/firstenorme.png",
             "secondImage": "images/objects/enorme.png",
-            "keywords": "Joyful, lovable, playful",
+            "keywords": "Joyful, Lovable, Playful",
             "intro": "Enorme was designed by Sottsass with the spirit of discovering the joyful possibilities of ordinary objects. With its lovable silhouette and playful colours, it’s more of a plaything than a telephone.",
             "info": {
                 "Name": "Enorme",
@@ -118,8 +121,9 @@
                 "Manufacturer": "Enorme",
                 "Dimensions": "19.3 x 10.3 x 6h",
                 "Material": "ABS polymer casing",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1986",
+                "Date of Production":"1990",
+                "Company": "Enorme Corporation"
             },
             "shortInfo": "The Enorme telephone was the result of a collaboration between Sottsass and his friend David Kelley, founder of the design firm IDEO. Sottsass created the conceptual design, and Kelley and his team were responsible for the engineering and detail design.",
             "longerInfo": [
@@ -137,7 +141,7 @@
             "shortName": "Carmencita",
             "image": "images/firstImages/firstcarmencita.png",
             "secondImage": "images/objects/14.png",
-            "keywords": "Unmistakable, reliable, vivacious",
+            "keywords": "Unmistakable, Reliable, Vivacious",
             "intro": "A timeless icon, coveted by coffee lovers: to use and flaunt, Carmencita is the perfect synthesis of aesthetics and functionality",
             "info": {
                 "Name": "Carmencita",
@@ -149,8 +153,9 @@
                 "Manufacturer": "Lavazza",
                 "Dimensions": "16 x 9 x 17h",
                 "Material": "Aluminium",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1980",
+                "Date of Production":"1980",
+                "Company": "Lavazza"
             },
             "shortInfo": "An iconic moka designed by Italian architect Marco Zanuso in 1979. Created in collaboration with Lavazza, this coffee maker is celebrated for its timeless design and functionality, reflecting the essence of Italian coffee culture.",
             "longerInfo": [
@@ -168,7 +173,7 @@
             "shortName": "Marocca",
             "image": "images/firstImages/firstmarocca.png",
             "secondImage": "images/objects/morocca.png",
-            "keywords": "Elegant, minimalist, functional",
+            "keywords": "Elegant, Minimalist, Functional",
             "intro": "As a recall to tradition, Morocca maintains a strong relationship between modernity and tradition. Keeping mass production in mind, the philosophy of this chair’s design embodies this logic.",
             "info": {
                 "Name": "Marocca",
@@ -180,8 +185,9 @@
                 "Manufacturer": "De Padova",
                 "Dimensions": "57 x 41 x 76h",
                 "Material": "Wood, aniline-dyed beech, seat",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1987",
+                "Date of Production":"1987",
+                "Company": "De Padova"
             },
             "shortInfo": "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
             "longerInfo": [
@@ -199,7 +205,7 @@
             "shortName": "Capitello",
             "image": "images/firstImages/firstcapitello.png",
             "secondImage": "images/objects/15.png",
-            "keywords": "Functional, elegant, simple",
+            "keywords": "Functional, Elegant, Simple",
             "intro": "With its simple oval form and slender wooden legs, the Capitello table is a testament to Mari's 'Autoprogettazione' philosophy, encouraging individuals to design and build their own furniture.",
             "info": {
                 "Name": "Capitello",
@@ -211,8 +217,9 @@
                 "Manufacturer": "Driade",
                 "Dimensions": "180 x 120 x 72h",
                 "Material": "Light plywood veneered with white laminate",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1977",
+                "Date of Production":"1977",
+                "Company": "Driade"
             },
             "shortInfo": "The Capitello table is a minimalist design unique for its simple, oval shape and slender wooden legs. The table top is made of a light-coloured laminate which contrasts in material with the solid wooden legs. An expression of lightness and elegance.",
             "longerInfo": [
@@ -242,8 +249,9 @@
                 "Manufacturer": "Flos",
                 "Dimensions": "15 x 15 x 28h",
                 "Material": "Opal glass, injection-molded opal polycarbonate, polyamide",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1992",
+                "Date of Production":"1992",
+                "Company": "Flos"
             },
             "shortInfo": "Renaissance Inspiration in Modern Design: The Brera Lamp, designed by Achille Castiglioni for Flos in 1992, exemplifies a fusion of modern design and Renaissance symbolism. Inspired by Piero della Francesca’s Brera Altarpiece, the lamp mirrors the ostrich egg depicted in the painting—a symbol of rebirth and resurrection. Its name pays homage to the Brera Art Gallery in Milan, where the painting is displayed.",
             "longerInfo": [
@@ -258,7 +266,7 @@
             "shortName": "Shiva",
             "image": "images/firstImages/firstshiva.png",
             "secondImage": "images/objects/shiva.png",
-            "keywords": "Strong, eccentric, charismatic",
+            "keywords": "Strong, Eccentric, Charismatic",
             "intro": "Shiva stands out from many of the ornaments you might find in your typical household, let’s be honest. So much so, that you may find yourself gazing at its sapiently crafted shapes more frequently than you could imagine.",
             "info": {
                 "Name": "Shiva",
@@ -270,8 +278,9 @@
                 "Manufacturer": "Barcelona Design",
                 "Dimensions": "18 x 7 x 24.5h",
                 "Material": "Pink glazed ceramic",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1971",
+                "Date of Production":"1973",
+                "Company": "Barcelona Design"
             },
             "shortInfo": "The Shiva Vase is a striking ceramic piece, blending abstract, organic forms with symbolic meaning. Its phallic shape nods to fertility and creation, inspired by the Hindu god Shiva. It captures and mixes themes dear to Sottsass such as exploration of sexuality, spirituality, and unconventional, expressive design.",
             "longerInfo": [
@@ -289,7 +298,7 @@
             "shortName": "Linda",
             "image": "images/firstImages/firstlinda.png",
             "secondImage": "images/objects/linda.png",
-            "keywords": "Subtle, dreamy, clear",
+            "keywords": "Subtle, Dreamy, Clear",
             "intro": "The Linda series is a statement of subtle design. Its stunning simplicity evokes the craftiness of a sculptor’s hand, while the dreamy white ceramic makes us think of a clear purity that is, after all, the reason for its name.",
             "info": {
                 "Name": "Linda",
@@ -301,8 +310,9 @@
                 "Manufacturer": "Ideal Standard",
                 "Dimensions": "Various",
                 "Material": "Ceramic",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1977",
+                "Date of Production":"1977",
+                "Company": "Ideal Standard"
             },
             "shortInfo": "In 1973, Castiglioni began to think, responding to the specific request of the Ideal Standard company, of a series of sanitary appliances (a sink, a bidet and a toilet)  'with small dimensions, but with an essential shape intended for the general public'. Baptized Linda, it was put on the market in 1977, at the 18th Mostra Convegno in Milan.",
             "longerInfo": [
@@ -320,7 +330,7 @@
             "shortName": "Automatic C5",
             "image": "imgs/TonyLevin.jpeg",
             "secondImage": "images/objects/17.png",
-            "keywords": "Sincere, pragmatic, reliable",
+            "keywords": "Sincere, Pragmatic, Reliable",
             "intro": "The Automatic C5 is proof that design isn’t just about making an object as eccentric as possible to make it interesting. It’s sincere, with no frills, and will always be here for you. Like an old friend you love and trust.",
             "info": {
                 "Name": "Automatic C5",
@@ -332,8 +342,9 @@
                 "Manufacturer": "Candy",
                 "Dimensions": "65 x 60 x 95h",
                 "Material": "Plastic, stainless steel",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1959",
+                "Date of Production":"1959",
+                "Company": "Candy"
             },
             "shortInfo": "The Automatic C5 Washing Machine by Pietro Gerenzano for Candy (1958) was a pioneering appliance in the domestic sphere. It introduced fully automatic washing cycles, making household chores more convenient. Its sleek, utilitarian design reflected mid-century modern aesthetics, emphasising practicality.",
             "longerInfo": [
@@ -363,8 +374,9 @@
                 "Manufacturer": "Olivetti",
                 "Dimensions": "Various",
                 "Material": "Plastic Casing, steel frame, electronic components, glass, plastic ",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1984",
+                "Date of Production":"1984",
+                "Company": "Olivetti"
             },
             "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
             "longerInfo": [
@@ -380,7 +392,7 @@
             "shortName": "mod. 281 o 'Acrilica'",
             "image": "images/firstImages/firstolu.png",
             "secondImage": "images/objects/19.png",
-            "keywords": "Sculptural, minimalist, innovative",
+            "keywords": "Sculptural, Minimalist, Innovative",
             "intro": "A minimalist piece combines elegance with Colombo’s innovative use of light and materials, an artistic functional piece.",
             "info": {
                 "Name": "mod. 281 o 'Acrilica'",
@@ -392,8 +404,9 @@
                 "Manufacturer": "Oluce",
                 "Dimensions": "24 x 25 x 23h",
                 "Material": "Metal/PMMA",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1962",
+                "Date of Production":"1962",
+                "Company": "OLuce"
             },
             "shortInfo": "With a sleek, free flowing form crafted primarily from clear acrylic, the MOD.281 “Acrilica” lamp stands out for its sculptural and contemporary aesthetic. Combining simplicity and elegance, this lamp can add sophistication to any modern interior.",
             "longerInfo": [
@@ -411,7 +424,7 @@
             "shortName": "Optic",
             "image": "images/firstImages/firstoptic.png",
             "secondImage": "images/objects/optic.png",
-            "keywords": "Robust, versatile, timeless",
+            "keywords": "Robust, Versatile, Timeless",
             "intro": "From every side and under any lighting, this small but robust device won't let you down — Optic is always ready.",
             "info": {
                 "Name": "Optic",
@@ -423,8 +436,9 @@
                 "Manufacturer": "Italora",
                 "Dimensions": "10 x 8 x 10h",
                 "Material": "ABS, glass",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1970",
+                "Date of Production":"1970",
+                "Company": "Alessi"
             },
             "shortInfo": "The Optic alarm clock, designed by Joe Colombo for Italora in the 1960s, is a perfect blend of form and function. Its sleek, minimalistic design makes it easy to use and recognize at a glance. The hour hand, thicker and with a small hole at its end, frames the current hour, while the slimmer minute hand allows for quick reading.",
             "longerInfo": [
@@ -442,7 +456,7 @@
             "shortName": "Joy",
             "image": "images/firstImages/firstlibrary.png",
             "secondImage": "images/objects/joy.png",
-            "keywords": "Versatile, elegant, playful",
+            "keywords": "Versatile, Elegant, Playful",
             "intro": "the name fits like a glove. If you think the world revolves around you, it may surprise you to find out that it actually orbits on the same metal pole around which Joy’s beautifully geometric shelves turn.",
             "info": {
                 "Name": "Joy",
@@ -454,8 +468,9 @@
                 "Manufacturer": "Zanotta",
                 "Dimensions": "96 x 30 x 190h",
                 "Material": "Density fiberboard, scratch-resistant embossed paint, steel joint",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1990",
+                "Date of Production":"1990",
+                "Company": "Zanotta"
             },
             "shortInfo": "In the Joy furniture project, Castiglioni pursues the idea of ​​technological and formal elimination. Joy is in fact a 'neutral' object with multiple functions, a possible archetype of a new type. The secret behind this innovation is the same for its versatility: the simplicity of the design.",
             "longerInfo": [
@@ -485,8 +500,9 @@
                 "Manufacturer": "Zanotta",
                 "Dimensions": "200 x 100 x 65-91h",
                 "Material": "Steamed beech, white laminate",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1950",
+                "Date of Production":"1969",
+                "Company": "Zanotta"
             },
             "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
             "longerInfo": [
@@ -514,8 +530,9 @@
                 "Manufacturer": "Zanotta",
                 "Dimensions": "39 x 47 x 83.5h",
                 "Material": "Aluminum alloy, leather covered polypropylene",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1981",
+                "Date of Production":"1985",
+                "Company": "Zanotta"
             },
             "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
             "longerInfo": [
@@ -543,8 +560,9 @@
                 "Manufacturer": "Danese Milano",
                 "Dimensions": "35 x 25 x 3h",
                 "Material": "Oak wood",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1973",
+                "Date of Production":"1974",
+                "Company": "Danese Milano"
             },
             "shortInfo": "16 Pesci by Enzo Mari, designed in 1974, is a wooden toy that blends creativity with minimalist design. It features 16 different animal shapes, including baffling additions  despite the name, such as a whale, seal, dolphin, and an octopus. The toy is crafted from a single piece of wood, where Mari cleverly used one continuous cut to create the various shapes.",
             "longerInfo": [
@@ -572,8 +590,9 @@
                 "Manufacturer": "Driade",
                 "Dimensions": "213 x 85 x 80h",
                 "Material": "Expanded polyurethane, steel, cloth",
-                "Date of Project": "1964",
-                "Company": "Company_name"
+                "Date of Project": "1971",
+                "Date of Production":"1972",
+                "Company": "Driade"
             },
             "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
             "longerInfo": [
