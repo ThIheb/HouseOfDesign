@@ -225,10 +225,8 @@ footer .right p {
 @media (max-width: 576px) {
     nav {
         height: 60px; 
-        padding: 4em 1em; 
+        padding: 0 1em; 
     }
-
-    .nav-logo{padding-left: 1em}
 
     nav a {
         padding: 0 0.5em; 

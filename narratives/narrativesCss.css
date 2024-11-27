@@ -296,11 +296,8 @@ padding-left: 0;
 }
 
 
-
-
-
-a  .goToObj{outline: none !important;}
-a button .goToObj:hover{color:#d6054e !important;}
+ .goToObj{font-weight: bold;}
+ .goToObj:hover{color:#d6054e !important;}
 
 
 /* History */
@@ -864,26 +861,24 @@ g:hover .image-mapper-shape {
 }
 
 
-.scrolldown p:nth-child(odd){   
+.scrolldown p{   
     text-align: left;
     padding-top:2%
 }
 
-.scrolldown button:nth-child(even){
+.scrolldown a{
     text-align: right;
-
-  
-    outline:none;
-    border: none;
-    padding: 0;
+    color:#000;
+    text-decoration: none;
+    padding-top: 2%;
     background-color:transparent;
     font-weight: bold;
     font-size: 0.9rem;
-    padding:0;
     cursor: pointer;
 
     margin-top: 0;
 }
+
 
 
 
