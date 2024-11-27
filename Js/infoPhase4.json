@@ -48,8 +48,8 @@
             "shortName": "Anthropus",
             "image": "images/firstImages/firstantropus.png",
             "secondImage": "images/objects/16.png",
-            "keywords": "Get, fucked, idiot",
-            "intro": "",
+            "keywords": "Innovative, sculptural, Comfortable",
+            "intro": "Designed by Marco Zanuso for theatrical staging, the Antropus chair revolutionized seating with its sculptural curves and innovative use of foam, blending elegance with modern ergonomics.",
             "info": {
                 "Name": "Anthropus",
                 "Type": "Armchair",
@@ -237,8 +237,8 @@
             "shortName": "Brera S",
             "image": "images/firstImages/firstbrera.png",
             "secondImage": "images/objects/lamp.png",
-            "keywords": "Get, fucked, idiot",
-            "intro": "",
+            "keywords": "Symbolic, elegant, adaptable",
+            "intro": "Achille Castiglioni’s Brera lamp draws inspiration from Renaissance art, showcasing a refined balance between symbolism and adaptability. Its iconic design complements a variety of interior settings.",
             "info": {
                 "Name": "Brera S",
                 "Type": "Pendant Lamp",
@@ -488,8 +488,8 @@
             "shortName": "Leonardo",
             "image": "images/firstImages/firstleonardo.png",
             "secondImage": "images/objects/leonardo.png",
-            "keywords": "Get, fucked, idiot",
-            "intro": "",
+            "keywords": "Versatile, timeless, Functional",
+            "intro": "A timeless workbench-inspired design by Achille Castiglioni, the Leonardo table merges functionality with craftsmanship. Its adjustable height and minimalist structure embody versatility and enduring practicality.",
             "info": {
                 "Name": "Leaonardo",
                 "Type": "Table",
@@ -504,12 +504,13 @@
                 "Date of Production":"1969",
                 "Company": "Zanotta"
             },
-            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "shortInfo": "The Leonardo Table, designed by Achille and Pier Giacomo Castiglioni, is a “memory piece” inspired by the archetype of the workbench. Crafted from natural steamed beechwood with a laminated white or tempered glass top, its adjustable height makes it both versatile and functional. The design reflects a deep respect for traditional craftsmanship, blending utility with timeless aesthetics.",
             "longerInfo": [
-                "Nothing to show"
+                "Design Philosophy and Craftsmanship: True to the Castiglioni philosophy that “the best designs are often unsigned,” the Leonardo Table embodies simplicity, practicality, and attention to detail. Its structure integrates classic workbench elements with precise woodworking, achieving an artisanal quality that feels both familiar and innovative.", 
+                "The table’s straightforward yet refined design emphasizes high-quality materials and meticulous craftsmanship."
             ],
             "fullInfo": [
-                "",
+                "Legacy and Impact: The Leonardo Table is more than furniture—it is a distillation of mid-20th-century Italian design ethos, created in collaboration with Zanotta. By reinterpreting the traditional workbench with modern elements, the table has become a benchmark for functional, elegant design. Its enduring relevance underscores the Castiglioni brothers’ ability to merge tradition with forward-thinking creativity.",
                 ""
             ]
         },
