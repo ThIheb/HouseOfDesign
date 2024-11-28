@@ -237,17 +237,20 @@ footer .right p {
 
 /* Additional nav */
 .container-fluid {overflow-x: hidden; 
-    margin: 7% 0 0 0;
+    margin-top: 7% !important;
+    padding:0 7% 5% 0!important;
+    width:100vw;
+    text-align: justify;
+    
+  
 }
 
-.col-md-10 {
-    padding:0 5% 0 0 !important; 
-    margin: 0 !important; 
-    text-align: justify;
-} 
-
-.col-md-2{padding: 0 0 0 5.3em;
+.col-md-2{padding-left:4.5%;
     
+ }
+.col-md-10{margin:0 !important;
+padding-left: 0;
+
 }
 
 
@@ -299,67 +302,10 @@ footer .right p {
 }
 
 
-.content {
-    display: none;
-}
 
-.visible {
-    display: block !important;  
-}
 
-.hidden {
-    display: none !important; 
-}
 
-.nav-pills {
-    display: none;
-}
 
-#introduction{padding-bottom: 5%;
-    margin-bottom:0;
-    background-color: #000;
-color: white;
-}
-
-#intro_to_intro{height: 60vh;
-padding:15% 10% 30% 10%;
-
-text-align: center;
-
-}
-
-#introduction a{text-decoration: none;
-color: white;
-font-weight: 600;}
-
-#introduction a:hover{text-decoration: none;
-    
-    font-weight: 800;
-}
-
-.chapter{display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin:0 8% 5% 8%;
-padding:2%;
-}
-
-.chapter:hover{border: 1px solid white}
-
-.chapter h2{flex:20%;
-
-}
-.chapter div{flex:80%;
-}
-
-.chapter button{background-color: transparent;
-border: white;
-color:white;
-font-weight: 600;
-padding: 5px;}
-
-.chapter button:hover{font-weight: 800;
-    }
 
 .subContent{margin-top:5%}
 
