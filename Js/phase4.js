@@ -196,6 +196,12 @@ ScrollTrigger.create({
 
 
 /*logo animation*/
+
+gsap.set(".textlogo", {
+    color: "#FFFFFF", 
+    top: "50%",        
+});
+
 ScrollTrigger.create({
 	animation: gsap.to(".textlogo", {
 		top: "57px",
@@ -205,10 +211,11 @@ ScrollTrigger.create({
 	}),
 	scrub: true,
 	trigger: ".content",
-	start: "top bottom",
-	end: "top center",
+	start: "top 90%",
+	end: "top 50%",
 	pin: true,
 });
+
 
 
 //counter animation
