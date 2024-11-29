@@ -362,8 +362,8 @@
             "shortName": "M24",
             "image": "images/firstImages/firstPC.png",
             "secondImage": "images/objects/m24.png",
-            "keywords": "Get, fucked, idiot",
-            "intro": "",
+            "keywords": "Fresh, bold, powerful",
+            "intro": "The M24 is more than just a computing machine; it's a visual statement that challenged the often rigid, industrial designs of its time.",
             "info": {
                 "Name": "M24",
                 "Type": "Personal Computer",
@@ -378,13 +378,13 @@
                 "Date of Production":"1984",
                 "Company": "Olivetti"
             },
-            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
-            "longerInfo": [
-                "Nothing to show"
+            "shortInfo": "The M24 Personal Computer, designed by Ettore Sottsass Jr. in 1982, stands as a pioneering work in the intersection of technology and design. Known for his bold, unconventional aesthetic as a leading member of the Memphis Group, Sottsass brought a fresh, artistic approach to an otherwise utilitarian device.",
+            "longerInfo": ["The M24 Personal Computer, designed by Ettore Sottsass Jr. in 1982, stands as a pioneering work in the intersection of technology and design. Known for his bold, unconventional aesthetic as a leading member of the Memphis Group, Sottsass brought a fresh, artistic approach to an otherwise utilitarian device.",
+                "The M24’s design was a bold departure from the sleek, monochromatic computers of the early 1980s. It combined cutting-edge technology with striking, geometric shapes, making it a visually captivating object for the home or office. The computer's body featured sharp angles and playful patterns—traits that mirrored Sottsass’s design philosophy, which embraced color, abstraction, and a sense of joy in functional objects. The M24's design broke away from the functionalist trends that dominated the tech industry, reflecting the growing desire for personality and individuality in the products people used every day."
             ],
-            "fullInfo": [
-                "",
-                ""
+            "fullInfo": ["The M24 Personal Computer, designed by Ettore Sottsass Jr. in 1982, stands as a pioneering work in the intersection of technology and design. Known for his bold, unconventional aesthetic as a leading member of the Memphis Group, Sottsass brought a fresh, artistic approach to an otherwise utilitarian device.",
+                "The M24’s design was a bold departure from the sleek, monochromatic computers of the early 1980s. It combined cutting-edge technology with striking, geometric shapes, making it a visually captivating object for the home or office. The computer's body featured sharp angles and playful patterns—traits that mirrored Sottsass’s design philosophy, which embraced color, abstraction, and a sense of joy in functional objects. The M24's design broke away from the functionalist trends that dominated the tech industry, reflecting the growing desire for personality and individuality in the products people used every day.",
+                "Functionally, the M24 was a significant step forward. It was a powerful personal computer for its time, combining computing power with ease of use. It was compact, user-friendly, and catered to both home and business environments, making computing more accessible. The computer featured advanced capabilities, allowing it to perform various tasks and processes typical of a desktop computer, while its distinct visual presence made it stand out as a centerpiece in any room."
             ]
         },
         {
@@ -581,6 +581,8 @@
             "shortName": "Day Night",
             "image": "images/firstImages/firstdaynight.png",
             "secondImage": "images/objects/13.png",
+            "keywords": "Minimalist , simple, multifunctional",
+            "intro": "Brilliant in its simplicity, the Day Night stands as an icon of modern design, combining timeless form with thoughtful, user-oriented functionality.",
             "info": {
                 "Name": "Day-Night",
                 "Type": "Sofa-bed",
@@ -595,13 +597,13 @@
                 "Date of Production":"1972",
                 "Company": "Driade"
             },
-            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
-            "longerInfo": [
-                "Nothing to show"
+            "shortInfo": "The Day Night, designed by Enzo Mari in 1970, is a seminal piece of Italian design that exemplifies the balance between functionality and aesthetic simplicity. Known for his commitment to honesty in design and an emphasis on practicality, Enzo Mari created the Day Night to be both an elegant seating solution and a versatile sleeping space. ",
+            "longerInfo": ["The Day Night, designed by Enzo Mari in 1970, is a seminal piece of Italian design that exemplifies the balance between functionality and aesthetic simplicity. Known for his commitment to honesty in design and an emphasis on practicality, Enzo Mari created the Day Night to be both an elegant seating solution and a versatile sleeping space. ",
+                "The Day Night's design was groundbreaking in its simplicity and multifunctionality. As the name suggests, it transitions effortlessly from a sofa by day to a comfortable bed by night. The design uses clean lines and a minimalist approach, with no extraneous embellishments, focusing on the beauty of function and comfort. The mechanism is subtle and intuitive, allowing the piece to adapt to different needs without the complexity that often accompanies convertible furniture. This makes the Day Night both a practical solution for small living spaces and an example of modern design that is both useful and beautiful."
             ],
             "fullInfo": [
-                "",
-                ""
+                "The Day Night, designed by Enzo Mari in 1970, is a seminal piece of Italian design that exemplifies the balance between functionality and aesthetic simplicity. Known for his commitment to honesty in design and an emphasis on practicality, Enzo Mari created the Day Night to be both an elegant seating solution and a versatile sleeping space. ",
+                "The Day Night's design was groundbreaking in its simplicity and multifunctionality. As the name suggests, it transitions effortlessly from a sofa by day to a comfortable bed by night. The design uses clean lines and a minimalist approach, with no extraneous embellishments, focusing on the beauty of function and comfort. The mechanism is subtle and intuitive, allowing the piece to adapt to different needs without the complexity that often accompanies convertible furniture. This makes the Day Night both a practical solution for small living spaces and an example of modern design that is both useful and beautiful.", "One of the key innovations of the Day Night sofa bed was its modularity and flexibility. The design allowed for easy transformation without sacrificing comfort or style. In an era when space-saving solutions were becoming increasingly important, especially in urban apartments, Mari’s design was ahead of its time. It catered to the changing demands of modern life, where functionality and space efficiency were paramount, but without compromising on aesthetics or comfort."
             ]
         }
     ]

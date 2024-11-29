@@ -238,6 +238,10 @@ footer .right p {
         padding: 0 0.5em; 
     }
 
+    .col-md-10{padding: 0 2em 0  3em!important ;
+       
+    }
+    .col-md-2{padding:1em 0em 2em 5.5em !important ;}
 
 }
 
