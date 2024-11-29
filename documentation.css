@@ -178,6 +178,12 @@ footer .right p {
         font-size: 14px;
     }
 
+    .col-md-10{padding: 0 2em 0  4em!important ;
+       
+    }
+    .col-md-2{padding:1em 0em 2em 6.5em !important ;}
+
+
     footer {
         flex-direction: column;
         padding: 60px 40px;
