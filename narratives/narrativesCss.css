@@ -241,13 +241,19 @@ footer .right p {
 @media screen and (max-width: 576px) {
     nav {
         height: 60px; 
-        padding: 4em 1em; 
+        padding: 4em 0.5em; 
     }
 
-    .nav-logo{padding-left: 1em}
+    .col-md-10{padding-left: 3em!important ;
+       
+    }
+ .col-md-2{padding-left:4.4em !important ;}
 
     nav a {
         padding: 0 0.5em; 
+    }
+    nav a:last-child {
+        padding-right: 1em; 
     }
 }
 
