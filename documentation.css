@@ -19,7 +19,8 @@
     font-weight: 400;
 }
 
-.des {    
+.des {font-style: normal;
+
     line-height: 2em;
     font-size: 1rem;
 }
@@ -295,7 +296,7 @@ padding-left: 1.5%;
     background-color: transparent !important;
 }
 
-.nav-link:hover, .accordion a:hover {
+.nav-link:hover, main a:hover {
     color: #d6054e !important;
     background-color: transparent !important;
 }
