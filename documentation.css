@@ -19,8 +19,7 @@
     font-weight: 400;
 }
 
-.des {font-style: normal;
-
+.des {
     line-height: 2em;
     font-size: 1rem;
 }
@@ -315,10 +314,10 @@ padding-left: 1.5%;
 
 
 
-/*actual content*/
+/*design*/
 .scroller {
     width: 100vw; /* DO NOT CHANGE */
-    height: 60vh; 
+    height: 30vh; 
     overflow: hidden; 
     position: relative; 
 }
@@ -329,39 +328,130 @@ padding-left: 1.5%;
     flex-wrap: nowrap; 
 }
 
-.scrollee_item {
-    margin: 3% 10% 0% 0;
+.scrollee_item {padding-top:0.5%;
+    margin: 0 10% 0% 0;
     width: 100vw; /* Keep it 100 nothing works otherwise */
     height: 20vh; 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5%;
+
 }
 
+.typeIntro{flex:50%}
+
+.font{align-items: flex-end;
+border-left: 1px solid black;
+margin-top:7%;
+padding-left:2%}
+
+.font p:nth-child(2){font-weight: 600;}
+.font p:last-child{font-weight: 800;}
+
+
+
+.assistant{text-transform: uppercase;
+    font-family: "Assistant", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.glacial{font-family: 'Glacial Indifference', sans-serif;
+    scale: 21px;
+    font-weight: 700;
+    text-transform: uppercase;}
+
+.small{align-items: flex-end;
+    border-left: 1px solid black;
+    margin-top:8%;
+    padding: 1% 2%}
+
+
+table{width:80%;
+height:auto;
+padding:3%}
+
+tr:hover {background-color:#d9d9d9}
 #Fpattern{width:100%;
     height:auto;
    
     margin-top:3%;
     }
 
+.primaryAndSecondarylogo{display:flex;
+flex-direction: row;
+gap:4%;
+margin-bottom:3%}
+.primaryAndSecondarylogo p{flex:70%}
+
+.primaryAndSecondarylogo p:last-child{padding-top:6%}
+
+.primaryAndSecondarylogo img{width:45%;}
 .subContent{margin-top:5%}
 
 #architectureImg{height: auto;
 width:80%;
 padding:5% 2% 0 7%}
 
-.colourPalette img{width:100%;
-height:auto;
-padding-top:3%}
 
-.colourPaletteText{padding-top:3%;
-display:flex;
-flex-direction: row;}
 
-.colourText{flex:35%;}
+.palette{
+padding: 1.5% 0;}
+
+
+.colours{display:flex;
+    flex-direction: row;
+    padding-bottom:3%;
+   }
+
+.rectangle {text-transform: uppercase;
+    height: 95px;
+    width: 60%;
+    display:flex;
+    border: 1px solid black;
+  }
+
+.rectangle div{display: flex;
+flex-direction: column;
+line-height: 0.5em;
+}
+
+.rectangle:nth-child(3){background-color: #ffffff;
+color:black;
+flex:60%;
+padding:2.5%;
+}
+
+.rectangle:nth-child(2){background-color:#000;
+    color:white;
+flex:30%;
+padding:2.5%;
+}
+
+.rectangle:nth-child(1){background-color:#d6054e;
+    color:white;
+    flex:10%;
+    padding:2.5%;
+}
+
+.grayRectangle{font-weight: 600;
+    padding:2%;
+    text-transform: uppercase;
+    height: 75px;
+    width: 60%;
+    border: 1px solid black;
+    color:#4b4b4b;
+    margin-top: 1.5%;
+}
+
+#gray1{background-color:#d9d9d9;}
+#gray2{background-color:#989898;}
+#gray3{background-color:#777777;}
 
 main h3{font-size: 1em;
 padding-top:2%;}
 
-
-
+/*functionality*/
 #coolors{width:100%;
 height:auto;
 }
@@ -370,6 +460,7 @@ height:auto;
     height:auto;
 }
 
+/*credits*/
 .accordion{font-family: "Poppins", sans-serif;
     line-height: 2em;
     font-size: 1rem;}
