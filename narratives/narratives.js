@@ -1,9 +1,4 @@
-/*carouser designer narrative*/
 document.addEventListener('DOMContentLoaded', function () {
-    let currentItem = 0;
-    const items = document.querySelectorAll('.carousel .designers .item');
-    const designers = document.querySelector('.carousel .designers');
-    const totalItems = items.length;
 
     // History Timeline
     const line = document.querySelector(".timeline-innerline");
@@ -173,6 +168,12 @@ document.querySelectorAll('.tell-less').forEach(button => {
     });
 });
     })
+
+/*carouser designer narrative*/
+    let currentItem = 0;
+    const items = document.querySelectorAll('.carousel .designers .item');
+    const designers = document.querySelector('.carousel .designers');
+    const totalItems = items.length;
 
 
     // Set initial item visibility
