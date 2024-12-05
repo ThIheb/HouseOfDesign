@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-
     // History Timeline
+
     const line = document.querySelector(".timeline-innerline");
 
     let i = 0;
@@ -10,13 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const timeline_events = document.querySelectorAll("ul li");
 
-    // Controllo che gli elementi siano selezionati correttamente
+
     console.log("target1:", target1);
     console.log("target2:", target2);
 
     if (!target1 || target2.length === 0) {
         console.error("Gli elementi della timeline non sono stati trovati correttamente.");
-        return;  // Esci se non trovi gli elementi
+        return;
     }
 
     function showTime(e) {
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function slowLoop() {
         setTimeout(function () {
-            if (timeline_events[i]) {  // Controllo che esiste un elemento
+            if (timeline_events[i]) {
                 showTime(timeline_events[i]);
                 timelineProgress(i + 1);
                 i++;
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (li.getAttribute("done")) {
                 timelineProgress(index);
 
-                // Nascondi tutti gli eventi della timeline dopo quello cliccato
+
                 timeline_events.forEach((ev, idx) => {
                     if (idx >= index + 1) {
                         hideTime(ev);
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 timelineProgress(index + 1);
 
-                // Mostra tutti gli eventi della timeline fino a quello cliccato
+
                 timeline_events.forEach((ev, idx) => {
                     if (idx <= index) {
                         showTime(ev);
@@ -121,62 +121,62 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    // Funzionalità di "Tell me more"
+
     document.querySelectorAll('.tell-more').forEach(button => {
         button.addEventListener('click', function (e) {
-            e.preventDefault(); // Prevenire il comportamento predefinito del link
+            e.preventDefault();
 
-            const targetId = this.getAttribute('data-target'); // Identifica il contenuto corrispondente
+            const targetId = this.getAttribute('data-target');
 
-            // Nascondi solo le sezioni info-section, senza nascondere i paragrafi sopra la linea del tempo
+
             document.querySelectorAll('.info-section').forEach(section => {
-                section.style.display = 'none'; // Nasconde tutte le sezioni info-section
+                section.style.display = 'none';
             });
 
-            // Mostra la sezione corrispondente (es. info-1950, info-1960, etc.)
+
             const targetSection = document.getElementById(targetId);
             if (targetSection) {
-                targetSection.style.display = 'block'; // Mostra solo la sezione corrispondente
+                targetSection.style.display = 'block';
             }
 
-            // Scorri la pagina verso la sezione aggiuntiva per migliorare l'esperienza utente
+
             targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
 
 
         });
 
-// Funzionalità di "Tell me less"
-document.querySelectorAll('.tell-less').forEach(button => {
-    button.addEventListener('click', function (e) {
-        e.preventDefault(); // Prevenire il comportamento predefinito del link
 
-        const targetId = this.getAttribute('data-target'); // Ottieni il valore di "data-target" (es. "info-1950")
+        document.querySelectorAll('.tell-less').forEach(button => {
+            button.addEventListener('click', function (e) {
+                e.preventDefault();
 
-        // Nascondi la sezione "info-section" corrispondente
-        const targetSection = document.getElementById(targetId);
-        if (targetSection) {
-            targetSection.style.display = 'none'; // Nasconde la sezione aggiuntiva
-        }
+                const targetId = this.getAttribute('data-target');
 
-        // Torna alla sezione "content-section" associata (es. "content-1950")
-        const contentSectionId = targetId.replace('info', 'content'); // Converte "info-1950" in "content-1950"
-        const contentSection = document.getElementById(contentSectionId);
-        if (contentSection) {
-            contentSection.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Scorri verso la sezione della timeline
-        }
-    });
-});
+
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.style.display = 'none';
+                }
+
+
+                const contentSectionId = targetId.replace('info', 'content');
+                const contentSection = document.getElementById(contentSectionId);
+                if (contentSection) {
+                    contentSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
+        });
     })
 
-/*carouser designer narrative*/
+/*carousel designer narrative*/
     let currentItem = 0;
     const items = document.querySelectorAll('.carousel .designers .item');
     const designers = document.querySelector('.carousel .designers');
     const totalItems = items.length;
 
 
-    // Set initial item visibility
+
     updateCarousel();
 
     document.getElementById('prev').addEventListener('click', function () {
@@ -188,15 +188,15 @@ document.querySelectorAll('.tell-less').forEach(button => {
     });
 
     function moveSlide(direction) {
-        currentItem = (currentItem + direction + totalItems) % totalItems; // Move to the next/prev item
+        currentItem = (currentItem + direction + totalItems) % totalItems;
         updateCarousel();
     }
 
     function updateCarousel() {
-        const percentage = -(currentItem * 100); // Move the designers container based on the current item
+        const percentage = -(currentItem * 100);
         designers.style.transform = `translateX(${percentage}%)`;
 
-        // Update z-index and opacity for each item
+
         items.forEach((item, index) => {
             const intro = item.querySelector('.intro');
             if (index === currentItem) {
@@ -214,7 +214,7 @@ document.querySelectorAll('.tell-less').forEach(button => {
 
 
 
-/*to make the content appear in a cool way*/
+
 const hiddenElements = document.querySelectorAll(".content_that_appears");
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -231,7 +231,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 
-/*bootstrap carousel*/
+
 $('.carousel').carousel({
     interval: 2000
 }
@@ -243,32 +243,32 @@ function initializeCarousel(carouselId) {
     const totalImages = images.length;
     let index = 0;
 
-    // Set initial styles for images
+
     for (let i = 0; i < totalImages; i++) {
-        images[i].style.position = "absolute"; // Stack images on top of each other
-        images[i].style.transition = "transform 0.5s ease"; // Transition effect
+        images[i].style.position = "absolute";
+        images[i].style.transition = "transform 0.5s ease";
         if (i !== index) {
-            images[i].style.transform = "translateX(100%)"; // Position off-screen to the right
+            images[i].style.transform = "translateX(100%)";
         }
     }
 
     setInterval(() => {
-        images[index].style.transform = "translateX(-100%)"; // Slide current image out to the left
-        index = (index + 1) % totalImages; // Move to the next image
-        images[index].style.transform = "translateX(0)"; // Slide next image into view
+        images[index].style.transform = "translateX(-100%)";
+        index = (index + 1) % totalImages;
+        images[index].style.transform = "translateX(0)";
 
-        // Set the next image to slide out after a delay
+
         setTimeout(() => {
             for (let i = 0; i < totalImages; i++) {
                 if (i !== index) {
-                    images[i].style.transform = "translateX(100%)"; // Reset off-screen
+                    images[i].style.transform = "translateX(100%)";
                 }
             }
-        }, 500); // Match this timeout with the CSS transition duration
-    }, 3000); // Change every 3 seconds
+        }, 500);
+    }, 3000);
 }
 
-// Initialize each carousel with its unique ID
+
 initializeCarousel("carouselImages1");
 initializeCarousel("carouselImages2");
 initializeCarousel("carouselImages3");

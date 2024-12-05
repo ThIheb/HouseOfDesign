@@ -342,34 +342,34 @@ padding-left: 0;
  .goToObj:hover{color:#d6054e !important;}
 
 
-/* History */
-.timeline{   /*!testo molto più in basso rispetto al titolo*/
-    margin: 100px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
+
+.timeline{   
+    margin: 100px 0; 
     padding: 10px;
 
     display: grid;
-    grid-template-columns: 75% auto; /*!percentuale più spostata a destra o a sinistra*/
+    grid-template-columns: 75% auto; 
     justify-content: center;
 }
 
 ul{
-    margin-top: 30px; /*!più alto/basso il numero più i pallini vanno giù/su */
-    display: flex;  /*!testi disposti orizzontalmente*/
+    margin-top: 30px; 
+    display: flex;  
     flex-direction:column;
-    justify-content: center; /*!makes the timeline resposnive*/
+    justify-content: center; 
     align-items: center;
     list-style: none;
     padding: 0;
 }
 
 li{
-    position: relative; /* così i testi sono uno accanto all'altro, se absolute uno sopra l'altro */
+    position: relative; 
     padding: 165px;   
 }
 
 li p{
     position: absolute;
-    width: 160px; /* la larghezza del riquadro */
+    width: 160px; 
     top: 10px;
     left: 45px;
     
@@ -378,7 +378,7 @@ li p{
     text-align: left;
 
     font-size: 12px;
-    transform: translateY(-10px); /*!PER NON FARE VEDERE TUTTI I TESTI ALL'INIZIO!!*/
+    transform: translateY(-10px); 
     padding: 15px;
     transition: 1.5s;
 }
@@ -388,24 +388,24 @@ li.active p {
     opacity: 1;
     transform: translateY(0);
 }
-/* Stile per il bottone */
+
 a.tell-more, a.tell-less {
     padding: 5px 10px !important;
     width: 120px;
-    background-color: #ffffff; /* Colore di sfondo simile ai bottoni di Bootstrap */
-    text-decoration: none; /* Rimuove la sottolineatura del link */
+    background-color: #ffffff; 
+    text-decoration: none; 
     transition: background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
     font-size: 13px;
     cursor: pointer;
     display: block;
     margin-top: 5px;
-    color: #d6054e !important; /* Colore del testo predefinito */
+    color: #d6054e !important; 
 }
 
 .tell-more:hover, .tell-less:hover {
-    background-color: #d6054e; /* Colore più scuro quando il link viene "hoverato" */
+    background-color: #d6054e; 
     color: #ffffff !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effetto di illuminazione con ombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .date{
@@ -419,7 +419,7 @@ a.tell-more, a.tell-less {
     font-size: 18px;
 }
 
-.timeline-point { /*!puntini messi sopra i testi*/
+.timeline-point { 
     border: none;
     position: absolute;
 
@@ -432,7 +432,7 @@ a.tell-more, a.tell-less {
     transition: 1.5s ease;
 }
 
-.timeline-line{  /*!la riga timeline*/
+.timeline-line{  
     background: #D9D9D9;
     width: 4px;
     border-radius: 12px;
@@ -441,7 +441,7 @@ a.tell-more, a.tell-less {
     left: -9px,
 }
 
-.timeline-innerline{  /*!la riga timeline*/
+.timeline-innerline{  
     position: absolute;
     background: #d6054e;
     height: 0%;
@@ -456,33 +456,33 @@ a.tell-more, a.tell-less {
     position: relative;
     display: flex;
     flex-direction: column;
-    top: -20px; /* Sposta la didascalia sopra la data */
+    top: -20px; 
 }
 
 .info-section{
     margin: auto;
     justify-content: center;
-    display: none; /* Nasconde tutte le sezioni all'inizio */;
-    scroll-margin-top: 1000px; /* Offset per "Tell me less" */
+    display: none; 
+    scroll-margin-top: 1000px; 
 }
 
 .image-container {
-    float: right; /* Posiziona il contenitore (immagine + didascalia) a destra */
-    margin: 0 0 10px 10px; /* Spazio intorno al contenitore */
-    width: 60%; /* Larghezza del contenitore */
-    max-width: 300px; /* Limita la larghezza massima */
-    text-align: center; /* Centra il testo della didascalia sotto l'immagine */
+    float: right; 
+    margin: 0 0 10px 10px; 
+    width: 60%; 
+    max-width: 300px; 
+    text-align: center; 
 }
 
 .image-container img {
-    width: 100%; /* L'immagine si adatta alla larghezza del contenitore */
-    height: auto; /* Mantiene le proporzioni */
+    width: 100%; 
+    height: auto; 
 }
 
 .image-container figcaption {
-    font-size: 14px; /* Dimensione del testo della didascalia */
-    color: #555; /* Colore del testo della didascalia */
-    margin-top: 5px; /* Spazio sopra la didascalia */
+    font-size: 14px; 
+    color: #555; 
+    margin-top: 5px; 
 }
 
 .theInfo .goToObj{
@@ -505,7 +505,7 @@ a.tell-more, a.tell-less {
 @media screen and (min-width:770px) {
     .timeline{
         display: block;
-        margin: 270px 0; /*!timeline in basso, lo 0 sennò verreberro appiccicati al centro*/
+        margin: 270px 0; 
     }
 
     ul{ 
@@ -518,19 +518,19 @@ a.tell-more, a.tell-less {
     
     li p{
         position: absolute;
-        top: -270px; /* Sposta la didascalia sopra la data */
+        top: -270px; 
         right: 3px;
         left: 3px;
-        width: 170px; /* la larghezza del riquadro */
+        width: 170px; 
 
-        transform: translateY(-10px); /*!non vedo i testi*/
+        transform: translateY(-10px); 
         opacity: 0;
         padding:  11px;
         transition: 1.5s;
     }
 
     .content-section {
-        scroll-margin-top: 900px; /* Offset per "Tell me less" */
+        scroll-margin-top: 900px; 
         position: relative;
     }
 
@@ -540,7 +540,7 @@ a.tell-more, a.tell-less {
         left:35%;
     }
     
-    .timeline-point { /*!puntini messi sopra i testi*/
+    .timeline-point { 
         width: 5px;
         height: 15px;
     
@@ -548,13 +548,13 @@ a.tell-more, a.tell-less {
         left: 40%;
     }
     
-    .timeline-line{  /*!la riga timeline*/
+    .timeline-line{  
         width: 100%;
         height: 4px;
 
     }
     
-    .timeline-innerline{  /*!la riga timeline*/
+    .timeline-innerline{  
         width: 0%;
         height: 4px;
     }
@@ -563,7 +563,7 @@ a.tell-more, a.tell-less {
         position: relative;
         display: flex;
 
-        top: -200px; /* Sposta la didascalia sopra la data */
+        top: -200px; 
 
     }
     
@@ -572,8 +572,8 @@ a.tell-more, a.tell-less {
         margin: auto;
         justify-content: center;
         text-align: left;
-        display: none; /* Nasconde tutte le sezioni all'inizio */;
-        scroll-margin-top: 170px; /* Offset per "Tell me less" */
+        display: none; 
+        scroll-margin-top: 170px; 
     }
     
 }
@@ -581,8 +581,7 @@ a.tell-more, a.tell-less {
 
 
 
-/*Narrative: Designers*/
-/* Carousel */
+
 .carousel {
     height: auto; 
     position: relative;
@@ -718,7 +717,7 @@ a.tell-more, a.tell-less {
     margin-top: 1%;
 }
 
-/*Narrative: spaces */
+
 
 .content_that_appears{height: 90vh; 
     overflow: hidden;
@@ -935,7 +934,7 @@ g:hover .image-mapper-shape {
 }
 
 
-/* Custom Scrollbar */
+
 ::-webkit-scrollbar {
     width: 2px;
    
@@ -955,7 +954,7 @@ g:hover .image-mapper-shape {
 
 
 
-/*usage narrative*/
+
 .text-overlay{
     position: absolute;
     bottom: 25%;
