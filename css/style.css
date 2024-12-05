@@ -722,7 +722,7 @@ td.details{
 .maintitle-1{
     font-size: 20rem;
     font-family: 'Glacial Indifference', sans-serif;
-    color: red;
+    color:#F50045;
     letter-spacing: -0.2em;
     align-items: flex-start;
 }
