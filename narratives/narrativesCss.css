@@ -468,21 +468,20 @@ a.tell-more, a.tell-less {
 
 .image-container {
     float: right; 
-    margin: 0 0 10px 10px; 
-    width: 60%; 
-    max-width: 300px; 
+    width: 80%; 
+    max-width: 450px; 
     text-align: center; 
 }
 
 .image-container img {
-    width: 100%; 
+    width: 95%; 
     height: auto; 
 }
 
 .image-container figcaption {
     font-size: 14px; 
     color: #555; 
-    margin-top: 5px; 
+    margin-top: 15px; 
 }
 
 .theInfo .goToObj{
