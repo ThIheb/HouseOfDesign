@@ -87,7 +87,7 @@
 
                 </div>
                 <div class="scrollee_item">
-                    <img src="/images/objects/anthropus.png">
+                    <img src="images/objects/anthropus.png">
                 </div>
             </div>
         </div>
@@ -102,10 +102,10 @@
                 <div class="small-nav">
                     <div class="small-info">
                         <div class="box">
-                            <p >6 Designers</p> 
+                            <p>6 Designers</p>
                         </div>
                         <div class="box">
-                            <p >4 Rooms</p>
+                            <p>4 Rooms</p>
                         </div>
                         <div class="box">
                             <p>1 House</p>
@@ -113,8 +113,14 @@
 
                     </div>
                     <div class="description-1">
-                        <p class="des"> The project features 19 selected pieces, thoughtfully placed in a purpose-designed house, aiming to elevate the perception of interior design and celebrate it as a powerful art form that enhances our spaces.</p>
-                        <p class="des"> To achieve universal accessibility and meaningful engagement with heritage, we’ve developed various narrative perspectives and layers of description. Users can experience the exhibition from different perspectives through distinct <strong>storylines</strong></p>
+                        <p class="des"> The project features 19 selected pieces, thoughtfully placed in a
+                            purpose-designed house, aiming to elevate the perception of interior design and celebrate it
+                            as a powerful art form that enhances our spaces.</p>
+                        <p class="des"> To achieve universal accessibility and meaningful engagement with heritage,
+                            we’ve developed various narrative perspectives and layers of description. Users can
+                            experience the exhibition from different perspectives through distinct
+                            <strong>storylines</strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -149,6 +155,22 @@
                 </a>
             </div>
         </div>
+
+        <div class="container-fluid pb-5">
+            <div id="graphs" class="row w-100 px-5 pb-5">
+                <h2 class="ps-5">A quick look at our objects</h2>
+                <p class="ps-5">Before exploring our exhibition, you may be interested in knowing the overall composition of our data</p>
+              <div class="col-4">
+                <canvas class="" id="des" width="400" height="400"></canvas>
+              </div>
+              <div class="col-4">
+                <canvas class="" id="usg" width="400" height="400"></canvas>
+              </div>
+              <div class="col-4">
+                <canvas class="" id="his" width="400" height="400"></canvas>
+              </div>
+            </div>
+          </div>
 
         <div class="map_low">
             <div id="rooms_texts">
@@ -195,20 +217,20 @@
     <footer>
         <img src="images/logoWhite.png" alt="logo variation white">
         <div class="right">
-          <div class="links">
-            <a href="aboutus.html">About Us</a>
-            <a href="documentation.html">Documentation</a>
-            <a href="disclamer.html">Disclaimer</a>
-            <a href="#">Contact Us</a>
-          </div>
-          <div class="social">
-            <i class="bi bi-twitter-x"></i>
-            <i class="bi bi-threads"></i>
-            <i class="bi bi-github"></i>
-          </div>
-          <p>All copyright on the typographic and layout choices are 2024 © XY</p>
+            <div class="links">
+                <a href="aboutus.html">About Us</a>
+                <a href="documentation.html">Documentation</a>
+                <a href="disclamer.html">Disclaimer</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="social">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-threads"></i>
+                <i class="bi bi-github"></i>
+            </div>
+            <p>All copyright on the typographic and layout choices are 2024 © XY</p>
         </div>
-      </footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -216,7 +238,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/patternomaly"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="Js/phase4.js"></script>
+    <script src="Js/charts.js"></script>
 </body>
 
 </html>

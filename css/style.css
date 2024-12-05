@@ -722,7 +722,7 @@ td.details{
 .maintitle-1{
     font-size: 20rem;
     font-family: 'Glacial Indifference', sans-serif;
-    color: red;
+    color:#F50045;
     letter-spacing: -0.2em;
     align-items: flex-start;
 }
@@ -791,11 +791,13 @@ td.details{
 }
 
 .scrollee_item {
-    margin-top: 5%;
+    margin-top: 8%;
     width: 100vw;
     height: 80vh; 
     display:flex;
     flex-direction: row;
+    margin-left: 2%
+    
 }
 
 
@@ -807,7 +809,7 @@ td.details{
     align-content: center;
     display:flex;
     color: white;
-    
+    margin-left: 2%;
 }
 .scrollee_box img{
     
@@ -818,13 +820,19 @@ td.details{
     font-family: 'Poppins' sans-serif ;
     align-items: center;
     margin-top: 8rem;
-    margin-left: 3rem;
+    margin-left: 10%;
     
 }
 .title_scrollee .des{
     text-align: left;
     align-items: center;
-    margin-left:3rem;
+    margin-left:10%;
+    flex-wrap: wrap;
+    overflow-wrap: normal ;
+}
+.title_scrolle .des {
+    flex-wrap: wrap;
+    margin-left: 10%;
 }
 .top_box{
     background-color: red;

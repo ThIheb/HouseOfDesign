@@ -343,12 +343,11 @@ padding-left: 1.5%;
 
 .font{align-items: flex-end;
 border-left: 1px solid black;
-margin-top:7%;
+margin:7%;
 padding-left:2%}
 
 .font p:nth-child(2){font-weight: 600;}
 .font p:last-child{font-weight: 800;}
-
 
 
 .assistant{text-transform: uppercase;
@@ -363,9 +362,11 @@ padding-left:2%}
 
 .small{align-items: flex-end;
     border-left: 1px solid black;
-    margin-top:8%;
+    margin:8% 0;
     padding: 1% 2%}
 
+#alphGlacial{font-family: 'Glacial Indifference', sans-serif;}
+#alphAss{font-family: "Assistant", sans-serif;}
 
 table{width:80%;
 height:auto;
@@ -459,6 +460,47 @@ height:auto;
 #colourBlindness{width:80%;
     height:auto;
 }
+
+
+#homepage-features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .feature {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #d6054e;
+  }
+  
+  .feature video,
+  .feature .scroll-demo,
+  .feature .counter-demo {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .feature h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .feature p {
+    line-height: 1.6;
+  }
+  
 
 /*credits*/
 .accordion{font-family: "Poppins", sans-serif;

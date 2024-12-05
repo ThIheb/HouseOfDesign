@@ -65,7 +65,7 @@
                 "Company": "Cassina"
             },
             "shortInfo": "The Antropus Chair was designed by Marco Zanuso in 1948 for the play The Skin of Our Teeth (La Famiglia Antropus) by Thornton Wilder, staged at Milan’s Piccolo Teatro. The chair’s name reflects its theatrical origins and Zanuso’s innovative approach to seating design. With wide, deep dimensions and elegantly sinuous lines, the Antropus Chair offers comfort and visual sophistication, redefining furniture design as a harmonious assembly of individual components rather than a rigid, upholstered form.",
-            "longerInfo": [
+            "longerInfo": ["The Antropus Chair was designed by Marco Zanuso in 1948 for the play The Skin of Our Teeth (La Famiglia Antropus) by Thornton Wilder, staged at Milan’s Piccolo Teatro. The chair’s name reflects its theatrical origins and Zanuso’s innovative approach to seating design. With wide, deep dimensions and elegantly sinuous lines, the Antropus Chair offers comfort and visual sophistication, redefining furniture design as a harmonious assembly of individual components rather than a rigid, upholstered form.",
                 "Industrial Innovation and Material Use: In collaboration with Arflex, Zanuso introduced the Antropus Chair as a prototype in 1948 and later put it into production in 1978. It was one of the first chairs to be entirely upholstered in polyurethane foam, a revolutionary material at the time. This innovation not only enhanced comfort and ergonomics but also streamlined the industrial production process, making the chair a milestone in modern furniture design."
             ],
             "fullInfo": [
@@ -213,7 +213,7 @@
                 "Designer": "Enzo Mari",
                 "History": "1970s",
                 "Usage": "Furniture",
-                "Space": "Kitchen",
+                "Space": "Study",
                 "Manufacturer": "Driade",
                 "Dimensions": "180 x 120 x 72h",
                 "Material": "Light plywood veneered with white laminate",
@@ -496,7 +496,7 @@
                 "Designer": "Achille Castiglioni",
                 "History": "1950s",
                 "Usage": "Furniture",
-                "Space": "Study",
+                "Space": "Kitchen",
                 "Manufacturer": "Zanotta",
                 "Dimensions": "200 x 100 x 65-91h",
                 "Material": "Steamed beech, white laminate",
