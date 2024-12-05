@@ -650,10 +650,10 @@ td.details{
 }
 @media (max-width: 1024px) {
     .container-objects {
-        flex-wrap: wrap; /* Ensure wrapping is enabled */
-        justify-content: center; /* Center items */
-        margin: 3rem; /* Reduce margin */
-        gap: 2rem; /* Increase spacing between items */
+        flex-wrap: wrap; 
+        justify-content: center; 
+        margin: 3rem; 
+        gap: 2rem; 
     }
     .maintitle-1{
         font-size: 15rem;
@@ -662,11 +662,11 @@ td.details{
 }
 @media (max-width: 768px) {
     .container-objects {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        padding: 10px; /* Reduce padding */
-        margin: 1rem; /* Further reduce margins */
-        gap: 1.5rem; /* Adjust spacing */
+        flex-direction: column; 
+        align-items: center; 
+        padding: 10px; 
+        margin: 1rem; 
+        gap: 1.5rem; 
     }
     .maintitle-1{
         font-size: 10rem;
@@ -675,10 +675,10 @@ td.details{
 }
 @media (max-width: 576px) {
     .container-objects {
-        flex-direction: column; /* Vertical layout */
-        padding: 5px; /* Minimize padding */
-        margin: 0.5rem; /* Minimize margins */
-        gap: 1rem; /* Space between items */
+        flex-direction: column; 
+        padding: 5px; 
+        margin: 0.5rem; 
+        gap: 1rem; 
     }
     .maintitle-1{
         font-size: 8rem;
@@ -747,8 +747,10 @@ td.details{
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: center;
-    gap:10rem
+    align-items: flex-start;
+    gap:10rem;
+    left: 2%
+    
 }
 .box{
     font-size: 2rem;
@@ -777,15 +779,15 @@ td.details{
     z-index:1;
 }
 .scroller {
-    width: 100vw; /* Ensure the wrapper takes the full viewport width */
-    overflow: hidden; /* Hide any overflow content */
+    width: 100vw; 
+    overflow: hidden; 
     display: flex;
 }
 
 .scrollee {
-    width: fit-content; /* Allow the element to grow with the content */
+    width: fit-content; 
     display: flex;
-    flex-wrap: nowrap; /* Disable wrapping */
+    flex-wrap: nowrap; 
 }
 
 .scrollee_item {
@@ -857,19 +859,19 @@ td.details{
         margin: 10% 7%;
     }
     .small-nav {
-        flex-direction: row; /* Switch to row layout for medium devices */
+        flex-direction: row; 
         gap: 2rem;
     }
     .map_low {
-        flex-direction: column; /* Stack elements vertically on medium screens */
-        margin: 0 20px; /* Reduce margins on smaller screens */
+        flex-direction: column; 
+        margin: 0 20px; 
         padding: 0 20px;
     }
 
     .map iframe {
-        width: 80vw; /* Adjust the width to 80% of the viewport on medium screens */
-        height: 40vh; /* Reduce height to fit better */
-        position: relative; /* Make the iframe relative for better flow */
+        width: 80vw; 
+        height: 40vh; 
+        position: relative; 
     }
 
     #svg_container {
@@ -888,7 +890,7 @@ td.details{
     
     }
     .des {
-        font-size: 1.2rem; /* Increase font size slightly on larger screens */
+        font-size: 1.2rem; 
     
 }
 
@@ -950,20 +952,22 @@ td.details{
         font-size: 1.5rem; 
     }
     .map_low {
-        flex-direction: column; /* Ensure items are stacked vertically */
-        gap: 10px; /* Reduce the gap */
-        margin: 0; /* Remove margin */
-        padding: 0; /* Remove padding */
+        flex-direction: column; 
+        gap: 10px; 
+        margin: 5% 7%; 
+        padding: 0; 
+        width: 100%;
+        height: 100%
     }
 
     .map iframe {
-        width: 100vw; /* Full width for small screens */
-        height: 35vh; /* Adjust height for mobile */
-    }
+        width: 100vw; 
+        height: 35vh; 
+        }
 
     .lower_nav {
-        height: auto; /* Let the height adjust automatically */
-        margin-bottom: 5%; /* Reduce bottom margin further */
+        height: auto; 
+        margin-bottom: 5%; 
     }
 }
 .scrolldown {

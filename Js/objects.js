@@ -9,20 +9,20 @@ var currentSort = ""
 document.addEventListener("DOMContentLoaded", async function (event) {
 	console.log("Ready to start with phase 4");
 
-	// Fetch data and initialize items and narratives
+
 	fetch("Js/infoPhase4.json")
 		.then(response => response.json())
 		.then(data => {
 			items = data.items;
 			narratives = data.meta.narratives;
 
-			// Check for narrative and item parameters in URL and display accordingly
+
 			displayNarrativeFromURL();
 
-			// Fallback setup if no URL parameters are present
+
 			const params = new URLSearchParams(window.location.search);
 			if (!params.has("narrative") && !params.has("item")) {
-				// Default setup if no narrative or item in URL
+
 				currentNarrative = data.meta.startNarrative;
 				currentValue = data.meta.startValue;
 				currentSort = "";
@@ -72,32 +72,32 @@ function showInfo(index) {
 	prepareNavigationButtons(index);
 	prepareKeyWords(item);
 
-	// Call `updateURL` with the item object to set the URL parameters
+
 	updateURL(item);
 }
 function displayNarrativeFromURL() {
-	// Parse the current URL for narrative and item parameters
+
 	const params = new URLSearchParams(window.location.search);
 	const narrativeParam = params.get("narrative");
 	const itemParam = params.get("item");
 
 	if (narrativeParam && itemParam) {
-		// Set the current narrative and value to the URL parameters
+
 		currentNarrative = decodeURIComponent(narrativeParam);
 		const decodedItemName = decodeURIComponent(itemParam);
 
-		// Find the matching item based on the `shortName` from the URL
+
 		const startItem = items.find(i => i.shortName === decodedItemName);
 
 		if (startItem) {
-			// Set the current value and sort order
+
 			currentValue = startItem.info[currentNarrative];
 			currentSort = startItem['@sort'];
 
-			// Prepare the narratives based on the selected values
+
 			prepareNarratives();
 
-			// Display the item information
+
 			const index = currentSelection.findIndex(i => i.shortName === decodedItemName);
 			if (index !== -1) {
 				showInfo(index);
@@ -112,10 +112,10 @@ function displayNarrativeFromURL() {
 	}
 }
 
-// Call this function during the DOMContentLoaded event or after data is loaded
+
 document.addEventListener("DOMContentLoaded", async function () {
-	await loadData();  // Assume `loadData` is a function that loads items and narratives data
-	displayNarrativeFromURL();  // Display based on URL after data is loaded
+	await loadData();
+	displayNarrativeFromURL();
 });
 
 
@@ -142,11 +142,11 @@ function hideFullInfo() {
 
 function createInfoTable(item) {
 
-	// Define the keys that should go into each section
-	const firstSectionKeys = ["Designer", "Usage", "Space", "History"]; // Keys for the first section
-	const secondSectionKeys = ["Date of Project","Date of Production", "History", "Dimensions", "Company", "Material", "Type"]; // Keys for the second section
 
-	// Populate first section based on firstSectionKeys
+	const firstSectionKeys = ["Designer", "Usage", "Space", "History"];
+	const secondSectionKeys = ["Date of Project", "Date of Production", "History", "Dimensions", "Company", "Material", "Type"];
+
+
 	for (var key of firstSectionKeys) {
 		if (item.info[key] !== null && item.info[key] !== undefined) {
 
@@ -170,7 +170,7 @@ function createInfoTable(item) {
 		});
 	});
 
-	// Populate second section based on secondSectionKeys
+
 	for (var Secondkey of secondSectionKeys) {
 		if (item.info[Secondkey] !== null && item.info[key] !== undefined) {
 			var value = item.info[Secondkey];
@@ -217,10 +217,10 @@ function updateURL(item) {
 	const params = new URLSearchParams();
 	params.set("narrative", currentNarrative);
 
-	// Encode the `shortName` to make it URL-safe
+
 	const encodedShortName = encodeURIComponent(item.shortName);
 
-	// Append the `shortName` to the URL as a slug or query parameter
+
 	history.replaceState(null, "", `${baseUrl}?${params.toString()}&item=${encodedShortName}`);
 }
 
