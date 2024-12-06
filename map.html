@@ -9,7 +9,8 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!--favicon-->
@@ -24,6 +25,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
     <link href="narratives/narrativesCss.css" rel="stylesheet">
+    <link href="basicStyling.css" rel="stylesheet">
+
     
 </head>
 
@@ -40,7 +43,7 @@
         <div class="items_right">
             <a href="narratives.html">Narratives</a>
             <a href="objs.html">Objects</a>
-            <a href="map.html" class="youAreHere">Map</a>
+            <a href="map.html" class="youAreHere" aria-current="page">Map</a>
         </div>
       </nav>
 
@@ -48,25 +51,39 @@
         <div class="map_and_spaces">
             
                 <div id="svg_container">
-                   <svg style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 530 396">
-                       <image xlink:href="images/pianta.png" style="width: 530px; height:auto;"></image>
+                <title id="map-title">Interactive floor plan showing various rooms</title>
+                   <svg style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 530 396" role="region" aria-labelledby="map-title">
+                    <title id="livingroom-label">Living Room</title>
+                       <image xlink:href="images/pianta.png" style="width: 530px; height:auto;" aria-labelledby="Floor plan layout"></image>
                        <g>
-                           <rect x="9" y="10" width="191" height="178" class="image-mapper-shape" data-index="1" id="bathroom"></rect>
+                           <rect x="9" y="10" width="191" height="178" class="image-mapper-shape" data-index="1" id="bathroom" role="button" tabindex="0" aria-labelledby="bathroom-label">
+                            <title id="bathroom-label">Bathroom</title>
+                           </rect>
+                          
                        </g>
                        <g>
-                           <rect x="202" y="4" width="320" height="184" class="image-mapper-shape" data-index="2" id="kitchen"></rect>
+                           <rect x="202" y="4" width="320" height="184" class="image-mapper-shape" data-index="2" id="kitchen" role="button" tabindex="0" aria-labelledby="kitchen-label">
+                            <title id="kitchen-label">Kitchen</title>
+                           </rect>
+                          
                        </g>
                        <g>
-                           <rect x="8" y="192" width="197" height="199" class="image-mapper-shape" data-index="5" id="study"></rect>
+                           <rect x="8" y="192" width="197" height="199" class="image-mapper-shape" data-index="5" id="study" role="button" tabindex="0" aria-labelledby="study-label">
+                            <title id="study-label">Study</title>
+                           </rect>
+                           
                        </g>
                        <g>
-                           <rect x="205" y="187" width="318" height="203" class="image-mapper-shape" data-index="6" id="livingroom"></rect>
+                           <rect x="205" y="187" width="318" height="203" class="image-mapper-shape" data-index="6" id="livingroom" role="button" tabindex="0" aria-labelledby="livingroom-label">
+                            <title id="livingroom-label">Livingroom</title>
+                           </rect>
+                           
                        </g>
                    </svg>
                    
                </div>
                <div id="rooms_texts">
-                    <div id="intro_text" class="content visible">
+                    <div id="intro_text" class="content visible" aria-hidden="false">
                         <h2 class="topic">The map</h2>
                         <h1 class="title">The Spaces</h1>
                         <p class="des">Drawing from iconic pieces of the Milan Triennale, this exhibition celebrates Italian design in four carefully curated spaces: the study, the bathroom, the living room, and the kitchen.</p>
@@ -76,7 +93,7 @@
                         <p class="des"> Click on the rooms to learn more about them</p>
             
                     </div>
-                    <div id="study_text" class="content hidden">
+                    <div id="study_text" class="content hidden" >
                         <h2 class="topic">The room</h2>
                         <h1 class="title">Study</h1>
                         <p class="des">A quiet space in the apartment, perfect for reading, working, or studying. Here the selection of furniture and materials plays a key role in creating a productive environment. </p>
@@ -103,7 +120,7 @@
                         </div>
                     </div>
 
-                    <div id="bathroom_text" class="content hidden">
+                    <div id="bathroom_text" class="content hidden" aria-hidden="true">
                         <h2 class="topic">The room</h2>
                         <h1 class="title">Bathroom</h1>
                         <p class="des">A functional space in the apartment, where materials and fixtures are crucial in creating a clean and serene environment. The focus is on cleanliness and convenience, making it an essential part of daily routines.</p>
@@ -119,7 +136,7 @@
                         </div>
                     </div>
 
-                    <div id="kitchen_text" class="content hidden">
+                    <div id="kitchen_text" class="content hidden" aria-hidden="true">
                         <h2 class="topic">The room</h2>
                         <h1 class="title">Kitchen</h1>
                         <p class="des">A functional space in the apartment, where materials and fixtures are crucial in creating a clean and serene environment. The focus is on cleanliness and convenience, making it an essential part of daily routines.
@@ -137,7 +154,7 @@
                         </div>
                     </div>
 
-                    <div id="livingroom_text" class="content hidden">
+                    <div id="livingroom_text" class="content hidden" aria-hidden="true">
                         <h2 class="topic">The room</h2>
                         <h1 class="title">Living room</h1>
                         <p class="des">The social hub of the apartment, a multifunctional space that merges style with comfort. The space is designed to be comfortable and welcoming, offering room for both relaxation and conversation. </p>
@@ -175,7 +192,7 @@
             <i class="bi bi-threads"></i>
             <i class="bi bi-github"></i>
           </div>
-          <p>All copyright on the typographic and layout choices are 2024 © XY</p>
+          <p>All copyright on the typographic and layout choices are 2024 © Mohamed Iheb Ouerghi, Niccolò Molinati, Virginia D'Antonio, Giorgia Umana</p>
         </div>
       </footer>
 </body>

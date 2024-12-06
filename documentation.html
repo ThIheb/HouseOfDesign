@@ -7,9 +7,11 @@
     <title>House of Design</title>
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -27,6 +29,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
     <link href="documentation.css" rel="stylesheet">
+    <link href="basicStyling.css" rel="stylesheet">
+
     
 </head>
 
@@ -34,7 +38,7 @@
   <nav>
     <a href="index.html" class="graphiclogo showsmall"><img src="images/logo.png" alt="Logo" class="nav-logo"></a>
     <div class="items_left">
-        <a href="documentation.html" class="youAreHere">Documentation</a>
+        <a href="documentation.html" class="youAreHere" aria-current="page">Documentation</a>
         <a href="aboutus.html">About us</a>
     </div>
     <a href="index.html" class="textlogo">House of design</a>
@@ -46,7 +50,7 @@
     </div>
   </nav>
 
-      <main>
+    <main>
         <div class="container-fluid m-0 p-0">
           <div class="row">
             <div class="col-md-2">
@@ -55,15 +59,17 @@
                   aria-controls="introduction" aria-selected="true">Introduction</a>
                 <a class="nav-link" id="overview-tab" data-toggle="pill" href="#overview" role="tab"
                   aria-controls="overview" aria-selected="false">Overview</a>
+                  
                 <a class="nav-link" id="structure-tab" data-toggle="pill" href="#structure" role="tab"
                   aria-controls="structure" aria-selected="false">Content structure</a>
                 <a class="nav-link" id="design-tab" data-toggle="pill" href="#design" role="tab"
                   aria-controls="design" aria-selected="false">Design</a>
-                <a class="nav-link" id="functionality-tab" data-toggle="pill" href="#functionality" role="tab"
+              
+
+                <a class="nav-link" id="functionality-tab" data-bs-toggle="pill" href="#functionality" role="tab"
                   aria-controls="functionality" aria-selected="false">Functionality</a>
-                <a class="nav-link" id="workflow-tab" data-toggle="pill" href="#workflow" role="tab"
-                  aria-controls="workflow" aria-selected="false">Workflow</a>
-                <a class="nav-link" id="credits-tab" data-toggle="pill" href="#credits" role="tab"
+                  <a class="nav-link" id="workflow-tab" data-bs-toggle="pill" href="#workflow" role="tab" aria-controls="workflow" aria-selected="false">Workflow</a>
+                <a class="nav-link" id="credits-tab" data-bs-toggle="pill" href="#credits" role="tab"
                   aria-controls="credits" aria-selected="false">Credits</a>
               </div>
             </div>
@@ -73,12 +79,12 @@
                 <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="intro-tab">
                   <div class="content" id="intro_text">
                     <h1 class="title">Welcome to House of Design</h1>
-                    <p cladd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. </p>
+                    <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. </p>
                     <a href="doc.pdf" download>Download PDF</a>
   
                   </div>
                 </div>
-    
+
                 <div class="tab-pane fade" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                   <div class="content" id="overview_text">
                     <h1 class="title">Project Overview</h1>
@@ -211,112 +217,118 @@
                         <p>Sonic Silver</p>
                       </div>
                     </div>
-                
-
-                   
-                    
                   
-                </div>
+                    </div>
                 
-                <h2 class="subContent">3.4 Typography</h2>
-                <div class="scroller">
-                    <div class="scrollee">
-                        <div class="scrollee_item">
-                        <div class="typeIntro">
-                          <h5 class="topic">Primary Typeface</h5>
-                          <h1>Poppins</h1>
-                          <p>Known for its legibility and versatility, Poppins brings a modern, friendly feel with a touch of sophistication, it's used for most of the website content, including the body, navbar, footer, titles, and subheadings.
-                        </p>
-                        <p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
-                        </div>
-                        <div class="font">
-                          <p>Poppins Regular</p>
-                          <p>Poppins Medium</p>
-                          <p>Poppins Bold</p>
+                    <h2 class="subContent">3.4 Typography</h2>
+                    <div class="scroller">
+                        <div class="scrollee">
+                            <div class="scrollee_item">
+                            <div class="typeIntro">
+                              <h5 class="topic">Primary Typeface</h5>
+                              <h1>Poppins</h1>
+                              <p>Known for its legibility and versatility, Poppins brings a modern, friendly feel with a touch of sophistication, it's used for most of the website content, including the body, navbar, footer, titles, and subheadings.
+                            </p>
+                            <p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
+                            </div>
+                            <div class="font">
+                              <p>Poppins Regular</p>
+                              <p>Poppins Medium</p>
+                              <p>Poppins Bold</p>
 
-                        </div>
-                        </div>
+                            </div>
+                            </div>
 
-                        <div class="scrollee_item">
-                          <div class="typeIntro">
-                            <h5 class="topic">Primary Typeface</h5>
-                            <h1 class="assistant">Assistant</h1>
-                            <p>Selected for its ability to stand out in uppercase, Assistant adds visual interest to subtitles and complements the primary typeface. It's used for subtitles in uppercase, enhancing visual hierarchy
-                          </p>
-                          <p id="alphAss">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
+                            <div class="scrollee_item">
+                              <div class="typeIntro">
+                                <h5 class="topic">Primary Typeface</h5>
+                                <h1 class="assistant">Assistant</h1>
+                                <p>Selected for its ability to stand out in uppercase, Assistant adds visual interest to subtitles and complements the primary typeface. It's used for subtitles in uppercase, enhancing visual hierarchy
+                              </p>
+                              <p id="alphAss">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
+                              </div>
+                              <div class="assistant small">
+                                <p>Assistant Light</p>
+      
+                              </div>
+                            </div>
+                            <div class="scrollee_item">
+                              <div class="typeIntro">
+                                <h5 class="topic">Primary Typeface</h5>
+                                <h1 class="glacial">Glacial Indifference</h1>
+                                <p>With its clean, modern lines and high legibility, Glacial Indifference has been chosen to create emphasis in the main title and logo
+                              </p>
+                              <p id="alphGlacial">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
+                              </div>
+                              <div class="glacial small">
+                                <p >Glacial Indifference Bold</p>
+      
+                              </div>
+                            </div>
                           </div>
-                          <div class="assistant small">
-                            <p>Assistant Light</p>
-  
-                          </div>
-                        </div>
-                        <div class="scrollee_item">
-                          <div class="typeIntro">
-                            <h5 class="topic">Primary Typeface</h5>
-                            <h1 class="glacial">Glacial Indifference</h1>
-                            <p>With its clean, modern lines and high legibility, Glacial Indifference has been chosen to create emphasis in the main title and logo
-                          </p>
-                          <p id="alphGlacial">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz</p>
-                          </div>
-                          <div class="glacial small">
-                            <p >Glacial Indifference Bold</p>
-  
-                          </div>
-                        </div>
-                      </div>
+                    </div>
+                    <h2 class="subContent">3.5 Sizing and weight</h2>
+                    <table>
+                      <th>Hierarchy</th>
+                      <th>Font</th>
+                      <th>Weight</th>
+                      <th>Size</th>
+                      <tr>
+                        <td><h1>H1 Headline</h1></td>
+                        <td>Glacial Indifference, Poppins</td>
+                        <td>400</td>
+                        <td>2.5 rem, 40 px</td>
+                      </tr>
+                      <tr>
+                        <td><h2 class="topic">H2 Headline</h2></td>
+                        <td>Assistant</td>
+                        <td>400</td>
+                        <td>1 rem, 16 px</td>
+                      </tr>
+                      <tr>
+                        <td>Body</td>
+                        <td>Poppins</td>
+                        <td>300</td>
+                        <td>1 rem, 16 px</td>
+                      </tr>
+                      <tr>
+                        <td><p>Buttons</p></td>
+                        <td>Poppins</td>
+                        <td>300</td>
+                        <td>1 rem, 16 px</td>
+                      </tr>
+                      <tr>
+                        <td><p>Links</p></td>
+                        <td>Poppins</td>
+                        <td>300</td>
+                        <td>1 rem, 16 px</td>
+
+                      </tr>
+                    </table>
+
+                    <h2 class="subContent">3.6 Spacing</h2>
+                    <p>Recurrent margins and paddings have been used throughout the website to create a uniform look and feel throughout the design and avoid visual clutter.</p>
+                    <p>Text spacing is managed through padding within <em>p</em> and <em>h1</em>  elements, ensuring <strong>readability</strong> and <strong>consistency</strong>consistency across the design. Margins and paddings are used strategically to emphasize key elements, such as the footer and header, while preserving visual hierarchy and ensuring an organized appearance.
+                    </p>
+                    <p>Fixed Units are used for elements where precise control is needed (e.g., border widths, icons) to maintain consistent appearance across devices while relative units (% and em) ensure flexibility and <strong>adaptability</strong> to varying screen sizes, especially for margins and paddings.
+                    </p>
+
+                    <h2 class="subContent">3.7 Images </h2>
+                    <p>We opted to use 3D renders for the images of the objects to provide a <strong>complete view</strong> of each item from multiple angles. This allowed us to visualise the objects together in a 3D-rendered environment, showing how they integrate in a <strong>concrete setting</strong>.</p>
+                    <p>The wireframe render presents each object in a “scientific” format, focusing on its structural details that are typically not visible, emphasising the object’s design process and construction.</p>
+
+                    <h2 class="subContent">3.8 Additional elements</h2>
+                    <h3>Buttons</h3>
+                    <p class="des">The button designs follow a consistent and intentional approach, using <strong>visual hierarchy</strong>, color, and interactivity to enhance usability and draw attention to key actions
+                      In primary buttons the accent colour is used either as the <strong>default</strong> state or on <strong>hover</strong> to stand out against the rest of the design.</p>
+                    <p class="des">In secondary buttons, the hover state shifts to a black background with white text, creating a sleek, professional appearance that complements the page's overall tone. This differentiation ensures that secondary buttons are noticeable but do not overshadow primary actions, preserving the visual hierarchy.
+                    </p>
+                    <h3>Arrows</h3>
+                    <p class="des">The arrows are designed for navigation on the <strong>Narratives Page</strong> (Designers' narrative). The thin black lines maintain the minimalist aesthetic that characterizes the website, harmonizing with the button designs. This simplicity ensures they do not distract from the content while remaining intuitive and functional.</p>
+                  </div>
+                  <h3>Links</h3>
+                    <p class="des">stuff</p>
                 </div>
-                <h2 class="subContent">3.5 Sizing and weight</h2>
-                <table>
-                  <th>Hierarchy</th>
-                  <th>Font</th>
-                  <th>Weight</th>
-                  <th>Size</th>
-                  <tr>
-                    <td><h1>H1 Headline</h1></td>
-                    <td>Glacial Indifference | Poppins</td>
-                    <td>400</td>
-                    <td>2.5 rem | 40 px</td>
-                  </tr>
-                  <tr>
-                    <td><h2 class="topic">H2 Headline</h2></td>
-                    <td>Assistant</td>
-                    <td>400</td>
-                    <td>1 rem | 16 px</td>
-                  </tr>
-                  <tr>
-                    <td>Body</td>
-                    <td>Poppins</td>
-                    <td>300</td>
-                    <td>1 rem | 16 px</td>
-                  </tr>
-                  <tr>
-                    <td><p>Buttons</p></td>
-                    <td>Poppins</td>
-                    <td>300</td>
-                    <td>1 rem | 16 px</td>
-                  </tr>
-                  <tr>
-                    <td><p>Links</p></td>
-                    <td>Poppins</td>
-                    <td>300</td>
-                    <td>1 rem | 16 px</td>
-
-                  </tr>
-                </table>
-
-                <h2 class="subContent">3.6 Spacing</h2>
-                <p>Recurrent margins and paddings have been used throughout the website to create a uniform look and feel throughout the design and avoid visual clutter.</p>
-                <p>Text spacing is managed through padding within <em>p</em> and <em>h1</em>  elements, ensuring <strong>readability</strong> and <strong>consistency</strong>consistency across the design. Margins and paddings are used strategically to emphasize key elements, such as the footer and header, while preserving visual hierarchy and ensuring an organized appearance.
-                </p>
-                <p>Fixed Units are used for elements where precise control is needed (e.g., border widths, icons) to maintain consistent appearance across devices while relative units (% and em) ensure flexibility and <strong>adaptability</strong> to varying screen sizes, especially for margins and paddings.
-                </p>
-
-                <h2 class="subContent">3.7 Images </h2>
-                <p>We opted to use 3D renders for the images of the objects to provide a <strong>complete view</strong> of each item from multiple angles. This allowed us to visualise the objects together in a 3D-rendered environment, showing how they integrate in a <strong>concrete setting</strong>.</p>
-                <p>The wireframe render presents each object in a “scientific” format, focusing on its structural details that are typically not visible, emphasising the object’s design process and construction.</p>
-
-                <h2 class="subContent">3.8 Additional elements</h2>
-
 
                 <div class="tab-pane fade" id="functionality" role="tabpanel" aria-labelledby="functionality-tab">
                   <div class="content" id="functionality_text">
@@ -349,91 +361,94 @@
                 </div>
 
                 <div class="tab-pane fade" id="workflow" role="tabpanel" aria-labelledby="workflow-tab">
-                  <div class="content" id="workflow_text">
-                    <h1 class="title">Workflow</h1>
-                  </div>
+                    <div class="content" id="workflow_text">
+                      <h1 class="title">Workflow</h1>
+                    </div>
                 </div>
+                
 
                 <div class="tab-pane fade" id="credits" role="tabpanel" aria-labelledby="credits-tab">
-                  <div class="content" id="credits_text">
-                    <h1 class="title">Credits</h1>
-                    <p class="des">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet
-                    </p>
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            Websites
-                          </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                          <div class="accordion-body">
-                            <p class="des">Timmons, Diana Hathaway. <cite><a href="//www.thespruce.com/timeless-color-rule-797859">Perfecting the 60-30-10 Rule in Your Living Space</a></cite>. 22 April 2024. The Spruce
-                            </p>
+                    <div class="content" id="credits_text">
+                      <h1 class="title">Credits</h1>
+                      <p class="des">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum erat quis iaculis tempus. Vestibulum eros mi, hendrerit sed cursus sed, maximus id nibh. Cras sodales ultricies elementum. Suspendisse in egestas nisl. Sed hendrerit orci at pellentesque faucibus. Donec cursus convallis elit. Mauris mollis luctus tortor, vel rhoncus ante imperdiet sit amet
+                      </p>
+                      <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              Websites
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                              <p class="des">Timmons, Diana Hathaway. <cite><a href="//www.thespruce.com/timeless-color-rule-797859">Perfecting the 60-30-10 Rule in Your Living Space</a></cite>. 22 April 2024. The Spruce
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            3d models
-                          </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                          <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              3d models
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Videos
-                          </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                          <div class="accordion-body">
-                            <p class="des"><a href="https://www.youtube.com/watch?v=uV8kH5RgSZU">“Page Scroll Effect | HTML & CSS”</a> , YouTube, uploaded by Web Dev Made Easy, 3 June 2022
-                            </p>
-                            <p class="des"><a href="https://www.youtube.com/watch?v=hfGz5AgHT-E">“Carousel Slider Blur Effects Impressive Using HTML CSS And Javascript”</a> , YouTube, uploaded by Lun Dev Code, 28 Nov 2023
-                            </p>
-                            <p class="des"><a href="https://www.youtube.com/watch?v=bOX-WCXYi8c&list=WL&index=47">“Logo Shrink On Scroll | Header Animation On Scroll | HTML, CSS & ScrollTrigger”</a>, YouTube, uploaded by Codegrid, 4 Jan 2023
-                            </p>
-                            <p class="des"><a href="https://www.youtube.com/watch?v=_LWinkSulwU">“ScrollTrigger: Responsive Pin with Horizontal Scroll (GSAP)”,</a> , YouTube, uploaded by snorklTV, 8 June 2023
-                            </p>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Videos
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              <p class="des"><a href="https://www.youtube.com/watch?v=uV8kH5RgSZU">“Page Scroll Effect | HTML & CSS”</a> , YouTube, uploaded by Web Dev Made Easy, 3 June 2022
+                              </p>
+                              <p class="des"><a href="https://www.youtube.com/watch?v=hfGz5AgHT-E">“Carousel Slider Blur Effects Impressive Using HTML CSS And Javascript”</a> , YouTube, uploaded by Lun Dev Code, 28 Nov 2023
+                              </p>
+                              <p class="des"><a href="https://www.youtube.com/watch?v=bOX-WCXYi8c&list=WL&index=47">“Logo Shrink On Scroll | Header Animation On Scroll | HTML, CSS & ScrollTrigger”</a>, YouTube, uploaded by Codegrid, 4 Jan 2023
+                              </p>
+                              <p class="des"><a href="https://www.youtube.com/watch?v=_LWinkSulwU">“ScrollTrigger: Responsive Pin with Horizontal Scroll (GSAP)”,</a> , YouTube, uploaded by snorklTV, 8 June 2023
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-  
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Font licences
-                          </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                          <div class="accordion-body">
-                            <p class="des"><strong>Poppins</strong></p>
-                            <p class="des"><em>Copyright:</em> 2020 <a href="https://github.com/itfoundry/Poppins">The Poppins Project Authors</a></p>
-                            <p class="des"><em>Licence:</em> SIL Open Font Licence, Version 1.1, with details available at <a href="https://openfontlicense.org">https://openfontlicense.org</a>.</p>
-                            
-                            <p class="des"><strong>Assistant</strong></p>
-                            <p class="des"><em>Copyright:</em> 2020<a href="https://github.com/hafontia/Assistant"> The Assistant Project Authors</a> and 2020<a href="https://github.com/adobe-fonts/source-sans-pro"> The Source Sans Pro Authors</a></p>
-                            <p class="des"><em>Licence:</em> SIL Open Font Licence, Version 1.1, also available at <a href="https://openfontlicense.org">https://openfontlicense.org</a>.</p>
-                            
-                            <p class="des"><strong>Glacial Indifference</strong></p>
-                            <p class="des"><em>Licence:</em> SIL Open Font Licence, Version 1.1, available at<a href="https://www.fontsquirrel.com/license/glacial-indifference">https://www.fontsquirrel.com/license/glacial-indifference </a>.</p>
+    
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                              Font licences
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                              <p class="des"><strong>Poppins</strong></p>
+                              <p class="des"><em>Copyright:</em> 2020 <a href="https://github.com/itfoundry/Poppins">The Poppins Project Authors</a></p>
+                              <p class="des"><em>Licence:</em> SIL Open Font Licence, Version 1.1, with details available at <a href="https://openfontlicense.org">https://openfontlicense.org</a>.</p>
+                              
+                              <p class="des"><strong>Assistant</strong></p>
+                              <p class="des"><em>Copyright:</em> 2020<a href="https://github.com/hafontia/Assistant"> The Assistant Project Authors</a> and 2020<a href="https://github.com/adobe-fonts/source-sans-pro"> The Source Sans Pro Authors</a></p>
+                              <p class="des"><em>Licence:</em> SIL Open Font Licence, Version 1.1, also available at <a href="https://openfontlicense.org">https://openfontlicense.org</a>.</p>
+                              
+                              <p class="des"><strong>Glacial Indifference</strong></p>
+                              <p class="des"><em>Licence:</em> SIL Open Font Licence, Version 1.1, available at<a href="https://www.fontsquirrel.com/license/glacial-indifference">https://www.fontsquirrel.com/license/glacial-indifference </a>.</p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
                 </div>
 
 
               </div>
             </div>
+          </div>
+         </div>
           </div>
         </div>
     
@@ -452,7 +467,7 @@
           <i class="bi bi-threads"></i>
           <i class="bi bi-github"></i>
         </div>
-        <p>All copyright on the typographic and layout choices are 2024 © XY</p>
+        <p>All copyright on the typographic and layout choices are 2024 © Mohamed Iheb Ouerghi, Niccolò Molinati, Virginia D'Antonio, Giorgia Umana</p>
       </div>
     </footer>
     
@@ -461,9 +476,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+   
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>

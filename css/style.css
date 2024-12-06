@@ -14,30 +14,6 @@ a{
 }
 
 
-nav{position: fixed;
-    width: 100%;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    top:0;
-    padding:0 2.5em;
-    background-color: #ffffff;
-    z-index: 1;
-    font-family: 'Poppins', sans-serif;
-    }
-    
-nav a {padding: 0 1.5em;}
-.items_left a:nth-child(2){padding-left:2.5em;
-    }
-
-
-
-.showsmall{display: none; }
-
-.nav-logo {margin:2em 1.5em; 
-}
-
 
 .logo_container {text-transform: uppercase;
     display: flex;
@@ -61,10 +37,6 @@ nav a {padding: 0 1.5em;}
 }
 
 @media (max-width: 992px) {
-    nav {
-        height: 80px; 
-        padding: 0 2em; 
-    }
 
     .textlogo {
         font-size: 3.5rem; 
@@ -72,138 +44,22 @@ nav a {padding: 0 1.5em;}
 }
 
 @media (max-width: 768px) {
-    nav {
-        height: 70px; 
-        padding: 4em 1.5em; 
-        font-size: 0.9rem; 
-    }
-
-    nav a {
-        padding: 0 0.8em; 
-    }
-
-    .showsmall {padding-bottom: 1%;
-        width: 20px; 
-        height: auto; 
-        display: block; 
-    }
-
-    .textlogo, .items_left{
-        display: none; 
-    }
-
-}
-
-@media (max-width: 576px) {
-
-    nav {
-        height: 60px; 
-        padding: 4em 1em; 
-    }
-
-    .nav-logo{padding-left: 1em}
-
-    nav a {
-        padding: 0 0.5em; 
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    nav {
-        padding: 0 40px;
-    }
-
   
-    
-    footer {
-        padding: 100px 40px;
-    }
-
-    footer h3 {
-        font-size: 38px;
-    }
-
-}
-
-@media screen and (max-width: 1200px) {
-    nav {
-        height: 80px; 
-        padding: 0 2em; 
-    }
-
-   
-
-    footer .links a {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    nav a.logo {
-        font-size: 28px;
-    }
-
-    nav .links a {
-        font-size: 14px;
-    }
-
-    .col-md-10{padding-left: 4em!important ;
-       
-       }
-    .col-md-2{padding:1em 0em 2em 6.5em !important ;}
-
-   
-    footer {
-        flex-direction: column;
-        padding: 60px 40px;
-    }
-
-    footer h3 {
-        margin-bottom: 40px;
-        font-size: 32px;
-    }
-
-    footer .right {
-        width: 100%;
-        align-items: center;
-    }
-
-    
-}
-
-@media screen and (max-width: 768px) {
-    nav {
-        height: 70px; 
-        padding: 4em 1.5em 4em 0.9em; 
-        font-size: 0.9rem; 
-    }
-
-    nav a {
-        padding: 0 0.8em; 
-    }
-
     .showsmall {padding-bottom: 1%;
         width: 20px; 
         height: auto; 
         display: block; 
+        text-align: center;
     }
 
-   
     .container{padding-top: 5%;}
-    
 
     .textlogo, .items_left{
         display: none; 
     }
-    
-   
-    
-    
-    footer {
-        padding: 40px 20px;
-    }
 
 }
+
 
 .content {
     width: 100%;
@@ -321,66 +177,8 @@ h2.separator{
     
 }
 
-footer{
-    background-color: #000;
-    color: #fff;
-    padding: 100px 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-footer h3{
-    font-size: 48px;
-}
 
-footer .right{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 26px;
-}
-
-footer .right .links{
-    display: flex;
-    gap: 30px;
-
-}
-
-footer .right .links a{
-    color: #989898;
-    transition: color 0.3s ease;
-}
-
-footer .right .links a:hover{
-    color: #fff;
-
-}
-
-footer .right .social{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-}
-
-footer .right .social i{
-    font-size: 30px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-
-}
-
-footer .right .social i:hover{
-    color: #F50045;
-}
-
-footer .right p{
-    font-size: 13px;
-    color: #777;
-
-}
 
 @media screen and (max-width: 1400px) {
     
@@ -410,13 +208,6 @@ footer .right p{
         height: 220px;
     }
 
-    footer{
-        padding: 100px 40px;
-    }
-
-    footer h3{
-        font-size: 38px;
-    }
 
 }
 
@@ -456,9 +247,7 @@ footer .right p{
         font-size: 13px;
     }
     
-    footer .links a{
-        font-size: 15px;
-    }
+    
 
 }
 
@@ -496,43 +285,15 @@ footer .right p{
         width: 48%;
     }
 
-    footer{
-        flex-direction: column;
-        padding: 60px 40px;
-    }
-
-    footer h3{
-        margin-bottom: 40px;
-        font-size: 32px;
-    }
-
-    footer .right{
-        width: 100%;
-        align-items: center;
-    }
 
 }
 
 @media screen and (max-width: 768px) {
     
-    nav,
     header,
     h2.separator,
     .information{
         padding: 0 20px;
-    }
-
-    nav a.logo{
-        display: none;
-    }
-
-    nav .links a{
-        font-size: 12px;
-    }
-
-    nav .login button{
-        font-size: 12px;
-        padding: 6px 10px;
     }
 
     header .left h1{
@@ -555,10 +316,6 @@ footer .right p{
 
     h2.separator{
         font-size: 30px;
-    }
-
-    footer{
-        padding: 40px 20px;
     }
 
 }

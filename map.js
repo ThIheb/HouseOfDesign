@@ -3,6 +3,7 @@ function showOrHide(room) {
     document.querySelectorAll('.content').forEach((content) => {
         content.classList.remove('visible');
         content.classList.add('hidden');
+        content.setAttribute('aria-hidden', 'true');
     });
 
     
@@ -10,6 +11,7 @@ function showOrHide(room) {
     if (selectedRoom) {
         selectedRoom.classList.remove('hidden');
         selectedRoom.classList.add('visible');
+        selectedRoom.removeAttribute('aria-hidden'); 
     }
 }
 
