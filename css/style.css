@@ -36,12 +36,7 @@ a{
     opacity: 1;
 }
 
-@media (max-width: 992px) {
 
-    .textlogo {
-        font-size: 3.5rem; 
-    }
-}
 
 @media (max-width: 768px) {
   
@@ -52,13 +47,21 @@ a{
         text-align: center;
     }
 
+    .logo_container .showsmall{font-family: 'Glacial Indifference', sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        color:#ffffff;
+        
+        z-index: 2;
+        opacity: 1;
+    }}
     .container{padding-top: 5%;}
 
     .textlogo, .items_left{
         display: none; 
     }
 
-}
+
 
 
 .content {
