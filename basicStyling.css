@@ -233,7 +233,10 @@ footer .right p {
        
     }
     .col-md-2{padding-left:2.9em !important ;
+        margin:3% 0 4% 0 ;
     }
+
+    h1{text-align: left;}
 
     nav a {
         padding: 0 0.5em; 
@@ -257,10 +260,10 @@ footer .right p {
         border-radius: 0;;
         border: 1px solid black;
         flex: 1 0 calc(50% - 8px);    
-
       }
 
-      .nav-link.active.show:hover{color:white !important;
+    #design-tab{padding-top: 6% !important}
+    .nav-link.active.show:hover{color:white !important;
         border:1px solid #d6054e !important;
     background-color: #d6054e !important;
     }
@@ -286,7 +289,6 @@ footer .right p {
 
     .links a:nth-child(even){text-align: right;}
 
-  
 }
 
 
