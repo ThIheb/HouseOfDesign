@@ -14,7 +14,6 @@ a{
 }
 
 
-
 .logo_container {text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -39,20 +38,21 @@ a{
 
 
 @media (max-width: 768px) {
-  
+    .textlogohome{display:none}
     .showsmall {padding-bottom: 1%;
         width: 20px; 
         height: auto; 
         display: block; 
         text-align: center;
+        
     }
 
     .logo_container .showsmall{font-family: 'Glacial Indifference', sans-serif;
         font-weight: 700;
         font-size: 3rem;
         color:#ffffff;
-        
-        z-index: 2;
+      
+        z-index: 1;
         opacity: 1;
     }}
     .container{padding-top: 5%;}
