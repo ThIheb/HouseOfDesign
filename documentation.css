@@ -260,6 +260,43 @@ main h3{font-size: 1.5em;
 padding-top:2%;}
 
 /*functionality*/
+#allfeatures {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .feature {border-radius: 0 !important;
+    border: 1px solid #989898;
+    padding:3% !important;
+    background-color: #d9d9d9;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #d6054e;
+  }
+  
+  .feature video,
+  .feature img {
+    width: 100%;
+    margin: 20px 0;
+    
+  }
+  
+  .feature h4 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color:#777777;
+  }
+  
+  .feature p {
+    line-height: 1.6;
+  }
+  
+
 #coolors{width:100%;
 height:auto;
 }
