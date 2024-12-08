@@ -1,15 +1,14 @@
-
-//horizontal scrolling
 window.onload = function () {
     const scrollee = document.querySelector(".scrollee");
 
     function getScrollAmount() {
         let scrolleeWidth = scrollee.scrollWidth;
-        return -(scrolleeWidth - window.innerWidth);
+        let viewportWidth = window.innerWidth;
+        return -(scrolleeWidth - viewportWidth); 
     }
 
     const tween = gsap.to(scrollee, {
-        x: getScrollAmount,
+        x: getScrollAmount, 
         duration: 3,
         ease: "none",
     });
@@ -21,14 +20,20 @@ window.onload = function () {
         pin: true,
         animation: tween,
         scrub: 1,
-        invalidateOnRefresh: true,
+        invalidateOnRefresh: true, 
         markers: false,
     });
+
+  
+
+    // Refresh on window resize
+    const resizeObserver = new ResizeObserver(() => {
+        ScrollTrigger.refresh();
+    });
+    resizeObserver.observe(document.body);
+
+    // Refresh scroll amount on orientation change
+    window.addEventListener("orientationchange", () => {
+        ScrollTrigger.refresh();
+    });
 };
-
-const resizeObserver = new ResizeObserver(() => {
-    ScrollTrigger.refresh();
-});
-
-resizeObserver.observe(document.body);
-

@@ -272,44 +272,47 @@
                           </div>
                     </div>
                     <h2 class="subContent">3.5 Sizing and weight</h2>
-                    <table>
-                      <th>Hierarchy</th>
-                      <th>Font</th>
-                      <th>Weight</th>
-                      <th>Size</th>
-                      <tr>
-                        <td><h1>H1 Headline</h1></td>
-                        <td>Glacial Indifference, Poppins</td>
-                        <td>400</td>
-                        <td>2.5 rem, 40 px</td>
-                      </tr>
-                      <tr>
-                        <td><h2 class="topic">H2 Headline</h2></td>
-                        <td>Assistant</td>
-                        <td>400</td>
-                        <td>1 rem, 16 px</td>
-                      </tr>
-                      <tr>
-                        <td>Body</td>
-                        <td>Poppins</td>
-                        <td>300</td>
-                        <td>1 rem, 16 px</td>
-                      </tr>
-                      <tr>
-                        <td><p>Buttons</p></td>
-                        <td>Poppins</td>
-                        <td>300</td>
-                        <td>1 rem, 16 px</td>
-                      </tr>
-                      <tr>
-                        <td><p>Links</p></td>
-                        <td>Poppins</td>
-                        <td>300</td>
-                        <td>1 rem, 16 px</td>
-
-                      </tr>
-                    </table>
-
+                    <div style="overflow-x:auto;">
+                      <table>
+                        <th>Hierarchy</th>
+                        <th>Font</th>
+                        <th>Weight</th>
+                        <th>Size</th>
+                        <tr>
+                          <td><h1>H1 Headline</h1></td>
+                          <td>Glacial Indifference, Poppins</td>
+                          <td>400</td>
+                          <td>2.5 rem</td>
+                        </tr>
+                        <tr>
+                          <td><h2 class="topic">H2 Headline</h2></td>
+                          <td>Assistant</td>
+                          <td>400</td>
+                          <td>1 rem</td>
+                        </tr>
+                        <tr>
+                          <td>Body</td>
+                          <td>Poppins</td>
+                          <td>300</td>
+                          <td>1 rem</td>
+                        </tr>
+                        <tr>
+                          <td><p>Buttons</p></td>
+                          <td>Poppins</td>
+                          <td>300</td>
+                          <td>1 rem</td>
+                        </tr>
+                        <tr>
+                          <td><p>Links</p></td>
+                          <td>Poppins</td>
+                          <td>300</td>
+                          <td>1 rem</td>
+  
+                        </tr>
+                      </table>
+  
+                    </div>
+                    
                     <h2 class="subContent">3.6 Spacing</h2>
                     <p>Recurrent margins and paddings have been used throughout the website to create a uniform look and feel throughout the design and avoid visual clutter.</p>
                     <p>Text spacing is managed through padding within <em>p</em> and <em>h1</em>  elements, ensuring <strong>readability</strong> and <strong>consistency</strong>consistency across the design. Margins and paddings are used strategically to emphasize key elements, such as the footer and header, while preserving visual hierarchy and ensuring an organized appearance.
@@ -373,16 +376,16 @@
 
                       <div class="feature">
                         <h3>Carousel</h3>
-                        <p>This animation pins a container and enables horizontal scrolling when the user scrolls vertically.</p>
+                        <p>This carousel slider allows users to explore different designers in a dynamic way.</p>
                           <video controls>
                             <source src="images/documentation/designers.mp4" type="video/mp4">
                           </video>
                           
                         <h4>Technical Details</h4>
-                        <p>Adapted from a <a href="https://www.youtube.com/watch?v=_LWinkSulwU">snorklTV tutorial</a>, utilizing GSAP and ScrollTrigger.</p>
-                        <p>The <em>getScrollAmount</em> function ensures responsiveness by dynamically calculating scroll distances.</p>
+                        <p>Adapted from a <a href="https://www.youtube.com/watch?v=hfGz5AgHT-E">Lun Dev Code tutorial</a></p>
+                        <p>By clicking <em>"Previous"</em> and <em>"Next"</em> buttons the <em>moveSlide()</em> function is triggered, taking -1 (previous) or 1 (next) as direction values.</p>
                         <h4>Purpose</h4>
-                        <p>Interrupts standard scrolling flow, highlighting the project’s goals.</p>
+                        <p>Fits seamlessly into the horizontal layout of the narrative page, avoiding unused white space</p>
                       </div>
                     
                       <div class="feature">
