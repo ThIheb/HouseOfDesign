@@ -8,7 +8,6 @@
 
 
 
-
 main{margin:6.25rem  0 0 0; 
 width: 100%;}  
 
@@ -46,8 +45,11 @@ width: 100%;}
     
   .primaryAndSecondarylogo img{flex:1000%;}
 
-  .rectangle div, .grayRectangle{font-size:small;
+  .rectangle div, .grayRectangle{font-size:x-small;
+    line-height: 1em !important;
+    padding-top:3% !important;
    }      
+
 
    .grayRectangle{height: 60px;}
 
@@ -78,14 +80,14 @@ width: 100%;}
 @media (max-width: 576px) {
 
     .scroller {
-        height: auto; /* Stack for small screens */
+        height: auto; 
     }
     .scrollee_item {
-        width: 100vw; /* Full width */
-        margin: 0 2%; /* Adjust margins */
+        width: 100vw;
+        margin: 0 2%; 
     }
     .scrollee {
-        flex-wrap: wrap; /* Enable wrapping on smaller screens */
+        flex-wrap: wrap; 
     }
     
         
@@ -206,7 +208,7 @@ padding:0 7% 5% 0!important;
 
 .font{align-items: flex-end;
 border-left: 1px solid black;
-margin:7%;
+margin:9% 0 20% 0 ;
 padding-left:2%}
 
 .font p:nth-child(2){font-weight: 600;}
@@ -225,7 +227,7 @@ padding-left:2%}
 
 .small{align-items: flex-end;
     border-left: 1px solid black;
-    margin:8% 0;
+    margin:9% 0 20% 0;
     padding: 1% 2%}
 
 #alphGlacial{font-family: 'Glacial Indifference', sans-serif;}
