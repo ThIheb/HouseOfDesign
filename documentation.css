@@ -84,7 +84,6 @@ width: 100%;}
     }
     .scrollee_item {
         width: 100vw;
-        margin: 0 2%; 
     }
     .scrollee {
         flex-wrap: wrap; 
@@ -415,7 +414,18 @@ height:auto;
     
 }
 
+@media screen and (max-width: 768px) {
+    .allcontributions {
+        display: grid;
+        grid-template-columns: 1fr ; 
+        
+    }
 
+    .contributions p{text-align: left;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+}
 .contributions {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -446,7 +456,7 @@ height:auto;
         flex: 0 0 150px;
     }
  .details {
-        flex: 1; /* Details take the remaining space */
+        flex: 1; 
     }
 
 
