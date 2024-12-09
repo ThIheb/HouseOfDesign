@@ -48,7 +48,7 @@
             "shortName": "Anthropus",
             "image": "images/firstImages/firstantropus.png",
             "secondImage": "images/objects/16.png",
-            "keywords": "Innovative, sculptural, Comfortable",
+            "keywords": "Innovative, Sculptural, Comfortable",
             "intro": "Designed by Marco Zanuso for theatrical staging, the Antropus chair revolutionized seating with its sculptural curves and innovative use of foam, blending elegance with modern ergonomics.",
             "info": {
                 "Name": "Anthropus",
@@ -237,7 +237,7 @@
             "shortName": "Brera S",
             "image": "images/firstImages/firstbrera.png",
             "secondImage": "images/objects/lamp.png",
-            "keywords": "Symbolic, elegant, adaptable",
+            "keywords": "Symbolic, Elegant, Adaptable",
             "intro": "Achille Castiglioni’s Brera lamp draws inspiration from Renaissance art, showcasing a refined balance between symbolism and adaptability. Its iconic design complements a variety of interior settings.",
             "info": {
                 "Name": "Brera S",
@@ -329,7 +329,7 @@
             "@sort": "automaticc5",
             "shortName": "Automatic C5",
             "image": "images/firstImages/firstautomaticc5.png",
-            "secondImage": "images/objects/17.png",
+            "secondImage": "images/objects/3_AUTOMATIC-C5.jpg",
             "keywords": "Sincere, Pragmatic, Reliable",
             "intro": "The Automatic C5 is proof that design isn’t just about making an object as eccentric as possible to make it interesting. It’s sincere, with no frills, and will always be here for you. Like an old friend you love and trust.",
             "info": {
@@ -362,7 +362,7 @@
             "shortName": "M24",
             "image": "images/firstImages/firstPC.png",
             "secondImage": "images/objects/m24.png",
-            "keywords": "Fresh, bold, powerful",
+            "keywords": "Fresh, Bold, Powerful",
             "intro": "The M24 is more than just a computing machine; it's a visual statement that challenged the often rigid, industrial designs of its time.",
             "info": {
                 "Name": "M24",
@@ -488,7 +488,7 @@
             "shortName": "Leonardo",
             "image": "images/firstImages/firstleonardo.png",
             "secondImage": "images/objects/leonardo.png",
-            "keywords": "Versatile, timeless, Functional",
+            "keywords": "Versatile, Timeless, Functional",
             "intro": "A timeless workbench-inspired design by Achille Castiglioni, the Leonardo table merges functionality with craftsmanship. Its adjustable height and minimalist structure embody versatility and enduring practicality.",
             "info": {
                 "Name": "Leaonardo",
@@ -518,8 +518,8 @@
             "shortName": "Tonietta",
             "image": "images/firstImages/firsttonietta.png",
             "secondImage": "images/objects/tonietta.png",
-            "keywords": "Get, fucked, idiot",
-            "intro": "",
+            "keywords": "Simple, Symbolic, Virtusistic",
+            "intro": "Tonietta charms with its simple and archetypic design, embodiying a concept of forniture pruned from fruitless branches. What emerges is a virtuosistic example of a design that balances on itself.",
             "info": {
                 "Name": "Tonietta",
                 "Type": "Chair",
@@ -534,21 +534,24 @@
                 "Date of Production":"1985",
                 "Company": "Zanotta"
             },
-            "shortInfo": "Not much is known about Andy. He was born on May 16, 1986. We can see him on some old footage of him playing at The Hub in Sacramento with Jed Brewer. Also, he is present in footage of a Hella concert at the left corner, so we can conclude that Morin knew Zach Hill before they began the project Death Grips with Stefan Burnett. He was one of the people who recorded the albums made by Afternoon Brother and Weaver. He has an official website named after his Twitter account, but with no underscores.",
+            "shortInfo": "The Tonietta chair is the happy example of a product born from a close and fertile collaboration between company and designer. Started in 1981, the Tonietta project ended in 1985 after an intense engineering research activity which became necessary to be able to use a technology, that of aluminum die casting, which was expensive and until then little tested for the creation of the structure of a domestic chair .",
             "longerInfo": [
-                "Nothing to show"
+                "The Tonietta chair is the happy example of a product born from a close and fertile collaboration between company and designer. Started in 1981, the Tonietta project ended in 1985 after an intense engineering research activity which became necessary to be able to use a technology, that of aluminum die casting, which was expensive and until then little tested for the creation of the structure of a domestic chair .",
+                "In 1987 the Tonietta chair won the prestigious Compasso d'Oro Award with this motivation from the jury: 'For the great lesson in style and culture expressed in the creation of this chair, with the intention of recalling an archetype to memory, without trivially imitating it the morphological elements.'"
+                
             ],
             "fullInfo": [
-                "",
-                ""
-            ]
+                "The Tonietta chair is the happy example of a product born from a close and fertile collaboration between company and designer. Started in 1981, the Tonietta project ended in 1985 after an intense engineering research activity which became necessary to be able to use a technology, that of aluminum die casting, which was expensive and until then little tested for the creation of the structure of a domestic chair .",
+                "In 1987 the Tonietta chair won the prestigious Compasso d'Oro Award with this motivation from the jury: 'For the great lesson in style and culture expressed in the creation of this chair, with the intention of recalling an archetype to memory, without trivially imitating it the morphological elements.'",
+                "Mari, talking about the piece, said: 'I was particularly impatient with fashion that wanted objects, including chairs, overloaded with design arrogance of a technological or typological nature: I wanted to design a chair as simple as possible, almost obvious, not a different object at any cost, and then after careful analysis I saw that among modern chairs the Thonet ones are those that best embody the idea of ​​an archetypal image, and so to define the character of my chair I chose to dialogue with this unique example of an object upper-class, full of semantic and symbolic values'."
+                            ]
         },
         {
             "@sort": "16pesci",
             "shortName": "16 Pesci",
             "image": "images/firstImages/first16.png",
             "secondImage": "images/objects/16pesci.jpg",
-            "keywords": "Playful, sturdy, clever",
+            "keywords": "Playful, Sturdy, Clever",
             "intro": "A simple but clever toy, 16 pesci educates as it entertains, encouraging learning through play.",
             "info": {
                 "Name": "16 Pesci",
@@ -580,7 +583,7 @@
             "shortName": "Day Night",
             "image": "images/firstImages/firstdaynight.png",
             "secondImage": "images/objects/13.png",
-            "keywords": "Minimalist , simple, multifunctional",
+            "keywords": "Minimalist , Simple, Multifunctional",
             "intro": "Brilliant in its simplicity, the Day Night stands as an icon of modern design, combining timeless form with thoughtful, user-oriented functionality.",
             "info": {
                 "Name": "Day-Night",

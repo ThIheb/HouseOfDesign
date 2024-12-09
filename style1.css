@@ -1,34 +1,11 @@
-.poppins-light {
+* {padding: 0; 
+        margin: 0; 
+        box-sizing: border-box;
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
-      }
-      
-      .poppins-regular {
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .poppins-semibold {
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-      }
-      
-      .poppins-black {
-        font-family: "Poppins", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-
-
-
-#header>div {padding-top:1%;
-        padding-bottom: 5%;}
-#footer {background-color: black;}
-#footer>div {padding-top:5%;
-        padding-bottom: 5%;}   
+    }
+ 
 div#mainInfo * {padding-top: 2%;
                 }
 div#mainInfo {margin-bottom: 10%;}
@@ -46,12 +23,8 @@ table.mainMD {border-collapse: collapse;
                 font-size: xx-small !important;
 }
 
-nav#headerNav a:hover {color: #f50045 !important;}
-nav#inTheFooter a,div#social a {color: white !important;}
-nav#inTheFooter a:hover,div#social a:hover {color: #f50045 !important;}
 div#social i {height: 200%, !important; 
         width: auto !important;}
-footer#footer div {padding:2%}
 
 table.mainMD tr {border: solid 1px black;
                 display: flex;
@@ -65,6 +38,7 @@ table.mainMD tr {border: solid 1px black;
 table.mainMD th {text-align: left;}
 
 /*ABOUT US*/
+
 .normalButtons:hover {color:#f50045 !important}
 .coolWords {font-size: 880%;
         margin: 0%;
@@ -73,6 +47,8 @@ table.mainMD th {text-align: left;}
 .imgAU {
         width: 15% !important;
 }
+
+/*END ABOUT US*/
 
 table.mainMD tr:hover, .ourButtons:hover {background-color: #f50045 !important;
                         color:white !important;
@@ -87,6 +63,9 @@ button.prevNxt:hover {
 
 table#otherMD1, table#otherMD2 {table-layout: fixed;
         }
+table#otherMD1 th, table#otherMD2 th, #keyWords p, #type-info {
+        font-weight: 600;
+}
 table#otherMD1 th,table#otherMD1 td, table#otherMD2 th, table#otherMD2 td {font-size: small !important;
                 
                 flex-grow: 0.5;
