@@ -141,6 +141,9 @@ padding:0 7% 5% 0!important;
 
 
 /*design*/
+
+.personality{padding-top:1%}
+
 .scroller {
     width: 100vw; /* DO NOT CHANGE */
     height: 50vh; 
@@ -322,6 +325,9 @@ main h3{font-size: 1.5em;
 padding-top:2%;}
 
 /*functionality*/
+#functionality_text .nomargin{margin-top:2% ; 
+}
+
 ul li{padding:0.5%}
 
 #allfeatures {
