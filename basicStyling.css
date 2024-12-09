@@ -192,9 +192,18 @@ footer .right p {
 
 @media screen and (max-width: 768px) {
     nav {
-        height: 70px; 
-        padding: 4em 1.5em 4em 0.9em; 
+        height: 40px; 
+        padding: 4em 1.5em 2em 0.9em; 
         font-size: 0.9rem; 
+    }
+
+    .container{margin-top:3%}
+    .col-md-10{padding-left: 2em!important ;
+       
+    }
+
+    .col-md-10 .title{font-size: 2em;}
+    .col-md-2{padding-left:3em !important ;
     }
 
     nav a {
@@ -219,6 +228,7 @@ footer .right p {
         padding: 40px 20px;
     }
     
+    footer img{padding-bottom:2em;}
 
 }
 
@@ -269,7 +279,7 @@ footer .right p {
 
 
    footer{padding-top: 60px;}
-   footer img{padding-bottom:2em;}
+  
 
    footer p{text-align: center;}
 
