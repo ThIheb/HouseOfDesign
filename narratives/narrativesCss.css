@@ -299,14 +299,14 @@ a.tell-more, a.tell-less {
     }
     li{
         width: 100%;
-        padding: 0 20px;
+        padding: 0 10px;
     }
     
     li p{
         position: absolute;
         top: -270px; 
         right: 3px;
-        left: 3px;
+        left: 10px;
         width: 170px; 
 
         transform: translateY(-10px); 
@@ -363,6 +363,22 @@ a.tell-more, a.tell-less {
     }
     
 }
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    li {
+        padding: 0 10px; /* Riduci il padding per evitare sovrapposizioni */
+    }
+    
+    li p {
+        top: -300px; /* Modifica la posizione verticale per maggiore spazio */
+        width: 130px; /* Riduci la larghezza dei contenitori */
+        left: 10px; /* Posiziona i contenitori più vicino alla timeline */
+    }
+    
+    .timeline-line {
+        width: 100%; /* Mantieni la linea allineata senza sovrapposizioni */
+    }
+}
+
 
 
 
