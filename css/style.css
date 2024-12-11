@@ -805,3 +805,36 @@ td.details{
 #titleAU {
     margin-top: 20%;
 }}
+
+/* GRAPHS*/
+#graphs {
+    text-align: left;
+}
+
+@media screen and (min-width: 500px) {
+    #graphs div h2, #graphs div p {
+        padding-left: 2%;
+    }
+    #graphs div {
+        padding-bottom: 1%;
+    }
+    #graphCase div:nth-child(odd) {
+        border: 1px solid black;
+    }
+    #graphCase div:nth-child(even) {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black
+    }
+}
+@media screen and (max-width: 500px){
+    #graphs div h2, #graphs div p {
+        padding-left: 10%;
+    }
+    #graphs div {
+        padding-bottom: 10%;
+    }
+    #graphCase div {
+        width: 100%;
+        border-top: 1px solid black;
+    }
+}
