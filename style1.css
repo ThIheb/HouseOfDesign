@@ -39,6 +39,20 @@ table.mainMD th {text-align: left;}
 
 /*ABOUT US*/
 
+@media screen and (max-width: 500px) {
+        img.imgAU {
+                width:50% !important;
+        }
+}
+@media screen and (min-width: 500px) {
+        img.imgAU {
+                width: 15% !important;
+        }
+}
+
+#titleAU {
+        padding-top: 10%;
+}
 .normalButtons:hover {color:#f50045 !important}
 .coolWords {font-size: 880%;
         margin: 0%;

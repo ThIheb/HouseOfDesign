@@ -800,11 +800,7 @@ td.details{
     line-height: 2em;
     font-size: 1rem;
 }
-
-/* ABOUT US PAGE */
-#titleAU {
-    margin-top: 20%;
-}}
+}
 
 /* GRAPHS*/
 #graphs {
@@ -816,7 +812,7 @@ td.details{
         padding-left: 2%;
     }
     #graphs div {
-        padding-bottom: 1%;
+        padding-bottom: 2%;
     }
     #graphCase div:nth-child(odd) {
         border: 1px solid black;
