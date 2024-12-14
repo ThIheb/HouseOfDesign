@@ -89,8 +89,8 @@
 
 
                 </div>
-                <div class="scrollee_item">
-                    <img src="images/objects/anthropus.png">
+                <div class="scrollee_item" id="second_picture">
+                    <img src="images/objects/16_flipped.png">
                 </div>
             </div>
         </div>
@@ -158,27 +158,33 @@
                 </a>
             </div>
         </div>
-
-        <div class="container-fluid py-5">
-            <div id="graphs" class="row w-100 py-5">
-                <div>
-                    <h2>A quick look at our objects</h2>
-                    <p>Before exploring our exhibition, you may be interested in knowing the overall
-                        composition of our data</p>
-                </div>
-                <div class="">
-                    <div id="graphCase" class="row ps-4">
-                        <div class="col-sm-4 col-xs-12 px-2">
-                            <p class="p-3">This chart shows the various designer that compose our dataset and the proportion of the object we treat in this exhibition they desined.</p>
-                            <canvas id="des" width="400" height="400"></canvas>
-                        </div>
-                        <div class="col-sm-4 col-xs-12 px-2">
-                            <p class="p-3">This chart shows the proportion of the objects in the dataset divided by the four classification we applied, based on their functionality.</p>
-                            <canvas id="usg" width="400" height="400"></canvas>
-                        </div>
-                        <div class="col-sm-4 col-xs-12 px-2">
-                            <p class="p-3">This chart shows how many objects of each decade are present in the dataset. The earliest ones are from the 1950s, while the newest are from the 1990s.</p>
-                            <canvas id="his" width="400" height="400"></canvas>
+        <div class="pie-charts">
+            <div class="container-fluid py-5">
+                <div id="graphs" class="row w-100 py-5">
+                    <div>
+                        <h2>A quick look at our objects</h2>
+                        <p>Before exploring our exhibition, you may be interested in knowing the overall
+                            composition of our data</p>
+                    </div>
+                    <div class="">
+                        <div id="graphCase" class="row ps-4">
+                            <div class="col-sm-4 col-xs-12 px-2">
+                                <p class="p-3">This chart shows the various designer that compose our dataset and the
+                                    proportion of the object we treat in this exhibition they desined.</p>
+                                <canvas id="des" width="400" height="400"></canvas>
+                            </div>
+                            <div class="col-sm-4 col-xs-12 px-2">
+                                <p class="p-3">This chart shows the proportion of the objects in the dataset divided by
+                                    the
+                                    four classification we applied, based on their functionality.</p>
+                                <canvas id="usg" width="400" height="400"></canvas>
+                            </div>
+                            <div class="col-sm-4 col-xs-12 px-2">
+                                <p class="p-3">This chart shows how many objects of each decade are present in the
+                                    dataset.
+                                    The earliest ones are from the 1950s, while the newest are from the 1990s.</p>
+                                <canvas id="his" width="400" height="400"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
