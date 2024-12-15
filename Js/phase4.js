@@ -182,15 +182,19 @@ const tween = gsap.to(scrollee, {
 });
 
 ScrollTrigger.create({
-	trigger: ".scroller", 
-	start: "top top", 
-	end: () => `+=${scrollee.scrollWidth - window.innerWidth}`, 
-	pin: true, 
-	animation: tween, 
-	scrub: 1, 
-	invalidateOnRefresh: true, 
-	markers: false 
+    trigger: ".scroller",
+    start: "top top",
+    end: () => `+=${scrollee.scrollWidth - window.innerWidth}`,
+    pin: true,
+    animation: tween,
+    scrub: 1,
+    invalidateOnRefresh: true,
+    markers: false,
+    onEnter: () => document.body.style.overflowY = "hidden",
+    onLeaveBack: () => document.body.style.overflowY = "hidden",
+    onLeave: () => document.body.style.overflowY = "auto",
 });
+
 
 
 
