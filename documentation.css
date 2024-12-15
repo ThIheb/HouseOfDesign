@@ -141,7 +141,7 @@ padding:0 7% 5% 0!important;
 
 
 /*design*/
-
+#designCanva {padding-top:7% !important}
 .personality{padding-top:1%}
 
 .scroller {
@@ -328,7 +328,8 @@ padding-top:2%;}
 #functionality_text .nomargin{margin-top:2% ; 
 }
 
-ul li{padding:0.5%}
+ul li{padding:0.5%;
+font-size: 1.3em;}
 
 #allfeatures {
     display: flex;

@@ -24,15 +24,12 @@ window.onload = function () {
         markers: false,
     });
 
-  
 
-    // Refresh on window resize
     const resizeObserver = new ResizeObserver(() => {
         ScrollTrigger.refresh();
     });
     resizeObserver.observe(document.body);
 
-    // Refresh scroll amount on orientation change
     window.addEventListener("orientationchange", () => {
         ScrollTrigger.refresh();
     });
