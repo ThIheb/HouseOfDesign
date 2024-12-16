@@ -168,7 +168,7 @@ function inner(id, content, emptyFirst = true) {
 	document.getElementById(id).innerHTML += content;
 }*/
 
-const scrollee = document.querySelector(".scrollee");
+/*const scrollee = document.querySelector(".scrollee");
 
 function getScrollAmount() {
 	let scrolleeWidth = scrollee.scrollWidth;
@@ -194,6 +194,7 @@ ScrollTrigger.create({
     onLeaveBack: () => document.body.style.overflowY = "hidden",
     onLeave: () => document.body.style.overflowY = "auto",
 });
+*/
 
 
 

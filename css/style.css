@@ -549,7 +549,7 @@ td.details{
 }
 
 
-.scroller {
+.scroller {background-color: white;
     width: 100vw; 
     overflow: hidden; 
     display: flex;
@@ -569,49 +569,41 @@ td.details{
     flex-direction: row;
    left:0
 }
-#second_picture {
-    margin-left: 0% !important;
-}
-#second_picture img {
-    border:#000 1px solid;
-}
+
+
+.secondIntro{    align-content: center;
+
+    margin-left:7%;}
 
 
 
 
 .title_scrolle{height: 100%;
     flex-direction: column;
-    background-color: black;
     align-content: center;
     display:flex;
-    color: white;
     
 }
 .scrollee_box img{
     
     flex:50%
 }
-.title_scrolle .title{
+.title_scrolle {
     text-align: left;
-    font-family: 'Poppins' sans-serif ;
-    align-items: center;
+    align-items: left;
     margin-top: 8rem;
-    margin-left: 25%;
+    margin-left: 15%;
     
 }
-.title_scrollee .des{
-    text-align: justify;
-    align-items: center;
-    margin-left:25%;
-    flex-wrap: wrap;
-    overflow-wrap: normal ;
+
+.scrollee_item img{height:80%;
+    width:auto;
 }
-.title_scrolle .des {
-    flex-wrap: wrap;
-    margin-left: 25%;
-    text-align: justify;
-    margin-right: 5%;
-}
+
+#firstpart{padding-left:10%}
+
+
+
 .top_box{
     background-color: red;
     display:flex;
@@ -783,6 +775,42 @@ td.details{
         border-top: 1px solid black;
         border-bottom: 1px solid black
     }
+    #graphs-container {
+        padding-top: 7%;
+      }
+      
+    #graphs {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch; 
+        flex-wrap: wrap;
+        gap: 0.5%;
+        margin: 3% 1% 0 0;
+        left:0;
+    }
+      
+    .chart-wrapper {
+        width: 32%;
+       
+        border: 1px solid #ddd;
+        padding: 25px;
+        
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+     
+      
+    .chart-wrapper hr {
+        border: none;
+        border-top: 1px solid #000000;
+        margin: 10px 0 20px;
+      }
+      
+    canvas {
+        max-width: 100%;
+        height: auto;
+      }
 }
 @media screen and (max-width: 500px){
     #graphs div h2, #graphs div p {
@@ -795,6 +823,17 @@ td.details{
         width: 100%;
         border-top: 1px solid black;
     }
+    section#graphs-container {
+        margin: 0%;
+        padding: 2%
+    }
+    section#graphs-container h1, section#graphs-container {
+        padding: 5%;
+    }
+    div#graphs * {
+        padding-left: 0% !important;
+    }
+    canvas { margin-bottom: 10%;}
 }
 
 
@@ -803,42 +842,7 @@ td.details{
     margin: 0 0 0 80px;}
 
 
-    #graphs-container {
-        padding-top: 7%;
-      }
-      
-      #thegraphs {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch; 
-        flex-wrap: wrap;
-        gap: 0.5%;
-        margin: 3% 1% 0 0;
-        left:0;
-    }
-      
-      .chart-wrapper {
-        width: 32%;
-       
-        border: 1px solid #ddd;
-        padding: 25px;
-        
-        background: #fff;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      }
-      
-     
-      
-      .chart-wrapper hr {
-        border: none;
-        border-top: 1px solid #000000;
-        margin: 10px 0 20px;
-      }
-      
-      canvas {
-        max-width: 100%;
-        height: auto;
-      }
+    
 
 
 
@@ -970,3 +974,57 @@ g:hover .image-mapper-shape {
 }
 
 
+.objects-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2rem 7%;
+   
+}
+
+.objects-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.objects-left h1 {font-size: 25rem;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #F50045;
+    letter-spacing: -0.2em;
+    padding-top:0
+}
+
+.objects-left span {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: black;
+    text-transform: uppercase;
+    margin: -27% 0 0 25%; 
+}
+
+.objects-right {
+    text-align: left;
+    max-width: 70%;
+    align-items: flex-end;
+}
+
+.stats {left:0;
+    display: flex;
+    margin-right:rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.stat-item {padding-right:3em;
+    display: block;
+    font-weight: normal;
+}
+
+.description {
+    color: #333;
+}
+
+.information{padding-bottom:7%}
