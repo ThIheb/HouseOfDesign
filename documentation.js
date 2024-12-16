@@ -15,7 +15,7 @@ window.onload = function () {
 
     ScrollTrigger.create({
         trigger: ".scroller",
-        start: "top center",
+        start: "top top",
         end: () => `+=${scrollee.scrollWidth - window.innerWidth}`,
         pin: true,
         animation: tween,
