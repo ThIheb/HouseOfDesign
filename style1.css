@@ -138,14 +138,16 @@ border: solid 1px #f50045;}
         div#navigation {
                 margin:0%;
                 padding: 5% !important;
-                width:100%
+                padding-left: 15% !important;
+                padding-right: 15% !important;
+        }
+
+        div#navigation div p {
+                margin: 2%;
+                padding: 0% ;
         }
         div#navigation div {
-                padding-bottom: 7% !important;
-        }
-        div#navigation div p {
-                margin-bottom: 0%;
-                padding: 0% ;
+                padding-bottom: 2% !important;
         }
         div#description {
                 overflow-x: hidden;
@@ -158,5 +160,4 @@ border: solid 1px #f50045;}
                 display: flex !important;
                 padding: 0% !important;
         }
-
 }
