@@ -156,7 +156,7 @@ li{
 
 li p{
     position: absolute;
-    width: 160px; 
+    width: 10rem; 
     top: 10px;
     left: 45px;
     
@@ -292,7 +292,7 @@ a.tell-more, a.tell-less {
 }
 
 
-@media screen and (min-width:770px) {
+@media screen and (min-width:800px) {
     .timeline{
         display: block;
         margin: 260px 0; 
@@ -300,12 +300,12 @@ a.tell-more, a.tell-less {
 
     ul{ 
         flex-direction: row;
-        gap: 20px; /* Spaziatura tra gli elementi */
+        gap: 10px !important; /* Spaziatura tra gli elementi */
     }
     
     li{
         width: 110%;
-        padding: 0 10px;
+        padding: 0 20px;
     }
     
     li p{
@@ -313,8 +313,10 @@ a.tell-more, a.tell-less {
         top: -18rem; 
         right: 1%;
         left: 1%;
-        width: 106%;
-        height: 18em;
+        width: 12.4em !important;
+        width: fit-content;
+        block-size: fit-content;
+        height: 18em !important;
 
         transform: translateY(-10px); 
         opacity: 0;
@@ -371,24 +373,26 @@ a.tell-more, a.tell-less {
     
 }
 
-@media screen and (min-width: 770px) and (max-width: 1030px) {
+@media screen and (min-width: 800px) and (max-width: 1030px) {
     ul {
         display: flex;
     }
 
     li {
         flex: 1 1 auto; /* Lascia che gli elementi si ridimensionino dinamicamente */
-        width: 110%;
+        width: 120%;
         padding: 0 5px; /* Riduci il padding per evitare sovrapposizioni */
     }
 
     li p {
         top: -26em; /* Modifica la posizione verticale per maggiore spazio */
-        max-width: 130%;
-        min-width: 125%;
-        max-height: 21em;
-        min-height: 19em;
+        max-width: 20em !important;
+        min-width: 8rem !important;
+        max-height: 21em !important;
+        min-height: 19em !important;
         font-size: 11px; /* Riduci il font */
+        block-size: fit-content;
+        width: fit-content;
     }
 
     .timeline-line {
