@@ -182,7 +182,7 @@ li.active p {
 
 a.tell-more, a.tell-less {
     padding: 5px 10px !important;
-    width: 120px;
+    width: 115px;
     background-color: #ffffff; 
     text-decoration: none; 
     transition: background-color 0.3s ease, box-shadow 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
@@ -313,7 +313,7 @@ a.tell-more, a.tell-less {
         top: -18rem; 
         right: 1%;
         left: 1%;
-        width: 14em;
+        width: 106%;
         height: 18em;
 
         transform: translateY(-10px); 
@@ -379,14 +379,13 @@ a.tell-more, a.tell-less {
     li {
         flex: 1 1 auto; /* Lascia che gli elementi si ridimensionino dinamicamente */
         width: 110%;
-        padding: 0 2px; /* Riduci il padding per evitare sovrapposizioni */
+        padding: 0 5px; /* Riduci il padding per evitare sovrapposizioni */
     }
 
     li p {
         top: -26em; /* Modifica la posizione verticale per maggiore spazio */
-        width: auto; /* Consenti adattamenti dinamici della larghezza */
-        max-width: 140%;
-        min-width: 115%;
+        max-width: 130%;
+        min-width: 125%;
         max-height: 21em;
         min-height: 19em;
         font-size: 11px; /* Riduci il font */
