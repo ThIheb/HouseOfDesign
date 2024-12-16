@@ -465,7 +465,7 @@ td.details{
     flex-direction: row;
     flex:1;
     gap:20px;
-    margin-top: 7%;
+    margin: 7% 0 ;
     padding: 0 80px;
   
 }
@@ -842,10 +842,6 @@ td.details{
     margin: 0 0 0 80px;}
 
 
-    
-
-
-
 
 
 .content {
@@ -946,31 +942,21 @@ g:hover .image-mapper-shape {
 }
 
 
-.scrolldown p{   
+.scrolldown p{font-size: large;
+
     text-align: left;
     padding-top:2%
 }
 
-.scrolldown a{
-    text-align: right;
-    color:#000;
-    text-decoration: none;
-    padding-top: 2%;
-    background-color:transparent;
-    font-weight: bold;
-    font-size: 0.9rem;
-    cursor: pointer;
 
-    margin-top: 0;
-}
-
-
+.scrolldown p:nth-child(even){text-align: right;}
 
 
 .scrolldown {margin-top:2%;
-    max-height: 100px; 
+    max-height: 150px; 
     overflow-y: auto;
-    
+    font-size: 1rem;
+
 }
 
 
@@ -978,6 +964,7 @@ g:hover .image-mapper-shape {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 2rem 7%;
    
 }
@@ -1027,4 +1014,5 @@ g:hover .image-mapper-shape {
     color: #333;
 }
 
-.information{padding-bottom:7%}
+.information{padding-bottom:7%;
+    padding-top:4%}
