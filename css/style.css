@@ -145,13 +145,22 @@ h2.separator{
 }
 
 .information .item{
-    padding: 20px;
-    background: #fff;
     border-radius: 0px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    flex:1
+    flex:1;        
+    border: 1px solid #ddd;
+        padding: 27px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.information .item p{width:100%;
+    padding:4% 0;
+    border-top:0.5px solid rgba(0, 0, 0, 0.199)
+    
+    ;
+}
+
+.information .item hr{opacity: .25;}
 .pie-charts{
     display:flex;
     flex-direction: row;
@@ -180,13 +189,6 @@ h2.separator{
 .information .item .header h5{
     font-size: 17px;
 }
-
-.information .item p{
-    margin-top: 10px;
-    padding: 0 4px;
-    
-}
-
 
 
 
