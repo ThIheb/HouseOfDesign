@@ -135,7 +135,7 @@ padding-left: 0;
     padding: 10px;
 
     display: grid;
-    grid-template-columns: 75% auto; 
+    grid-template-columns: 50% auto; 
     justify-content: center;
 }
 
@@ -296,22 +296,24 @@ a.tell-more, a.tell-less {
 
     ul{ 
         flex-direction: row;
+        gap: 20px; /* Spaziatura tra gli elementi */
     }
+    
     li{
         width: 100%;
-        padding: 0 10px;
+        padding: 0 3px;
     }
     
     li p{
         position: absolute;
         top: -270px; 
-        right: 3px;
-        left: 10px;
-        width: 170px; 
+        right: 1%;
+        left: 1%;
+        width: 170px;
 
         transform: translateY(-10px); 
         opacity: 0;
-        padding:  11px;
+        padding:  6%;
         transition: 1.5s;
     }
 
@@ -363,21 +365,38 @@ a.tell-more, a.tell-less {
     }
     
 }
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+
+@media screen and (min-width: 770px) and (max-width: 1025px) {
+    ul {
+        display: flex;
+    }
+
     li {
-        padding: 0 10px; /* Riduci il padding per evitare sovrapposizioni */
+        flex: 1 1 auto; /* Lascia che gli elementi si ridimensionino dinamicamente */
+        width: 100%;
+        padding: 0 5px; /* Riduci il padding per evitare sovrapposizioni */
     }
-    
+
     li p {
-        top: -300px; /* Modifica la posizione verticale per maggiore spazio */
-        width: 130px; /* Riduci la larghezza dei contenitori */
-        left: 10px; /* Posiziona i contenitori più vicino alla timeline */
+        top: -25em; /* Modifica la posizione verticale per maggiore spazio */
+        width: auto; /* Consenti adattamenti dinamici della larghezza */
+        min-width: 125%;
+        font-size: 11px; /* Riduci il font */
+        text-overflow: ellipsis;
     }
-    
+
     .timeline-line {
         width: 100%; /* Mantieni la linea allineata senza sovrapposizioni */
     }
+
+    a.tell-more{
+        width: 110px;
+    }
+    
 }
+
+
+
 
 
 
