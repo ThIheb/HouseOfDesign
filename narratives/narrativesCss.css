@@ -313,10 +313,8 @@ a.tell-more, a.tell-less {
         top: -18rem; 
         right: 1%;
         left: 1%;
-        width: 12.4em !important;
-        width: fit-content;
-        block-size: fit-content;
-        height: 18em !important;
+        width: 14em;
+        height: 18em;
 
         transform: translateY(-10px); 
         opacity: 0;
@@ -386,10 +384,10 @@ a.tell-more, a.tell-less {
 
     li p {
         top: -26em; /* Modifica la posizione verticale per maggiore spazio */
-        max-width: 20em !important;
-        min-width: 8rem !important;
-        max-height: 21em !important;
-        min-height: 19em !important;
+        max-width: 20em ;
+        min-width: 8rem ;
+        max-height: 21em ;
+        min-height: 19em ;
         font-size: 11px; /* Riduci il font */
         block-size: fit-content;
         width: fit-content;
