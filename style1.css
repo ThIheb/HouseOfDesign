@@ -126,3 +126,38 @@ div#bImg {border-left: solid 1px black;}
 #button:hover {background-color: #f50045;
         color:white;
 border: solid 1px #f50045;}
+
+@media screen and (max-width: 600px){
+        div#Img {
+                padding-top: 10%;
+                padding-left: 11%;                
+        }
+        div#mainInfo {
+                padding-right: 10%;
+        }
+        div#navigation {
+                margin:0%;
+                padding: 5% !important;
+                padding-left: 15% !important;
+                padding-right: 15% !important;
+        }
+
+        div#navigation div p {
+                margin: 2%;
+                padding: 0% ;
+        }
+        div#navigation div {
+                padding-bottom: 2% !important;
+        }
+        div#description {
+                overflow-x: hidden;
+        }
+        div#descBut1, div#descBut2, div#descBut3 {
+                justify-content: center !important;
+                
+        }
+        div#descBut2 div {
+                display: flex !important;
+                padding: 0% !important;
+        }
+}
