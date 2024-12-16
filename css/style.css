@@ -47,6 +47,7 @@ a{
         height: auto; 
         display: block; 
         text-align: center;
+        z-index: 1;
         
     }
 
@@ -364,9 +365,7 @@ h2.separator{
     
 }
 
-h1{
-    text-align: righ;
-}
+
 table{
     width: 100%;
     border-collapse: collapse
@@ -573,7 +572,7 @@ td.details{
 
 .secondIntro{align-self: center;
 
-    margin:10%;}
+    margin:7%;}
 
 
 
@@ -606,15 +605,17 @@ td.details{
     }
 
     .scrollee_item {
-        margin-top: 10%;
+        margin-top: 2%;
         width: 100vw;
-        height: 80vh; 
+        height: 100vh; 
         display:flex;
         flex-direction: row;
        left:0
     }
 
     .scroller{margin-right:3%}
+
+    .stat-item{font-size: 10px;}
 }
 
 @media screen and (max-width: 576px) {
@@ -623,15 +624,9 @@ td.details{
 
 }
 
-.top_box{
-    background-color: red;
-    display:flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-}
-
-
+.logowhensmall{color: #000;
+z-index: 3;
+opacity:0}
 
    @media screen and (max-width: 1024px) {
     .map_and_spaces {
