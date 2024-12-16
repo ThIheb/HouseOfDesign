@@ -783,6 +783,42 @@ td.details{
         border-top: 1px solid black;
         border-bottom: 1px solid black
     }
+    #graphs-container {
+        padding-top: 7%;
+      }
+      
+    #graphs {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch; 
+        flex-wrap: wrap;
+        gap: 0.5%;
+        margin: 3% 1% 0 0;
+        left:0;
+    }
+      
+    .chart-wrapper {
+        width: 32%;
+       
+        border: 1px solid #ddd;
+        padding: 25px;
+        
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+     
+      
+    .chart-wrapper hr {
+        border: none;
+        border-top: 1px solid #000000;
+        margin: 10px 0 20px;
+      }
+      
+    canvas {
+        max-width: 100%;
+        height: auto;
+      }
 }
 @media screen and (max-width: 500px){
     #graphs div h2, #graphs div p {
@@ -795,6 +831,17 @@ td.details{
         width: 100%;
         border-top: 1px solid black;
     }
+    section#graphs-container {
+        margin: 0%;
+        padding: 2%
+    }
+    section#graphs-container h1, section#graphs-container {
+        padding: 5%;
+    }
+    div#graphs * {
+        padding-left: 0% !important;
+    }
+    canvas { margin-bottom: 10%;}
 }
 
 
@@ -803,42 +850,7 @@ td.details{
     margin: 0 0 0 80px;}
 
 
-    #graphs-container {
-        padding-top: 7%;
-      }
-      
-      #thegraphs {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch; 
-        flex-wrap: wrap;
-        gap: 0.5%;
-        margin: 3% 1% 0 0;
-        left:0;
-    }
-      
-      .chart-wrapper {
-        width: 32%;
-       
-        border: 1px solid #ddd;
-        padding: 25px;
-        
-        background: #fff;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      }
-      
-     
-      
-      .chart-wrapper hr {
-        border: none;
-        border-top: 1px solid #000000;
-        margin: 10px 0 20px;
-      }
-      
-      canvas {
-        max-width: 100%;
-        height: auto;
-      }
+    
 
 
 
