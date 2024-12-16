@@ -974,3 +974,57 @@ g:hover .image-mapper-shape {
 }
 
 
+.objects-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2rem 7%;
+   
+}
+
+.objects-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.objects-left h1 {font-size: 25rem;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #F50045;
+    letter-spacing: -0.2em;
+    padding-top:0
+}
+
+.objects-left span {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: black;
+    text-transform: uppercase;
+    margin: -27% 0 0 25%; 
+}
+
+.objects-right {
+    text-align: left;
+    max-width: 70%;
+    align-items: flex-end;
+}
+
+.stats {left:0;
+    display: flex;
+    margin-right:rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.stat-item {padding-right:3em;
+    display: block;
+    font-weight: normal;
+}
+
+.description {
+    color: #333;
+}
+
+.information{padding-bottom:7%}
