@@ -49,24 +49,11 @@
     <div class="logo_container">
         <h1 class="textlogohome">House of design</h1>
         <h1 class="showsmall">House of design</h1>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/objects/13.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/objects/14.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/objects/15.png" alt="Third slide">
-                </div>
-            </div>
-        </div>
+        <img src="images/objects/13.png" alt="Day Night sofa"> 
+        
     </div>
-    <!--other stuff-->
     <div class="container">
         <div class="content">
-
         </div>
     </div>
 
@@ -85,15 +72,16 @@
                             settings, the project celebrates interior design as both functional and a significant art
                             form.</p>
                     </div>
-                    <img src="images/objects/optic.png">
+                    <img src="images/objects/optic_carousel.png">
 
 
                 </div>
-                <div class="scrollee_item">
-                    <img src="images/objects/anthropus.png">
+                <div class="scrollee_item" id="second_picture">
+                    <img src="images/objects/16_flipped.png">
                 </div>
             </div>
         </div>
+        
 
         <div class="lower_nav">
             <div class="container-objects">
@@ -157,33 +145,39 @@
                     </div>
                 </a>
             </div>
-        </div>
-
-        <div class="container-fluid py-5">
-            <div id="graphs" class="row w-100 py-5">
-                <div>
-                    <h2>A quick look at our objects</h2>
-                    <p>Before exploring our exhibition, you may be interested in knowing the overall
-                        composition of our data</p>
-                </div>
-                <div class="">
-                    <div id="graphCase" class="row ps-4">
-                        <div class="col-sm-4 col-xs-12 px-2">
-                            <p class="p-3">This chart shows the various designer that compose our dataset and the proportion of the object we treat in this exhibition they desined.</p>
-                            <canvas id="des" width="400" height="400"></canvas>
-                        </div>
-                        <div class="col-sm-4 col-xs-12 px-2">
-                            <p class="p-3">This chart shows the proportion of the objects in the dataset divided by the four classification we applied, based on their functionality.</p>
-                            <canvas id="usg" width="400" height="400"></canvas>
-                        </div>
-                        <div class="col-sm-4 col-xs-12 px-2">
-                            <p class="p-3">This chart shows how many objects of each decade are present in the dataset. The earliest ones are from the 1950s, while the newest are from the 1990s.</p>
-                            <canvas id="his" width="400" height="400"></canvas>
-                        </div>
-                    </div>
-                </div>
+        </div >
+        
+        <section id="graphs-container" class="trying">
+            <h1>A quick look at our objects</h1>
+            <p class="des">Before exploring our exhibition, you may be interested in knowing the overall composition of our data</p>
+            <div id="thegraphs">
+              <div class="chart-wrapper">
+                <h2 class="topic">The Usage</h2>
+                <p><strong>This chart shows the proportion of the objects in the dataset divided by
+                    the
+                    four classification we applied, based on their functionality.</strong></p>
+                <hr>
+                <canvas id="usg"></canvas>
+              </div>
+              <div class="chart-wrapper">
+                <h2 class="topic">The History</h2>
+                <p><strong>This chart shows how many objects of each decade are present in the
+                    dataset. The earliest ones are from the 1950s, while the newest are from the 1990s.</strong></p>
+                <hr>
+                <canvas id="his"></canvas>
+              </div>
+              <div class="chart-wrapper">
+                <h2 class="topic">The designers</h2>
+                <p><strong>This chart shows the various designer that compose our dataset and the
+                    proportion of the object we treat in this exhibition they desined.</strong></p><hr>
+                <canvas id="des"></canvas>
+              </div>
             </div>
-        </div>
+          </section>
+        
+
+
+                       
 
         <div class="map_low">
             <div id="rooms_texts">
@@ -216,14 +210,7 @@
                 </section>
             </div>
         </div>
-
-
-
-        </div>
-
-
-        </div>
-
+        
 
     </main>
 
