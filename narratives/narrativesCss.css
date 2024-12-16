@@ -170,6 +170,10 @@ li p{
     transition: 1.5s;
 }
 
+.content-section {
+    scroll-margin-top: 20em; 
+}
+
 
 li.active p {
     opacity: 1;
@@ -250,7 +254,7 @@ a.tell-more, a.tell-less {
     margin: auto;
     justify-content: center;
     display: none; 
-    scroll-margin-top: 1000px; 
+    scroll-margin-top: 63em; 
 }
 
 .image-container {
@@ -291,7 +295,7 @@ a.tell-more, a.tell-less {
 @media screen and (min-width:770px) {
     .timeline{
         display: block;
-        margin: 270px 0; 
+        margin: 260px 0; 
     }
 
     ul{ 
@@ -300,16 +304,17 @@ a.tell-more, a.tell-less {
     }
     
     li{
-        width: 100%;
-        padding: 0 3px;
+        width: 110%;
+        padding: 0 10px;
     }
     
     li p{
         position: absolute;
-        top: -270px; 
+        top: -18rem; 
         right: 1%;
         left: 1%;
-        width: 170px;
+        width: 14em;
+        height: 17em;
 
         transform: translateY(-10px); 
         opacity: 0;
@@ -318,7 +323,7 @@ a.tell-more, a.tell-less {
     }
 
     .content-section {
-        scroll-margin-top: 900px; 
+        scroll-margin-top: 50em; 
         position: relative;
     }
 
@@ -361,12 +366,12 @@ a.tell-more, a.tell-less {
         justify-content: center;
         text-align: left;
         display: none; 
-        scroll-margin-top: 170px; 
+        scroll-margin-top: 50em; 
     }
     
 }
 
-@media screen and (min-width: 770px) and (max-width: 1025px) {
+@media screen and (min-width: 770px) and (max-width: 1030px) {
     ul {
         display: flex;
     }
@@ -378,21 +383,28 @@ a.tell-more, a.tell-less {
     }
 
     li p {
-        top: -25em; /* Modifica la posizione verticale per maggiore spazio */
+        top: -26em; /* Modifica la posizione verticale per maggiore spazio */
         width: auto; /* Consenti adattamenti dinamici della larghezza */
-        min-width: 125%;
+        max-width: 140%;
+        min-width: 115%;
+        max-height: 21em;
+        min-height: 19em;
         font-size: 11px; /* Riduci il font */
-        text-overflow: ellipsis;
     }
 
     .timeline-line {
         width: 100%; /* Mantieni la linea allineata senza sovrapposizioni */
-    }
 
-    a.tell-more{
-        width: 110px;
     }
-    
+    a.tell-more{
+        width: 104px;
+    }
+    .info-section{
+        scroll-margin-top: 200em; 
+    }
+    .content-section {
+        scroll-margin-top: 80em; 
+    }
 }
 
 
