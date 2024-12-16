@@ -373,8 +373,8 @@ a.tell-more, a.tell-less {
 
     li {
         flex: 1 1 auto; /* Lascia che gli elementi si ridimensionino dinamicamente */
-        width: 100%;
-        padding: 0 5px; /* Riduci il padding per evitare sovrapposizioni */
+        width: 110%;
+        padding: 0 2px; /* Riduci il padding per evitare sovrapposizioni */
     }
 
     li p {
