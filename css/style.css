@@ -47,6 +47,7 @@ a{
         height: auto; 
         display: block; 
         text-align: center;
+        z-index: 1;
         
     }
 
@@ -144,13 +145,22 @@ h2.separator{
 }
 
 .information .item{
-    padding: 20px;
-    background: #fff;
     border-radius: 0px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    flex:1
+    flex:1;        
+    border: 1px solid #ddd;
+        padding: 27px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.information .item p{width:100%;
+    padding:4% 0;
+    border-top:0.5px solid rgba(0, 0, 0, 0.199)
+    
+    ;
+}
+
+.information .item hr{opacity: .25;}
 .pie-charts{
     display:flex;
     flex-direction: row;
@@ -179,13 +189,6 @@ h2.separator{
 .information .item .header h5{
     font-size: 17px;
 }
-
-.information .item p{
-    margin-top: 10px;
-    padding: 0 4px;
-    
-}
-
 
 
 
@@ -364,9 +367,7 @@ h2.separator{
     
 }
 
-h1{
-    text-align: righ;
-}
+
 table{
     width: 100%;
     border-collapse: collapse
@@ -465,7 +466,7 @@ td.details{
     flex-direction: row;
     flex:1;
     gap:20px;
-    margin-top: 7%;
+    margin: 7% 0 ;
     padding: 0 80px;
   
 }
@@ -571,9 +572,9 @@ td.details{
 }
 
 
-.secondIntro{    align-content: center;
+.secondIntro{align-self: center;
 
-    margin-left:7%;}
+    margin:7%;}
 
 
 
@@ -584,10 +585,7 @@ td.details{
     display:flex;
     
 }
-.scrollee_box img{
-    
-    flex:50%
-}
+
 .title_scrolle {
     text-align: left;
     align-items: left;
@@ -600,19 +598,37 @@ td.details{
     width:auto;
 }
 
-#firstpart{padding-left:10%}
-
-
-
-.top_box{
-    background-color: red;
-    display:flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
+#firstpart{padding-left:10%;
 }
 
 
+@media screen and (max-width: 768px) {
+    .scroller img{ width:50%;
+    }
+
+    .scrollee_item {
+        margin-top: 2%;
+        width: 100vw;
+        height: 100vh; 
+        display:flex;
+        flex-direction: row;
+       left:0
+    }
+
+    .scroller{margin-right:3%}
+
+    .stat-item{font-size: 10px;}
+}
+
+@media screen and (max-width: 576px) {
+    .scroller img{ display: none;
+    }
+
+}
+
+.logowhensmall{color: #000;
+z-index: 3;
+opacity:0}
 
    @media screen and (max-width: 1024px) {
     .map_and_spaces {
@@ -842,10 +858,6 @@ td.details{
     margin: 0 0 0 80px;}
 
 
-    
-
-
-
 
 
 .content {
@@ -946,31 +958,77 @@ g:hover .image-mapper-shape {
 }
 
 
-.scrolldown p{   
+.scrolldown p{font-size: large;
+
     text-align: left;
     padding-top:2%
 }
 
-.scrolldown a{
-    text-align: right;
-    color:#000;
-    text-decoration: none;
-    padding-top: 2%;
-    background-color:transparent;
-    font-weight: bold;
-    font-size: 0.9rem;
-    cursor: pointer;
 
-    margin-top: 0;
-}
-
-
+.scrolldown p:nth-child(even){text-align: right;}
 
 
 .scrolldown {margin-top:2%;
-    max-height: 100px; 
+    max-height: 150px; 
     overflow-y: auto;
-    
+    font-size: 1rem;
+
 }
 
 
+.objects-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 7%;
+   
+}
+
+.objects-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.objects-left h1 {font-size: 23rem;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #F50045;
+    letter-spacing: -0.2em;
+    padding-top:0
+}
+
+.objects-left span {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: black;
+    text-transform: uppercase;
+    margin: -27% 0 0 25%; 
+}
+
+.objects-right {
+    text-align: left;
+    max-width: 70%;
+    align-items: flex-end;
+}
+
+.stats {left:0;
+    display: flex;
+    margin-right:rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.stat-item {padding-right:3em;
+    display: block;
+    font-weight: normal;
+}
+
+.description {
+    color: #333;
+}
+
+.information{padding-bottom:7%;
+    padding-top:4%}

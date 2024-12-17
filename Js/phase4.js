@@ -168,34 +168,6 @@ function inner(id, content, emptyFirst = true) {
 	document.getElementById(id).innerHTML += content;
 }*/
 
-/*const scrollee = document.querySelector(".scrollee");
-
-function getScrollAmount() {
-	let scrolleeWidth = scrollee.scrollWidth;
-	return -(scrolleeWidth - window.innerWidth);
-}
-
-const tween = gsap.to(scrollee, {
-	x: getScrollAmount, 
-	duration: 3, 
-	ease: "none", 
-});
-
-ScrollTrigger.create({
-    trigger: ".scroller",
-    start: "top top",
-    end: () => `+=${scrollee.scrollWidth - window.innerWidth}`,
-    pin: true,
-    animation: tween,
-    scrub: 1,
-    invalidateOnRefresh: true,
-    markers: false,
-    onEnter: () => document.body.style.overflowY = "hidden",
-    onLeaveBack: () => document.body.style.overflowY = "hidden",
-    onLeave: () => document.body.style.overflowY = "auto",
-});
-*/
-
 
 
 
@@ -208,15 +180,15 @@ gsap.set(".textlogohome", {
 
 ScrollTrigger.create({
 	animation: gsap.to(".textlogohome", {
-		top: "60px",
-		scale: 0.20,
+		top: "70px",
+		scale: 0.18,
 		ease: "power1.out",
 		color: "#F50045",
 	}),
 	scrub: true,
 	trigger: ".content",
 	start: "top 90%",
-	end: "top 50%",
+	end: "top 55%",
 	pin: true,
 });
 
