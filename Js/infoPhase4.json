@@ -78,7 +78,7 @@
             "image": "images/firstImages/firstalogena.png",
             "secondImage": "images/objects/alogena.png",
             "keywords": "Sleek, Adjustable, Minimalist",
-            "intro": "",
+            "intro": "With its sleek and unimstakable silhouette, 626 Halogen bears out the cohesive blend between quiet functionality and decisive design inspiration.",
             "info": {
                 "Name": "626 Halogen",
                 "Type": "Floor Lamp",
@@ -267,7 +267,7 @@
             "image": "images/firstImages/firstshiva.png",
             "secondImage": "images/objects/shiva.png",
             "keywords": "Strong, Eccentric, Charismatic",
-            "intro": "Shiva stands out from many of the ornaments you might find in your typical household, let’s be honest. So much so, that you may find yourself gazing at its sapiently crafted shapes more frequently than you could imagine.",
+            "intro": "Shiva stands out from many of the ornaments you might find in your typical household. So much so, that you may find yourself gazing at its sapiently crafted shapes more frequently than you could imagine.",
             "info": {
                 "Name": "Shiva",
                 "Type": "Vase",
@@ -509,7 +509,8 @@
                 "Design Philosophy and Craftsmanship: True to the Castiglioni philosophy that “the best designs are often unsigned,” the Leonardo Table embodies simplicity, practicality, and attention to detail. Its structure integrates classic workbench elements with precise woodworking, achieving an artisanal quality that feels both familiar and innovative.", 
                 "The table’s straightforward yet refined design emphasizes high-quality materials and meticulous craftsmanship."
             ],
-            "fullInfo": [
+            "fullInfo": ["Design Philosophy and Craftsmanship: True to the Castiglioni philosophy that “the best designs are often unsigned,” the Leonardo Table embodies simplicity, practicality, and attention to detail. Its structure integrates classic workbench elements with precise woodworking, achieving an artisanal quality that feels both familiar and innovative.", 
+                "The table’s straightforward yet refined design emphasizes high-quality materials and meticulous craftsmanship.",
                 "Legacy and Impact: The Leonardo Table is more than furniture—it is a distillation of mid-20th-century Italian design ethos, created in collaboration with Zanotta. By reinterpreting the traditional workbench with modern elements, the table has become a benchmark for functional, elegant design. Its enduring relevance underscores the Castiglioni brothers’ ability to merge tradition with forward-thinking creativity."
             ]
         },
