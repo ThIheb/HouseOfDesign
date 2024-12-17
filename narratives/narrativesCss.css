@@ -151,7 +151,7 @@ ul{
 
 li{
     position: relative; 
-    padding: 165px;   
+    padding: 160px;   
 }
 
 li p{
@@ -344,7 +344,6 @@ a.tell-more, a.tell-less {
     .timeline-line{  
         width: 100%;
         height: 4px;
-
     }
     
     .timeline-innerline{  
