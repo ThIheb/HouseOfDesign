@@ -9,7 +9,9 @@
 
 
 main{margin:6.25rem  0 0 0; 
-width: 100%;}  
+width: 100%;
+overflow-x: hidden;
+}  
 
 
 
@@ -95,7 +97,7 @@ width: 100%;}
 
 /* Additional nav */
 .container-fluid {overflow-x: hidden; 
-    margin-top: 7% !important;
+    margin-top: 3% !important;
     
     width:100vw;
     text-align: justify;
@@ -145,7 +147,7 @@ padding:0 7% 5% 0!important;
 .personality{padding-top:1%}
 
 .scroller {
-    width: 100vw; /* DO NOT CHANGE */
+    width: 100vw; 
     height: 50vh; 
     overflow: hidden; 
     position: relative; 
@@ -157,9 +159,9 @@ padding:0 7% 5% 0!important;
     flex-wrap: nowrap; 
 }
 
-.scrollee_item {padding-top:0.5%;
+.scrollee_item {padding-top:3%;
     margin: 0 10% 0% 0;
-    width: 100vw; /* Keep it 100 nothing works otherwise */
+    width: 100vw; 
     height: 50vh; 
     display:flex;
     flex-direction: row;
