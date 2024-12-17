@@ -418,7 +418,9 @@ height:auto;
   }
 
 /*workflow*/
-#workflow_text img{width:90%}
+#workflow_text img{width:55%;
+    padding-top: 3%;
+position:relative}
 
 .allcontributions {
     display: grid;
