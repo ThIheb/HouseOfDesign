@@ -366,7 +366,7 @@ font-size: 1.3em;}
     color:#777777;
   }
   
-  .feature p {
+  .feature p {    font-size: 1.2rem;
     line-height: 1.6;
   }
   
