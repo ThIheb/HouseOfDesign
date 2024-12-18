@@ -291,7 +291,7 @@ a.tell-more, a.tell-less {
 }
 
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:728px) {
     .timeline{
         display: block;
         margin: 260px 0; 
