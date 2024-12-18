@@ -417,7 +417,10 @@ height:auto;
     padding-top: 3%;
 position:relative}
 
-.allcontributions {
+.allcontributions {text-align: left;
+    
+    font-size: 1.2rem;
+
     display: grid;
     grid-template-columns: 1fr 1fr; 
     
@@ -435,7 +438,7 @@ position:relative}
         grid-template-columns: 150px 1fr;
     }
 }
-.contributions {
+.contributions {padding-top:5%;
     display: grid;
     grid-template-columns: 200px 1fr;
 }
