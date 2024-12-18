@@ -28,14 +28,7 @@ overflow-x: hidden;
 }
 
 /* Responsive Media Queries */
-@media screen and (max-width: 1400px) {
-    
 
-}
-
-@media screen and (max-width: 1200px) {
-    
-}
 
 @media screen and (max-width: 992px) {
     main{text-align: left;}
