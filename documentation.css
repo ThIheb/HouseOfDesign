@@ -97,7 +97,7 @@ overflow-x: hidden;
 
 /* Additional nav */
 .container-fluid {overflow-x: hidden; 
-    margin-top: 3% !important;
+    margin-top: 2% !important;
     
     width:100vw;
     text-align: justify;
@@ -105,7 +105,7 @@ overflow-x: hidden;
   
 }
 
-.col-md-2{padding-left:5%;
+.col-md-2{padding-left:4.5%;
     
  }
 .col-md-10{margin:0 !important;
@@ -366,7 +366,7 @@ font-size: 1.3em;}
     color:#777777;
   }
   
-  .feature p {
+  .feature p {    font-size: 1.2rem;
     line-height: 1.6;
   }
   
